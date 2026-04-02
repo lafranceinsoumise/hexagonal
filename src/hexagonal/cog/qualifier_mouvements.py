@@ -3,7 +3,7 @@ from collections import deque
 import click
 import pandas as pd
 
-from hexagonal.files.spec import get_dataframe
+from hexagonal.files.spec import get_pandas_dataframe
 
 EVENEMENTS_FUSION = [
     "fusion association",
@@ -15,7 +15,7 @@ ANNULATION_FUSION = "rétablissement"
 
 
 def calculer_correspondances(chemin_mvt, date_limite):
-    mvt = get_dataframe(chemin_mvt)
+    mvt = get_pandas_dataframe(chemin_mvt)
 
     # on se limite aux mouvements survenus après la date limite
     mvt = mvt[mvt["date_effet"] >= date_limite]

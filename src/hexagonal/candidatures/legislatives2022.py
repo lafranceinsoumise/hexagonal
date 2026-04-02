@@ -5,7 +5,7 @@ import pandas as pd
 from unidecode import unidecode
 
 from hexagonal.codes import normaliser_code_circonscription
-from hexagonal.files.spec import get_dataframe
+from hexagonal.files.spec import get_pandas_dataframe
 from hexagonal.utils import FAUX, VRAI
 
 COLONNES_LEMONDE = {
@@ -43,10 +43,10 @@ def normaliser_noms_villes(s):
 
 
 def extraire_candidats(candidats, nuances_lemonde, nuances_legis_2022, destination):
-    tour1 = get_dataframe(
+    tour1 = get_pandas_dataframe(
         "data/02_clean/elections/2022-legislatives-1-circonscription.parquet"
     )
-    tour2 = get_dataframe(
+    tour2 = get_pandas_dataframe(
         "data/02_clean/elections/2022-legislatives-2-circonscription.parquet"
     )
 
@@ -65,7 +65,7 @@ def extraire_candidats(candidats, nuances_lemonde, nuances_legis_2022, destinati
     )[["circonscription", "numero_panneau", "gagnant", "gagnant_premier_tour"]]
 
     tour = re.search(r"2022-legislatives-(\d)-candidats.csv", candidats).group(1)
-    candidats = get_dataframe(candidats)
+    candidats = get_pandas_dataframe(candidats)
 
     if tour == "1":
         # deux candidats de la 92-11 sont inversés dans le fichier du ministère, LÉVÊQUE

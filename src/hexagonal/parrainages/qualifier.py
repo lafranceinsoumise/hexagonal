@@ -8,7 +8,7 @@ from glom import T, glom
 
 from hexagonal.codes import outremers
 from hexagonal.cog.type_nom import nom_complet_commune
-from hexagonal.files.spec import get_dataframe
+from hexagonal.files.spec import get_pandas_dataframe
 
 INITIAL_DIGITS = re.compile(r"^\d+")
 
@@ -40,7 +40,7 @@ CORRECTIONS_NOMS = {
 
 
 def mapping_commune(cog_path):
-    departements = get_dataframe(cog_path / "departements.csv")
+    departements = get_pandas_dataframe(cog_path / "departements.csv")
 
     departements = dict(
         zip(departements["nom"], departements["code_departement"], strict=False)
@@ -52,9 +52,9 @@ def mapping_commune(cog_path):
     departements["Wallis et Futuna"] = "986"
 
     # communes encore existantes
-    communes_metro = get_dataframe(cog_path / "communes.csv")
-    communes_com = get_dataframe(cog_path / "communes_com.csv")
-    mouvements_com = get_dataframe(cog_path / "mouvements_communes.csv")
+    communes_metro = get_pandas_dataframe(cog_path / "communes.csv")
+    communes_com = get_pandas_dataframe(cog_path / "communes_com.csv")
+    mouvements_com = get_pandas_dataframe(cog_path / "mouvements_communes.csv")
 
     # seuls les mouvements de communes après le mois où les parrainages ont été envoyés
     # nous intéressent
@@ -156,7 +156,7 @@ def qualifier_parrainages(parrainages_path, cog_path, dest_path):
         "date_publication": "date_publication",
     }
 
-    parrainages = get_dataframe(parrainages_path)
+    parrainages = get_pandas_dataframe(parrainages_path)
 
     articles_re = r"^(?P<nom>[^(]+) \((?P<article>[^)]{2,3})\)$"
 

@@ -1,13 +1,13 @@
 import sys
 
-from hexagonal.files.spec import get_dataframe
+from hexagonal.files.spec import get_pandas_dataframe
 
 
 def etablir_correspondances(resultats, candidats, destination):
-    resultats = get_dataframe(
+    resultats = get_pandas_dataframe(
         resultats,
     )
-    candidats = get_dataframe(
+    candidats = get_pandas_dataframe(
         candidats,
     )
 

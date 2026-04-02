@@ -3,7 +3,7 @@ from pathlib import Path
 import click
 
 from hexagonal.cog.types import TypeCommune
-from hexagonal.files.spec import get_dataframe
+from hexagonal.files.spec import get_pandas_dataframe
 
 
 def qualifier_codes_postaux(codes_postaux, communes):
@@ -54,8 +54,8 @@ def qualifier_codes_postaux(codes_postaux, communes):
 )
 @click.argument("dest_path", type=click.Path(writable=True, dir_okay=False))
 def run(codes_postaux_path, communes_path, dest_path):
-    codes_postaux = get_dataframe(codes_postaux_path)
-    communes = get_dataframe(communes_path)
+    codes_postaux = get_pandas_dataframe(codes_postaux_path)
+    communes = get_pandas_dataframe(communes_path)
     codes_postaux_qualifies = qualifier_codes_postaux(codes_postaux, communes)
 
     codes_postaux_qualifies.to_csv(dest_path)

@@ -3,8 +3,8 @@ import tomllib
 from enum import StrEnum
 from operator import attrgetter
 from pathlib import Path
+from typing import Any
 
-import pandas as pd
 from pydantic import BaseModel, ConfigDict, Field
 
 from hexagonal.files import ROOT_DIR, get_main_dir
@@ -39,17 +39,6 @@ class ColonneType(StrEnum):
     QUALITATIVE = "qualitative"
 
 
-PD_DTYPES = {
-    ColonneType.STR: pd.StringDtype(),
-    ColonneType.CODE_COMMUNE: pd.StringDtype(),
-    ColonneType.CODE_DEPARTEMENT: pd.StringDtype(),
-    ColonneType.CODE_REGION: pd.StringDtype(),
-    ColonneType.INT: pd.Int64Dtype(),
-    ColonneType.BOOL: pd.StringDtype(),
-    ColonneType.QUALITATIVE: pd.CategoricalDtype(),
-}
-
-
 class ColonneMetadata(BaseModel):
     type: ColonneType
     description: str | None = None
@@ -77,29 +66,6 @@ class DatasetSpec(BaseModel):
                     props[field.alias] = getattr(self, name)
         return props
 
-    def as_pandas_dataframe(self):
-        if self.mimetype == "application/vnd.apache.parquet":
-            return pd.read_parquet(self.path)
-        elif self.mimetype == "text/csv":
-            params = {}
-            for col_id, col_desc in self.colonnes.items():
-                if col_desc.type in PD_DTYPES:
-                    params.setdefault("dtype", {})[col_id] = PD_DTYPES[col_desc.type]
-
-                if col_desc.type == ColonneType.DATE:
-                    params.setdefault("parse_dates", []).append(col_id)
-                    params.setdefault("date_format", "ISO8601")
-
-            dataset = pd.read_csv(self.path, **params)
-
-            for col_id, col_desc in self.colonnes.items():
-                if col_desc.type == ColonneType.BOOL:
-                    dataset[col_id] = dataset[col_id] == VRAI
-
-            return dataset
-        else:
-            raise ValueError("Format impossible à convertir en dataframe")
-
 
 class SourceSpec(DatasetSpec):
     # sources
@@ -115,8 +81,96 @@ class ProductionSpec(DatasetSpec):
     # csv files
     colonnes: dict[str, ColonneMetadata] | None = None
 
+    def as_pandas_dataframe(self, **kwargs):
+        import pandas as pd
 
-def load_spec(path: Path) -> DatasetSpec:
+        pd_dtypes = {
+            ColonneType.STR: pd.StringDtype(),
+            ColonneType.CODE_COMMUNE: pd.StringDtype(),
+            ColonneType.CODE_DEPARTEMENT: pd.StringDtype(),
+            ColonneType.CODE_REGION: pd.StringDtype(),
+            ColonneType.INT: pd.Int64Dtype(),
+            ColonneType.BOOL: pd.StringDtype(),
+            ColonneType.QUALITATIVE: pd.CategoricalDtype(),
+        }
+
+        if self.mimetype == "application/vnd.apache.parquet":
+            return pd.read_parquet(self.path, **kwargs)
+        elif self.mimetype == "text/csv":
+            params: dict[str, Any] = {}
+            if self.colonnes:
+                for col_id, col_desc in self.colonnes.items():
+                    if col_desc.type in pd_dtypes:
+                        params.setdefault("dtype", {})[col_id] = pd_dtypes[
+                            col_desc.type
+                        ]
+
+                    if col_desc.type == ColonneType.DATE:
+                        params.setdefault("parse_dates", []).append(col_id)
+                        params.setdefault("date_format", "ISO8601")
+
+            dataset = pd.read_csv(self.path, **{**params, **kwargs})
+
+            if self.colonnes:
+                for col_id, col_desc in self.colonnes.items():
+                    if col_desc.type == ColonneType.BOOL:
+                        dataset[col_id] = dataset[col_id] == VRAI
+
+            return dataset
+        else:
+            raise ValueError(
+                "Format impossible à convertir automatiquement en dataframe"
+            )
+
+    def as_polars_dataframe(self, **kwargs):
+        import polars as pl
+
+        PL_TYPES = {
+            ColonneType.STR: pl.String,
+            ColonneType.CODE_COMMUNE: pl.String,
+            ColonneType.CODE_DEPARTEMENT: pl.String,
+            ColonneType.CODE_REGION: pl.String,
+            ColonneType.INT: pl.Int64,
+            ColonneType.BOOL: pl.String,
+            ColonneType.QUALITATIVE: pl.Categorical,
+        }
+
+        if self.mimetype == "application/vnd.apache.parquet":
+            return pl.read_parquet(self.path, **kwargs)
+        elif self.mimetype == "text/csv":
+            schema_overrides = {}
+
+            if self.colonnes:
+                for col_id, col_desc in self.colonnes.items():
+                    if col_desc.type in PL_TYPES:
+                        schema_overrides[col_id] = PL_TYPES[col_desc.type]
+
+            kwargs.setdefault("schema_overrides", schema_overrides)
+
+            dataset = pl.read_csv(self.path, **kwargs)
+
+            if self.colonnes:
+                for col_id, col_desc in self.colonnes.items():
+                    if col_desc.type == ColonneType.BOOL:
+                        dataset = dataset.with_columns(col_id=pl.col(col_id) == VRAI)
+                    elif col_desc.type == ColonneType.DATE:
+                        dataset = dataset.with_columns(
+                            col_id=pl.col(col_id).str.to_date(
+                                "%Y-%m-%d", strict=not col_desc.nullable
+                            )
+                        )
+
+            return dataset
+        else:
+            raise ValueError(
+                "Format impossible à convertir automatiquement en dataframe"
+            )
+
+
+def load_spec(path: str | Path) -> DatasetSpec:
+    if isinstance(path, str):
+        path = Path(path)
+
     toml_path = path.with_suffix(f"{path.suffix}.toml")
     if not toml_path.is_file():
         raise FileNotFoundError(
@@ -132,7 +186,9 @@ def load_spec(path: Path) -> DatasetSpec:
 
 
 class Dataset:
-    def __init__(self, path, spec: DatasetSpec = None, dvc_file: DVCFile = None):
+    def __init__(
+        self, path, spec: DatasetSpec | None = None, dvc_file: DVCFile | None = None
+    ):
         self.path = path
         if not spec:
             spec = load_spec(path)
@@ -165,7 +221,19 @@ def load_all_specs():
     return specs
 
 
-def get_dataframe(path: str | bytes | Path) -> pd.DataFrame:
-    if isinstance(path, str | bytes):
-        path = Path(path)
-    return load_spec(path).as_pandas_dataframe()
+def get_pandas_dataframe(path: str | Path):
+    spec = load_spec(path)
+
+    if not isinstance(spec, ProductionSpec):
+        raise ValueError(f"Le dataset {path} n'est pas une production.")
+
+    return spec.as_pandas_dataframe()
+
+
+def get_polars_dataframe(path: str | Path):
+    spec = load_spec(path)
+
+    if not isinstance(spec, ProductionSpec):
+        raise ValueError(f"Le dataset {path} n'est pas une production.")
+
+    return spec.as_polars_dataframe()
