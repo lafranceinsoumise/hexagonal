@@ -1,10 +1,10 @@
-from operator import attrgetter
 from pathlib import Path
 
 import click
+import polars as pl
 
 from hexagonal.cog.type_nom import TYPES_NOMS
-from hexagonal.files.spec import get_pandas_dataframe
+from hexagonal.files.spec import get_polars_dataframe
 
 
 @click.command()
@@ -14,34 +14,75 @@ from hexagonal.files.spec import get_pandas_dataframe
 @click.argument("chemin_communes_epci", type=click.Path(exists=True, dir_okay=False))
 @click.argument("dest", type=click.Path(dir_okay=False, path_type=Path))
 def run(chemin_communes, chemin_population, chemin_epci, chemin_communes_epci, dest):
-    communes = get_pandas_dataframe(chemin_communes)
+    communes = get_polars_dataframe(chemin_communes)
 
-    epci = get_pandas_dataframe(chemin_epci)
-    communes_epci = get_pandas_dataframe(chemin_communes_epci)
+    # on ne garde que les communes de plein droit
+    communes = communes.filter(pl.col("type_commune") == "COM")
 
-    communes = communes.merge(communes_epci, how="left")
-    communes = communes.merge(epci[["siren_epci", "nom_epci", "type_epci"]], how="left")
+    article = pl.col("type_nom").replace_strict(
+        [t.code for t in TYPES_NOMS],
+        [t.article for t in TYPES_NOMS],
+        return_dtype=pl.String,
+        default=None,
+    )
+    possessif = pl.col("type_nom").replace_strict(
+        [t.code for t in TYPES_NOMS],
+        [t.charniere for t in TYPES_NOMS],
+        return_dtype=pl.String,
+        default=None,
+    )
 
-    if "type_nom" in communes.columns:
-        types_noms = communes["type_nom"].map(lambda i: TYPES_NOMS[i])
-        communes["forme_possessive"] = (
-            types_noms.map(attrgetter("charniere")) + communes["nom"]
+    communes = communes.with_columns(
+        nom=article + pl.col("nom"),
+        forme_possessive=possessif + pl.col("nom"),
+    ).select(
+        pl.all().exclude(
+            "type_commune",
+            "type_nom",
+            "code_commune_parent",
         )
-        communes["nom"] = (
-            types_noms.map(attrgetter("article")).str.capitalize() + communes["nom"]
-        )
+    )
 
-    population = get_pandas_dataframe(chemin_population).iloc[:, :2]
-    population.columns = ["code_commune", "population_municipale"]
-    population = population.set_index("code_commune")["population_municipale"]
+    population = get_polars_dataframe(chemin_population)
 
-    # il faut calculer manuellement la population de Paris
-    population.loc["75056"] = population[population.index.str.startswith("751")].sum()
+    population = population.select(
+        "code_commune", pl.col(population.columns[1]).alias("population_municipale")
+    )
 
-    communes = communes.join(population, how="left", on=["code_commune"]).convert_dtypes()
+    # il faut calculer manuellement la population de Paris qui est séparée par arrondissement
+    population_paris = population.filter(pl.col("code_commune").str.starts_with("751"))[
+        "population_municipale"
+    ].sum()
+
+    population = pl.concat(
+        [
+            population,
+            pl.DataFrame(
+                {"code_commune": ["75056"], "population_municipale": [population_paris]}
+            ),
+        ]
+    )
+
+    communes = communes.join(population, how="left", on=["code_commune"]).sort(
+        "code_commune"
+    )
+
+    epci = get_polars_dataframe(chemin_epci)
+    communes_epci = get_polars_dataframe(chemin_communes_epci)
+
+    communes = communes.join(
+        communes_epci,
+        on=["code_commune"],
+        how="left",
+    )
+    communes = communes.join(
+        epci.select("siren_epci", "nom_epci", "type_epci"),
+        on=["siren_epci"],
+        how="left",
+    )
 
     dest.parent.mkdir(parents=True, exist_ok=True)
-    communes.to_csv(dest, index=False)
+    communes.write_csv(dest)
 
 
 if __name__ == "__main__":

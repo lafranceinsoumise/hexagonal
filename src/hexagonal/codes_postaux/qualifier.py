@@ -8,7 +8,6 @@ from hexagonal.files.spec import get_pandas_dataframe
 
 def qualifier_codes_postaux(codes_postaux, communes):
     codes_postaux = codes_postaux[["code_postal", "code_commune"]].drop_duplicates()
-    communes = communes[communes["type_commune"] == TypeCommune.COMMUNE]
 
     codes_postaux = codes_postaux.merge(
         communes[["code_commune", "nom", "population_municipale"]],

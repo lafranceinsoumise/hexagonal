@@ -1,17 +1,12 @@
 nom = "Liste des communes"
 description = """
-
+Ce fichier liste les communes de plein droit (`type_commune == 'COM'` dans le COG).
 """
 mimetype = "text/csv"
-section = "Organisation administrative"
+section = "Découpage administratif"
 
 [colonnes.code_commune]
 type = "code_commune"
-description = ""
-nullable = false
-
-[colonnes.type_commune]
-type = "str"
 description = ""
 nullable = false
 
@@ -40,46 +35,36 @@ type = "str"
 description = ""
 nullable = false
 
-[colonnes.code_commune_parent]
-type = "code_commune"
-description = ""
-nullable = false
-
-[colonnes.type_nom]
-type = "entier"
-description = ""
-nullable = false
-
 [colonnes.nom]
 type = "str"
-description = ""
-nullable = false
-
-[colonnes.siren_commune]
-type = "str"
-description = ""
-nullable = false
-
-[colonnes.siren_epci]
-type = "str"
-description = ""
-nullable = false
-
-[colonnes.nom_epci]
-type = "str"
-description = ""
-nullable = false
-
-[colonnes.type_epci]
-type = "str"
-description = ""
+description = "Nom complet de la commune, incluant l'éventuel article initial"
 nullable = false
 
 [colonnes.forme_possessive]
 type = "str"
-description = ""
 nullable = false
+description = "nom complet de la commune avec charnière, par exemple \"de Paris\", \"de la Celle-Saint-Cloud\" ou \"du Mans\""
 
 [colonnes.population_municipale]
 type = "str"
+nullable = false
+
+[colonnes.siren_commune]
+type = "str"
+description = "Code SIREN de la commune"
+nullable = false
+
+[colonnes.siren_epci]
+type = "str"
+description = "Code SIREN de l'EPCI à fiscalité propre auquel appartient la commune"
+nullable = false
+
+[colonnes.nom_epci]
+type = "str"
+description = "Nom de l'EPCI à fiscalité propre auquel appartient la commune"
+nullable = false
+
+[colonnes.type_epci]
+type = "str"
+description = "Type d'EPCI à fiscalité propre auquel appartient la commune"
 nullable = false

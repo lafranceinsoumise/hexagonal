@@ -51,10 +51,9 @@
   - [communes_epci](#data/02_clean/communes_epci.csv)
   - [Liste des EPCI à fiscalité propres](#data/02_clean/epci.csv)
   - [Liste des codes postaux](#data/03_main/codes_postaux.csv)
+  - [Liste des communes](#data/03_main/cog/communes.csv)
 - [Démographie](#demographie)
   - [Population par commune de 1876 à 2023](#data/02_clean/population_municipale.csv)
-- [Organisation administrative](#organisation-administrative)
-  - [Liste des communes](#data/03_main/cog/communes.csv)
 - [Répertoire national des élus](#repertoire-national-des-elus)
   - [conseillers_arrondissement](#data/02_clean/rne/conseillers_arrondissement.csv)
   - [conseillers_csp](#data/02_clean/rne/conseillers_csp.csv)
@@ -3011,7 +3010,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/codes_postaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/32/c1bcdbc5db25ba8d3531b8352c7b40 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/11/242c4953260e83086e206c090d27bd |
 
 Ce fichier comporte une ligne par code postal et indique, pour chaque code postal,
 le code INSEE et le nom de la commune la plus peuplée dans le territoire délivré par
@@ -3099,6 +3098,129 @@ Cette production dépend des sources suivantes :
     <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
         </li>
     </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
+### Liste des communes
+<a name="data/03_main/cog/communes.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/cog/communes.csv |
+| Format de fichier | text/csv |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/02/ce83fe9d01a87d167ab8ecc251ae5b |
+
+Ce fichier liste les communes de plein droit (`type_commune == &#39;COM&#39;` dans le COG).
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_commune</code></td>
+    <td><code>code_commune</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_region</code></td>
+    <td><code>code_region</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_departement</code></td>
+    <td><code>code_departement</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_collectivite_departementale</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_arrondissement</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_canton</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td>Nom complet de la commune, incluant l&#39;éventuel article initial</td>
+  </tr>
+<tr>
+    <td><code>forme_possessive</code></td>
+    <td><code>str</code></td>
+    <td>nom complet de la commune avec charnière, par exemple &#34;de Paris&#34;, &#34;de la Celle-Saint-Cloud&#34; ou &#34;du Mans&#34;</td>
+  </tr>
+<tr>
+    <td><code>population_municipale</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>siren_commune</code></td>
+    <td><code>str</code></td>
+    <td>Code SIREN de la commune</td>
+  </tr>
+<tr>
+    <td><code>siren_epci</code></td>
+    <td><code>str</code></td>
+    <td>Code SIREN de l&#39;EPCI à fiscalité propre auquel appartient la commune</td>
+  </tr>
+<tr>
+    <td><code>nom_epci</code></td>
+    <td><code>str</code></td>
+    <td>Nom de l&#39;EPCI à fiscalité propre auquel appartient la commune</td>
+  </tr>
+<tr>
+    <td><code>type_epci</code></td>
+    <td><code>str</code></td>
+    <td>Type d&#39;EPCI à fiscalité propre auquel appartient la commune</td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/02_clean/cog/communes.csv">Liste des communes, arrondissements municipaux, communes déléguées et communes associées</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/population_municipale.csv">Population par commune de 1876 à 2023</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/population_municipale.xlsx">Séries historiques de population par commune (1876 à 2023)</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
         </li>
     </ul>
         </li>
@@ -3343,149 +3465,6 @@ Cette production dépend des sources suivantes :
 
 <ul>
     <li><a href="sources.md#data/01_raw/insee/population_municipale.xlsx">Séries historiques de population par commune (1876 à 2023)</a>
-        </li>
-    </ul>
-
-
-
-## Organisation administrative
-<a name="organisation-administrative"></a>
-
-### Liste des communes
-<a name="data/03_main/cog/communes.csv"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/03_main/cog/communes.csv |
-| Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1d/61d0aab4b6ee4503ac69dcdf6f8304 |
-
-
-
-
-### Colonnes
-
-<table>
-<thead>
-  <tr>
-    <th>id</th>
-    <th>type</th>
-    <th>description</th>
-  </tr>
-</thead>
-<tbody>
-<tr>
-    <td><code>code_commune</code></td>
-    <td><code>code_commune</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>type_commune</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_region</code></td>
-    <td><code>code_region</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_departement</code></td>
-    <td><code>code_departement</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_collectivite_departementale</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_arrondissement</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_canton</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>code_commune_parent</code></td>
-    <td><code>code_commune</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>type_nom</code></td>
-    <td><code>entier</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>nom</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>siren_commune</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>siren_epci</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>nom_epci</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>type_epci</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>forme_possessive</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>population_municipale</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-
-</tbody>
-</table>
-
-### Sources
-
-Cette production dépend des sources suivantes :
-
-<ul>
-    <li><a href="productions.md#data/02_clean/cog/communes.csv">Liste des communes, arrondissements municipaux, communes déléguées et communes associées</a>
-        <ul>
-    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
-        </li>
-    </ul>
-        </li>
-    <li><a href="productions.md#data/02_clean/population_municipale.csv">Population par commune de 1876 à 2023</a>
-        <ul>
-    <li><a href="sources.md#data/01_raw/insee/population_municipale.xlsx">Séries historiques de population par commune (1876 à 2023)</a>
-        </li>
-    </ul>
-        </li>
-    <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
-        <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
-        </li>
-    </ul>
-        </li>
-    <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
-        <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
-        </li>
-    </ul>
         </li>
     </ul>
 
@@ -4237,7 +4216,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2017-legislatives-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b1/d00a6aa4ab3881bd4e4e202acbebe9 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2d/e86160a4dc580eaab725ae214d9d52 |
 
 
 
@@ -4332,7 +4311,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2017-legislatives-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/85/13bddea7b8cfdd37ba63e05810d427 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6b/a28c966a0c6c2c6a8104088e39078e |
 
 
 
@@ -4427,7 +4406,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2017-presidentielle-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ed/ea9149c3d048a194d6176d22088c96 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fc/879fe00418415ed7c6b6be830e8cb2 |
 
 
 
@@ -4517,7 +4496,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2017-presidentielle-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3b/a28fe0f10d4e5e5d9195c46b6b0c45 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/eb/eb01e115b9178fb46ff4303ac4b0f8 |
 
 
 
@@ -4607,7 +4586,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2019-europeenne-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/06/3f1ec23e68fb93c9ae5379ec76fde9 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/ca573989353379bdecdd807edfe631 |
 
 
 
@@ -4687,7 +4666,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2020-municipales-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0b/b4f06435ecf49e200b69aa3c8016b4 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e8/0c2a4b4a9b2fd4937648207286148e |
 
 
 
@@ -4782,7 +4761,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2020-municipales-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c1/7c3d994a6b1169ce49ad5dbe3c3c31 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c6/ebd69e253c9f7c0a64106c38b2aa6d |
 
 
 
@@ -4877,7 +4856,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2021-departementales-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9d/6c984dff5dd936a9dfe40013c11558 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d5/95b233569e0fc0f80a46086d4be36d |
 
 
 
@@ -4952,7 +4931,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2021-departementales-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5d/41ee72d5c3668d428c564b6d107d39 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d4/43d728e4eab805e2caec9a7f45e0a9 |
 
 
 
@@ -5027,7 +5006,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2021-regionales-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1b/cb78333b480dc2c753f22b2082ab3c |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ef/5dcc0dfa7f10522df598b072106de0 |
 
 
 
@@ -5218,7 +5197,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2021-regionales-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/29/0b8e3bf010ac173acb469624abb5e1 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/64/0429305e290b400fef16d55d67f4d1 |
 
 
 
@@ -5303,7 +5282,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2022-legislatives-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/3a9e27fb23921f557a0a1fb5eb43f7 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f5/e0fb2afc20e56ce4b5a54cf4b05357 |
 
 
 
@@ -5598,7 +5577,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2022-legislatives-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e6/56819ee5ae322f2703392f208e25b5 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bc/58ae9456e845f571570a0b8229cd2d |
 
 
 
@@ -5893,7 +5872,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2022-presidentielle-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cf/3411530cdbfbea9d14621b3b4ce99c |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/aa/93d2c2bbde50c264c88b72c128a276 |
 
 
 
@@ -6063,7 +6042,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2022-presidentielle-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/88/c2e14c9b0d1e395e9616be0901fae7 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/12/b194f505cdff2e38536ceab90e4a79 |
 
 
 
@@ -6309,7 +6288,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2024-europeenne-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c7/b6968e3103b91ead7421520b9e5d06 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/44/bf1fb3df78b44adf1f1eee32458454 |
 
 
 
@@ -6560,7 +6539,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/32/4fb848ce771f3e9058102953200c72 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e3/d64bf303dc6e330606aa3e0410a49f |
 
 
 
@@ -6850,7 +6829,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2024-legislatives-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/67/125c7b52c9d39a8367b503687470ee |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bb/ecd909b39bbde21e0a59b89ee54910 |
 
 
 
@@ -7723,7 +7702,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/14/047a952fdd0a2a07eac4115fb0e222 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c6/ee346813d0cd37b9aca9a33e4951d2 |
 
 
 
@@ -7920,7 +7899,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2026-municipales-1-commune.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/37/12d3cdd728ef3328e0ccd36b77e7c4 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8f/9c10120c2eb3b4299c2868be613bd8 |
 
 
 
@@ -8089,7 +8068,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fd/3506c5b3806fbc6906abf27cdc3322 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/54/ac7fc177a92ff257e08b90e0ae32db |
 
 
 
@@ -8286,7 +8265,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2026-municipales-2-commune.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3a/716a8ad6d895c9ffd65db8e5dea997 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/198f5ffef98b7de0b00368103999c5 |
 
 
 

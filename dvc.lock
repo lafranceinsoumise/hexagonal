@@ -751,8 +751,8 @@ stages:
       size: 4800
     - path: src/hexagonal/correspondances_circonscription.py
       hash: md5
-      md5: 64efe7e54056164163e30623d39056ec
-      size: 642
+      md5: 0938b092e64040b89fd62a1b4fe7cae9
+      size: 663
     outs:
     - path: 
         data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
@@ -788,8 +788,8 @@ stages:
       size: 44052
     - path: src/hexagonal/candidatures/legislatives2022.py
       hash: md5
-      md5: 63223a8ab2ce0c42517e8bb76b630b73
-      size: 4120
+      md5: 899bfdfe3efae9fc3cd6ff41faa67f16
+      size: 4148
     - path: src/hexagonal/codes.py
       hash: md5
       md5: e27a9dabe689bc7989c28ebf2ba84ce6
@@ -828,8 +828,8 @@ stages:
       size: 44052
     - path: src/hexagonal/candidatures/legislatives2022.py
       hash: md5
-      md5: 63223a8ab2ce0c42517e8bb76b630b73
-      size: 4120
+      md5: 899bfdfe3efae9fc3cd6ff41faa67f16
+      size: 4148
     - path: src/hexagonal/codes.py
       hash: md5
       md5: e27a9dabe689bc7989c28ebf2ba84ce6
@@ -1079,8 +1079,8 @@ stages:
       size: 1079529
     - path: src/hexagonal/parrainages/qualifier.py
       hash: md5
-      md5: a2b42901aab8c05bd5c38144b3f6bc5d
-      size: 6825
+      md5: 3c9c4bdf87170dbc477fbb62c15911ef
+      size: 6867
     outs:
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
@@ -1927,17 +1927,17 @@ stages:
       size: 1099107
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 1d61d0aab4b6ee4503ac69dcdf6f8304
-      size: 4159059
+      md5: 275200e3eec3fb9cbba13dd9f6c40fd0
+      size: 3411668
     - path: src/hexagonal/codes_postaux/qualifier.py
       hash: md5
-      md5: 242d5d65035b519298248e73df1bb054
-      size: 1984
+      md5: 2f871db1797fa2ea02a0d3ff5c72584f
+      size: 2005
     outs:
     - path: data/03_main/codes_postaux.csv
       hash: md5
-      md5: 32c1bcdbc5db25ba8d3531b8352c7b40
-      size: 716046
+      md5: 6cec6f9a2ddcff29090c708a1be51be3
+      size: 708991
   extraire_contours_iris:
     cmd: 7z e data/01_raw/ign/iris-metropole.7z -so -r "iris.gpkg" > 
       "data/01_raw/ign/iris-metropole.gpkg"
@@ -1993,13 +1993,13 @@ stages:
       size: 5648044
     - path: src/hexagonal/cog/qualifier_communes.py
       hash: md5
-      md5: e375ada3cc878169a0b09c0689705af8
-      size: 1891
+      md5: ede6e1e860a4f0745cd491d74282417b
+      size: 2553
     outs:
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 1d61d0aab4b6ee4503ac69dcdf6f8304
-      size: 4159059
+      md5: 275200e3eec3fb9cbba13dd9f6c40fd0
+      size: 3411668
   normaliser-format-elections@2026-municipales-1-bureau_de_vote:
     cmd: PYTHONPATH=src python -m hexagonal.resultats.format_2017 
       data/01_raw/ministere_interieur/2026-municipales-1-bureau_de_vote.csv 
