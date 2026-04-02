@@ -1,7 +1,6 @@
-params:
-  - params.yaml
-
 vars:
+  - scrutins.yaml
+  - zones.yaml
   - src: "src"
   - raw: "data/01_raw"
   - clean: "data/02_clean"

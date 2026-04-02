@@ -1,0 +1,19 @@
+zones_carto:
+  hexagone:
+    projection: EPSG:2154
+    filtre: code_departement.length === 2
+  guadeloupe:
+    projection: EPSG:5490
+    filtre: code_departement === "971"
+  martinique:
+    projection: EPSG:5490
+    filtre: code_departement === "972"
+  guyane:
+    projection: EPSG:2972
+    filtre: code_departement === "973"
+  reunion:
+    projection: EPSG:2975
+    filtre: code_departement === "974"
+  mayotte:
+    projection: EPSG:4471
+    filtre: code_departement === "976"
