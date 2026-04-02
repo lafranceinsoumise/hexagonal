@@ -36,40 +36,23 @@ n'est pas déjà disponible :
 uv tool install rust-just
 ```
 
+Définir les alias suivants permettent de simplifier l'utilisation de dvc et de just
+```bash
+alias dvc="uv run dvc"
+alias just="uv run just"
+```
+
 ### Récupération initiale des données
 
 Une version initiale des données (et notamment des sources, dont certaines peuvent ne
 plus être disponibles en ligne) peut être récupérée depuis le cache en ligne.
 
 ```bash
-just pull
+uv run just pull
 ```
 
-### Vérification des données
-
-On utilise [dvc](https://dvc.org/) pour gérer le pipeline de données.
-
-Pour lancer le pipeline et générer les données:
-
-```bash
-uv run dvc repro --no-commit
-```
-
-L'option `--no-commit` permet de ne pas mettre à jour le lockfile `dvc.lock`, ce
-qui permet de vérifier si les artefacts générés localement sont
-cohérents avec ceux de la lockfile.
-
-```bash
-uv run dvc status
-````
-
-Si les artefacts sont cohérents, on a le message suivant:
-
-```
-Data and pipelines are up to date.
-```
-
-Sinon, dvc nous dira quels artefacts sont incohérents.
+Une fois cette opération terminée, tous les fichiers devraient avoir été créés dans le dossier
+`data`.
 
 ## Gestion des données sources
 
@@ -143,24 +126,7 @@ uv run dvc import-url <nouvelle url> <chemin complet du fichier à mettre à jou
 
 ### Documenter les sources
 
-Chaque source ajoutée doit être documentée. Lorsque la source a été ajoutée à DVC, la
-commande suivante permet de générer un squelette de documentation :
-
-```bash
-just scaffold_doc
-```
-
-Un fichier `.toml` est créé dans le même dossier que les sources ajoutées. Pour une 
-source, les propriétés suivantes peuvent être renseignées :
-
-| Propriété | Description                                 |
-|-----------|---------------------------------------------|
-| `nom` | Une désignation complète du jeu de données  |
-| `description` | Une description aussi complète que possible |
-| `editeur` | L'éditeur du jeu de données                 |
-| `date` | La date du jeu de données, si pertinent     |
-| `info_url` | Une URL vers une documentation externe      |
-
+Chaque source ajoutée doit être documentée, voir ci-dessous
 ## Traitements des données
 
 Les traitements de données sont définis dans le fichier `dvc.yaml`
@@ -243,7 +209,40 @@ just scaffold_doc
 Elle met par ailleurs à jour la liste des dépendances des différents fichiers (à partir
 des pipelines définis dans DVC).
 
-### Créer les fichiers de documentation des sources et productions
+### Documenter les sources
+
+Un fichier `.toml` est créé dans le même dossier que les sources ajoutées par la commande ci-dessus.
+Pour une source, les propriétés suivantes peuvent être renseignées :
+
+| Propriété | Description                                 |
+|-----------|---------------------------------------------|
+| `nom` | Une désignation complète du jeu de données  |
+| `description` | Une description aussi complète que possible |
+| `editeur` | L'éditeur du jeu de données                 |
+| `date` | La date du jeu de données, si pertinent     |
+| `info_url` | Une URL vers une documentation externe      |
+
+### Documenter les productions
+
+Un fichier `.toml` est créé dans le même dossier que les fichiers produits. Pour un fichier produit,
+les propriétés suivantes peuvent être renseignées :
+
+| Propriété     | Description                                         |
+|---------------|-----------------------------------------------------|
+| `nom`         | Une désignation complète du jeu de données          |
+| `description` | Une description aussi complète que possible         |
+| `section`     | La catégorie à laquelle appartient cette production |
+
+Par ailleurs, pour les fichiers de type tabulaire (CSV ou parquet), il faut documenter les différentes 
+colonnes avec les propriétés suivantes :
+
+| Propriété     | Description                                              |
+|---------------|----------------------------------------------------------|
+| `type`        | Le type de données de la colonne                         |
+| `description` | Une description plus précise, lorsqu'elle est nécessaire |
+| `nullable`    | Si la colonne admet des valeurs nulles.                  |
+
+### Générer la documentation
 
 La commande suivante permet de créer ou mettre à jour les deux fichiers <sources.md>
 et <productions.md> :
