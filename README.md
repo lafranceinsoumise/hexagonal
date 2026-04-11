@@ -1,7 +1,7 @@
 # Hexagonal
 
-Ce dépôt agrège toute l'information électorale, administrative et géographique
-française pour faciliter l'analyse électorale.
+Ce dépôt agrège l'information électorale, administrative et géographique française 
+nécessaire pour faciliter l'analyse électorale.
 
 - [Liste des fichiers mis à disposition](productions.md)
 - [Liste des sources utilisées](sources.md)

@@ -35,6 +35,7 @@ class ColonneType(StrEnum):
     CODE_REGION = "code_region"
     CODE_CIRCONSCRIPTION = "code_circonscription_legislative"
     INT = "entier"
+    FLOAT = "flottant"
     BOOL = "bool"
     QUALITATIVE = "qualitative"
 

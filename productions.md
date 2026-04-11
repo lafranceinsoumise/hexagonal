@@ -118,6 +118,7 @@
   - [Composition nominative des listes de second tour des municipales 2026 après fusion](#data/03_main/elections/2026-municipales-2-composition-listes-nominative.parquet)
   - [Composition des listes de second tour des municipales 2026 après fusion](#data/03_main/elections/2026-municipales-2-composition-listes.parquet)
   - [Liste des personnes élues lors des municipales 2026](#data/03_main/elections/2026-municipales-elus.parquet)
+  - [Matrices de reports entre premier et deuxième tour des élections municipales 2026](#data/03_main/elections/2026-municipales-reports.parquet)
 - [Élections](#elections)
   - [Liste qualifiée des candidats au second tour des législatives 2022](#data/03_main/elections/2022-legislatives-2-candidats.csv)
   - [Parrainages enregistrées par le Conseil constitutionnel](#data/03_main/elections/2022-presidentielle-parrainages.csv)
@@ -9222,6 +9223,62 @@ Cette production dépend des sources suivantes :
     <li><a href="sources.md#data/01_raw/ministere_interieur/2026-municipales-1-bureau_de_vote.csv">Résultats du 1er tour des élections municipales de 2026 par bureau de vote</a>
         </li>
     </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
+### Matrices de reports entre premier et deuxième tour des élections municipales 2026
+<a name="data/03_main/elections/2026-municipales-reports.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/elections/2026-municipales-reports.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1e/3400211a1adf81396e5ce992834f34 |
+
+
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_commune</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>element</code></td>
+    <td><code>flottant</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet">Résultats du 1er tour des élections municipales 2026 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2026-municipales-1-bureau_de_vote.csv">Résultats du 1er tour des élections municipales de 2026 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet">Résultats du deuxième tour des élections municipales 2026 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2026-municipales-2-bureau_de_vote.csv">Résultats du deuxième tour des élections municipales 2026 par bureau de vote</a>
         </li>
     </ul>
         </li>

@@ -30,6 +30,7 @@ PARQUET_TYPES = {
     "INT32": ColonneType.INT,
     "INT64": ColonneType.INT,
     "BOOLEAN": ColonneType.BOOL,
+    "DOUBLE": ColonneType.FLOAT,
 }
 
 
@@ -78,7 +79,7 @@ def update_csv_columns(file: DVCFile, columns: dict[str, ColonneMetadata]):
         with open(file.path, "r", newline="") as fd:
             r = csv.reader(fd)
             header = next(r)
-    except (csv.Error, UnicodeDecodeError, FileNotFoundError):
+    except csv.Error, UnicodeDecodeError, FileNotFoundError:
         return columns
 
     updated_columns = {}

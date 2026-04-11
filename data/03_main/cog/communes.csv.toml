@@ -42,8 +42,8 @@ nullable = false
 
 [colonnes.forme_possessive]
 type = "str"
-nullable = false
 description = "nom complet de la commune avec charnière, par exemple \"de Paris\", \"de la Celle-Saint-Cloud\" ou \"du Mans\""
+nullable = false
 
 [colonnes.population_municipale]
 type = "str"

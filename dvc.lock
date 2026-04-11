@@ -1927,17 +1927,17 @@ stages:
       size: 1099107
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 275200e3eec3fb9cbba13dd9f6c40fd0
-      size: 3411668
+      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
+      size: 3726040
     - path: src/hexagonal/codes_postaux/qualifier.py
       hash: md5
-      md5: 2f871db1797fa2ea02a0d3ff5c72584f
-      size: 2005
+      md5: 8d887aeaa41023c511376aae80719331
+      size: 1932
     outs:
     - path: data/03_main/codes_postaux.csv
       hash: md5
-      md5: 6cec6f9a2ddcff29090c708a1be51be3
-      size: 708991
+      md5: 11242c4953260e83086e206c090d27bd
+      size: 716046
   extraire_contours_iris:
     cmd: 7z e data/01_raw/ign/iris-metropole.7z -so -r "iris.gpkg" > 
       "data/01_raw/ign/iris-metropole.gpkg"
@@ -1993,13 +1993,13 @@ stages:
       size: 5648044
     - path: src/hexagonal/cog/qualifier_communes.py
       hash: md5
-      md5: ede6e1e860a4f0745cd491d74282417b
-      size: 2553
+      md5: e431ffbb0e3b60f614261e9bf7e2020c
+      size: 2701
     outs:
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 275200e3eec3fb9cbba13dd9f6c40fd0
-      size: 3411668
+      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
+      size: 3726040
   normaliser-format-elections@2026-municipales-1-bureau_de_vote:
     cmd: PYTHONPATH=src python -m hexagonal.resultats.format_2017 
       data/01_raw/ministere_interieur/2026-municipales-1-bureau_de_vote.csv 
@@ -2525,3 +2525,23 @@ stages:
       hash: md5
       md5: 5e198f5ffef98b7de0b00368103999c5
       size: 281704
+  2026-municipales-reports:
+    cmd: PYTHONPATH=src python -m hexagonal.candidatures.municipales2026.reports
+      municipales 
+      data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet 
+      data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet 
+      data/03_main/elections/2026-municipales-reports.parquet
+    deps:
+    - path: data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet
+      hash: md5
+      md5: c6ee346813d0cd37b9aca9a33e4951d2
+      size: 3571748
+    - path: data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet
+      hash: md5
+      md5: 54ac7fc177a92ff257e08b90e0ae32db
+      size: 639391
+    outs:
+    - path: data/03_main/elections/2026-municipales-reports.parquet
+      hash: md5
+      md5: 1e3400211a1adf81396e5ce992834f34
+      size: 41546
