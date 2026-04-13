@@ -1,6 +1,6 @@
-nom = "deputes_lfi"
+nom = "Liste des députés de la France insoumise"
 description = """
-
+Extrait du fichier des députés complets.
 """
 mimetype = "text/csv"
 section = "Assemblée nationale"
