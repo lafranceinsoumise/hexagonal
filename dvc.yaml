@@ -662,3 +662,16 @@ stages:
       ${python} hexagonal.filosofi.extraire
       ${raw}/insee/filosofi-disponible.zip
       ${clean}/filosofi/disponible.csv
+
+  nb-conseillers-municipaux:
+    deps:
+      - ${clean}/population_municipale.csv
+      - ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
+      - ${src}/hexagonal/elections/nombre_conseillers_municipaux.py
+    outs:
+      - ${main}/elections/nombre_conseillers_municipaux.parquet
+    cmd: >-
+      ${python} hexagonal.elections.nombre_conseillers_municipaux
+      --population ${clean}/population_municipale.csv
+      --nb-conseillers ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
+      --output ${main}/elections/nombre_conseillers_municipaux.parquet

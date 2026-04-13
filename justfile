@@ -1,4 +1,4 @@
-release: repro push scaffold_doc build_doc
+release: repro push scaffold build_doc
 
 # Commandes DVC
 pull:
@@ -11,8 +11,8 @@ push:
 repro:
   uv run dvc repro
 
-# Gestion de la documentation
-scaffold_doc:
+# Crée les fichiers de documentation sources et productions
+scaffold:
   uv run src/hexagonal/files/update_specs.py
 
 build_doc:
