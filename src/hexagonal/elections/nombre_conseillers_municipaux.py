@@ -64,19 +64,29 @@ def main(population, nb_conseillers, output):
 
     resultat = pl.concat(par_annee).sort(["annee", "code_commune"])
 
-    nb_grands_electeurs_m9000 = reduce(
-        lambda c, nb: c.when(pl.col("nombre_conseillers") == nb[0]).then(pl.lit(nb[1])),
-        NB_GRANDS_ELECTEURS_M9000.items(),
-        pl,
+    # pour les villes de moins de 9000 habitants, on utilise le nombre de grands
+    # électeurs prévus par le code électoral article L284
+    nb_grands_electeurs_m9000 = pl.DataFrame(
+        {
+            "nombre_conseillers": NB_GRANDS_ELECTEURS_M9000.keys(),
+            "nombre_grands_electeurs": NB_GRANDS_ELECTEURS_M9000.values(),
+        }
     )
+
+    # Pour les villes de plus de 9000 habitants, tous les conseillers municipaux sont
+    # grands électeurs. Par ailleurs, pour les villes de plus de 30 000 habitants,
+    # des délégués supplémentaires sont attribués par tranche de 800 habitants
+    # au-delà de 30 000.
     nb_grands_electeurs_p9000 = (
         pl.col("nombre_conseillers")
         + pl.max_horizontal(pl.lit(0), pl.col("population") - 30000) // 800
     )
 
-    resultat = resultat.with_columns(
+    resultat = resultat.join(
+        nb_grands_electeurs_m9000, on="nombre_conseillers", how="left"
+    ).with_columns(
         nombre_grands_electeurs=pl.when(pl.col("population") < 9000)
-        .then(nb_grands_electeurs_m9000)
+        .then(pl.col("nombre_grands_electeurs"))
         .otherwise(nb_grands_electeurs_p9000)
     )
 

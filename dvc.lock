@@ -2650,8 +2650,8 @@ stages:
       size: 5648044
     - path: src/hexagonal/elections/nombre_conseillers_municipaux.py
       hash: md5
-      md5: 2fa6e23154fcf044773700a12706015a
-      size: 2518
+      md5: b79338452652f04358bd40d54f8560b0
+      size: 3057
     outs:
     - path: data/03_main/elections/nombre_conseillers_municipaux.parquet
       hash: md5
