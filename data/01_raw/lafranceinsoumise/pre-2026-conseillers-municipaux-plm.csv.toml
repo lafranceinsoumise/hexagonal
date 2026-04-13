@@ -1,0 +1,13 @@
+nom = "Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026"
+description = """
+Avant l'adoption de la loi du 11 août 2025 visant à réformer le mode d'élection des membres du conseil de Paris et des
+conseils municipaux de Lyon et de Marseille, les conseillers de Paris et les conseillers municipaux de Lyon et de
+Marseille étaient élus par secteur. Les tableaux en annexes 2, 3 et 4 du code électoral indiquaient le nombre de
+conseillers élus par secteur.
+
+À noter que le nombre de membres des conseils de secteur était fixé par l'article L2511-8 du code général des
+collectivités territoriales au double du nombre de conseillers municipaux élus dans le secteur, sans pouvoir être
+inférieur à 10 ni supérieur à 40.
+"""
+mimetype = "text/csv"
+editeur = "La France insoumise"

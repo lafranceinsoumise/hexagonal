@@ -27,8 +27,11 @@
   - [Nuançage précis des candidats aux législatives 2024](#data/01_raw/lafranceinsoumise/2024-legislatives-candidats.csv)
   - [Liste des candidats du Nouveau Front populaire et de leur sensibilité par circonscription législative](#data/01_raw/lafranceinsoumise/2024-legislatives-nfp-sensibilites.csv)
   - [Nuançage LFI des candidatures aux législatives 2024](#data/01_raw/lafranceinsoumise/2024-legislatives-nuances.csv)
+  - [Nombre de membres des conseils de secteurs de Paris, Lyon et Marseille pour l&#39;élection 2026](#data/01_raw/lafranceinsoumise/2026-conseillers-arrondissement-plm.csv)
+  - [Nombre de membres du Conseil de Paris et des conseils municipaux de Lyon et de Marseille pour l&#39;élection 2026](#data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv)
   - [Liste des listes soutenues par la France insoumise aux municipales de 2026](#data/01_raw/lafranceinsoumise/2026-municipales-1-listes-lfi.parquet)
   - [Anomalies dans les correspondances entre les candidats au 1er et 2e tour des élections municipales 2026](#data/01_raw/lafranceinsoumise/2026-municipales-anomalies-candidats.parquet)
+  - [Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026](#data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv)
   - [Paramètres électoraux des différents scrutins de listes](#data/01_raw/lafranceinsoumise/scrutins_listes.csv)
 - [La Poste](#la-poste)
   - [Base officielle des codes postaux](#data/01_raw/la_poste/base_officielle_codes_postaux.csv)
@@ -432,6 +435,37 @@ l&#39;accord.
 Ce fichier propose un nuançage réalisé par les équipes de la France insoumise pendant la
 campagne des législatives 2024 à des fins d&#39;analyse électorale.
 
+### Nombre de membres des conseils de secteurs de Paris, Lyon et Marseille pour l&#39;élection 2026
+<a name="data/01_raw/lafranceinsoumise/2026-conseillers-arrondissement-plm.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/2026-conseillers-arrondissement-plm.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/69/924418026b9da0727db982666cba28 |
+
+Suite à la loi du 11 août 2025 visant à réformer le mode d&#39;élection des membres du conseil de Paris et des conseils
+municipaux de Lyon et de Marseille, ce fichier compile les tableaux présents aux annexes 2, 3 et 4 du Code électoral,
+tableaux qui énumèrent le nombre de conseillers composant les conseils de secteurs pour les villes de Paris, Lyon et
+Marseille.
+
+### Nombre de membres du Conseil de Paris et des conseils municipaux de Lyon et de Marseille pour l&#39;élection 2026
+<a name="data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f1/9f112b76794a931762598332814dbf |
+
+Suite à la loi du 11 août 2025 visant à réformer le mode d&#39;élection des membres du conseil de Paris et des conseils
+municipaux de Lyon et de Marseille, ce fichier recense :
+- le nombre de conseillers de Paris (CGCT L2512-3)
+- le nombre de conseillers municipaux de Lyon (CGCT L2513-1)
+- le nombre de conseillers municipaux de Marseille(CGCT L2513-1)
+
 ### Liste des listes soutenues par la France insoumise aux municipales de 2026
 <a name="data/01_raw/lafranceinsoumise/2026-municipales-1-listes-lfi.parquet"></a>
 
@@ -478,6 +512,25 @@ nuances de 1er et de 2e tour qui a permis l&#39;attribution.
 
 Pour le moment, cette analyse n&#39;a été mise en place que sur le seul cas des communes où
 une liste soutenue par la France insoumise est présente au 2e tour.
+
+### Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026
+<a name="data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b1/bae8385324e406fa6bc093128d4088 |
+
+Avant l&#39;adoption de la loi du 11 août 2025 visant à réformer le mode d&#39;élection des membres du conseil de Paris et des
+conseils municipaux de Lyon et de Marseille, les conseillers de Paris et les conseillers municipaux de Lyon et de
+Marseille étaient élus par secteur. Les tableaux en annexes 2, 3 et 4 du code électoral indiquaient le nombre de
+conseillers élus par secteur.
+
+À noter que le nombre de membres des conseils de secteur était fixé par l&#39;article L2511-8 du code général des
+collectivités territoriales au double du nombre de conseillers municipaux élus dans le secteur, sans pouvoir être
+inférieur à 10 ni supérieur à 40.
 
 ### Paramètres électoraux des différents scrutins de listes
 <a name="data/01_raw/lafranceinsoumise/scrutins_listes.csv"></a>

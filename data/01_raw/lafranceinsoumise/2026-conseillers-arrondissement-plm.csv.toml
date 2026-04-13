@@ -1,0 +1,9 @@
+nom = "Nombre de membres des conseils de secteurs de Paris, Lyon et Marseille pour l'élection 2026"
+description = """
+Suite à la loi du 11 août 2025 visant à réformer le mode d'élection des membres du conseil de Paris et des conseils
+municipaux de Lyon et de Marseille, ce fichier compile les tableaux présents aux annexes 2, 3 et 4 du Code électoral,
+tableaux qui énumèrent le nombre de conseillers composant les conseils de secteurs pour les villes de Paris, Lyon et
+Marseille.
+"""
+mimetype = "text/csv"
+editeur = "La France insoumise"

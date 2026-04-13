@@ -1,0 +1,10 @@
+nom = "Nombre de membres du Conseil de Paris et des conseils municipaux de Lyon et de Marseille pour l'élection 2026"
+description = """
+Suite à la loi du 11 août 2025 visant à réformer le mode d'élection des membres du conseil de Paris et des conseils
+municipaux de Lyon et de Marseille, ce fichier recense :
+- le nombre de conseillers de Paris (CGCT L2512-3)
+- le nombre de conseillers municipaux de Lyon (CGCT L2513-1)
+- le nombre de conseillers municipaux de Marseille(CGCT L2513-1)
+"""
+mimetype = "text/csv"
+editeur = "La France insoumise"

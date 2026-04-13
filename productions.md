@@ -14,7 +14,7 @@
   - [Liste des groupes parlementaires](#data/02_clean/assemblee_nationale/groupes.csv)
   - [Liste des mandats des député·es](#data/02_clean/assemblee_nationale/mandats.csv)
   - [Liste des députés en cours de mandat](#data/03_main/assemblee_nationale/deputes.csv)
-  - [deputes_lfi](#data/03_main/assemblee_nationale/deputes_lfi.csv)
+  - [Liste des députés de la France insoumise](#data/03_main/assemblee_nationale/deputes_lfi.csv)
 - [Cartographie](#cartographie)
   - [Villes de plus de 1000 habitants](#data/02_clean/geonames/cities1000.json.zst)
   - [Conteurs simplifiés des circonscriptions législatives de Guadeloupe](#data/03_main/cartographie/circonscriptions_guadeloupe.json)
@@ -1272,7 +1272,7 @@ Cette production dépend des sources suivantes :
         </li>
     </ul>
 
-### deputes_lfi
+### Liste des députés de la France insoumise
 <a name="data/03_main/assemblee_nationale/deputes_lfi.csv"></a>
 
 | Propriété | Valeur |
@@ -1281,7 +1281,7 @@ Cette production dépend des sources suivantes :
 | Format de fichier | text/csv |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4c/fcd2f3f862284ec94065389550a088 |
 
-
+Extrait du fichier des députés complets.
 
 
 ### Colonnes
