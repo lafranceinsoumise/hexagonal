@@ -1,0 +1,13 @@
+nom = "Répertoire national des élus — conseillers municipaux — décembre 2025"
+description = """
+Le Répertoire National des Élus (RNE) a pour finalité le suivi des titulaires
+d’un mandat électoral. Il est renseigné et tenu à jour par les préfectures et
+hauts commissariats et par les services du ministère de l'intérieur, notamment
+sur la base des éléments fournis par les élus lors de la phase d’enregistrement
+des candidatures.
+
+Ce fichier comporte la liste des conseillers municipaux.
+"""
+mimetype = "text/csv"
+info_url = "https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/"
+editeur = "Ministère de l'Intérieur"

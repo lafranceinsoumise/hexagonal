@@ -1,0 +1,13 @@
+md5: 2a732350b140dbce43d9ba18676e18f3
+frozen: true
+deps:
+- checksum: '"694a7137-14ef3"'
+  size: 85747
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/a595be27-cfab-4810-b9d4-22e193bffe35
+outs:
+- md5: fad32784538db1d4b7c4779b8fee549e
+  size: 85747
+  hash: md5
+  path: conseillers_csp.csv

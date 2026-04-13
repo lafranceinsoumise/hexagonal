@@ -33,11 +33,6 @@ type = "str"
 description = ""
 nullable = false
 
-[colonnes.lieu_naissance]
-type = "str"
-description = ""
-nullable = true
-
 [colonnes.csp]
 type = "str"
 description = ""
@@ -57,8 +52,3 @@ nullable = true
 type = "str"
 description = ""
 nullable = true
-
-[colonnes.nuance]
-type = "str"
-description = ""
-nullable = false

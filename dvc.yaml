@@ -1,6 +1,7 @@
 vars:
   - scrutins.yaml
   - zones.yaml
+  - rne: "2025-12"
   - src: "src"
   - raw: "data/01_raw"
   - clean: "data/02_clean"
@@ -403,13 +404,13 @@ stages:
       - conseillers_csp
     do:
       deps:
-        - ${raw}/rne/${item}.csv
+        - ${raw}/rne/${rne}/${item}.csv
         - ${src}/hexagonal/rne/extraire.py
       outs:
         - ${clean}/rne/${item}.csv
       cmd: >-
         ${python} hexagonal.rne.extraire
-        ${raw}/rne
+        ${raw}/rne/${rne}
         ${clean}/rne
         ${item}
 

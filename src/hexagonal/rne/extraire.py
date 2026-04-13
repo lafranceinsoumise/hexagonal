@@ -48,12 +48,10 @@ spec_conseiller_arrondissement = {
     "prenom": "Prénom de l'élu",
     "sexe": "Code sexe",
     "date_naissance": "Date de naissance",
-    "lieu_naissance": "Lieu de naissance",
     "csp": "Code de la catégorie socio-professionnelle",
     "date_debut_mandat": ("Date de début du mandat", serie_dates_usuel_vers_iso),
     "fonction": "Libellé de la fonction",
     "date_debut_fonction": ("Date de début de la fonction", serie_dates_usuel_vers_iso),
-    "nuance": "Code de la nuance politique",
 }
 
 spec_conseiller_municipal = {
@@ -124,7 +122,11 @@ SPECS = {
 
 
 def extraire(in_path, out_path, spec):
-    data_in = pd.read_csv(in_path, delimiter=";", dtype=str)
+    # un des fichiers du millésime de décembre 2025 a été exporté avec le séparateur virgule…
+    if in_path.name == "conseillers_csp.csv":
+        data_in = pd.read_csv(in_path, delimiter=",", dtype=str)
+    else:
+        data_in = pd.read_csv(in_path, delimiter=";", dtype=str)
 
     data_out = pd.DataFrame(glom(data_in, spec))
 

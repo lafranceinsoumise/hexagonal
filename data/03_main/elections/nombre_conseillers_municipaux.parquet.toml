@@ -13,6 +13,14 @@ nullable = false
 type = "str"
 nullable = false
 
+[colonnes.population]
+type = "entier"
+nullable = false
+
 [colonnes.nombre_conseillers]
+type = "entier"
+nullable = false
+
+[colonnes.nombre_grands_electeurs]
 type = "entier"
 nullable = false

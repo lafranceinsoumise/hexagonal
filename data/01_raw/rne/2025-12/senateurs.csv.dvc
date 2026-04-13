@@ -1,0 +1,13 @@
+md5: 6baa584424caa1c8d4c8444721a3a9e9
+frozen: true
+deps:
+- checksum: '"694a7192-8806"'
+  size: 34822
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/b78f8945-509f-4609-a4a7-3048b8370479
+outs:
+- md5: 44691aa2534fde97d9b58ae6f5fc5874
+  size: 34822
+  hash: md5
+  path: senateurs.csv

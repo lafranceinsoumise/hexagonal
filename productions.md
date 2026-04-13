@@ -119,7 +119,7 @@
   - [Composition des listes de second tour des municipales 2026 après fusion](#data/03_main/elections/2026-municipales-2-composition-listes.parquet)
   - [Liste des personnes élues lors des municipales 2026](#data/03_main/elections/2026-municipales-elus.parquet)
   - [Matrices de reports entre premier et deuxième tour des élections municipales 2026](#data/03_main/elections/2026-municipales-reports.parquet)
-  - [Nombre de conseillers municipalux élus par commune et par année d&#39;élection depuis 2014](#data/03_main/elections/nombre_conseillers_municipaux.parquet)
+  - [Nombre de conseillers municipaux élus par commune et par année d&#39;élection depuis 2014](#data/03_main/elections/nombre_conseillers_municipaux.parquet)
 - [Élections](#elections)
   - [Liste qualifiée des candidats au second tour des législatives 2022](#data/03_main/elections/2022-legislatives-2-candidats.csv)
   - [Parrainages enregistrées par le Conseil constitutionnel](#data/03_main/elections/2022-presidentielle-parrainages.csv)
@@ -3482,7 +3482,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_arrondissement.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f7/7731f0195164866a3cd370b21dc58c |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/55/0c207dd03fbb182fadb686d97662ed |
 
 
 
@@ -3528,11 +3528,6 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
-    <td><code>lieu_naissance</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
     <td><code>csp</code></td>
     <td><code>str</code></td>
     <td></td>
@@ -3552,11 +3547,6 @@ Cette production dépend des sources suivantes :
     <td><code>str</code></td>
     <td></td>
   </tr>
-<tr>
-    <td><code>nuance</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
 
 </tbody>
 </table>
@@ -3566,7 +3556,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/conseillers_arrondissement.csv">Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon</a>
+    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_arrondissement.csv">Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — décembre 2025</a>
         </li>
     </ul>
 
@@ -3577,7 +3567,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_csp.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a9/0037e40d09d62940863628e235432c |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/782919d729e97417b7836c6d942163 |
 
 
 
@@ -3656,7 +3646,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/conseillers_csp.csv">Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier</a>
+    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_csp.csv">Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — décembre 2025</a>
         </li>
     </ul>
 
@@ -3667,7 +3657,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_departementaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/50/0bbfaea946c9f6002b7cbcf1b2d03d |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5b/dc363d3f73f48570f47fd3f8631fa4 |
 
 
 
@@ -3741,7 +3731,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/conseillers_departementaux.csv">Répertoire national des élus — conseillers départementaux</a>
+    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_departementaux.csv">Répertoire national des élus — conseillers départementaux — décembre 2025</a>
         </li>
     </ul>
 
@@ -3752,7 +3742,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_municipaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f6/b66568a2b0d5736ebec705d8178a5b |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9d/c9e123ef3874bba9e8675e486edb4f |
 
 
 
@@ -3836,7 +3826,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux</a>
+    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux — décembre 2025</a>
         </li>
     </ul>
 
@@ -3847,7 +3837,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_regionaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f3/211aeded6da625a227af278eedb8f5 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f3/a0dd419e55b29081571b70e3fdfe0a |
 
 
 
@@ -3921,7 +3911,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/conseillers_regionaux.csv">Répertoire national des élus — conseillers régionaux</a>
+    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_regionaux.csv">Répertoire national des élus — conseillers régionaux — décembre 2025</a>
         </li>
     </ul>
 
@@ -9285,14 +9275,14 @@ Cette production dépend des sources suivantes :
         </li>
     </ul>
 
-### Nombre de conseillers municipalux élus par commune et par année d&#39;élection depuis 2014
+### Nombre de conseillers municipaux élus par commune et par année d&#39;élection depuis 2014
 <a name="data/03_main/elections/nombre_conseillers_municipaux.parquet"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
 | Chemin interne | data/03_main/elections/nombre_conseillers_municipaux.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2d/1c3eed810f1ef491f6a9336144daed |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/33/f967d8f70b691f2f8b9d35093e08ef |
 
 
 
@@ -9319,7 +9309,17 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
+    <td><code>population</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
     <td><code>nombre_conseillers</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nombre_grands_electeurs</code></td>
     <td><code>entier</code></td>
     <td></td>
   </tr>

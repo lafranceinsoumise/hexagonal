@@ -97,12 +97,21 @@
   - [Candidats au 2e tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-candidats.csv)
   - [Résultats du deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-commune.csv)
   - [Liste des personnes élues au deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-elus.csv)
-  - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon](#data/01_raw/rne/conseillers_arrondissement.csv)
-  - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier](#data/01_raw/rne/conseillers_csp.csv)
-  - [Répertoire national des élus — conseillers départementaux](#data/01_raw/rne/conseillers_departementaux.csv)
-  - [Répertoire national des élus — conseillers des EPCI à fiscalité propre](#data/01_raw/rne/conseillers_epci.csv)
-  - [Répertoire national des élus — conseillers municipaux](#data/01_raw/rne/conseillers_municipaux.csv)
-  - [Répertoire national des élus — conseillers régionaux](#data/01_raw/rne/conseillers_regionaux.csv)
+  - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025](#data/01_raw/rne/2025-08/conseillers_arrondissement.csv)
+  - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — août 2025](#data/01_raw/rne/2025-08/conseillers_csp.csv)
+  - [Répertoire national des élus — conseillers départementaux — août 2025](#data/01_raw/rne/2025-08/conseillers_departementaux.csv)
+  - [Répertoire national des élus — conseillers des EPCI à fiscalité propre — août 2025](#data/01_raw/rne/2025-08/conseillers_epci.csv)
+  - [Répertoire national des élus — conseillers municipaux — août 2025](#data/01_raw/rne/2025-08/conseillers_municipaux.csv)
+  - [Répertoire national des élus — conseillers régionaux — août 2025](#data/01_raw/rne/2025-08/conseillers_regionaux.csv)
+  - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — décembre 2025](#data/01_raw/rne/2025-12/conseillers_arrondissement.csv)
+  - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — décembre 2025](#data/01_raw/rne/2025-12/conseillers_csp.csv)
+  - [Répertoire national des élus — conseillers départementaux — décembre 2025](#data/01_raw/rne/2025-12/conseillers_departementaux.csv)
+  - [Répertoire national des élus — conseillers des EPCI à fiscalité propre — décembre 2025](#data/01_raw/rne/2025-12/conseillers_epci.csv)
+  - [Répertoire national des élus — conseillers municipaux — décembre 2025](#data/01_raw/rne/2025-12/conseillers_municipaux.csv)
+  - [Répertoire national des élus — conseillers régionaux — décembre 2025](#data/01_raw/rne/2025-12/conseillers_regionaux.csv)
+  - [Répertoire national des élus — député·es — décembre 2025](#data/01_raw/rne/2025-12/deputes.csv)
+  - [Répertoire national des élus — député·es européen·nes — décembre 2025](#data/01_raw/rne/2025-12/deputes_europeens.csv)
+  - [Répertoire national des élus — sénateur·rices — décembre 2025](#data/01_raw/rne/2025-12/senateurs.csv)
 - [Natural Earth](#natural-earth)
   - [Admin 0 — Pays](#data/01_raw/natural_earth/ne_10m_admin_0_countries.zip)
   - [Populated Places](#data/01_raw/natural_earth/ne_10m_populated_places.zip)
@@ -1334,12 +1343,12 @@ La composition des listes candidates aux élections municipales 2026.
 
 
 
-### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon
-<a name="data/01_raw/rne/conseillers_arrondissement.csv"></a>
+### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_arrondissement.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_arrondissement.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_arrondissement.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
@@ -1347,12 +1356,12 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2d/0a06f8637f8f6b47a2a48c929566cf |
 
 
-### Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier
-<a name="data/01_raw/rne/conseillers_csp.csv"></a>
+### Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_csp.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_csp.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_csp.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
@@ -1360,12 +1369,12 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/54/0af71e0cd1e893ad4828ca9cbb3e7e |
 
 
-### Répertoire national des élus — conseillers départementaux
-<a name="data/01_raw/rne/conseillers_departementaux.csv"></a>
+### Répertoire national des élus — conseillers départementaux — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_departementaux.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_departementaux.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_departementaux.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
@@ -1373,12 +1382,12 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c9/7b23f2a92eb0c41d0d263ca9430840 |
 
 
-### Répertoire national des élus — conseillers des EPCI à fiscalité propre
-<a name="data/01_raw/rne/conseillers_epci.csv"></a>
+### Répertoire national des élus — conseillers des EPCI à fiscalité propre — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_epci.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_epci.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_epci.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
@@ -1386,12 +1395,12 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/45/5077fa9839c32f7d76693370de3882 |
 
 
-### Répertoire national des élus — conseillers municipaux
-<a name="data/01_raw/rne/conseillers_municipaux.csv"></a>
+### Répertoire national des élus — conseillers municipaux — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_municipaux.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_municipaux.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_municipaux.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
@@ -1406,17 +1415,141 @@ des candidatures.
 
 Ce fichier comporte la liste des conseillers municipaux.
 
-### Répertoire national des élus — conseillers régionaux
-<a name="data/01_raw/rne/conseillers_regionaux.csv"></a>
+### Répertoire national des élus — conseillers régionaux — août 2025
+<a name="data/01_raw/rne/2025-08/conseillers_regionaux.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/rne/conseillers_regionaux.csv |
+| Chemin interne | data/01_raw/rne/2025-08/conseillers_regionaux.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
 | Éditeur | Ministère de l&#39;Intérieur |
 | URL d&#39;origine | https://www.data.gouv.fr/fr/datasets/r/430e13f9-834b-4411-a1a8-da0b4b6e715c |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2f/e0945c9714d346bb2a7fdf1cffc7c3 |
+
+
+### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_arrondissement.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_arrondissement.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/3b6b2281-b9d9-4959-ae9d-c2c166dff118 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9d/c420f9b7eca1433ca50c7a95509691 |
+
+
+### Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_csp.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_csp.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/a595be27-cfab-4810-b9d4-22e193bffe35 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fa/d32784538db1d4b7c4779b8fee549e |
+
+
+### Répertoire national des élus — conseillers départementaux — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_departementaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_departementaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/601ef073-d986-4582-8e1a-ed14dc857fba |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/68/ce852484b14dd8ca9e02c6966ebb29 |
+
+
+### Répertoire national des élus — conseillers des EPCI à fiscalité propre — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_epci.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_epci.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/41d95d7d-b172-4636-ac44-32656367cdc7 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/43/7796c29f70fc0f1b94260c01488ae8 |
+
+
+### Répertoire national des élus — conseillers municipaux — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_municipaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_municipaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/d5f400de-ae3f-4966-8cb6-a85c70c6c24a |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fd/bbd29b9591dbf673f074d4b360ec09 |
+
+Le Répertoire National des Élus (RNE) a pour finalité le suivi des titulaires
+d’un mandat électoral. Il est renseigné et tenu à jour par les préfectures et
+hauts commissariats et par les services du ministère de l&#39;intérieur, notamment
+sur la base des éléments fournis par les élus lors de la phase d’enregistrement
+des candidatures.
+
+Ce fichier comporte la liste des conseillers municipaux.
+
+### Répertoire national des élus — conseillers régionaux — décembre 2025
+<a name="data/01_raw/rne/2025-12/conseillers_regionaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/conseillers_regionaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/430e13f9-834b-4411-a1a8-da0b4b6e715c |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c2/e3b259ae78913b663327f8141e6b26 |
+
+
+### Répertoire national des élus — député·es — décembre 2025
+<a name="data/01_raw/rne/2025-12/deputes.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/deputes.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/1ac42ff4-1336-44f8-a221-832039dbc142 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7e/126311af824c5c3aba1545bb741b48 |
+
+
+### Répertoire national des élus — député·es européen·nes — décembre 2025
+<a name="data/01_raw/rne/2025-12/deputes_europeens.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/deputes_europeens.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/70957bb0-f19f-40c5-b97b-90b3d4d71f9e |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7f/17f19fc8373b5fa4416509156f1b41 |
+
+
+### Répertoire national des élus — sénateur·rices — décembre 2025
+<a name="data/01_raw/rne/2025-12/senateurs.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2025-12/senateurs.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/b78f8945-509f-4609-a4a7-3048b8370479 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/44/691aa2534fde97d9b58ae6f5fc5874 |
 
 
 

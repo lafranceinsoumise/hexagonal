@@ -1,0 +1,13 @@
+md5: 70ca87024440952a554c68ebef6ac341
+frozen: true
+deps:
+- checksum: '"694a6fa8-2a376"'
+  size: 172918
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/3b6b2281-b9d9-4959-ae9d-c2c166dff118
+outs:
+- md5: 9dc420f9b7eca1433ca50c7a95509691
+  size: 172918
+  hash: md5
+  path: conseillers_arrondissement.csv
