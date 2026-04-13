@@ -22,16 +22,16 @@ stages:
     foreach: ${scrutins}
     do:
       cmd: >-
-        ${python} hexagonal.resultats.format_${item.format}
+        ${python} hexagonal.elections.resultats.format_${item.format}
         ${raw}/ministere_interieur/${key}.csv ${clean}/elections/${key}.parquet ${item.encoding} "${item.delimiter}"
       deps:
         - ${raw}/ministere_interieur/${key}.csv
-        - ${src}/hexagonal/resultats/format_${item.format}.py
+        - ${src}/hexagonal/elections/resultats/format_${item.format}.py
         - ${src}/hexagonal/codes.py
       outs:
         - ${clean}/elections/${key}.parquet
 
-  candidats-nettoyer:
+  candidats-nettoyer-legislatives-2022-2024:
     foreach:
       2022-legislatives-1-candidats:
         delimiter: "\t"
@@ -45,13 +45,13 @@ stages:
         delimiter: ";"
     do:
       cmd: >-
-        ${python} hexagonal.candidatures.nettoyer
+        ${python} hexagonal.elections.candidatures.nettoyer_legislatives_2022_2024
         ${item}
         "${raw}/ministere_interieur/${key}.csv"
         "${clean}/elections/${key}.csv"
       deps:
         - ${raw}/ministere_interieur/${key}.csv
-        - ${src}/hexagonal/candidatures/nettoyer.py
+        - ${src}/hexagonal/elections/candidatures/nettoyer_legislatives_2022_2024.py
       outs:
         - ${clean}/elections/${key}.csv
 
@@ -73,12 +73,12 @@ stages:
       - ${clean}/elections/2026-municipales-1-candidats.parquet
       - ${clean}/elections/2026-municipales-2-candidats.parquet
       - ${clean}/elections/2026-municipales-1-bureau_de_vote.parquet
-      - ${src}/hexagonal/candidatures/municipales2026/composition_listes_t2.py
+      - ${src}/hexagonal/elections/municipales2026/composition_listes_t2.py
     outs:
       - ${main}/elections/2026-municipales-2-composition-listes.parquet
       - ${main}/elections/2026-municipales-2-composition-listes-nominative.parquet
     cmd: >-
-      ${python} hexagonal.candidatures.municipales2026.composition_listes_t2
+      ${python} hexagonal.elections.municipales2026.composition_listes_t2
       --code code_commune
       ${clean}/elections/2026-municipales-1-candidats.parquet
       ${clean}/elections/2026-municipales-2-candidats.parquet
@@ -93,11 +93,11 @@ stages:
       - ${clean}/elections/2026-municipales-1-candidats.parquet
       - ${clean}/elections/2026-municipales-2-candidats.parquet
       - ${main}/elections/2026-municipales-2-composition-listes-nominative.parquet
-      - ${src}/hexagonal/candidatures/municipales2026/elus.py
+      - ${src}/hexagonal/elections/municipales2026/elus.py
     outs:
       - ${main}/elections/2026-municipales-elus.parquet
     cmd:
-      ${python} hexagonal.candidatures.municipales2026.elus
+      ${python} hexagonal.elections.municipales2026.elus
       municipales
       ${clean}/elections/2026-municipales-1-sieges.parquet
       ${clean}/elections/2026-municipales-2-sieges.parquet
@@ -113,11 +113,11 @@ stages:
     do:
       deps:
         - ${raw}/ministere_interieur/2026-municipales-${item}-commune.csv
-        - ${src}/hexagonal/candidatures/municipales2026/sieges.py
+        - ${src}/hexagonal/elections/municipales2026/sieges.py
       outs:
         - ${clean}/elections/2026-municipales-${item}-sieges.parquet
       cmd: >-
-        ${python} hexagonal.candidatures.municipales2026.sieges
+        ${python} hexagonal.elections.municipales2026.sieges
         municipales
         ${raw}/ministere_interieur/2026-municipales-${item}-commune.csv
         ${clean}/elections/2026-municipales-${item}-sieges.parquet
@@ -129,11 +129,11 @@ stages:
     do:
       deps:
         - ${raw}/ministere_interieur/2026-municipales-${item}-candidats.csv
-        - ${src}/hexagonal/candidatures/municipales2026/clean.py
+        - ${src}/hexagonal/elections/candidatures/municipales2026.py
       outs:
         - ${clean}/elections/2026-municipales-${item}-candidats.parquet
       cmd: >-
-        ${python} hexagonal.candidatures.municipales2026.clean
+        ${python} hexagonal.elections.candidatures.municipales2026
         --code code_commune
         --communautaire
         ${raw}/ministere_interieur/2026-municipales-${item}-candidats.csv
@@ -146,11 +146,11 @@ stages:
       - ${clean}/elections/2026-conseils-PLM-1-candidats.parquet
       - ${clean}/elections/2026-conseils-PLM-2-candidats.parquet
       - ${main}/elections/2026-conseils-PLM-2-composition-listes-nominative.parquet
-      - ${src}/hexagonal/candidatures/municipales2026/elus.py
+      - ${src}/hexagonal/elections/municipales2026/elus.py
     outs:
       - ${main}/elections/2026-conseils-PLM-elus.parquet
     cmd:
-      ${python} hexagonal.candidatures.municipales2026.elus
+      ${python} hexagonal.elections.municipales2026.elus
       conseils-plm
       ${clean}/elections/2026-conseils-PLM-1-sieges.parquet
       ${clean}/elections/2026-conseils-PLM-2-sieges.parquet
@@ -164,12 +164,12 @@ stages:
       - ${clean}/elections/2026-conseils-PLM-1-candidats.parquet
       - ${clean}/elections/2026-conseils-PLM-2-candidats.parquet
       - ${clean}/elections/2026-conseils-PLM-1-bureau_de_vote.parquet
-      - ${src}/hexagonal/candidatures/municipales2026/composition_listes_t2.py
+      - ${src}/hexagonal/elections/municipales2026/composition_listes_t2.py
     outs:
       - ${main}/elections/2026-conseils-PLM-2-composition-listes.parquet
       - ${main}/elections/2026-conseils-PLM-2-composition-listes-nominative.parquet
     cmd: >-
-      ${python} hexagonal.candidatures.municipales2026.composition_listes_t2
+      ${python} hexagonal.elections.municipales2026.composition_listes_t2
       --code code_secteur
       ${clean}/elections/2026-conseils-PLM-1-candidats.parquet
       ${clean}/elections/2026-conseils-PLM-2-candidats.parquet
@@ -184,11 +184,11 @@ stages:
     do:
       deps:
         - ${raw}/ministere_interieur/2026-conseils-PLM-${item}-secteur.csv
-        - ${src}/hexagonal/candidatures/municipales2026/sieges.py
+        - ${src}/hexagonal/elections/municipales2026/sieges.py
       outs:
         - ${clean}/elections/2026-conseils-PLM-${item}-sieges.parquet
       cmd: >-
-        ${python} hexagonal.candidatures.municipales2026.sieges
+        ${python} hexagonal.elections.municipales2026.sieges
         conseils-plm
         ${raw}/ministere_interieur/2026-conseils-PLM-${item}-secteur.csv
         ${clean}/elections/2026-conseils-PLM-${item}-sieges.parquet
@@ -200,11 +200,11 @@ stages:
     do:
       deps:
         - ${raw}/ministere_interieur/2026-conseils-PLM-${item}-candidats.csv
-        - ${src}/hexagonal/candidatures/municipales2026/clean.py
+        - ${src}/hexagonal/elections/candidatures/municipales2026.py
       outs:
         - ${clean}/elections/2026-conseils-PLM-${item}-candidats.parquet
       cmd: >-
-        ${python} hexagonal.candidatures.municipales2026.clean
+        ${python} hexagonal.elections.candidatures.municipales2026
         --code code_secteur
         ${raw}/ministere_interieur/2026-conseils-PLM-${item}-candidats.csv
         ${clean}/elections/2026-conseils-PLM-${item}-candidats.parquet
@@ -215,7 +215,7 @@ stages:
       - 2
     do:
       cmd: >-
-        ${python} hexagonal.candidatures.legislatives2024
+        ${python} hexagonal.elections.candidatures.qualifier_legislatives2024
         ${clean}/elections/2024-legislatives-${item}-candidats.csv
         ${raw}/lafranceinsoumise/2024-legislatives-nfp-sensibilites.csv
         ${raw}/lafranceinsoumise/2024-legislatives-nuances.csv
@@ -226,7 +226,7 @@ stages:
         - ${raw}/lafranceinsoumise/2024-legislatives-nfp-sensibilites.csv
         - ${raw}/lafranceinsoumise/2024-legislatives-nuances.csv
         - ${raw}/lafranceinsoumise/2024-legislatives-candidats.csv
-        - ${src}/hexagonal/candidatures/legislatives2024.py
+        - ${src}/hexagonal/elections/candidatures/qualifier_legislatives2024.py
         - ${src}/hexagonal/codes.py
       outs:
         - ${main}/elections/2024-legislatives-${item}-candidats.csv
@@ -234,11 +234,11 @@ stages:
   2024-europeenne-candidats:
     deps:
       - ${raw}/ministere_interieur/2024-europeenne-candidats.csv
-      - ${src}/hexagonal/candidatures/europeenne2024.py
+      - ${src}/hexagonal/elections/candidatures/europeenne2024.py
     outs:
       - ${clean}/elections/2024-europeenne-candidats.parquet
     cmd: >-
-      ${python} hexagonal.candidatures.europeenne2024
+      ${python} hexagonal.elections.candidatures.europeenne2024
       ${raw}/ministere_interieur/2024-europeenne-candidats.csv
       ${clean}/elections/2024-europeenne-candidats.parquet
 
@@ -248,7 +248,7 @@ stages:
       - 2
     do:
       cmd: >-
-        ${python} hexagonal.candidatures.legislatives2022
+        ${python} hexagonal.elections.candidatures.qualifier_legislatives2022
         ${clean}/elections/2022-legislatives-${item}-candidats.csv
         ${raw}/le_monde/2022-legislatives-nuances.csv
         ${raw}/legis_2022/2022-legislatives-nuances.csv
@@ -259,7 +259,7 @@ stages:
         - ${clean}/elections/2022-legislatives-2-circonscription.parquet
         - ${raw}/le_monde/2022-legislatives-nuances.csv
         - ${raw}/legis_2022/2022-legislatives-nuances.csv
-        - ${src}/hexagonal/candidatures/legislatives2022.py
+        - ${src}/hexagonal/elections/candidatures/qualifier_legislatives2022.py
         - ${src}/hexagonal/codes.py
       outs:
         - ${main}/elections/2022-legislatives-${item}-candidats.csv
@@ -267,11 +267,11 @@ stages:
   2021-regionales-candidats:
     deps:
       - ${raw}/ministere_interieur/2021-regionales-1-candidats.csv
-      - ${src}/hexagonal/candidatures/regionales2021.py
+      - ${src}/hexagonal/elections/candidatures/regionales2021.py
     outs:
       - ${clean}/elections/2021-regionales-1-candidats.parquet
     cmd: >-
-      ${python} hexagonal.candidatures.regionales2021
+      ${python} hexagonal.elections.candidatures.regionales2021
       ${raw}/ministere_interieur/2021-regionales-1-candidats.csv
       ${clean}/elections/2021-regionales-1-candidats.parquet
 

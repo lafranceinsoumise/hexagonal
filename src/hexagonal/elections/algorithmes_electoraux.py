@@ -11,7 +11,7 @@ __all__ = [
 from numpy.typing import ArrayLike
 
 
-def proportionnelle_dhondt(parts: Iterable[int | float], nb_sieges: int):
+def proportionnelle_dhondt(parts: ArrayLike, nb_sieges: int):
     """Méthode d'Hondt de répartition des sièges entre listes électorales
 
     :param parts: séquence des parts ou voix portées sur les différentes listes
@@ -23,18 +23,18 @@ def proportionnelle_dhondt(parts: Iterable[int | float], nb_sieges: int):
     return repartition_plus_forte_moyenne(parts, cutoffs)
 
 
-def proportionnelle_sainte_lague(parts: Iterable[int | float], nb_sieges: int):
+def proportionnelle_sainte_lague(parts: ArrayLike, nb_sieges: int):
     cutoffs = np.arange(nb_sieges) + 0.5
     return repartition_plus_forte_moyenne(parts, cutoffs)
 
 
-def proportionnelle_reste_quotient_hare(parts: Iterable[int | float], nb_sieges: int):
+def proportionnelle_reste_quotient_hare(parts: ArrayLike, nb_sieges: int):
     quotient = sum(parts) / nb_sieges
 
     return repartition_plus_fort_reste(parts, nb_sieges, quotient)
 
 
-def proportionnelle_reste_quotient_droop(parts: Iterable[int | float], nb_sieges: int):
+def proportionnelle_reste_quotient_droop(parts: ArrayLike, nb_sieges: int):
     quotient = sum(parts) / (nb_sieges + 1)
 
     return repartition_plus_fort_reste(parts, nb_sieges, quotient)

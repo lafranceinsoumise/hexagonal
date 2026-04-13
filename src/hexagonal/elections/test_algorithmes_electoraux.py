@@ -1,4 +1,4 @@
-from hexagonal.resultats.algorithmes_electoraux import (
+from .algorithmes_electoraux import (
     proportionnelle_dhondt,
     proportionnelle_reste_quotient_droop,
     proportionnelle_reste_quotient_hare,
