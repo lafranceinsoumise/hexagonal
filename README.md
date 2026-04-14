@@ -203,7 +203,7 @@ La commande suivante permet de créer une version initiale de ces fichiers pour 
 nouvelles sources et productions :
 
 ```shell
-just scaffold_doc
+just scaffold
 ```
 
 Elle met par ailleurs à jour la liste des dépendances des différents fichiers (à partir
