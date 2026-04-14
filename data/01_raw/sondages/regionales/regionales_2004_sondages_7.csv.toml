@@ -1,0 +1,5 @@
+nom = "Sondages régionales 2004 — regionales_2004_sondages_7"
+description = "Données des élections régionales 2004."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004"
+editeur = "Wikipedia"

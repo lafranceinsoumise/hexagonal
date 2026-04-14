@@ -1,0 +1,5 @@
+nom = "Sondages législatives 2007 — legislatives_2007_sondages_0"
+description = "Sondages d'intentions de vote pour les élections législatives 2007."
+mimetype = "text/csv"
+info_url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election"
+editeur = "Wikipedia"

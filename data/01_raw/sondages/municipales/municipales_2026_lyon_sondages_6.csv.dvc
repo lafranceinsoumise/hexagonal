@@ -1,0 +1,5 @@
+outs:
+- md5: cfefd3ac328be436e7489aa05f2f91db
+  size: 1115
+  hash: md5
+  path: municipales_2026_lyon_sondages_6.csv

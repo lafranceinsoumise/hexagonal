@@ -1,0 +1,5 @@
+nom = "Sondages régionales 2021 — nsppolls"
+description = "Sondages d'intentions de vote pour les élections régionales 2021. Format long, 13 régions."
+mimetype = "text/csv"
+info_url = "https://github.com/nsppolls/nsppolls"
+editeur = "nsppolls"

@@ -1,0 +1,5 @@
+outs:
+- md5: 286ff826e366f6a4ca80b21a088aed96
+  size: 10796
+  hash: md5
+  path: municipales_2026_paris_sondages_9.csv

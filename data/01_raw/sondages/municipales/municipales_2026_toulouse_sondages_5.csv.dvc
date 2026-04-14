@@ -1,0 +1,5 @@
+outs:
+- md5: 4a2e9c0bc05b86a8cde2de3d648688b0
+  size: 704
+  hash: md5
+  path: municipales_2026_toulouse_sondages_5.csv

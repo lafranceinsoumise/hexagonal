@@ -1,0 +1,5 @@
+nom = "Sondages municipales 2026 — municipales_2026_besancon_sondages_5"
+description = "Sondages d'intentions de vote pour les élections municipales 2026."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026"
+editeur = "Wikipedia"

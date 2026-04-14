@@ -1,0 +1,5 @@
+nom = "Sondages européennes 2024 — europeennes_2024_france_0"
+description = "Sondages d'intentions de vote pour les élections européennes 2024."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2024"
+editeur = "Wikipedia"

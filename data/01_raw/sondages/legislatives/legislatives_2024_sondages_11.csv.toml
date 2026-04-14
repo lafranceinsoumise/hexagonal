@@ -1,0 +1,5 @@
+nom = "Sondages législatives 2024 — legislatives_2024_sondages_11"
+description = "Sondages d'intentions de vote pour les élections législatives 2024."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024"
+editeur = "Wikipedia"

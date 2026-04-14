@@ -1,0 +1,5 @@
+nom = "Sondages présidentielle 2022 — nsppolls (détaillés)"
+description = "Sondages d'intentions de vote détaillés pour l'élection présidentielle 2022. Format long avec intervalles de confiance et métadonnées de sondage."
+mimetype = "text/csv"
+info_url = "https://github.com/nsppolls/nsppolls"
+editeur = "nsppolls"

@@ -1,0 +1,5 @@
+nom = "Sondages européennes 2014 — europeennes_2014_france_0"
+description = "Sondages d'intentions de vote pour les élections européennes 2014."
+mimetype = "text/csv"
+info_url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2014_European_Parliament_election_in_France"
+editeur = "Wikipedia"

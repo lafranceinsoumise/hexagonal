@@ -1,0 +1,5 @@
+nom = "Sondages européennes 2009 — europeennes_2009_france_1"
+description = "Sondages d'intentions de vote pour les élections européennes 2009."
+mimetype = "text/csv"
+info_url = "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2009_European_Parliament_election_in_France"
+editeur = "Wikipedia"

@@ -1,0 +1,5 @@
+outs:
+- md5: c45425aae996af736bfeea269e1c2e93
+  size: 8544
+  hash: md5
+  path: europeennes_2014_france_0.csv

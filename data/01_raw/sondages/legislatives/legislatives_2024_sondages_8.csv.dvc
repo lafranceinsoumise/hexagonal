@@ -1,0 +1,5 @@
+outs:
+- md5: 4cabd252eb850fcff68205130275a0f7
+  size: 109
+  hash: md5
+  path: legislatives_2024_sondages_8.csv

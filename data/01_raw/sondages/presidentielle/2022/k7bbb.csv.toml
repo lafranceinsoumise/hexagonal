@@ -1,0 +1,5 @@
+nom = "Sondages présidentielle 2022 — k7bbb"
+description = "Sondages d'intentions de vote pour l'élection présidentielle 2022 (hypothèse)."
+mimetype = "text/csv"
+info_url = "https://github.com/depuis1958/sondages"
+editeur = "depuis1958"

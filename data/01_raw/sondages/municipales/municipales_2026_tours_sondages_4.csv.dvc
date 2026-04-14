@@ -1,0 +1,5 @@
+outs:
+- md5: a9a36d2666f409cb33eb3f0800153e05
+  size: 1402
+  hash: md5
+  path: municipales_2026_tours_sondages_4.csv

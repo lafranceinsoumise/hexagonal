@@ -1,0 +1,5 @@
+outs:
+- md5: 6635a0cce555763bca47cf6be31ec6e4
+  size: 498
+  hash: md5
+  path: regionales_2010_sondages_26.csv

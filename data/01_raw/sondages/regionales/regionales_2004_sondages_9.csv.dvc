@@ -1,0 +1,5 @@
+outs:
+- md5: 59e167cc3da61bd1c32d39cd93c82ed9
+  size: 351875
+  hash: md5
+  path: regionales_2004_sondages_9.csv

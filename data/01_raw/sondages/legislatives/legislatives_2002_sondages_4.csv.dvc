@@ -1,0 +1,5 @@
+outs:
+- md5: 9bfec52d99e5c1f5f31c217c7253c70b
+  size: 585
+  hash: md5
+  path: legislatives_2002_sondages_4.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: d078a5c2c387cbb6943abf4fb0491254
+  size: 704
+  hash: md5
+  path: departementales_2015_sondages_4.csv

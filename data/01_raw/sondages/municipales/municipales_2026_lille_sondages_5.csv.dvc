@@ -1,0 +1,5 @@
+outs:
+- md5: c8660f30286934e2a2ae2a659f5fe69d
+  size: 789
+  hash: md5
+  path: municipales_2026_lille_sondages_5.csv

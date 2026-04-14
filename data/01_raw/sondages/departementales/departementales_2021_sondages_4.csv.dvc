@@ -1,0 +1,5 @@
+outs:
+- md5: 398bd1c95fb47cbaedb3ef139560179b
+  size: 27309
+  hash: md5
+  path: departementales_2021_sondages_4.csv

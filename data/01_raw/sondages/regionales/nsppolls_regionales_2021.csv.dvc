@@ -1,0 +1,5 @@
+outs:
+- md5: 63f0ea156eaa2a6b638e2bfd50afb639
+  size: 253903
+  hash: md5
+  path: nsppolls_regionales_2021.csv

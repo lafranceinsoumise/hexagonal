@@ -1,0 +1,5 @@
+outs:
+- md5: eface5cf5d4f88f1442771c6f57fef83
+  size: 6123
+  hash: md5
+  path: municipales_2026_marseille_sondages_5.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: 1169b8312961debc7a9024ecbc0e7ad8
+  size: 753
+  hash: md5
+  path: municipales_2026_bordeaux_sondages_5.csv

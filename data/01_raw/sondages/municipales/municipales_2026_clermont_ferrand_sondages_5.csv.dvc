@@ -1,0 +1,5 @@
+outs:
+- md5: 566427e8b520c17568f5649fed049ef0
+  size: 384
+  hash: md5
+  path: municipales_2026_clermont_ferrand_sondages_5.csv
