@@ -32,6 +32,7 @@
   - [Contours simplifiés des secteurs de bureaux de vote à Paris en 2022 et 2024](#data/03_main/cartographie/paris-2022-2024.json)
   - [Contours simplifiés des pays du monde](#data/03_main/cartographie/pays.json.zst)
 - [Données géographiques précises](#donnees-geographiques-precises)
+  - [Surface relative d&#39;intersection entre bureaux de vote et IRIS](#data/03_main/geodata/bureau_iris_relative_areas.csv)
   - [Contours précis des circonscriptions législatives en 2024](#data/03_main/geodata/circonscriptions_legislatives.json)
   - [Contours précis des communes de France](#data/03_main/geodata/communes.json)
 - [Données socio-économiques](#donnees-socio-economiques)
@@ -1891,6 +1892,67 @@ Cette production dépend des sources suivantes :
 
 ## Données géographiques précises
 <a name="donnees-geographiques-precises"></a>
+
+### Surface relative d&#39;intersection entre bureaux de vote et IRIS
+<a name="data/03_main/geodata/bureau_iris_relative_areas.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/geodata/bureau_iris_relative_areas.csv |
+| Format de fichier | text/csv |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/10d2a1e6b9539f5e9b164e35b812a9 |
+
+Pour chaque bureau de vote, ce fichier indique la part de sa surface géographique
+couverte par chaque zone IRIS. Ces proportions permettent d&#39;estimer des indicateurs
+socio-démographiques (revenus, emploi, etc.) au niveau du bureau de vote par
+pondération des données IRIS.
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>Code Bureau de Vote Departement</code></td>
+    <td><code>str</code></td>
+    <td>Identifiant du bureau de vote, au format « NomCommune-NuméroBureau »</td>
+  </tr>
+<tr>
+    <td><code>CODE_IRIS</code></td>
+    <td><code>str</code></td>
+    <td>Code IRIS de la zone intersectée</td>
+  </tr>
+<tr>
+    <td><code>NOM_IRIS</code></td>
+    <td><code>str</code></td>
+    <td>Nom de la zone IRIS intersectée</td>
+  </tr>
+<tr>
+    <td><code>relative_area</code></td>
+    <td><code>flottant</code></td>
+    <td>Part de la surface du bureau de vote couverte par cette zone IRIS (entre 0 et 1)</td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson">Proposition de contours des bureaux de vote</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/ign/iris-metropole.7z">Contours IRIS 2025 — France métropolitaine</a>
+        </li>
+    </ul>
 
 ### Contours précis des circonscriptions législatives en 2024
 <a name="data/03_main/geodata/circonscriptions_legislatives.json"></a>

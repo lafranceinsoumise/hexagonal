@@ -2657,3 +2657,45 @@ stages:
       hash: md5
       md5: 33f967d8f70b691f2f8b9d35093e08ef
       size: 349427
+  convert_contours_to_parquet:
+    cmd: PYTHONPATH=src python -m hexagonal.convert_geodata 
+      data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson 
+      data/01_raw/ministere_interieur/contours-france-entiere.parquet
+    deps:
+    - path: 
+        data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson
+      hash: md5
+      md5: 1b22a314a9d4eb6b52a39b3407bec8eb
+      size: 644736630
+    - path: src/hexagonal/convert_geodata.py
+      hash: md5
+      md5: 480cebdcc31a14ea305572f6e46343b8
+      size: 553
+    outs:
+    - path: data/01_raw/ministere_interieur/contours-france-entiere.parquet
+      hash: md5
+      md5: 5940622f636b748f8152ebe7160fbe51
+      size: 331534255
+  bureau_iris_intersection:
+    cmd: PYTHONPATH=src python -m hexagonal.bureau_iris_intersection_area 
+      --bureau data/01_raw/ministere_interieur/contours-france-entiere.parquet 
+      --iris data/01_raw/ign/iris-metropole.gpkg --output 
+      data/03_main/geodata/bureau_iris_relative_areas.csv
+    deps:
+    - path: data/01_raw/ign/iris-metropole.gpkg
+      hash: md5
+      md5: 86fc5b983d70c4ae8f510328f1631acf
+      size: 166952960
+    - path: data/01_raw/ministere_interieur/contours-france-entiere.parquet
+      hash: md5
+      md5: 5940622f636b748f8152ebe7160fbe51
+      size: 331534255
+    - path: src/hexagonal/bureau_iris_intersection_area.py
+      hash: md5
+      md5: 729f38b881c85d29c4460035e80459a3
+      size: 3647
+    outs:
+    - path: data/03_main/geodata/bureau_iris_relative_areas.csv
+      hash: md5
+      md5: 5e10d2a1e6b9539f5e9b164e35b812a9
+      size: 23185040

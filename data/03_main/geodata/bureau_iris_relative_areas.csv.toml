@@ -1,0 +1,29 @@
+nom = "Surface relative d'intersection entre bureaux de vote et IRIS"
+description = """
+Pour chaque bureau de vote, ce fichier indique la part de sa surface géographique
+couverte par chaque zone IRIS. Ces proportions permettent d'estimer des indicateurs
+socio-démographiques (revenus, emploi, etc.) au niveau du bureau de vote par
+pondération des données IRIS.
+"""
+mimetype = "text/csv"
+section = "Données géographiques précises"
+
+[colonnes."Code Bureau de Vote Departement"]
+type = "str"
+description = "Identifiant du bureau de vote, au format « NomCommune-NuméroBureau »"
+nullable = false
+
+[colonnes.CODE_IRIS]
+type = "str"
+description = "Code IRIS de la zone intersectée"
+nullable = false
+
+[colonnes.NOM_IRIS]
+type = "str"
+description = "Nom de la zone IRIS intersectée"
+nullable = true
+
+[colonnes.relative_area]
+type = "flottant"
+description = "Part de la surface du bureau de vote couverte par cette zone IRIS (entre 0 et 1)"
+nullable = false
