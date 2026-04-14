@@ -1,0 +1,5 @@
+outs:
+- md5: 112bb2cc8480b2e4869bacbeda978322
+  size: 70265583
+  hash: md5
+  path: base-ic-activite-residents-2017.CSV

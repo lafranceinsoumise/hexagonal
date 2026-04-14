@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2017 — Évolution et structure de la population (Commune)"
+description = """
+Données sur l'évolution et la structure de la population issues du recensement de la population au niveau communal.
+"""
+mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

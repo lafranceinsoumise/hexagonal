@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2020 — Activité des résidents (IRIS)"
+description = """
+Données sur l'activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+"""
+mimetype = "text/csv"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 
-python -m hexagonal.files.update_spec
+python -m hexagonal.files.update_specs
 python -m hexagonal.files.rewrite_s3_headers

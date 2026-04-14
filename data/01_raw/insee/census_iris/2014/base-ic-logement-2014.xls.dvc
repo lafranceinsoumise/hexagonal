@@ -1,0 +1,5 @@
+outs:
+- md5: 2ce06135f56e464ae75cfd37a35873ca
+  size: 74966016
+  hash: md5
+  path: base-ic-logement-2014.xls

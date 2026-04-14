@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2018 — Couples, familles et ménages (Commune)"
+description = """
+Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
+"""
+mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

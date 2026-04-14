@@ -1,1 +1,6 @@
 /node_modules/
+*.pyc
+/branch.md
+/demographic_data.md
+/data/demographics
+/aws_creds.txt

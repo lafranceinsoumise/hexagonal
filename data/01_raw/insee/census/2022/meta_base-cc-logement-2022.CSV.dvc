@@ -1,0 +1,5 @@
+outs:
+- md5: 3a1afbabd86c291d910a209a89fbd407
+  size: 2136007
+  hash: md5
+  path: meta_base-cc-logement-2022.CSV

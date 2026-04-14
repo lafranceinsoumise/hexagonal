@@ -1,0 +1,5 @@
+outs:
+- md5: f4c393603e95db370833018b9d7d785b
+  size: 49195008
+  hash: md5
+  path: base-cc-logement_2010.xls
