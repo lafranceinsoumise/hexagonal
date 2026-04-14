@@ -1,0 +1,5 @@
+outs:
+- md5: 380f39db3b44a617a05a6d3509f5bc52
+  size: 51143168
+  hash: md5
+  path: base-cc-logement-2006.xls

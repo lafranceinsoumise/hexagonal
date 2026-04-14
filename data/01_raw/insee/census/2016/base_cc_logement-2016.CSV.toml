@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2016 — Logement (Commune)"
+description = """
+Données sur le logement issues du recensement de la population au niveau communal.
+"""
+mimetype = "text/csv"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

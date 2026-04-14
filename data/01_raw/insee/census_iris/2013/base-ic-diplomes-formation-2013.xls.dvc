@@ -1,0 +1,5 @@
+outs:
+- md5: 7c29ff148652446b96e9b0c9bfa28ecb
+  size: 37052416
+  hash: md5
+  path: base-ic-diplomes-formation-2013.xls

@@ -1,0 +1,5 @@
+outs:
+- md5: 803d8c248997888272d13ae337e27df3
+  size: 2125996
+  hash: md5
+  path: meta_base_cc_logement-2016.CSV

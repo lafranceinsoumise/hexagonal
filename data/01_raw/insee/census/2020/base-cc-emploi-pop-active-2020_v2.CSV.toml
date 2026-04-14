@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2020 — Emploi et population active (Commune)"
+description = """
+Données sur l'emploi et la population active issues du recensement de la population au niveau communal.
+"""
+mimetype = "text/csv"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

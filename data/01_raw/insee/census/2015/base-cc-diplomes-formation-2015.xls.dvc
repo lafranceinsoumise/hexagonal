@@ -1,0 +1,5 @@
+outs:
+- md5: 056c34de2a2172f85f92d861e587afaa
+  size: 74106368
+  hash: md5
+  path: base-cc-diplomes-formation-2015.xls

@@ -1,0 +1,5 @@
+outs:
+- md5: 2fca8aca47c285ecfada46e535f132f6
+  size: 27342103
+  hash: md5
+  path: base-ic-diplomes-formation-2018.CSV

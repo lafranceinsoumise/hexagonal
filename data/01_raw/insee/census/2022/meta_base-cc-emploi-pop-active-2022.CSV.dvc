@@ -1,0 +1,5 @@
+outs:
+- md5: 6106390e2f430cdaf7e064280b30a98d
+  size: 2147776
+  hash: md5
+  path: meta_base-cc-emploi-pop-active-2022.CSV

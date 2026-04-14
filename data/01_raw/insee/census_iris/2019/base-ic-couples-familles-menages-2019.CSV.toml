@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2019 — Couples, familles et ménages (IRIS)"
+description = """
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+"""
+mimetype = "text/csv"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"

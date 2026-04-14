@@ -1,0 +1,7 @@
+nom = "Recensement de la population 2015 — Évolution et structure de la population (IRIS)"
+description = """
+Données sur l'évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+"""
+mimetype = "application/vnd.ms-excel"
+info_url = "https://www.insee.fr/fr/information/2008354"
+editeur = "INSEE"
