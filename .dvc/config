@@ -1,6 +1,9 @@
 [core]
     remote = https
+[cache]
+    type = hardlink
 ['remote "s3"']
-    url = s3://hexagonal-data/cache/
+    url = s3://hexagonal-106475418133-eu-west-3-an/cache/
+    profile = hexagonal
 ['remote "https"']
-    url = https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/
+    url = https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/
