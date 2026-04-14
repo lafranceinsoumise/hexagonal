@@ -1,8 +1,14 @@
-*.csv
-*.json
+# données
+*.[Cc][Ss][Vv]
 *.parquet
-*.pyc
-*.xlsx
+*.[Xx][Ll][Ss][Xx]
+*.[Xx][Ll][Ss]
+*.json
+
+# geopkg
+*.gpkg
+
+# archives
 *.zip
 *.tar.bz2
 *.7z
@@ -13,3 +19,4 @@
 *.prj
 *.shp
 *.shx
+
