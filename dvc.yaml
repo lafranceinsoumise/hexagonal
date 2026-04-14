@@ -676,3 +676,28 @@ stages:
       --population ${clean}/population_municipale.csv
       --nb-conseillers ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
       --output ${main}/elections/nombre_conseillers_municipaux.parquet
+
+  convert_contours_to_parquet:
+    deps:
+      - ${raw}/ministere_interieur/contours-france-entiere-latest-v2.geojson
+      - ${src}/hexagonal/convert_geodata.py
+    outs:
+      - ${raw}/ministere_interieur/contours-france-entiere.parquet
+    cmd: >-
+      ${python} hexagonal.convert_geodata
+      ${raw}/ministere_interieur/contours-france-entiere-latest-v2.geojson
+      ${raw}/ministere_interieur/contours-france-entiere.parquet
+
+  bureau_iris_intersection:
+    deps:
+      - ${raw}/ministere_interieur/contours-france-entiere.parquet
+      - ${raw}/ign/iris-metropole.gpkg
+      - ${src}/hexagonal/bureau_iris_intersection_area.py
+    outs:
+      - ${main}/geodata/bureau_iris_relative_areas.csv
+    cmd: >-
+      ${python} hexagonal.bureau_iris_intersection_area
+      --bureau ${raw}/ministere_interieur/contours-france-entiere.parquet
+      --iris ${raw}/ign/iris-metropole.gpkg
+      --output ${main}/geodata/bureau_iris_relative_areas.csv
+

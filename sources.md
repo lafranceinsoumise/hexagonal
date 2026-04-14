@@ -97,6 +97,7 @@
   - [Candidats au 2e tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-candidats.csv)
   - [Résultats du deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-commune.csv)
   - [Liste des personnes élues au deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-elus.csv)
+  - [Proposition de contours des bureaux de vote](#data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson)
   - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025](#data/01_raw/rne/2025-08/conseillers_arrondissement.csv)
   - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — août 2025](#data/01_raw/rne/2025-08/conseillers_csp.csv)
   - [Répertoire national des élus — conseillers départementaux — août 2025](#data/01_raw/rne/2025-08/conseillers_departementaux.csv)
@@ -1342,6 +1343,22 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d9/e9ea0a05a9f48cb5046ee359ad3627 |
 
 
+
+### Proposition de contours des bureaux de vote
+<a name="data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/contours-france-entiere-latest-v2.geojson |
+| Format de fichier | application/geo+json |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/proposition-de-contours-des-bureaux-de-vote/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/f98165a7-7c37-4705-a181-bcfc943edc73 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1b/22a314a9d4eb6b52a39b3407bec8eb |
+
+Jeu de données national proposant une géométrie pour chaque bureau de vote de France.
+Généré par Etalab et l&#39;INSEE à partir du Répertoire Électoral Unique (REU) et des
+fichiers de voirie de l&#39;IGN.
 
 ### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025
 <a name="data/01_raw/rne/2025-08/conseillers_arrondissement.csv"></a>

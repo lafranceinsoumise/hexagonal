@@ -1,0 +1,9 @@
+frozen: true
+deps:
+- path: https://www.data.gouv.fr/api/1/datasets/r/f98165a7-7c37-4705-a181-bcfc943edc73
+  hash: md5
+outs:
+- md5: 1b22a314a9d4eb6b52a39b3407bec8eb
+  size: 644736630
+  hash: md5
+  path: contours-france-entiere-latest-v2.geojson

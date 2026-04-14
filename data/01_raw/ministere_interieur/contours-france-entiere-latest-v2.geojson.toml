@@ -1,0 +1,9 @@
+nom = "Proposition de contours des bureaux de vote"
+description = """
+Jeu de données national proposant une géométrie pour chaque bureau de vote de France.
+Généré par Etalab et l'INSEE à partir du Répertoire Électoral Unique (REU) et des
+fichiers de voirie de l'IGN.
+"""
+mimetype = "application/geo+json"
+info_url = "https://www.data.gouv.fr/fr/datasets/proposition-de-contours-des-bureaux-de-vote/"
+editeur = "Ministère de l'Intérieur"
