@@ -1,0 +1,5 @@
+nom = "Nombre de conseillers régionaux par région"
+description = """
+Ce tableau transcrit le nombre de conseillers régionaux par région tel que donné par le tableau en annexe n°7 du code électoral.
+"""
+mimetype = "text/csv"

@@ -1,0 +1,5 @@
+outs:
+- md5: 4b6175f299a26cfa4685e7c5cc7c1de8
+  size: 530
+  hash: md5
+  path: 2003-senateurs-par-departements.csv

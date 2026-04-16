@@ -1,0 +1,7 @@
+nom = "Nombre de sénateurs par département"
+description = """
+Ce tableau est la transcription du tableau en annexe n°6 du code électoral qui prévoit le nombre de sénateurs à élire
+par département.
+"""
+mimetype = "text/csv"
+editeur = "La France insoumise"

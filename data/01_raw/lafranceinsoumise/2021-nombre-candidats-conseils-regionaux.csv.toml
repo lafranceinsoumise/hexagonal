@@ -1,0 +1,6 @@
+nom = "Nombre de candidats aux élections régionales par section départementale"
+description = """
+Ce tableau transcrit le nombre de candidats à présenter par section départementale aux élections régionales, tel que
+donné par le tableau en annexe n°7 du code électoral.
+"""
+mimetype = "text/csv"
