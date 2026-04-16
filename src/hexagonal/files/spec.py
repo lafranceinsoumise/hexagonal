@@ -231,10 +231,10 @@ def get_pandas_dataframe(path: str | Path):
     return spec.as_pandas_dataframe()
 
 
-def get_polars_dataframe(path: str | Path):
+def get_polars_dataframe(path: str | Path, **kwargs):
     spec = load_spec(path)
 
     if not isinstance(spec, ProductionSpec):
         raise ValueError(f"Le dataset {path} n'est pas une production.")
 
-    return spec.as_polars_dataframe()
+    return spec.as_polars_dataframe(**kwargs)

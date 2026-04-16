@@ -668,6 +668,8 @@ stages:
     deps:
       - ${clean}/population_municipale.csv
       - ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
+      - ${raw}/lafranceinsoumise/2026-conseillers-plm.csv
+      - ${raw}/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv
       - ${src}/hexagonal/elections/nombre_conseillers_municipaux.py
     outs:
       - ${main}/elections/nombre_conseillers_municipaux.parquet
@@ -675,4 +677,6 @@ stages:
       ${python} hexagonal.elections.nombre_conseillers_municipaux
       --population ${clean}/population_municipale.csv
       --nb-conseillers ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
+      --plm-2026 ${raw}/lafranceinsoumise/2026-conseillers-plm.csv
+      --plm-pre-2026 ${raw}/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv
       --output ${main}/elections/nombre_conseillers_municipaux.parquet

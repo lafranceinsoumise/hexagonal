@@ -1,5 +1,3 @@
-from functools import reduce
-
 import click
 import polars as pl
 
@@ -9,7 +7,8 @@ input_file = click.Path(exists=True, dir_okay=False, readable=True)
 output_file = click.Path(dir_okay=False, writable=True)
 
 
-ANNEES_SCRUTINS_MUNICIPAUX = [2026, 2020, 2014]
+# attention ce tableau doit être trié
+ANNEES_SCRUTINS_MUNICIPAUX = [2014, 2020, 2026]
 
 # code électoral L284
 NB_GRANDS_ELECTEURS_M9000 = {
@@ -23,46 +22,112 @@ NB_GRANDS_ELECTEURS_M9000 = {
 }
 
 
-@click.command()
-@click.option("--population", type=input_file)
-@click.option("--nb-conseillers", type=input_file)
-@click.option("--output", type=output_file)
-def main(population, nb_conseillers, output):
-    population = get_polars_dataframe(population)
-    nb_conseillers = pl.read_csv(nb_conseillers)
-
-    # on écarte les communes sans population qui n'ont pas de conseil municipal
-    population = population.filter(pl.col("population_municipale_2023") > 0)
-
-    # on écarte les cas de Paris, Lyon et Marseille qui sont spécifiques
-    population = population.filter(
-        ~pl.col("code_commune").str.starts_with("75")
-        & ~pl.col("code_commune").is_in(["13055", "69123"])
+def cas_plm(plm_2026, plm_pre_2026, population):
+    # Pour 2026, le nombre de conseillers PLM est fixé directement
+    plm_2026 = pl.read_csv(
+        plm_2026, schema_overrides={"code_commune": pl.String}
+    ).select(
+        pl.lit(2026, pl.Int64).alias("annee"),
+        "code_commune",
+        pl.col("nombre").alias("nombre_conseillers"),
     )
 
-    par_annee = []
-    for annee in ANNEES_SCRUTINS_MUNICIPAUX:
-        population_reference = population.select(
-            "code_commune",
-            pl.col(f"population_municipale_{annee - 3}").alias("population"),
-        ).sort("population")
-
-        par_annee.append(
-            population_reference.join_asof(
-                nb_conseillers,
-                left_on="population",
-                right_on="seuil_population",
-                strategy="backward",
-                check_sortedness=True,
-            ).select(
-                pl.lit(annee).alias("annee"),
-                "code_commune",
-                "population",
-                "nombre_conseillers",
-            )
+    plm_pre_2026 = (
+        pl.read_csv(
+            plm_pre_2026,
         )
+        .with_columns(code_commune=pl.col("code_secteur").str.slice(0, 5))
+        .group_by("annee", "code_commune")
+        .agg(nombre_conseillers=pl.col("nombre").sum())
+    ).sort("annee", "code_commune")
 
-    resultat = pl.concat(par_annee).sort(["annee", "code_commune"])
+    plm_pre_2026 = (
+        pl.DataFrame({"annee": [a for a in ANNEES_SCRUTINS_MUNICIPAUX if a < 2026]})
+        .join(pl.DataFrame({"code_commune": ["13055", "69123", "75056"]}), how="cross")
+        .join_asof(
+            plm_pre_2026,
+            by="code_commune",
+            left_on="annee",
+            right_on="annee",
+            strategy="backward",
+            check_sortedness=False,
+        )
+        .select("annee", "code_commune", "nombre_conseillers")
+    )
+
+    plm = pl.concat([plm_2026, plm_pre_2026])
+    plm = plm.join(population, on=["annee", "code_commune"], how="left").select(
+        "annee", "code_commune", "population", "nombre_conseillers"
+    )
+
+    return plm.sort(["annee", "code_commune"])
+
+
+def recuperer_population_reference(population):
+    pop_columns = {
+        annee: f"population_municipale_{annee - 3}"
+        for annee in ANNEES_SCRUTINS_MUNICIPAUX
+    }
+
+    population = get_polars_dataframe(
+        population, columns=["code_commune", *pop_columns.values()]
+    )
+
+    population = pl.concat(
+        population.select(
+            pl.lit(annee, dtype=pl.Int64).alias("annee"),
+            "code_commune",
+            pl.col(c).alias("population"),
+        )
+        for annee, c in pop_columns.items()
+    )
+
+    # on traite le cas parisien : il faut sommer les populations par arrondissement
+    population = (
+        population.with_columns(
+            code_commune=pl.when(pl.col("code_commune").str.starts_with("75"))
+            .then(pl.lit("75056"))
+            .otherwise(pl.col("code_commune"))
+        )
+        .group_by("annee", "code_commune")
+        .agg(pl.col("population").sum().alias("population"))
+    )
+
+    # on écarte les communes sans population qui n'ont pas de conseil municipal
+    population = population.filter(pl.col("population") > 0)
+
+    return population
+
+
+@click.command()
+@click.option("--population", type=input_file, required=True)
+@click.option("--nb-conseillers", type=input_file, required=True)
+@click.option("--plm-2026", type=input_file, required=True)
+@click.option("--plm-pre-2026", type=input_file, required=True)
+@click.option("--output", type=output_file, required=True)
+def main(population, nb_conseillers, plm_2026, plm_pre_2026, output):
+    population = recuperer_population_reference(population)
+    nb_conseillers = pl.read_csv(nb_conseillers)
+
+    cas_general = (
+        population.sort("population")
+        .join_asof(
+            nb_conseillers,
+            left_on="population",
+            right_on="seuil_population",
+            strategy="backward",
+            check_sortedness=True,
+        )
+        .select("annee", "code_commune", "population", "nombre_conseillers")
+    )
+
+    plm = cas_plm(plm_2026, plm_pre_2026, population)
+
+    resultat = (
+        pl.concat([cas_general, plm])
+        .unique(["annee", "code_commune"], keep="last")
+        .sort(["annee", "code_commune"])
+    )
 
     # pour les villes de moins de 9000 habitants, on utilise le nombre de grands
     # électeurs prévus par le code électoral article L284

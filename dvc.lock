@@ -2637,23 +2637,35 @@ stages:
     cmd: PYTHONPATH=src python -m 
       hexagonal.elections.nombre_conseillers_municipaux --population 
       data/02_clean/population_municipale.csv --nb-conseillers 
-      data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv --output 
-      data/03_main/elections/nombre_conseillers_municipaux.parquet
+      data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv 
+      --plm-2026 data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv 
+      --plm-pre-2026 
+      data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv 
+      --output data/03_main/elections/nombre_conseillers_municipaux.parquet
     deps:
     - path: data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
       hash: md5
       md5: b89885f27aca03b75606427c3a2a99a6
       size: 199
+    - path: data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv
+      hash: md5
+      md5: f19f112b76794a931762598332814dbf
+      size: 95
+    - path: 
+        data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv
+      hash: md5
+      md5: be4944d188cd2fb1aadbb1959e5dcbd2
+      size: 1330
     - path: data/02_clean/population_municipale.csv
       hash: md5
       md5: 6d4683916de6c5b5356810666bc91887
       size: 5648044
     - path: src/hexagonal/elections/nombre_conseillers_municipaux.py
       hash: md5
-      md5: b79338452652f04358bd40d54f8560b0
-      size: 3057
+      md5: e3458a54ad115368b5a9126cfdafaabb
+      size: 5155
     outs:
     - path: data/03_main/elections/nombre_conseillers_municipaux.parquet
       hash: md5
-      md5: 33f967d8f70b691f2f8b9d35093e08ef
-      size: 349427
+      md5: cd8e3894a4271977f52debd63b79a3ed
+      size: 350075
