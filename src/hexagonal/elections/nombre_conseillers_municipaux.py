@@ -90,7 +90,7 @@ def recuperer_population_reference(population):
             .otherwise(pl.col("code_commune"))
         )
         .group_by("annee", "code_commune")
-        .agg(pl.col("population").sum().alias("population"))
+        .agg(pl.col("population").sum())
     )
 
     # on écarte les communes sans population qui n'ont pas de conseil municipal
@@ -123,6 +123,8 @@ def main(population, nb_conseillers, plm_2026, plm_pre_2026, output):
 
     plm = cas_plm(plm_2026, plm_pre_2026, population)
 
+    # la déduplication permet d'écraser les valeurs incorrectes calculées pour Paris,
+    # Lyon et Marseille avec le cas général
     resultat = (
         pl.concat([cas_general, plm])
         .unique(["annee", "code_commune"], keep="last")
