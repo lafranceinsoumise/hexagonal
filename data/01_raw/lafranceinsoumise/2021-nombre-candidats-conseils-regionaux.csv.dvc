@@ -1,0 +1,5 @@
+outs:
+- md5: b02aacbee24f89262555ea1d105124ac
+  size: 889
+  hash: md5
+  path: 2021-nombre-candidats-conseils-regionaux.csv
