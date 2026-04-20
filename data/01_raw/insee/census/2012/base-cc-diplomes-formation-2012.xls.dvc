@@ -1,0 +1,5 @@
+outs:
+- md5: 0fc44e68088dd6f5d608f4bbfeff2ee5
+  size: 81148416
+  hash: md5
+  path: base-cc-diplomes-formation-2012.xls

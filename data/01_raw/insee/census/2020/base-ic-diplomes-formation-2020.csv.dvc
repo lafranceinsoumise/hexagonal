@@ -1,0 +1,5 @@
+outs:
+- md5: be2082c6cd0e8aaddf30b4d4e88f1641
+  size: 27490110
+  hash: md5
+  path: base-ic-diplomes-formation-2020.csv

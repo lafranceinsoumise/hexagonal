@@ -9282,7 +9282,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/elections/nombre_conseillers_municipaux.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/33/f967d8f70b691f2f8b9d35093e08ef |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cd/8e3894a4271977f52debd63b79a3ed |
 
 
 
@@ -9339,6 +9339,10 @@ Cette production dépend des sources suivantes :
     </ul>
         </li>
     <li><a href="sources.md#data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv">Nombre de conseillers municipaux par commune — depuis 2014</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv">Nombre de membres du Conseil de Paris et des conseils municipaux de Lyon et de Marseille pour l&#39;élection 2026</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv">Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026</a>
         </li>
     </ul>
 

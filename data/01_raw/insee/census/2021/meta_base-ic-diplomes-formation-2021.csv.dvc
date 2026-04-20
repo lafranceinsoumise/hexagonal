@@ -1,0 +1,5 @@
+outs:
+- md5: cb25af57deef6ec690191c0fb1324068
+  size: 14184778
+  hash: md5
+  path: meta_base-ic-diplomes-formation-2021.csv

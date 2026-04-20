@@ -1,0 +1,5 @@
+outs:
+- md5: 6cfe0b11491ae27f0af1378cc189ac55
+  size: 55582114
+  hash: md5
+  path: base-ic-logement-2018.csv

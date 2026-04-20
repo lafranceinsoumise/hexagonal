@@ -1,0 +1,5 @@
+outs:
+- md5: 8edf61ec17b347860329c60b696bef58
+  size: 2131056
+  hash: md5
+  path: meta_base-cc-couples-familles-menages-2022.csv

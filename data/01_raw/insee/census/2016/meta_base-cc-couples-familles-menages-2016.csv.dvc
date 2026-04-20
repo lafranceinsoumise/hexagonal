@@ -1,0 +1,5 @@
+outs:
+- md5: 5427ed37d332d23cd5d221b893999f35
+  size: 2122783
+  hash: md5
+  path: meta_base-cc-couples-familles-menages-2016.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: 89aa72db68c293c4405242484675c175
+  size: 54957843
+  hash: md5
+  path: base-cc-diplomes-formation-2016.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: b1ff668df5bfc53d0e621a2ac7859f31
+  size: 2127405
+  hash: md5
+  path: meta_base-cc-diplomes-formation-2020.csv

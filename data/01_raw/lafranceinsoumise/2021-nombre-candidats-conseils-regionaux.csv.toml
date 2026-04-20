@@ -4,3 +4,4 @@ Ce tableau transcrit le nombre de candidats à présenter par section départeme
 donné par le tableau en annexe n°7 du code électoral.
 """
 mimetype = "text/csv"
+editeur = "La France insoumise"

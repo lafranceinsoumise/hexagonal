@@ -1,0 +1,5 @@
+outs:
+- md5: 69e5785880c59d50e43d7333bd76069b
+  size: 84544004
+  hash: md5
+  path: base-cc-diplomes-formation-2022.csv

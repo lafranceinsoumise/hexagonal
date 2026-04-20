@@ -1,0 +1,5 @@
+outs:
+- md5: 3db848f92e4a264518856e780542b860
+  size: 101857401
+  hash: md5
+  path: base-cc-couples-familles-menages-2020.csv

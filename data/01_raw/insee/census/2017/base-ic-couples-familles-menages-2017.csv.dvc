@@ -1,0 +1,5 @@
+outs:
+- md5: 1077301bebf46fa71ffece8a812a0714
+  size: 43669747
+  hash: md5
+  path: base-ic-couples-familles-menages-2017.csv

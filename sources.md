@@ -14,129 +14,177 @@
 - [INSEE](#insee)
   - [Admin Express COG édition 2024 France entière](#data/01_raw/ign/admin_express/admin_express_cog.7z)
   - [Répertoire électoral unique — table des bureaux de vote](#data/01_raw/insee/2022-reu-bureaux.parquet)
-  - [Recensement de la population 2006 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2006/base-cc-carac-emploi-2006.xls)
-  - [Recensement de la population 2006 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2006/base-cc-coupl-fam-men-2006.xls)
+  - [Recensement de la population 2006 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2006/base-cc-caract-emploi-2006.xls)
+  - [Recensement de la population 2006 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2006/base-cc-couples-familles-menages-2006.xls)
   - [Recensement de la population 2006 — Logement (Commune)](#data/01_raw/insee/census/2006/base-cc-logement-2006.xls)
-  - [Recensement de la population 2006 — Logement (Commune)](#data/01_raw/insee/census/2006/base-cc-logement-2007.xls)
-  - [Recensement de la population 2007 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2007/base-cc-carac-emploi-2007.xls)
-  - [Recensement de la population 2007 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2007/base-cc-coupl-fam-men-2007.xls)
+  - [Recensement de la population 2007 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2007/base-cc-caract-emploi-2007.xls)
+  - [Recensement de la population 2007 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2007/base-cc-couples-familles-menages-2007.xls)
   - [Recensement de la population 2007 — Logement (Commune)](#data/01_raw/insee/census/2007/base-cc-logement-2007.xls)
-  - [Recensement de la population 2007 — Logement (Commune)](#data/01_raw/insee/census/2007/base-cc-logement-2009.xls)
-  - [Recensement de la population 2008 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2008/base-cc-carac-emploi-2008.xls)
-  - [Recensement de la population 2008 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2008/base-cc-coupl-fam-men-2008.xls)
+  - [Recensement de la population 2008 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2008/base-cc-caract-emploi-2008.xls)
+  - [Recensement de la population 2008 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2008/base-cc-couples-familles-menages-2008.xls)
+  - [Recensement de la population 2009 — Emploi et population active (Commune)](#data/01_raw/insee/census/2008/base-cc-emploi-pop-active-2008.xls)
   - [Recensement de la population 2008 — Logement (Commune)](#data/01_raw/insee/census/2008/base-cc-logement-2008.xls)
-  - [Recensement de la population 2009 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2009/base-cc-coupl-fam-men-2009.xls)
-  - [Recensement de la population 2009 — Emploi et population active (Commune)](#data/01_raw/insee/census/2009/base-cc-emploi-pop-active-2008.xls)
-  - [Recensement de la population 2009 — Logement (Commune)](#data/01_raw/insee/census/2009/base-cc-logement-2009.xls)
+  - [Recensement de la population 2009 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2009/base-cc-couples-familles-menages-2009.xls)
+  - [Recensement de la population 2007 — Logement (Commune)](#data/01_raw/insee/census/2009/base-cc-logement-2009.xls)
   - [Recensement de la population 2010 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2010/base-cc-diplomes-formation-2010.xls)
   - [Recensement de la population 2010 — Emploi et population active (Commune)](#data/01_raw/insee/census/2010/base-cc-emploi-pop-active-2010.xls)
   - [Recensement de la population 2010 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2010/base-cc-evol-struct-pop-2010.xls)
-  - [Recensement de la population 2010 — Logement (Commune)](#data/01_raw/insee/census/2010/base-cc-logement_2010.xls)
-  - [Recensement de la population 2011 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2011/base-cc-carac-emploi-2011.xls)
-  - [Recensement de la population 2011 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2011/base-cc-diplomes-formation_2011.xls)
+  - [Recensement de la population 2010 — Logement (Commune)](#data/01_raw/insee/census/2010/base-cc-logement-2010.xls)
+  - [Recensement de la population 2011 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2011/base-cc-caract-emploi-2011.xls)
+  - [Recensement de la population 2011 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2011/base-cc-diplomes-formation-2011.xls)
   - [Recensement de la population 2011 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2011/base-cc-evol-struct-pop-2011.xls)
-  - [Recensement de la population 2012 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2012/base-cc-diplomes-formation_2012.xls)
+  - [Recensement de la population 2012 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2012/base-cc-diplomes-formation-2012.xls)
   - [Recensement de la population 2012 — Emploi et population active (Commune)](#data/01_raw/insee/census/2012/base-cc-emploi-pop-active-2012.xls)
   - [Recensement de la population 2012 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2012/base-cc-evol-struct-pop-2012.xls)
   - [Recensement de la population 2012 — Logement (Commune)](#data/01_raw/insee/census/2012/base-cc-logement-2012.xls)
   - [Recensement de la population 2013 — Caractéristiques de l&#39;emploi (Commune)](#data/01_raw/insee/census/2013/base-cc-caract-emploi-2013.xls)
-  - [Recensement de la population 2013 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013-com.xls)
+  - [Recensement de la population 2013 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013.xls)
   - [Recensement de la population 2013 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2013/base-cc-evol-struct-pop-2013.xls)
-  - [Recensement de la population 2013 — Logement (Commune)](#data/01_raw/insee/census/2013/base-cc-logement_2013.xls)
-  - [Recensement de la population 2014 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2014/base-cc-coupl-fam-men-2014.xls)
-  - [Recensement de la population 2014 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2014/base-cc-diplomes-formation-2014.xls)
-  - [Recensement de la population 2014 — Emploi et population active (Commune)](#data/01_raw/insee/census/2014/base-cc-emploi-pop-act-2014.xls)
+  - [Recensement de la population 2013 — Logement (Commune)](#data/01_raw/insee/census/2013/base-cc-logement-2013.xls)
+  - [Recensement de la population 2013 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2013/base-ic-activite-residents-2013.xls)
+  - [Recensement de la population 2013 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2013/base-ic-diplomes-formation-2013.xls)
+  - [Recensement de la population 2013 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2013/base-ic-evol-struct-pop-2013.xls)
+  - [Recensement de la population 2013 — Logement (IRIS)](#data/01_raw/insee/census/2013/base-ic-logement-2013.xls)
+  - [Recensement de la population 2014 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2014/base-cc-couples-familles-menages-2014.xls)
+  - [Recensement 2014 — diplômes et formation — par commune](#data/01_raw/insee/census/2014/base-cc-diplomes-formation-2014.xls)
+  - [Recensement de la population 2014 — Emploi et population active (Commune)](#data/01_raw/insee/census/2014/base-cc-emploi-pop-active-2014.xls)
   - [Recensement de la population 2014 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2014/base-cc-evol-struct-pop-2014.xls)
   - [Recensement de la population 2014 — Logement (Commune)](#data/01_raw/insee/census/2014/base-cc-logement-2014.xls)
-  - [Recensement de la population 2015 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2015/base-cc-coupl-fam-men-2015.xls)
+  - [Recensement de la population 2014 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2014/base-ic-activite-residents-2014.xls)
+  - [Recensement de la population 2014 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2014/base-ic-couples-familles-menages-2014.xls)
+  - [Recensement de la population 2014 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2014/base-ic-diplomes-formation-2014.xls)
+  - [Recensement de la population 2014 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2014/base-ic-evol-struct-pop-2014.xls)
+  - [Recensement de la population 2014 — Logement (IRIS)](#data/01_raw/insee/census/2014/base-ic-logement-2014.xls)
+  - [Recensement de la population 2015 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2015/base-cc-couples-familles-menages-2015.xls)
   - [Recensement de la population 2015 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2015/base-cc-diplomes-formation-2015.xls)
   - [Recensement de la population 2015 — Emploi et population active (Commune)](#data/01_raw/insee/census/2015/base-cc-emploi-pop-active-2015.xls)
   - [Recensement de la population 2015 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2015/base-cc-evol-struct-pop-2015.xls)
   - [Recensement de la population 2015 — Logement (Commune)](#data/01_raw/insee/census/2015/base-cc-logement-2015.xls)
-  - [Recensement de la population 2016 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2016/base-cc-coupl-fam-men-2016.CSV)
-  - [Recensement de la population 2016 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.CSV)
-  - [Recensement de la population 2016 — Emploi et population active (Commune)](#data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.CSV)
-  - [Recensement de la population 2016 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.CSV)
-  - [Recensement de la population 2016 — Logement (Commune)](#data/01_raw/insee/census/2016/base_cc_logement-2016.CSV)
-  - [Recensement de la population 2017 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2017/base-cc-coupl-fam-men-2017.xlsx)
+  - [Recensement de la population 2015 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2015/base-ic-activite-residents-2015.xls)
+  - [Recensement de la population 2015 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2015/base-ic-couples-familles-menages-2015.xls)
+  - [Recensement de la population 2015 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2015/base-ic-diplomes-formation-2015.xls)
+  - [Recensement de la population 2015 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2015/base-ic-evol-struct-pop-2015.xls)
+  - [Recensement de la population 2015 — Logement (IRIS)](#data/01_raw/insee/census/2015/base-ic-logement-2015.xls)
+  - [Recensement de la population 2016 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2016/base-cc-couples-familles-menages-2016.csv)
+  - [Recensement de la population 2016 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.csv)
+  - [Recensement de la population 2016 — Emploi et population active (Commune)](#data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.csv)
+  - [Recensement de la population 2016 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.csv)
+  - [Recensement de la population 2016 — Logement (Commune)](#data/01_raw/insee/census/2016/base-cc-logement-2016.csv)
+  - [Recensement de la population 2016 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2016/base-ic-activite-residents-2016.xls)
+  - [Recensement de la population 2016 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2016/base-ic-couples-familles-menages-2016.xls)
+  - [Recensement de la population 2016 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2016/base-ic-diplomes-formation-2016.xls)
+  - [Recensement de la population 2016 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2016/base-ic-evol-struct-pop-2016.xls)
+  - [Recensement de la population 2016 — Logement (IRIS)](#data/01_raw/insee/census/2016/base-ic-logement-2016.xls)
+  - [Documentation recensement 2016 — couples, familles et ménages — par commune](#data/01_raw/insee/census/2016/meta_base-cc-couples-familles-menages-2016.csv)
+  - [Documentation recensement 2016 — diplômes et formation — par commune](#data/01_raw/insee/census/2016/meta_base-cc-diplomes-formation-2016.csv)
+  - [Documentation recensement 2016 — emploi et population active — par commune](#data/01_raw/insee/census/2016/meta_base-cc-emploi-pop-active-2016.csv)
+  - [Documentation recensement 2016 — évolution et structure de la population — par commune](#data/01_raw/insee/census/2016/meta_base-cc-evol-struct-pop-2016.csv)
+  - [Documentation recensement 2016 — logement — par commune](#data/01_raw/insee/census/2016/meta_base-cc-logement-2016.csv)
+  - [Recensement de la population 2017 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2017/base-cc-couples-familles-menages-2017.xlsx)
   - [Recensement de la population 2017 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2017/base-cc-diplomes-formation-2017.xlsx)
   - [Recensement de la population 2017 — Emploi et population active (Commune)](#data/01_raw/insee/census/2017/base-cc-emploi-pop-active-2017.xlsx)
   - [Recensement de la population 2017 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2017/base-cc-evol-struct-pop-2017.xlsx)
   - [Recensement de la population 2017 — Logement (Commune)](#data/01_raw/insee/census/2017/base-cc-logement-2017.xlsx)
-  - [Recensement de la population 2018 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2018/base-cc-coupl-fam-men-2018.xlsx)
+  - [Recensement de la population 2017 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2017/base-ic-activite-residents-2017.csv)
+  - [Recensement de la population 2017 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2017/base-ic-couples-familles-menages-2017.csv)
+  - [Recensement de la population 2017 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2017/base-ic-diplomes-formation-2017.csv)
+  - [Recensement de la population 2017 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2017/base-ic-evol-struct-pop-2017.csv)
+  - [Recensement de la population 2017 — Logement (IRIS)](#data/01_raw/insee/census/2017/base-ic-logement-2017.csv)
+  - [Documentation recensement 2017 — activité des résidents — par iris](#data/01_raw/insee/census/2017/meta_base-ic-activite-residents-2017.csv)
+  - [Documentation recensement 2017 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2017/meta_base-ic-couples-familles-menages-2017.csv)
+  - [Documentation recensement 2017 — diplômes et formation — par iris](#data/01_raw/insee/census/2017/meta_base-ic-diplomes-formation-2017.csv)
+  - [Documentation recensement 2017 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2017/meta_base-ic-evol-struct-pop-2017.csv)
+  - [Documentation recensement 2017 — logement — par iris](#data/01_raw/insee/census/2017/meta_base-ic-logement-2017.csv)
+  - [Recensement de la population 2018 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2018/base-cc-couples-familles-menages-2018.xlsx)
   - [Recensement de la population 2018 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2018/base-cc-diplomes-formation-2018.xlsx)
   - [Recensement de la population 2018 — Emploi et population active (Commune)](#data/01_raw/insee/census/2018/base-cc-emploi-pop-active-2018.xlsx)
   - [Recensement de la population 2018 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2018/base-cc-evol-struct-pop-2018.xlsx)
   - [Recensement de la population 2018 — Logement (Commune)](#data/01_raw/insee/census/2018/base-cc-logement-2018.xlsx)
-  - [Recensement de la population 2019 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2019/base-cc-coupl-fam-men-2019.xlsx)
+  - [Recensement de la population 2018 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2018/base-ic-activite-residents-2018.csv)
+  - [Recensement de la population 2018 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2018/base-ic-couples-familles-menages-2018.csv)
+  - [Recensement de la population 2018 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2018/base-ic-diplomes-formation-2018.csv)
+  - [Recensement de la population 2018 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2018/base-ic-evol-struct-pop-2018.csv)
+  - [Recensement de la population 2018 — Logement (IRIS)](#data/01_raw/insee/census/2018/base-ic-logement-2018.csv)
+  - [Documentation recensement 2018 — activité des résidents — par iris](#data/01_raw/insee/census/2018/meta_base-ic-activite-residents-2018.csv)
+  - [Documentation recensement 2018 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2018/meta_base-ic-couples-familles-menages-2018.csv)
+  - [Documentation recensement 2018 — diplômes et formation — par iris](#data/01_raw/insee/census/2018/meta_base-ic-diplomes-formation-2018.csv)
+  - [Documentation recensement 2018 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2018/meta_base-ic-evol-struct-pop-2018.csv)
+  - [Documentation recensement 2018 — logement — par iris](#data/01_raw/insee/census/2018/meta_base-ic-logement-2018.csv)
+  - [Recensement de la population 2019 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2019/base-cc-couples-familles-menages-2019.xlsx)
   - [Recensement de la population 2019 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2019/base-cc-diplomes-formation-2019.xlsx)
   - [Recensement de la population 2019 — Emploi et population active (Commune)](#data/01_raw/insee/census/2019/base-cc-emploi-pop-active-2019.xlsx)
   - [Recensement de la population 2019 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2019/base-cc-evol-struct-pop-2019.xlsx)
   - [Recensement de la population 2019 — Logement (Commune)](#data/01_raw/insee/census/2019/base-cc-logement-2019.xlsx)
-  - [Recensement de la population 2020 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2020/base-cc-coupl-fam-men-2020.CSV)
-  - [Recensement de la population 2020 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.CSV)
-  - [Recensement de la population 2020 — Emploi et population active (Commune)](#data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020_v2.CSV)
-  - [Recensement de la population 2020 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.CSV)
-  - [Recensement de la population 2020 — Logement (Commune)](#data/01_raw/insee/census/2020/base-cc-logement-2020.CSV)
-  - [Recensement de la population 2021 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2021/base-cc-coupl-fam-men-2021.CSV)
-  - [Recensement de la population 2021 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.CSV)
-  - [Recensement de la population 2021 — Emploi et population active (Commune)](#data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.CSV)
-  - [Recensement de la population 2021 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.CSV)
-  - [Recensement de la population 2021 — Logement (Commune)](#data/01_raw/insee/census/2021/base-cc-logement-2021.CSV)
-  - [Recensement de la population 2022 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2022/base-cc-coupl-fam-men-2022.CSV)
-  - [Recensement de la population 2022 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.CSV)
-  - [Recensement de la population 2022 — Emploi et population active (Commune)](#data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.CSV)
-  - [Recensement de la population 2022 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.CSV)
-  - [Recensement de la population 2022 — Logement (Commune)](#data/01_raw/insee/census/2022/base-cc-logement-2022.CSV)
-  - [Recensement de la population 2013 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2013/base-ic-activite-residents-2013.xls)
-  - [Recensement de la population 2013 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2013/base-ic-diplomes-formation-2013.xls)
-  - [Recensement de la population 2013 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2013/base-ic-evol-struct-pop-2013.xls)
-  - [Recensement de la population 2013 — Logement (IRIS)](#data/01_raw/insee/census_iris/2013/base-ic-logement-2013.xls)
-  - [Recensement de la population 2014 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2014/base-ic-activite-residents-2014.xls)
-  - [Recensement de la population 2014 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2014/base-ic-couples-familles-menages-2014.xls)
-  - [Recensement de la population 2014 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2014/base-ic-diplomes-formation-2014.xls)
-  - [Recensement de la population 2014 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2014/base-ic-evol-struct-pop-2014.xls)
-  - [Recensement de la population 2014 — Logement (IRIS)](#data/01_raw/insee/census_iris/2014/base-ic-logement-2014.xls)
-  - [Recensement de la population 2015 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2015/base-ic-activite-residents-2015.xls)
-  - [Recensement de la population 2015 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2015/base-ic-couples-familles-menages-2015.xls)
-  - [Recensement de la population 2015 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2015/base-ic-diplomes-formation-2015.xls)
-  - [Recensement de la population 2015 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2015/base-ic-evol-struct-pop-2015.xls)
-  - [Recensement de la population 2015 — Logement (IRIS)](#data/01_raw/insee/census_iris/2015/base-ic-logement-2015.xls)
-  - [Recensement de la population 2016 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2016/base-ic-activite-residents-2016.xls)
-  - [Recensement de la population 2016 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2016/base-ic-couples-familles-menages-2016.xls)
-  - [Recensement de la population 2016 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2016/base-ic-diplomes-formation-2016.xls)
-  - [Recensement de la population 2016 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2016/base-ic-evol-struct-pop-2016.xls)
-  - [Recensement de la population 2016 — Logement (IRIS)](#data/01_raw/insee/census_iris/2016/base-ic-logement-2016.xls)
-  - [Recensement de la population 2017 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2017/base-ic-activite-residents-2017.CSV)
-  - [Recensement de la population 2017 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2017/base-ic-couples-familles-menages-2017.CSV)
-  - [Recensement de la population 2017 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2017/base-ic-diplomes-formation-2017.CSV)
-  - [Recensement de la population 2017 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2017/base-ic-evol-struct-pop-2017.CSV)
-  - [Recensement de la population 2017 — Logement (IRIS)](#data/01_raw/insee/census_iris/2017/base-ic-logement-2017.CSV)
-  - [Recensement de la population 2018 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2018/base-ic-activite-residents-2018.CSV)
-  - [Recensement de la population 2018 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2018/base-ic-couples-familles-menages-2018.CSV)
-  - [Recensement de la population 2018 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2018/base-ic-diplomes-formation-2018.CSV)
-  - [Recensement de la population 2018 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2018/base-ic-evol-struct-pop-2018.CSV)
-  - [Recensement de la population 2018 — Logement (IRIS)](#data/01_raw/insee/census_iris/2018/base-ic-logement-2018.CSV)
-  - [Recensement de la population 2019 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2019/base-ic-activite-residents-2019.CSV)
-  - [Recensement de la population 2019 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2019/base-ic-couples-familles-menages-2019.CSV)
-  - [Recensement de la population 2019 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2019/base-ic-diplomes-formation-2019.CSV)
-  - [Recensement de la population 2019 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2019/base-ic-evol-struct-pop-2019.CSV)
-  - [Recensement de la population 2019 — Logement (IRIS)](#data/01_raw/insee/census_iris/2019/base-ic-logement-2019.CSV)
-  - [Recensement de la population 2020 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2020/base-ic-activite-residents-2020.CSV)
-  - [Recensement de la population 2020 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2020/base-ic-couples-familles-menages-2020.CSV)
-  - [Recensement de la population 2020 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2020/base-ic-diplomes-formation-2020.CSV)
-  - [Recensement de la population 2020 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2020/base-ic-evol-struct-pop-2020.CSV)
-  - [Recensement de la population 2020 — Logement (IRIS)](#data/01_raw/insee/census_iris/2020/base-ic-logement-2020.CSV)
-  - [Recensement de la population 2021 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2021/base-ic-activite-residents-2021.CSV)
-  - [Recensement de la population 2021 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2021/base-ic-couples-familles-menages-2021.CSV)
-  - [Recensement de la population 2021 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2021/base-ic-diplomes-formation-2021.CSV)
-  - [Recensement de la population 2021 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2021/base-ic-evol-struct-pop-2021.CSV)
-  - [Recensement de la population 2021 — Logement (IRIS)](#data/01_raw/insee/census_iris/2021/base-ic-logement-2021.CSV)
-  - [Recensement de la population 2022 — Activité des résidents (IRIS)](#data/01_raw/insee/census_iris/2022/base-ic-activite-residents-2022.CSV)
-  - [Recensement de la population 2022 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census_iris/2022/base-ic-couples-familles-menages-2022.CSV)
-  - [Recensement de la population 2022 — Diplômes et formation (IRIS)](#data/01_raw/insee/census_iris/2022/base-ic-diplomes-formation-2022.CSV)
-  - [Recensement de la population 2022 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census_iris/2022/base-ic-evol-struct-pop-2022.CSV)
-  - [Recensement de la population 2022 — Logement (IRIS)](#data/01_raw/insee/census_iris/2022/base-ic-logement-2022.CSV)
+  - [Recensement de la population 2019 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2019/base-ic-activite-residents-2019.csv)
+  - [Recensement de la population 2019 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2019/base-ic-couples-familles-menages-2019.csv)
+  - [Recensement de la population 2019 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2019/base-ic-diplomes-formation-2019.csv)
+  - [Recensement de la population 2019 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2019/base-ic-evol-struct-pop-2019.csv)
+  - [Recensement de la population 2019 — Logement (IRIS)](#data/01_raw/insee/census/2019/base-ic-logement-2019.csv)
+  - [Documentation recensement 2019 — activité des résidents — par iris](#data/01_raw/insee/census/2019/meta_base-ic-activite-residents-2019.csv)
+  - [Documentation recensement 2019 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2019/meta_base-ic-couples-familles-menages-2019.csv)
+  - [Documentation recensement 2019 — diplômes et formation — par iris](#data/01_raw/insee/census/2019/meta_base-ic-diplomes-formation-2019.csv)
+  - [Documentation recensement 2019 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2019/meta_base-ic-evol-struct-pop-2019.csv)
+  - [Documentation recensement 2019 — logement — par iris](#data/01_raw/insee/census/2019/meta_base-ic-logement-2019.csv)
+  - [Recensement de la population 2020 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2020/base-cc-couples-familles-menages-2020.csv)
+  - [Recensement de la population 2020 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.csv)
+  - [Recensement de la population 2020 — Emploi et population active (Commune)](#data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020.csv)
+  - [Recensement de la population 2020 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.csv)
+  - [Recensement de la population 2020 — Logement (Commune)](#data/01_raw/insee/census/2020/base-cc-logement-2020.csv)
+  - [Recensement de la population 2020 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2020/base-ic-activite-residents-2020.csv)
+  - [Recensement de la population 2020 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2020/base-ic-couples-familles-menages-2020.csv)
+  - [Recensement de la population 2020 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2020/base-ic-diplomes-formation-2020.csv)
+  - [Recensement de la population 2020 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2020/base-ic-evol-struct-pop-2020.csv)
+  - [Recensement de la population 2020 — Logement (IRIS)](#data/01_raw/insee/census/2020/base-ic-logement-2020.csv)
+  - [Documentation recensement 2020 — couples, familles et ménages — par commune](#data/01_raw/insee/census/2020/meta_base-cc-couples-familles-menages-2020.csv)
+  - [Documentation recensement 2020 — diplômes et formation — par commune](#data/01_raw/insee/census/2020/meta_base-cc-diplomes-formation-2020.csv)
+  - [Documentation recensement 2020 — emploi et population active — par commune](#data/01_raw/insee/census/2020/meta_base-cc-emploi-pop-active-2020.csv)
+  - [Documentation recensement 2020 — évolution et structure de la population — par commune](#data/01_raw/insee/census/2020/meta_base-cc-evol-struct-pop-2020.csv)
+  - [Documentation recensement 2020 — logement — par commune](#data/01_raw/insee/census/2020/meta_base-cc-logement-2020.csv)
+  - [Documentation recensement 2020 — activité des résidents — par iris](#data/01_raw/insee/census/2020/meta_base-ic-activite-residents-2020.csv)
+  - [Documentation recensement 2020 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2020/meta_base-ic-couples-familles-menages-2020.csv)
+  - [Documentation recensement 2020 — diplômes et formation — par iris](#data/01_raw/insee/census/2020/meta_base-ic-diplomes-formation-2020.csv)
+  - [Documentation recensement 2020 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2020/meta_base-ic-evol-struct-pop-2020.csv)
+  - [Documentation recensement 2020 — logement — par iris](#data/01_raw/insee/census/2020/meta_base-ic-logement-2020.csv)
+  - [Recensement de la population 2021 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2021/base-cc-couples-familles-menages-2021.csv)
+  - [Recensement de la population 2021 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.csv)
+  - [Recensement de la population 2021 — Emploi et population active (Commune)](#data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.csv)
+  - [Recensement de la population 2021 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.csv)
+  - [Recensement de la population 2021 — Logement (Commune)](#data/01_raw/insee/census/2021/base-cc-logement-2021.csv)
+  - [Recensement de la population 2021 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2021/base-ic-activite-residents-2021.csv)
+  - [Recensement de la population 2021 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2021/base-ic-couples-familles-menages-2021.csv)
+  - [Recensement de la population 2021 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2021/base-ic-diplomes-formation-2021.csv)
+  - [Recensement de la population 2021 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2021/base-ic-evol-struct-pop-2021.csv)
+  - [Recensement de la population 2021 — Logement (IRIS)](#data/01_raw/insee/census/2021/base-ic-logement-2021.csv)
+  - [Documentation recensement 2021 — couples, familles et ménages — par commune](#data/01_raw/insee/census/2021/meta_base-cc-couples-familles-menages-2021.csv)
+  - [Documentation recensement 2021 — diplômes et formation — par commune](#data/01_raw/insee/census/2021/meta_base-cc-diplomes-formation-2021.csv)
+  - [Documentation recensement 2021 — emploi et population active — par commune](#data/01_raw/insee/census/2021/meta_base-cc-emploi-pop-active-2021.csv)
+  - [Documentation recensement 2021 — évolution et structure de la population — par commune](#data/01_raw/insee/census/2021/meta_base-cc-evol-struct-pop-2021.csv)
+  - [Documentation recensement 2021 — logement — par commune](#data/01_raw/insee/census/2021/meta_base-cc-logement-2021.csv)
+  - [Documentation recensement 2021 — activité des résidents — par iris](#data/01_raw/insee/census/2021/meta_base-ic-activite-residents-2021.csv)
+  - [Documentation recensement 2021 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2021/meta_base-ic-couples-familles-menages-2021.csv)
+  - [Documentation recensement 2021 — diplômes et formation — par iris](#data/01_raw/insee/census/2021/meta_base-ic-diplomes-formation-2021.csv)
+  - [Documentation recensement 2021 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2021/meta_base-ic-evol-struct-pop-2021.csv)
+  - [Documentation recensement 2021 — logement — par iris](#data/01_raw/insee/census/2021/meta_base-ic-logement-2021.csv)
+  - [Recensement de la population 2022 — Couples, familles et ménages (Commune)](#data/01_raw/insee/census/2022/base-cc-couples-familles-menages-2022.csv)
+  - [Recensement de la population 2022 — Diplômes et formation (Commune)](#data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.csv)
+  - [Recensement de la population 2022 — Emploi et population active (Commune)](#data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.csv)
+  - [Recensement de la population 2022 — Évolution et structure de la population (Commune)](#data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.csv)
+  - [Recensement de la population 2022 — Logement (Commune)](#data/01_raw/insee/census/2022/base-cc-logement-2022.csv)
+  - [Recensement de la population 2022 — Activité des résidents (IRIS)](#data/01_raw/insee/census/2022/base-ic-activite-residents-2022.csv)
+  - [Recensement de la population 2022 — Couples, familles et ménages (IRIS)](#data/01_raw/insee/census/2022/base-ic-couples-familles-menages-2022.csv)
+  - [Recensement de la population 2022 — Diplômes et formation (IRIS)](#data/01_raw/insee/census/2022/base-ic-diplomes-formation-2022.csv)
+  - [Recensement de la population 2022 — Évolution et structure de la population (IRIS)](#data/01_raw/insee/census/2022/base-ic-evol-struct-pop-2022.csv)
+  - [Recensement de la population 2022 — Logement (IRIS)](#data/01_raw/insee/census/2022/base-ic-logement-2022.csv)
+  - [Documentation recensement 2022 — couples, familles et ménages — par commune](#data/01_raw/insee/census/2022/meta_base-cc-couples-familles-menages-2022.csv)
+  - [Documentation recensement 2022 — diplômes et formation — par commune](#data/01_raw/insee/census/2022/meta_base-cc-diplomes-formation-2022.csv)
+  - [Documentation recensement 2022 — emploi et population active — par commune](#data/01_raw/insee/census/2022/meta_base-cc-emploi-pop-active-2022.csv)
+  - [Documentation recensement 2022 — évolution et structure de la population — par commune](#data/01_raw/insee/census/2022/meta_base-cc-evol-struct-pop-2022.csv)
+  - [Documentation recensement 2022 — logement — par commune](#data/01_raw/insee/census/2022/meta_base-cc-logement-2022.csv)
+  - [Documentation recensement 2022 — activité des résidents — par iris](#data/01_raw/insee/census/2022/meta_base-ic-activite-residents-2022.csv)
+  - [Documentation recensement 2022 — couples, familles et ménages — par iris](#data/01_raw/insee/census/2022/meta_base-ic-couples-familles-menages-2022.csv)
+  - [Documentation recensement 2022 — diplômes et formation — par iris](#data/01_raw/insee/census/2022/meta_base-ic-diplomes-formation-2022.csv)
+  - [Documentation recensement 2022 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2022/meta_base-ic-evol-struct-pop-2022.csv)
+  - [Documentation recensement 2022 — logement — par iris](#data/01_raw/insee/census/2022/meta_base-ic-logement-2022.csv)
   - [Code Officiel Géographique 2024](#data/01_raw/insee/cog.zip)
   - [FILOSOFI 2021 — Revenu disponible par IRIS](#data/01_raw/insee/filosofi-disponible.zip)
   - [Circonscriptions législatives - Fond cartographique](#data/01_raw/insee/insee_circonscriptions_legislatives.zip)
@@ -145,7 +193,10 @@
   - [Codage des nuances politiques des candidats aux élections législatives des 12 et 19 juin 2022](#data/01_raw/legis_2022/2022-legislatives-nuances.csv)
 - [La France insoumise](#la-france-insoumise)
   - [Nombre de conseillers municipaux par commune — de 1996 à 2008](#data/01_raw/lafranceinsoumise/1996-nb-conseillers-municipaux.csv)
+  - [Nombre de sénateurs par département](#data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv)
   - [Nombre de conseillers municipaux par commune — depuis 2014](#data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv)
+  - [Nombre de candidats aux élections régionales par section départementale](#data/01_raw/lafranceinsoumise/2021-nombre-candidats-conseils-regionaux.csv)
+  - [Nombre de conseillers régionaux par région](#data/01_raw/lafranceinsoumise/2021-nombre-conseillers-regionaux.csv)
   - [Listes déposées pour l&#39;élection européenne 2024 en France](#data/01_raw/lafranceinsoumise/2024-europeenne-listes.csv)
   - [Nuançage précis des candidats aux législatives 2024](#data/01_raw/lafranceinsoumise/2024-legislatives-candidats.csv)
   - [Liste des candidats du Nouveau Front populaire et de leur sensibilité par circonscription législative](#data/01_raw/lafranceinsoumise/2024-legislatives-nfp-sensibilites.csv)
@@ -153,7 +204,6 @@
   - [Nombre de membres des conseils de secteurs de Paris, Lyon et Marseille pour l&#39;élection 2026](#data/01_raw/lafranceinsoumise/2026-conseillers-arrondissement-plm.csv)
   - [Nombre de membres du Conseil de Paris et des conseils municipaux de Lyon et de Marseille pour l&#39;élection 2026](#data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv)
   - [Liste des listes soutenues par la France insoumise aux municipales de 2026](#data/01_raw/lafranceinsoumise/2026-municipales-1-listes-lfi.parquet)
-  - [Anomalies dans les correspondances entre les candidats au 1er et 2e tour des élections municipales 2026](#data/01_raw/lafranceinsoumise/2026-municipales-anomalies-candidats.parquet)
   - [Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026](#data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv)
   - [Paramètres électoraux des différents scrutins de listes](#data/01_raw/lafranceinsoumise/scrutins_listes.csv)
 - [La Poste](#la-poste)
@@ -178,6 +228,7 @@
   - [Résultats de l&#39;élection européenne de 2019 par bureau de vote](#data/01_raw/ministere_interieur/2019-europeenne-bureau_de_vote.csv)
   - [Résultats du premier tour des municipales 2020 par bureau de vote](#data/01_raw/ministere_interieur/2020-municipales-1-bureau_de_vote_avant_correction.csv)
   - [Résultats du deuxième tour des municipales 2020 par bureau de vote](#data/01_raw/ministere_interieur/2020-municipales-2-bureau_de_vote.csv)
+  - [Résultats des sénatoriales 2020 par département](#data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx)
   - [Résultats du premier tour des élections départementales de 2021 par bureau de vote](#data/01_raw/ministere_interieur/2021-departementales-1-bureau_de_vote.csv)
   - [Résultats du deuxième tour des élections départementales de 2021 par bureau de vote](#data/01_raw/ministere_interieur/2021-departementales-2-bureau_de_vote.csv)
   - [Résultats du premier tour des élections régionales de 2021 par bureau de vote](#data/01_raw/ministere_interieur/2021-regionales-1-bureau_de_vote.csv)
@@ -390,11 +441,11 @@ géographique publié chaque année par l’INSEE.
 Il s&#39;agit de la table des bureaux de vote du REU.
 
 ### Recensement de la population 2006 — Caractéristiques de l&#39;emploi (Commune)
-<a name="data/01_raw/insee/census/2006/base-cc-carac-emploi-2006.xls"></a>
+<a name="data/01_raw/insee/census/2006/base-cc-caract-emploi-2006.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2006/base-cc-carac-emploi-2006.xls |
+| Chemin interne | data/01_raw/insee/census/2006/base-cc-caract-emploi-2006.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -403,11 +454,11 @@ Il s&#39;agit de la table des bureaux de vote du REU.
 Données sur les caractéristiques de l&#39;emploi issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2006 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2006/base-cc-coupl-fam-men-2006.xls"></a>
+<a name="data/01_raw/insee/census/2006/base-cc-couples-familles-menages-2006.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2006/base-cc-coupl-fam-men-2006.xls |
+| Chemin interne | data/01_raw/insee/census/2006/base-cc-couples-familles-menages-2006.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -428,25 +479,12 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2006 — Logement (Commune)
-<a name="data/01_raw/insee/census/2006/base-cc-logement-2007.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2006/base-cc-logement-2007.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c3/2bbd98d34956f82a57e48a859faafb |
-
-Données sur le logement issues du recensement de la population au niveau communal.
-
 ### Recensement de la population 2007 — Caractéristiques de l&#39;emploi (Commune)
-<a name="data/01_raw/insee/census/2007/base-cc-carac-emploi-2007.xls"></a>
+<a name="data/01_raw/insee/census/2007/base-cc-caract-emploi-2007.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2007/base-cc-carac-emploi-2007.xls |
+| Chemin interne | data/01_raw/insee/census/2007/base-cc-caract-emploi-2007.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -455,11 +493,11 @@ Données sur le logement issues du recensement de la population au niveau commun
 Données sur les caractéristiques de l&#39;emploi issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2007 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2007/base-cc-coupl-fam-men-2007.xls"></a>
+<a name="data/01_raw/insee/census/2007/base-cc-couples-familles-menages-2007.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2007/base-cc-coupl-fam-men-2007.xls |
+| Chemin interne | data/01_raw/insee/census/2007/base-cc-couples-familles-menages-2007.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -480,25 +518,12 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2007 — Logement (Commune)
-<a name="data/01_raw/insee/census/2007/base-cc-logement-2009.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2007/base-cc-logement-2009.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8c/6d1905ed26c3e3b369aaa8c7ccdb30 |
-
-Données sur le logement issues du recensement de la population au niveau communal.
-
 ### Recensement de la population 2008 — Caractéristiques de l&#39;emploi (Commune)
-<a name="data/01_raw/insee/census/2008/base-cc-carac-emploi-2008.xls"></a>
+<a name="data/01_raw/insee/census/2008/base-cc-caract-emploi-2008.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2008/base-cc-carac-emploi-2008.xls |
+| Chemin interne | data/01_raw/insee/census/2008/base-cc-caract-emploi-2008.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -507,17 +532,30 @@ Données sur le logement issues du recensement de la population au niveau commun
 Données sur les caractéristiques de l&#39;emploi issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2008 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2008/base-cc-coupl-fam-men-2008.xls"></a>
+<a name="data/01_raw/insee/census/2008/base-cc-couples-familles-menages-2008.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2008/base-cc-coupl-fam-men-2008.xls |
+| Chemin interne | data/01_raw/insee/census/2008/base-cc-couples-familles-menages-2008.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/45/184113766e2bba114576ad5bd1178d |
 
 Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2009 — Emploi et population active (Commune)
+<a name="data/01_raw/insee/census/2008/base-cc-emploi-pop-active-2008.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2008/base-cc-emploi-pop-active-2008.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a1/571f79c841793229c350f40b5da41a |
+
+Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2008 — Logement (Commune)
 <a name="data/01_raw/insee/census/2008/base-cc-logement-2008.xls"></a>
@@ -533,11 +571,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur le logement issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2009 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2009/base-cc-coupl-fam-men-2009.xls"></a>
+<a name="data/01_raw/insee/census/2009/base-cc-couples-familles-menages-2009.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2009/base-cc-coupl-fam-men-2009.xls |
+| Chemin interne | data/01_raw/insee/census/2009/base-cc-couples-familles-menages-2009.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -545,20 +583,7 @@ Données sur le logement issues du recensement de la population au niveau commun
 
 Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2009 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2009/base-cc-emploi-pop-active-2008.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2009/base-cc-emploi-pop-active-2008.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a1/571f79c841793229c350f40b5da41a |
-
-Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2009 — Logement (Commune)
+### Recensement de la population 2007 — Logement (Commune)
 <a name="data/01_raw/insee/census/2009/base-cc-logement-2009.xls"></a>
 
 | Propriété | Valeur |
@@ -611,11 +636,11 @@ Données sur l&#39;emploi et la population active issues du recensement de la po
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2010 — Logement (Commune)
-<a name="data/01_raw/insee/census/2010/base-cc-logement_2010.xls"></a>
+<a name="data/01_raw/insee/census/2010/base-cc-logement-2010.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2010/base-cc-logement_2010.xls |
+| Chemin interne | data/01_raw/insee/census/2010/base-cc-logement-2010.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -624,11 +649,11 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 Données sur le logement issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2011 — Caractéristiques de l&#39;emploi (Commune)
-<a name="data/01_raw/insee/census/2011/base-cc-carac-emploi-2011.xls"></a>
+<a name="data/01_raw/insee/census/2011/base-cc-caract-emploi-2011.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2011/base-cc-carac-emploi-2011.xls |
+| Chemin interne | data/01_raw/insee/census/2011/base-cc-caract-emploi-2011.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -637,11 +662,11 @@ Données sur le logement issues du recensement de la population au niveau commun
 Données sur les caractéristiques de l&#39;emploi issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2011 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2011/base-cc-diplomes-formation_2011.xls"></a>
+<a name="data/01_raw/insee/census/2011/base-cc-diplomes-formation-2011.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2011/base-cc-diplomes-formation_2011.xls |
+| Chemin interne | data/01_raw/insee/census/2011/base-cc-diplomes-formation-2011.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -663,11 +688,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2012 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2012/base-cc-diplomes-formation_2012.xls"></a>
+<a name="data/01_raw/insee/census/2012/base-cc-diplomes-formation-2012.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2012/base-cc-diplomes-formation_2012.xls |
+| Chemin interne | data/01_raw/insee/census/2012/base-cc-diplomes-formation-2012.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -728,11 +753,11 @@ Données sur le logement issues du recensement de la population au niveau commun
 Données sur les caractéristiques de l&#39;emploi issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2013 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013-com.xls"></a>
+<a name="data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013-com.xls |
+| Chemin interne | data/01_raw/insee/census/2013/base-cc-diplomes-formation-2013.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -754,11 +779,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2013 — Logement (Commune)
-<a name="data/01_raw/insee/census/2013/base-cc-logement_2013.xls"></a>
+<a name="data/01_raw/insee/census/2013/base-cc-logement-2013.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2013/base-cc-logement_2013.xls |
+| Chemin interne | data/01_raw/insee/census/2013/base-cc-logement-2013.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -766,12 +791,64 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2014 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2014/base-cc-coupl-fam-men-2014.xls"></a>
+### Recensement de la population 2013 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2013/base-ic-activite-residents-2013.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2014/base-cc-coupl-fam-men-2014.xls |
+| Chemin interne | data/01_raw/insee/census/2013/base-ic-activite-residents-2013.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c8/592438af5ff5c7ab0f96e31b9b7299 |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2013 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2013/base-ic-diplomes-formation-2013.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2013/base-ic-diplomes-formation-2013.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7c/29ff148652446b96e9b0c9bfa28ecb |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2013 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2013/base-ic-evol-struct-pop-2013.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2013/base-ic-evol-struct-pop-2013.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/47/1be6f0896168d5bd9a565110bc0b86 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2013 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2013/base-ic-logement-2013.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2013/base-ic-logement-2013.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/58/ca1f5bd819a07126736fa93d06c2b4 |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2014 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2014/base-cc-couples-familles-menages-2014.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2014/base-cc-couples-familles-menages-2014.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -779,25 +856,23 @@ Données sur le logement issues du recensement de la population au niveau commun
 
 Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2014 — Diplômes et formation (Commune)
+### Recensement 2014 — diplômes et formation — par commune
 <a name="data/01_raw/insee/census/2014/base-cc-diplomes-formation-2014.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
 | Chemin interne | data/01_raw/insee/census/2014/base-cc-diplomes-formation-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Format de fichier | text/csv |
 | Éditeur | INSEE |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a8/5467cc7019eba913da81a88d8f106c |
 
-Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2014 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2014/base-cc-emploi-pop-act-2014.xls"></a>
+<a name="data/01_raw/insee/census/2014/base-cc-emploi-pop-active-2014.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2014/base-cc-emploi-pop-act-2014.xls |
+| Chemin interne | data/01_raw/insee/census/2014/base-cc-emploi-pop-active-2014.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -831,12 +906,77 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2015 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2015/base-cc-coupl-fam-men-2015.xls"></a>
+### Recensement de la population 2014 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2014/base-ic-activite-residents-2014.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2015/base-cc-coupl-fam-men-2015.xls |
+| Chemin interne | data/01_raw/insee/census/2014/base-ic-activite-residents-2014.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/30/96bd56cae51d83d12ab0d4ab04de9c |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2014 — Couples, familles et ménages (IRIS)
+<a name="data/01_raw/insee/census/2014/base-ic-couples-familles-menages-2014.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2014/base-ic-couples-familles-menages-2014.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f0/c4b977d84abc0858c123958b66e34b |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2014 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2014/base-ic-diplomes-formation-2014.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2014/base-ic-diplomes-formation-2014.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/de/96fe0e7c2a99d4b2ce8c5ce1d2c803 |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2014 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2014/base-ic-evol-struct-pop-2014.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2014/base-ic-evol-struct-pop-2014.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c6/c4d9573dce3b3daa720ce8aad581b1 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2014 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2014/base-ic-logement-2014.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2014/base-ic-logement-2014.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2c/e06135f56e464ae75cfd37a35873ca |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2015 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2015/base-cc-couples-familles-menages-2015.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2015/base-cc-couples-familles-menages-2015.xls |
 | Format de fichier | application/vnd.ms-excel |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -896,12 +1036,77 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2016 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2016/base-cc-coupl-fam-men-2016.CSV"></a>
+### Recensement de la population 2015 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2015/base-ic-activite-residents-2015.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2016/base-cc-coupl-fam-men-2016.CSV |
+| Chemin interne | data/01_raw/insee/census/2015/base-ic-activite-residents-2015.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/8b1de6452d2671e33e4f521902703e |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2015 — Couples, familles et ménages (IRIS)
+<a name="data/01_raw/insee/census/2015/base-ic-couples-familles-menages-2015.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2015/base-ic-couples-familles-menages-2015.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c5/29b245be637076c96f053c2d2fa614 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2015 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2015/base-ic-diplomes-formation-2015.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2015/base-ic-diplomes-formation-2015.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/96/656867dae7f8c7397f41597eb4db3f |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2015 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2015/base-ic-evol-struct-pop-2015.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2015/base-ic-evol-struct-pop-2015.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e8/2f4fd7ae09e78c25a482540df51e46 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2015 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2015/base-ic-logement-2015.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2015/base-ic-logement-2015.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b7/2ac7c43b9cc55990f9e18963e881d4 |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2016 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2016/base-cc-couples-familles-menages-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/base-cc-couples-familles-menages-2016.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -910,11 +1115,11 @@ Données sur le logement issues du recensement de la population au niveau commun
 Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2016 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.CSV"></a>
+<a name="data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.CSV |
+| Chemin interne | data/01_raw/insee/census/2016/base-cc-diplomes-formation-2016.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -923,11 +1128,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2016 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.CSV"></a>
+<a name="data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.CSV |
+| Chemin interne | data/01_raw/insee/census/2016/base-cc-emploi-pop-active-2016.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -936,11 +1141,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2016 — Évolution et structure de la population (Commune)
-<a name="data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.CSV"></a>
+<a name="data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.CSV |
+| Chemin interne | data/01_raw/insee/census/2016/base-cc-evol-struct-pop-2016.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -949,11 +1154,11 @@ Données sur l&#39;emploi et la population active issues du recensement de la po
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
 
 ### Recensement de la population 2016 — Logement (Commune)
-<a name="data/01_raw/insee/census/2016/base_cc_logement-2016.CSV"></a>
+<a name="data/01_raw/insee/census/2016/base-cc-logement-2016.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2016/base_cc_logement-2016.CSV |
+| Chemin interne | data/01_raw/insee/census/2016/base-cc-logement-2016.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -961,12 +1166,132 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2017 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2017/base-cc-coupl-fam-men-2017.xlsx"></a>
+### Recensement de la population 2016 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2016/base-ic-activite-residents-2016.xls"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2017/base-cc-coupl-fam-men-2017.xlsx |
+| Chemin interne | data/01_raw/insee/census/2016/base-ic-activite-residents-2016.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8f/3c69604aecfbbd2c64bda0453ed8d7 |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2016 — Couples, familles et ménages (IRIS)
+<a name="data/01_raw/insee/census/2016/base-ic-couples-familles-menages-2016.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/base-ic-couples-familles-menages-2016.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bf/10f288228e6165f12e69e1de5527e6 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2016 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2016/base-ic-diplomes-formation-2016.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/base-ic-diplomes-formation-2016.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/77/794863585575851c57e79731465edc |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2016 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2016/base-ic-evol-struct-pop-2016.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/base-ic-evol-struct-pop-2016.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/53/8d27ecef5e543815c46791c23cc7d0 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2016 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2016/base-ic-logement-2016.xls"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/base-ic-logement-2016.xls |
+| Format de fichier | application/vnd.ms-excel |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a9/4157697047a06c3921ac0395af0458 |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Documentation recensement 2016 — couples, familles et ménages — par commune
+<a name="data/01_raw/insee/census/2016/meta_base-cc-couples-familles-menages-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/meta_base-cc-couples-familles-menages-2016.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/54/27ed37d332d23cd5d221b893999f35 |
+
+
+### Documentation recensement 2016 — diplômes et formation — par commune
+<a name="data/01_raw/insee/census/2016/meta_base-cc-diplomes-formation-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/meta_base-cc-diplomes-formation-2016.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/17/8d97d4fe67b27da7d1f9165d567688 |
+
+
+### Documentation recensement 2016 — emploi et population active — par commune
+<a name="data/01_raw/insee/census/2016/meta_base-cc-emploi-pop-active-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/meta_base-cc-emploi-pop-active-2016.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5f/77153374168bcd7c9b51f77e07ce0e |
+
+
+### Documentation recensement 2016 — évolution et structure de la population — par commune
+<a name="data/01_raw/insee/census/2016/meta_base-cc-evol-struct-pop-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/meta_base-cc-evol-struct-pop-2016.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/497301604433d1837760bbe8dc1b7b |
+
+
+### Documentation recensement 2016 — logement — par commune
+<a name="data/01_raw/insee/census/2016/meta_base-cc-logement-2016.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2016/meta_base-cc-logement-2016.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/80/3d8c248997888272d13ae337e27df3 |
+
+
+### Recensement de la population 2017 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2017/base-cc-couples-familles-menages-2017.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/base-cc-couples-familles-menages-2017.xlsx |
 | Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1026,12 +1351,132 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2018 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2018/base-cc-coupl-fam-men-2018.xlsx"></a>
+### Recensement de la population 2017 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2017/base-ic-activite-residents-2017.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2018/base-cc-coupl-fam-men-2018.xlsx |
+| Chemin interne | data/01_raw/insee/census/2017/base-ic-activite-residents-2017.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/11/2bb2cc8480b2e4869bacbeda978322 |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2017 — Couples, familles et ménages (IRIS)
+<a name="data/01_raw/insee/census/2017/base-ic-couples-familles-menages-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/base-ic-couples-familles-menages-2017.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/10/77301bebf46fa71ffece8a812a0714 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2017 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2017/base-ic-diplomes-formation-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/base-ic-diplomes-formation-2017.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8c/71796557838687601634397c61af34 |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2017 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2017/base-ic-evol-struct-pop-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/base-ic-evol-struct-pop-2017.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/32/a4f262b845a59023c7ad2fd95583f2 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2017 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2017/base-ic-logement-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/base-ic-logement-2017.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/27/0176070c2e901661e5041b88900b0f |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Documentation recensement 2017 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2017/meta_base-ic-activite-residents-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/meta_base-ic-activite-residents-2017.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/db/66c3849dac1fbc9a2c61808340150e |
+
+
+### Documentation recensement 2017 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2017/meta_base-ic-couples-familles-menages-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/meta_base-ic-couples-familles-menages-2017.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/2c76d51e3e02c8c2fd90876374b833 |
+
+
+### Documentation recensement 2017 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2017/meta_base-ic-diplomes-formation-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/meta_base-ic-diplomes-formation-2017.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f4/dee3e4f60a3526eb72b43f964743af |
+
+
+### Documentation recensement 2017 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2017/meta_base-ic-evol-struct-pop-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/meta_base-ic-evol-struct-pop-2017.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/84/65c7ae2cce2744f09d9ec936815de5 |
+
+
+### Documentation recensement 2017 — logement — par iris
+<a name="data/01_raw/insee/census/2017/meta_base-ic-logement-2017.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2017/meta_base-ic-logement-2017.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/09/8a7bb865e835c0a832f08037845bbc |
+
+
+### Recensement de la population 2018 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2018/base-cc-couples-familles-menages-2018.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/base-cc-couples-familles-menages-2018.xlsx |
 | Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1091,12 +1536,132 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2019 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2019/base-cc-coupl-fam-men-2019.xlsx"></a>
+### Recensement de la population 2018 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2018/base-ic-activite-residents-2018.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2019/base-cc-coupl-fam-men-2019.xlsx |
+| Chemin interne | data/01_raw/insee/census/2018/base-ic-activite-residents-2018.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/67/80283d0030d7f0844a3ce30d89ea66 |
+
+Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2018 — Couples, familles et ménages (IRIS)
+<a name="data/01_raw/insee/census/2018/base-ic-couples-familles-menages-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/base-ic-couples-familles-menages-2018.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9c/72efa6184a3dd69ad3480473488052 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2018 — Diplômes et formation (IRIS)
+<a name="data/01_raw/insee/census/2018/base-ic-diplomes-formation-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/base-ic-diplomes-formation-2018.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2f/ca8aca47c285ecfada46e535f132f6 |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2018 — Évolution et structure de la population (IRIS)
+<a name="data/01_raw/insee/census/2018/base-ic-evol-struct-pop-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/base-ic-evol-struct-pop-2018.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/af/7dd3454cbd56a1a37ec95bbfb7412e |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Recensement de la population 2018 — Logement (IRIS)
+<a name="data/01_raw/insee/census/2018/base-ic-logement-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/base-ic-logement-2018.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6c/fe0b11491ae27f0af1378cc189ac55 |
+
+Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Documentation recensement 2018 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2018/meta_base-ic-activite-residents-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/meta_base-ic-activite-residents-2018.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/03/cb342a47dcc941dd4ba84e1c0aae20 |
+
+
+### Documentation recensement 2018 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2018/meta_base-ic-couples-familles-menages-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/meta_base-ic-couples-familles-menages-2018.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cf/8ef8ad417fa84c767f0dc6274587ed |
+
+
+### Documentation recensement 2018 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2018/meta_base-ic-diplomes-formation-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/meta_base-ic-diplomes-formation-2018.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/16f387278aee983e3a0d9df58f6f4e |
+
+
+### Documentation recensement 2018 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2018/meta_base-ic-evol-struct-pop-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/meta_base-ic-evol-struct-pop-2018.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/97/dea88484e32778ab23a6464dac7a48 |
+
+
+### Documentation recensement 2018 — logement — par iris
+<a name="data/01_raw/insee/census/2018/meta_base-ic-logement-2018.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2018/meta_base-ic-logement-2018.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/07/0ae9380b8bfcda993111b0c5de487e |
+
+
+### Recensement de la population 2019 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2019/base-cc-couples-familles-menages-2019.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2019/base-cc-couples-familles-menages-2019.xlsx |
 | Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1156,584 +1721,12 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau communal.
 
-### Recensement de la population 2020 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2020/base-cc-coupl-fam-men-2020.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2020/base-cc-coupl-fam-men-2020.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3d/b848f92e4a264518856e780542b860 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2020 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/de/ab26ac653ea675d3a5891468082642 |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2020 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020_v2.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020_v2.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0c/e67ef8ce65e1a108ebbb8f382601bc |
-
-Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2020 — Évolution et structure de la population (Commune)
-<a name="data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bf/ed44ad4565baf72c096a24598ce2b0 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2020 — Logement (Commune)
-<a name="data/01_raw/insee/census/2020/base-cc-logement-2020.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2020/base-cc-logement-2020.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9f/15d79c13e45f56b6de872149006b19 |
-
-Données sur le logement issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2021 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2021/base-cc-coupl-fam-men-2021.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2021/base-cc-coupl-fam-men-2021.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6f/e9cb7eacf4de571b577836b24fda90 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2021 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5c/17f009fa66567cef9c8cdfa246a718 |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2021 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/33/4f8092ebda7c6243f5beb4b94ec8d3 |
-
-Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2021 — Évolution et structure de la population (Commune)
-<a name="data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/43/2cf922ec6d29dadd289da39fe881b3 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2021 — Logement (Commune)
-<a name="data/01_raw/insee/census/2021/base-cc-logement-2021.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2021/base-cc-logement-2021.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/85/a5b5e61d629c4868adfe873d90bada |
-
-Données sur le logement issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2022 — Couples, familles et ménages (Commune)
-<a name="data/01_raw/insee/census/2022/base-cc-coupl-fam-men-2022.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2022/base-cc-coupl-fam-men-2022.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d0/f069a549d01bab8b6328e1f8b1404d |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2022 — Diplômes et formation (Commune)
-<a name="data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/69/e5785880c59d50e43d7333bd76069b |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2022 — Emploi et population active (Commune)
-<a name="data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/24/980e483f529ca07f44d7dd7fc48294 |
-
-Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2022 — Évolution et structure de la population (Commune)
-<a name="data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c7/b10049f9b99ae7f8e4da2896bc0cba |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2022 — Logement (Commune)
-<a name="data/01_raw/insee/census/2022/base-cc-logement-2022.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census/2022/base-cc-logement-2022.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f0/280edfdd5ea0e676bbe4202ca53c98 |
-
-Données sur le logement issues du recensement de la population au niveau communal.
-
-### Recensement de la population 2013 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2013/base-ic-activite-residents-2013.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2013/base-ic-activite-residents-2013.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c8/592438af5ff5c7ab0f96e31b9b7299 |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2013 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2013/base-ic-diplomes-formation-2013.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2013/base-ic-diplomes-formation-2013.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7c/29ff148652446b96e9b0c9bfa28ecb |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2013 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2013/base-ic-evol-struct-pop-2013.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2013/base-ic-evol-struct-pop-2013.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/47/1be6f0896168d5bd9a565110bc0b86 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2013 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2013/base-ic-logement-2013.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2013/base-ic-logement-2013.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/58/ca1f5bd819a07126736fa93d06c2b4 |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2014 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2014/base-ic-activite-residents-2014.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2014/base-ic-activite-residents-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/30/96bd56cae51d83d12ab0d4ab04de9c |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2014 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2014/base-ic-couples-familles-menages-2014.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2014/base-ic-couples-familles-menages-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f0/c4b977d84abc0858c123958b66e34b |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2014 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2014/base-ic-diplomes-formation-2014.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2014/base-ic-diplomes-formation-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/de/96fe0e7c2a99d4b2ce8c5ce1d2c803 |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2014 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2014/base-ic-evol-struct-pop-2014.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2014/base-ic-evol-struct-pop-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c6/c4d9573dce3b3daa720ce8aad581b1 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2014 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2014/base-ic-logement-2014.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2014/base-ic-logement-2014.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2c/e06135f56e464ae75cfd37a35873ca |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2015 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2015/base-ic-activite-residents-2015.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2015/base-ic-activite-residents-2015.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/8b1de6452d2671e33e4f521902703e |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2015 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2015/base-ic-couples-familles-menages-2015.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2015/base-ic-couples-familles-menages-2015.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c5/29b245be637076c96f053c2d2fa614 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2015 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2015/base-ic-diplomes-formation-2015.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2015/base-ic-diplomes-formation-2015.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/96/656867dae7f8c7397f41597eb4db3f |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2015 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2015/base-ic-evol-struct-pop-2015.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2015/base-ic-evol-struct-pop-2015.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e8/2f4fd7ae09e78c25a482540df51e46 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2015 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2015/base-ic-logement-2015.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2015/base-ic-logement-2015.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b7/2ac7c43b9cc55990f9e18963e881d4 |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2016 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2016/base-ic-activite-residents-2016.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2016/base-ic-activite-residents-2016.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8f/3c69604aecfbbd2c64bda0453ed8d7 |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2016 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2016/base-ic-couples-familles-menages-2016.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2016/base-ic-couples-familles-menages-2016.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bf/10f288228e6165f12e69e1de5527e6 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2016 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2016/base-ic-diplomes-formation-2016.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2016/base-ic-diplomes-formation-2016.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/77/794863585575851c57e79731465edc |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2016 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2016/base-ic-evol-struct-pop-2016.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2016/base-ic-evol-struct-pop-2016.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/53/8d27ecef5e543815c46791c23cc7d0 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2016 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2016/base-ic-logement-2016.xls"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2016/base-ic-logement-2016.xls |
-| Format de fichier | application/vnd.ms-excel |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a9/4157697047a06c3921ac0395af0458 |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2017 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2017/base-ic-activite-residents-2017.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2017/base-ic-activite-residents-2017.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/11/2bb2cc8480b2e4869bacbeda978322 |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2017 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2017/base-ic-couples-familles-menages-2017.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2017/base-ic-couples-familles-menages-2017.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/10/77301bebf46fa71ffece8a812a0714 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2017 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2017/base-ic-diplomes-formation-2017.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2017/base-ic-diplomes-formation-2017.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8c/71796557838687601634397c61af34 |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2017 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2017/base-ic-evol-struct-pop-2017.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2017/base-ic-evol-struct-pop-2017.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/32/a4f262b845a59023c7ad2fd95583f2 |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2017 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2017/base-ic-logement-2017.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2017/base-ic-logement-2017.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/27/0176070c2e901661e5041b88900b0f |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2018 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2018/base-ic-activite-residents-2018.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2018/base-ic-activite-residents-2018.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/67/80283d0030d7f0844a3ce30d89ea66 |
-
-Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2018 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2018/base-ic-couples-familles-menages-2018.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2018/base-ic-couples-familles-menages-2018.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9c/72efa6184a3dd69ad3480473488052 |
-
-Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2018 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2018/base-ic-diplomes-formation-2018.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2018/base-ic-diplomes-formation-2018.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2f/ca8aca47c285ecfada46e535f132f6 |
-
-Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2018 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2018/base-ic-evol-struct-pop-2018.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2018/base-ic-evol-struct-pop-2018.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/af/7dd3454cbd56a1a37ec95bbfb7412e |
-
-Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
-
-### Recensement de la population 2018 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2018/base-ic-logement-2018.CSV"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2018/base-ic-logement-2018.CSV |
-| Format de fichier | text/csv |
-| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
-| Éditeur | INSEE |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6c/fe0b11491ae27f0af1378cc189ac55 |
-
-Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
-
 ### Recensement de la population 2019 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2019/base-ic-activite-residents-2019.CSV"></a>
+<a name="data/01_raw/insee/census/2019/base-ic-activite-residents-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2019/base-ic-activite-residents-2019.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/base-ic-activite-residents-2019.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1742,11 +1735,11 @@ Données sur le logement issues du recensement de la population au niveau infrac
 Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2019 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2019/base-ic-couples-familles-menages-2019.CSV"></a>
+<a name="data/01_raw/insee/census/2019/base-ic-couples-familles-menages-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2019/base-ic-couples-familles-menages-2019.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/base-ic-couples-familles-menages-2019.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1755,11 +1748,11 @@ Données sur l&#39;activité des résidents issues du recensement de la populati
 Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2019 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2019/base-ic-diplomes-formation-2019.CSV"></a>
+<a name="data/01_raw/insee/census/2019/base-ic-diplomes-formation-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2019/base-ic-diplomes-formation-2019.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/base-ic-diplomes-formation-2019.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1768,11 +1761,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2019 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2019/base-ic-evol-struct-pop-2019.CSV"></a>
+<a name="data/01_raw/insee/census/2019/base-ic-evol-struct-pop-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2019/base-ic-evol-struct-pop-2019.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/base-ic-evol-struct-pop-2019.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1781,11 +1774,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2019 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2019/base-ic-logement-2019.CSV"></a>
+<a name="data/01_raw/insee/census/2019/base-ic-logement-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2019/base-ic-logement-2019.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/base-ic-logement-2019.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1793,12 +1786,132 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
 
-### Recensement de la population 2020 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2020/base-ic-activite-residents-2020.CSV"></a>
+### Documentation recensement 2019 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2019/meta_base-ic-activite-residents-2019.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2020/base-ic-activite-residents-2020.CSV |
+| Chemin interne | data/01_raw/insee/census/2019/meta_base-ic-activite-residents-2019.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/80/5170528f3ab10f886eb8cf42d46724 |
+
+
+### Documentation recensement 2019 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2019/meta_base-ic-couples-familles-menages-2019.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2019/meta_base-ic-couples-familles-menages-2019.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/16/127f3149f90f2f91ab7e13ccd4f029 |
+
+
+### Documentation recensement 2019 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2019/meta_base-ic-diplomes-formation-2019.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2019/meta_base-ic-diplomes-formation-2019.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/12/1b7fe13302734d6c9c2645db89b2fd |
+
+
+### Documentation recensement 2019 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2019/meta_base-ic-evol-struct-pop-2019.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2019/meta_base-ic-evol-struct-pop-2019.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3c/6883d12c86e95cb498cc92bfc35f78 |
+
+
+### Documentation recensement 2019 — logement — par iris
+<a name="data/01_raw/insee/census/2019/meta_base-ic-logement-2019.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2019/meta_base-ic-logement-2019.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/96/be99ee3f2af609d423377f1647c0d0 |
+
+
+### Recensement de la population 2020 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2020/base-cc-couples-familles-menages-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-cc-couples-familles-menages-2020.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3d/b848f92e4a264518856e780542b860 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2020 — Diplômes et formation (Commune)
+<a name="data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-cc-diplomes-formation-2020.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/de/ab26ac653ea675d3a5891468082642 |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2020 — Emploi et population active (Commune)
+<a name="data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-cc-emploi-pop-active-2020.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0c/e67ef8ce65e1a108ebbb8f382601bc |
+
+Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2020 — Évolution et structure de la population (Commune)
+<a name="data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-cc-evol-struct-pop-2020.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bf/ed44ad4565baf72c096a24598ce2b0 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2020 — Logement (Commune)
+<a name="data/01_raw/insee/census/2020/base-cc-logement-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-cc-logement-2020.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9f/15d79c13e45f56b6de872149006b19 |
+
+Données sur le logement issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2020 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2020/base-ic-activite-residents-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/base-ic-activite-residents-2020.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1807,11 +1920,11 @@ Données sur le logement issues du recensement de la population au niveau infrac
 Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2020 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2020/base-ic-couples-familles-menages-2020.CSV"></a>
+<a name="data/01_raw/insee/census/2020/base-ic-couples-familles-menages-2020.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2020/base-ic-couples-familles-menages-2020.CSV |
+| Chemin interne | data/01_raw/insee/census/2020/base-ic-couples-familles-menages-2020.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1820,11 +1933,11 @@ Données sur l&#39;activité des résidents issues du recensement de la populati
 Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2020 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2020/base-ic-diplomes-formation-2020.CSV"></a>
+<a name="data/01_raw/insee/census/2020/base-ic-diplomes-formation-2020.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2020/base-ic-diplomes-formation-2020.CSV |
+| Chemin interne | data/01_raw/insee/census/2020/base-ic-diplomes-formation-2020.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1833,11 +1946,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2020 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2020/base-ic-evol-struct-pop-2020.CSV"></a>
+<a name="data/01_raw/insee/census/2020/base-ic-evol-struct-pop-2020.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2020/base-ic-evol-struct-pop-2020.CSV |
+| Chemin interne | data/01_raw/insee/census/2020/base-ic-evol-struct-pop-2020.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1846,11 +1959,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2020 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2020/base-ic-logement-2020.CSV"></a>
+<a name="data/01_raw/insee/census/2020/base-ic-logement-2020.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2020/base-ic-logement-2020.CSV |
+| Chemin interne | data/01_raw/insee/census/2020/base-ic-logement-2020.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1858,12 +1971,187 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
 
-### Recensement de la population 2021 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2021/base-ic-activite-residents-2021.CSV"></a>
+### Documentation recensement 2020 — couples, familles et ménages — par commune
+<a name="data/01_raw/insee/census/2020/meta_base-cc-couples-familles-menages-2020.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2021/base-ic-activite-residents-2021.CSV |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-cc-couples-familles-menages-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b9/5f6ef1cf976e8f36a47ab799eedf11 |
+
+
+### Documentation recensement 2020 — diplômes et formation — par commune
+<a name="data/01_raw/insee/census/2020/meta_base-cc-diplomes-formation-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-cc-diplomes-formation-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b1/ff668df5bfc53d0e621a2ac7859f31 |
+
+
+### Documentation recensement 2020 — emploi et population active — par commune
+<a name="data/01_raw/insee/census/2020/meta_base-cc-emploi-pop-active-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-cc-emploi-pop-active-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fe/ec2fe283898c2ae0a9b92abe7f31aa |
+
+
+### Documentation recensement 2020 — évolution et structure de la population — par commune
+<a name="data/01_raw/insee/census/2020/meta_base-cc-evol-struct-pop-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-cc-evol-struct-pop-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/59/f372ad1c210473055f8bfb8de3d28b |
+
+
+### Documentation recensement 2020 — logement — par commune
+<a name="data/01_raw/insee/census/2020/meta_base-cc-logement-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-cc-logement-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/22/768704f5e5d5e079bb0ef66b9755d9 |
+
+
+### Documentation recensement 2020 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2020/meta_base-ic-activite-residents-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-ic-activite-residents-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/69/7ac9746bd0b57ed67c0aaa2e9a72f6 |
+
+
+### Documentation recensement 2020 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2020/meta_base-ic-couples-familles-menages-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-ic-couples-familles-menages-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/19/787891a64810231fe4f7aa3de6e116 |
+
+
+### Documentation recensement 2020 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2020/meta_base-ic-diplomes-formation-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-ic-diplomes-formation-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/93/4f883f24a7d3964be6df31c3c2fa65 |
+
+
+### Documentation recensement 2020 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2020/meta_base-ic-evol-struct-pop-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-ic-evol-struct-pop-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/92/ca0f2c1db090011e1e0c28f303164b |
+
+
+### Documentation recensement 2020 — logement — par iris
+<a name="data/01_raw/insee/census/2020/meta_base-ic-logement-2020.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2020/meta_base-ic-logement-2020.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/da/a546bfed60e5bc28d430aa39a90357 |
+
+
+### Recensement de la population 2021 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2021/base-cc-couples-familles-menages-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-cc-couples-familles-menages-2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6f/e9cb7eacf4de571b577836b24fda90 |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2021 — Diplômes et formation (Commune)
+<a name="data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-cc-diplomes-formation-2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5c/17f009fa66567cef9c8cdfa246a718 |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2021 — Emploi et population active (Commune)
+<a name="data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-cc-emploi-pop-active-2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/33/4f8092ebda7c6243f5beb4b94ec8d3 |
+
+Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2021 — Évolution et structure de la population (Commune)
+<a name="data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-cc-evol-struct-pop-2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/43/2cf922ec6d29dadd289da39fe881b3 |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2021 — Logement (Commune)
+<a name="data/01_raw/insee/census/2021/base-cc-logement-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-cc-logement-2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/85/a5b5e61d629c4868adfe873d90bada |
+
+Données sur le logement issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2021 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2021/base-ic-activite-residents-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/base-ic-activite-residents-2021.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1872,11 +2160,11 @@ Données sur le logement issues du recensement de la population au niveau infrac
 Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2021 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2021/base-ic-couples-familles-menages-2021.CSV"></a>
+<a name="data/01_raw/insee/census/2021/base-ic-couples-familles-menages-2021.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2021/base-ic-couples-familles-menages-2021.CSV |
+| Chemin interne | data/01_raw/insee/census/2021/base-ic-couples-familles-menages-2021.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1885,11 +2173,11 @@ Données sur l&#39;activité des résidents issues du recensement de la populati
 Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2021 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2021/base-ic-diplomes-formation-2021.CSV"></a>
+<a name="data/01_raw/insee/census/2021/base-ic-diplomes-formation-2021.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2021/base-ic-diplomes-formation-2021.CSV |
+| Chemin interne | data/01_raw/insee/census/2021/base-ic-diplomes-formation-2021.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1898,11 +2186,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2021 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2021/base-ic-evol-struct-pop-2021.CSV"></a>
+<a name="data/01_raw/insee/census/2021/base-ic-evol-struct-pop-2021.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2021/base-ic-evol-struct-pop-2021.CSV |
+| Chemin interne | data/01_raw/insee/census/2021/base-ic-evol-struct-pop-2021.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1911,11 +2199,11 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2021 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2021/base-ic-logement-2021.CSV"></a>
+<a name="data/01_raw/insee/census/2021/base-ic-logement-2021.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2021/base-ic-logement-2021.CSV |
+| Chemin interne | data/01_raw/insee/census/2021/base-ic-logement-2021.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1923,12 +2211,187 @@ Données sur l&#39;évolution et la structure de la population issues du recense
 
 Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
 
-### Recensement de la population 2022 — Activité des résidents (IRIS)
-<a name="data/01_raw/insee/census_iris/2022/base-ic-activite-residents-2022.CSV"></a>
+### Documentation recensement 2021 — couples, familles et ménages — par commune
+<a name="data/01_raw/insee/census/2021/meta_base-cc-couples-familles-menages-2021.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2022/base-ic-activite-residents-2022.CSV |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-cc-couples-familles-menages-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b8/19d92dc37978df43062b3f3811e5d2 |
+
+
+### Documentation recensement 2021 — diplômes et formation — par commune
+<a name="data/01_raw/insee/census/2021/meta_base-cc-diplomes-formation-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-cc-diplomes-formation-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/22/c3d725d97fbcac326ba3acbca29367 |
+
+
+### Documentation recensement 2021 — emploi et population active — par commune
+<a name="data/01_raw/insee/census/2021/meta_base-cc-emploi-pop-active-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-cc-emploi-pop-active-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/02/83c4469c4f0056605986d46b7464b9 |
+
+
+### Documentation recensement 2021 — évolution et structure de la population — par commune
+<a name="data/01_raw/insee/census/2021/meta_base-cc-evol-struct-pop-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-cc-evol-struct-pop-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/63/0c3d7373086f99339cdd0f6c60b859 |
+
+
+### Documentation recensement 2021 — logement — par commune
+<a name="data/01_raw/insee/census/2021/meta_base-cc-logement-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-cc-logement-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4c/bcb262462f458a6f448411b84cb160 |
+
+
+### Documentation recensement 2021 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2021/meta_base-ic-activite-residents-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-ic-activite-residents-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/21/6728ed4e20b912e39011f044ef6173 |
+
+
+### Documentation recensement 2021 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2021/meta_base-ic-couples-familles-menages-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-ic-couples-familles-menages-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/64/5155de646520007f0e4f6eba4615f4 |
+
+
+### Documentation recensement 2021 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2021/meta_base-ic-diplomes-formation-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-ic-diplomes-formation-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cb/25af57deef6ec690191c0fb1324068 |
+
+
+### Documentation recensement 2021 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2021/meta_base-ic-evol-struct-pop-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-ic-evol-struct-pop-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cd/4c143434157e5fb4a539f089e430e7 |
+
+
+### Documentation recensement 2021 — logement — par iris
+<a name="data/01_raw/insee/census/2021/meta_base-ic-logement-2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2021/meta_base-ic-logement-2021.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f5/bcdf703137dcb68730aa2ddfa4c2a3 |
+
+
+### Recensement de la population 2022 — Couples, familles et ménages (Commune)
+<a name="data/01_raw/insee/census/2022/base-cc-couples-familles-menages-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-cc-couples-familles-menages-2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d0/f069a549d01bab8b6328e1f8b1404d |
+
+Données sur les couples, familles et ménages issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2022 — Diplômes et formation (Commune)
+<a name="data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-cc-diplomes-formation-2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/69/e5785880c59d50e43d7333bd76069b |
+
+Données sur les diplômes et la formation issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2022 — Emploi et population active (Commune)
+<a name="data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-cc-emploi-pop-active-2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/24/980e483f529ca07f44d7dd7fc48294 |
+
+Données sur l&#39;emploi et la population active issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2022 — Évolution et structure de la population (Commune)
+<a name="data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-cc-evol-struct-pop-2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c7/b10049f9b99ae7f8e4da2896bc0cba |
+
+Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2022 — Logement (Commune)
+<a name="data/01_raw/insee/census/2022/base-cc-logement-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-cc-logement-2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f0/280edfdd5ea0e676bbe4202ca53c98 |
+
+Données sur le logement issues du recensement de la population au niveau communal.
+
+### Recensement de la population 2022 — Activité des résidents (IRIS)
+<a name="data/01_raw/insee/census/2022/base-ic-activite-residents-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/base-ic-activite-residents-2022.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1937,11 +2400,11 @@ Données sur le logement issues du recensement de la population au niveau infrac
 Données sur l&#39;activité des résidents issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2022 — Couples, familles et ménages (IRIS)
-<a name="data/01_raw/insee/census_iris/2022/base-ic-couples-familles-menages-2022.CSV"></a>
+<a name="data/01_raw/insee/census/2022/base-ic-couples-familles-menages-2022.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2022/base-ic-couples-familles-menages-2022.CSV |
+| Chemin interne | data/01_raw/insee/census/2022/base-ic-couples-familles-menages-2022.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1950,11 +2413,11 @@ Données sur l&#39;activité des résidents issues du recensement de la populati
 Données sur les couples, familles et ménages issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2022 — Diplômes et formation (IRIS)
-<a name="data/01_raw/insee/census_iris/2022/base-ic-diplomes-formation-2022.CSV"></a>
+<a name="data/01_raw/insee/census/2022/base-ic-diplomes-formation-2022.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2022/base-ic-diplomes-formation-2022.CSV |
+| Chemin interne | data/01_raw/insee/census/2022/base-ic-diplomes-formation-2022.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1963,11 +2426,11 @@ Données sur les couples, familles et ménages issues du recensement de la popul
 Données sur les diplômes et la formation issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2022 — Évolution et structure de la population (IRIS)
-<a name="data/01_raw/insee/census_iris/2022/base-ic-evol-struct-pop-2022.CSV"></a>
+<a name="data/01_raw/insee/census/2022/base-ic-evol-struct-pop-2022.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2022/base-ic-evol-struct-pop-2022.CSV |
+| Chemin interne | data/01_raw/insee/census/2022/base-ic-evol-struct-pop-2022.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
@@ -1976,17 +2439,127 @@ Données sur les diplômes et la formation issues du recensement de la populatio
 Données sur l&#39;évolution et la structure de la population issues du recensement de la population au niveau infracommunal (IRIS).
 
 ### Recensement de la population 2022 — Logement (IRIS)
-<a name="data/01_raw/insee/census_iris/2022/base-ic-logement-2022.CSV"></a>
+<a name="data/01_raw/insee/census/2022/base-ic-logement-2022.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/insee/census_iris/2022/base-ic-logement-2022.CSV |
+| Chemin interne | data/01_raw/insee/census/2022/base-ic-logement-2022.csv |
 | Format de fichier | text/csv |
 | URL d&#39;information | https://www.insee.fr/fr/information/2008354 |
 | Éditeur | INSEE |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a7/39775422a491fc6da42b6a2a2f2d11 |
 
 Données sur le logement issues du recensement de la population au niveau infracommunal (IRIS).
+
+### Documentation recensement 2022 — couples, familles et ménages — par commune
+<a name="data/01_raw/insee/census/2022/meta_base-cc-couples-familles-menages-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-cc-couples-familles-menages-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8e/df61ec17b347860329c60b696bef58 |
+
+
+### Documentation recensement 2022 — diplômes et formation — par commune
+<a name="data/01_raw/insee/census/2022/meta_base-cc-diplomes-formation-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-cc-diplomes-formation-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/cfa1acc2ae4aba8855cca9462dbeb1 |
+
+
+### Documentation recensement 2022 — emploi et population active — par commune
+<a name="data/01_raw/insee/census/2022/meta_base-cc-emploi-pop-active-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-cc-emploi-pop-active-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/61/06390e2f430cdaf7e064280b30a98d |
+
+
+### Documentation recensement 2022 — évolution et structure de la population — par commune
+<a name="data/01_raw/insee/census/2022/meta_base-cc-evol-struct-pop-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-cc-evol-struct-pop-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6e/369345cef78d2ea023695f6113172d |
+
+
+### Documentation recensement 2022 — logement — par commune
+<a name="data/01_raw/insee/census/2022/meta_base-cc-logement-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-cc-logement-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3a/1afbabd86c291d910a209a89fbd407 |
+
+
+### Documentation recensement 2022 — activité des résidents — par iris
+<a name="data/01_raw/insee/census/2022/meta_base-ic-activite-residents-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-ic-activite-residents-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/44/ffa7ae4503e0c1e0bf1188d1145bc1 |
+
+
+### Documentation recensement 2022 — couples, familles et ménages — par iris
+<a name="data/01_raw/insee/census/2022/meta_base-ic-couples-familles-menages-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-ic-couples-familles-menages-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/08/efbc9b2f136ba2ebb6562c9ca3e5c6 |
+
+
+### Documentation recensement 2022 — diplômes et formation — par iris
+<a name="data/01_raw/insee/census/2022/meta_base-ic-diplomes-formation-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-ic-diplomes-formation-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/76/b960dc7a9b9e7fea0b0d2acdda188c |
+
+
+### Documentation recensement 2022 — évolution et structure de la population — par iris
+<a name="data/01_raw/insee/census/2022/meta_base-ic-evol-struct-pop-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-ic-evol-struct-pop-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/39/39654d1703c3f374aa9c9f5e6d4bb7 |
+
+
+### Documentation recensement 2022 — logement — par iris
+<a name="data/01_raw/insee/census/2022/meta_base-ic-logement-2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2022/meta_base-ic-logement-2022.csv |
+| Format de fichier | text/csv |
+| Éditeur | INSEE |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3a/feb682778bb69bfdbb6bd5d000cd5e |
+
 
 ### Code Officiel Géographique 2024
 <a name="data/01_raw/insee/cog.zip"></a>
@@ -2097,6 +2670,19 @@ Le projet LEGIS-2022 regroupe une trentaine de chercheurs en science politique s
 Simple tabulation du nombre de conseillers municipaux selon la population de la commune
 fixé par l&#39;article L2121-2 du Code électoral.
 
+### Nombre de sénateurs par département
+<a name="data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4b/6175f299a26cfa4685e7c5cc7c1de8 |
+
+Ce tableau est la transcription du tableau en annexe n°6 du code électoral qui prévoit le nombre de sénateurs à élire
+par département.
+
 ### Nombre de conseillers municipaux par commune — depuis 2014
 <a name="data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv"></a>
 
@@ -2109,6 +2695,31 @@ fixé par l&#39;article L2121-2 du Code électoral.
 
 Simple tabulation du nombre de conseillers municipaux selon la population de la commune
 fixé par l&#39;article L2121-2 du Code électoral.
+
+### Nombre de candidats aux élections régionales par section départementale
+<a name="data/01_raw/lafranceinsoumise/2021-nombre-candidats-conseils-regionaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/2021-nombre-candidats-conseils-regionaux.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b0/2aacbee24f89262555ea1d105124ac |
+
+Ce tableau transcrit le nombre de candidats à présenter par section départementale aux élections régionales, tel que
+donné par le tableau en annexe n°7 du code électoral.
+
+### Nombre de conseillers régionaux par région
+<a name="data/01_raw/lafranceinsoumise/2021-nombre-conseillers-regionaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/lafranceinsoumise/2021-nombre-conseillers-regionaux.csv |
+| Format de fichier | text/csv |
+| Éditeur | La France insoumise |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/36/8745aab9869cba8e3ecc0d995d19d5 |
+
+Ce tableau transcrit le nombre de conseillers régionaux par région tel que donné par le tableau en annexe n°7 du code électoral.
 
 ### Listes déposées pour l&#39;élection européenne 2024 en France
 <a name="data/01_raw/lafranceinsoumise/2024-europeenne-listes.csv"></a>
@@ -2209,41 +2820,6 @@ municipaux de Lyon et de Marseille, ce fichier recense :
 
 
 
-### Anomalies dans les correspondances entre les candidats au 1er et 2e tour des élections municipales 2026
-<a name="data/01_raw/lafranceinsoumise/2026-municipales-anomalies-candidats.parquet"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/lafranceinsoumise/2026-municipales-anomalies-candidats.parquet |
-| Format de fichier | application/vnd.apache.parquet |
-| Éditeur | La France insoumise |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/16/333ff368d3e0aeeeed47c61c8c97c6 |
-
-Tous les candidats au 2e tour ont nécessairement été candidats au 1er tour des élections
-municipales, potentiellement sur une liste différente en cas de fusion de liste.
-
-Toutefois, la mise en correspondance entre candidatures du 2e tour et candidatures du
-1er tour est rendue difficile par l&#39;existence d&#39;erreurs dans les listes de candidats
-mises à disposition par le ministère de l&#39;Intérieur (MIOM).
-
-Ce fichier comprend les correspondances pour certains des candidats dont les
-informations ne correspondent pas parfaitement entre 1er et 2e tour, identifiés par
-les colonnes suivantes :
-
-- `code_commune` identifie la commune
-- `numéro_panneau_t2` identifie la liste de second tour, et `ordre_t2` la position du
-  candidat sur cette liste au second tour
-- `numéro_panneau_t1` identifie la liste de premier tour, et `ordre_t1` la position du
-  candidat sur cette liste au premier tour.
-
-Pour élaborer ce fichier, une recherche par trigramme des candidats de 2e tour parmi
-l&#39;ensemble des candidats de 1er tour sans correspondance exacte dans la liste des
-candidats du 2e tour. Dans les cas d&#39;homonymie ou d&#39;ambiguité, c&#39;est la comparaison des
-nuances de 1er et de 2e tour qui a permis l&#39;attribution.
-
-Pour le moment, cette analyse n&#39;a été mise en place que sur le seul cas des communes où
-une liste soutenue par la France insoumise est présente au 2e tour.
-
 ### Nombre de conseillers de Paris et de conseillers municipaux de Lyon et Marseille élus par secteur avant 2026
 <a name="data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv"></a>
 
@@ -2252,7 +2828,7 @@ une liste soutenue par la France insoumise est présente au 2e tour.
 | Chemin interne | data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv |
 | Format de fichier | text/csv |
 | Éditeur | La France insoumise |
-| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b1/bae8385324e406fa6bc093128d4088 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/be/4944d188cd2fb1aadbb1959e5dcbd2 |
 
 Avant l&#39;adoption de la loi du 11 août 2025 visant à réformer le mode d&#39;élection des membres du conseil de Paris et des
 conseils municipaux de Lyon et de Marseille, les conseillers de Paris et les conseillers municipaux de Lyon et de
@@ -2529,6 +3105,19 @@ et 16921.
 | Éditeur | Ministère de l&#39;Intérieur |
 | URL d&#39;origine | https://www.data.gouv.fr/fr/datasets/r/7e641d2e-e017-43d4-9434-49d5acd44b4b |
 | URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fa/88d768c4ce3098a7f883dd9e7b03e7 |
+
+
+### Résultats des sénatoriales 2020 par département
+<a name="data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx |
+| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/104a9622-7a54-4b60-a289-585007c0b1ff |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2e/c18ec56f6e9e443e6106df0fc99e4f |
+
 
 
 ### Résultats du premier tour des élections départementales de 2021 par bureau de vote
