@@ -8,12 +8,14 @@ from .algorithmes_electoraux import (
 
 def test_dhondt_wikipedia():
     # cas récupéré sur https://en.wikipedia.org/wiki/D%27Hondt_method
-    voix = [
-        100_000,
-        80_000,
-        30_000,
-        20_000,
-    ]
+    voix = np.array(
+        [
+            100_000,
+            80_000,
+            30_000,
+            20_000,
+        ]
+    )
 
     sieges = [4, 3, 1, 0]
 

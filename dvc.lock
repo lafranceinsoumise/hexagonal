@@ -2672,18 +2672,23 @@ stages:
   normaliser-format-senatoriales:
     cmd: PYTHONPATH=src python -m hexagonal.elections.resultats.senatoriales 
       data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx 
+      data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv 
       data/02_clean/elections/2020-senatoriales-departement.parquet
     deps:
+    - path: data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv
+      hash: md5
+      md5: 8c895fe131736d7a64f979d157271977
+      size: 577
     - path: data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx
       hash: md5
       md5: 2ec18ec56f6e9e443e6106df0fc99e4f
       size: 51531
     - path: src/hexagonal/elections/resultats/senatoriales.py
       hash: md5
-      md5: 4a308f2936b5dc58a00a475f2e3591be
-      size: 2859
+      md5: e3567f9b779c0cb52dd5f7d55a57ef7e
+      size: 4763
     outs:
     - path: data/02_clean/elections/2020-senatoriales-departement.parquet
       hash: md5
-      md5: 1a0a16dbb9eab760f0e471a9032c3246
-      size: 17982
+      md5: 7f85757ec9b3bf13f152a257313ceac6
+      size: 19376

@@ -35,12 +35,14 @@ stages:
   normaliser-format-senatoriales:
     deps:
       - ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
+      - ${raw}/lafranceinsoumise/2003-senateurs-par-departements.csv
       - ${src}/hexagonal/elections/resultats/senatoriales.py
     outs:
       - ${clean}/elections/2020-senatoriales-departement.parquet
     cmd: >-
       ${python} hexagonal.elections.resultats.senatoriales
       ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
+      ${raw}/lafranceinsoumise/2003-senateurs-par-departements.csv
       ${clean}/elections/2020-senatoriales-departement.parquet
 
   candidats-nettoyer-legislatives-2022-2024:
