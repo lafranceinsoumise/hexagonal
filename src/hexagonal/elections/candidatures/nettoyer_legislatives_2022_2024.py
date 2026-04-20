@@ -2,11 +2,11 @@ import click
 from glom import Coalesce, S, T, glom
 
 from hexagonal.codes import CORRESPONDANCE_CODE_DEPARTEMENT
-from hexagonal.utils import (
-    date_francaise_vers_iso,
+from hexagonal.utils.clean import (
     iterate_csv,
     nettoyer_avec_spec,
     vers_booleen,
+    date_francaise_vers_iso,
 )
 
 

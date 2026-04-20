@@ -3,7 +3,7 @@ from pathlib import Path
 import click
 from glom import Coalesce, Iter, S, Spec
 
-from hexagonal.utils import iterate_ndjson, nettoyer_avec_spec
+from hexagonal.utils.clean import iterate_ndjson, nettoyer_avec_spec
 
 
 def code_departement(code_commune):

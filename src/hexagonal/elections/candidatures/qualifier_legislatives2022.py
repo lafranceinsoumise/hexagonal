@@ -6,7 +6,7 @@ from unidecode import unidecode
 
 from hexagonal.codes import normaliser_code_circonscription
 from hexagonal.files.spec import get_pandas_dataframe
-from hexagonal.utils import FAUX, VRAI
+from hexagonal.utils.clean import VRAI, FAUX
 
 COLONNES_LEMONDE = {
     "Département": "departement",

@@ -6,7 +6,7 @@ import click
 from glom import Match, Switch, T, Val
 
 from hexagonal.cog import ANNEE
-from hexagonal.utils import iterate_csv, nettoyer_avec_spec
+from hexagonal.utils.clean import iterate_csv, nettoyer_avec_spec
 
 TYPES_EVENEMENTS_COMMUNE = {
     10: "changement de nom",

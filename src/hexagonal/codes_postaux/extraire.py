@@ -2,7 +2,7 @@ from pathlib import Path
 
 import click
 
-from hexagonal.utils import iterate_csv, nettoyer_avec_spec
+from hexagonal.utils.clean import iterate_csv, nettoyer_avec_spec
 
 spec_codes_postaux = {
     "code_postal": "Code_postal",

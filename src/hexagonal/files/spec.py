@@ -9,7 +9,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from hexagonal.files import ROOT_DIR, get_main_dir
 from hexagonal.files.dvc_files import DVCFile
-from hexagonal.utils import VRAI
+from hexagonal.utils.clean import VRAI
 
 props_funcs = {
     "date": lambda d: d.strftime("%d/%m/%Y"),

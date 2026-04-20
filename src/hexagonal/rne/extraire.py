@@ -4,7 +4,7 @@ import click
 import pandas as pd
 from glom import T, glom
 
-from hexagonal.utils import serie_dates_usuel_vers_iso
+from hexagonal.utils.clean import serie_dates_usuel_vers_iso
 
 TYPE_CSP = {
     "69M": "MSP",

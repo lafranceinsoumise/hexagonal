@@ -4,7 +4,7 @@ from operator import itemgetter
 import click
 import openpyxl
 
-from hexagonal.utils import nettoyer_avec_spec
+from hexagonal.utils.clean import nettoyer_avec_spec
 
 NOMS_COLONNES = {
     "PMUN": "population_municipale",

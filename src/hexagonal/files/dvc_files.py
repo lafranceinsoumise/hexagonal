@@ -48,6 +48,7 @@ def get_dvc_files() -> dict[Path, DVCFile]:
         for out in stage.outs:
             path = relative_path(out.fs_path)
             urls = [d.fs_path for d in stage.deps if d.fs_path.startswith("http")]
+            assert isinstance(out.hash_info.value, str)
             files[path] = DVCFile(path, out.hash_info.value, urls=urls)
             deps[path] = [
                 relative_path(d.fs_path)

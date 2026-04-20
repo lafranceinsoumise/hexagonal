@@ -4,7 +4,7 @@ import sys
 
 from glom import Iter, glom
 
-from hexagonal.utils import date_francaise_vers_iso
+from hexagonal.utils.clean import date_francaise_vers_iso
 
 MANDATS = {
     "député": "Députée?",

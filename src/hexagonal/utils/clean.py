@@ -4,14 +4,12 @@ import logging
 import re
 from collections import defaultdict
 from contextlib import contextmanager
+from typing import Iterable
 
 from glom import Iter, glom
 
 DATE_FRANCAISE_RE = re.compile(r"^(?P<jour>\d{2})/(?P<mois>\d{2})/(?P<annee>\d{4})$")
-
 logger = logging.getLogger(__name__)
-
-
 VRAI = "V"
 FAUX = "F"
 
@@ -54,8 +52,8 @@ def nettoyer_avec_spec(it, out_path, spec, columns=None):
 
 def vers_booleen(
     *,
-    vrai: Optional[Iterable[str]] = None,
-    faux: Optional[Iterable[str]] = None,
+    vrai: Iterable[str] | None = None,
+    faux: Iterable[str] | None = None,
     default: bool = False,
 ):
     if vrai is None:
