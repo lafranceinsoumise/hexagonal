@@ -1,0 +1,13 @@
+md5: 1584fed9ef0b7550d3685b1ee2f8d13c
+frozen: true
+deps:
+- checksum: '"5f72f4f3-c94b"'
+  size: 51531
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/104a9622-7a54-4b60-a289-585007c0b1ff
+outs:
+- md5: 2ec18ec56f6e9e443e6106df0fc99e4f
+  size: 51531
+  hash: md5
+  path: 2020-senatoriales-departement.xlsx

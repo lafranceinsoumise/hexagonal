@@ -32,6 +32,16 @@ stages:
       outs:
         - ${clean}/elections/${key}.parquet
 
+  normaliser-format-senatoriales:
+    deps:
+      - ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
+    outs:
+      - ${clean}/elections/2020-senatoriales-departement.parquet
+    cmd: >-
+      ${python} hexagonal.elections.resultats.senatoriales
+      ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
+      ${clean}/elections/2020-senatoriales-departement.parquet
+
   candidats-nettoyer-legislatives-2022-2024:
     foreach:
       2022-legislatives-1-candidats:

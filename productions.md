@@ -71,6 +71,7 @@
   - [Résultats de l&#39;élection européenne de 2019 par bureau de vote](#data/02_clean/elections/2019-europeenne-bureau_de_vote.parquet)
   - [Résultats du premier tour des municipales 2020 par bureau de vote — corrigés](#data/02_clean/elections/2020-municipales-1-bureau_de_vote.parquet)
   - [Résultats du deuxième tour des municipales 2020 par bureau de vote](#data/02_clean/elections/2020-municipales-2-bureau_de_vote.parquet)
+  - [Résultats des élections sénatoriales en 2020](#data/02_clean/elections/2020-senatoriales-departement.parquet)
   - [Résultats du premier tour des élections départementales de 2021 par bureau de vote](#data/02_clean/elections/2021-departementales-1-bureau_de_vote.parquet)
   - [Résultats du deuxième tour des élections départementales de 2021 par bureau de vote](#data/02_clean/elections/2021-departementales-2-bureau_de_vote.parquet)
   - [Résultats du premier tour des élections régionales de 2021 par bureau de vote](#data/02_clean/elections/2021-regionales-1-bureau_de_vote.parquet)
@@ -4838,6 +4839,117 @@ Cette production dépend des sources suivantes :
 
 <ul>
     <li><a href="sources.md#data/01_raw/ministere_interieur/2020-municipales-2-bureau_de_vote.csv">Résultats du deuxième tour des municipales 2020 par bureau de vote</a>
+        </li>
+    </ul>
+
+### Résultats des élections sénatoriales en 2020
+<a name="data/02_clean/elections/2020-senatoriales-departement.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/02_clean/elections/2020-senatoriales-departement.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/a12b565824738d7f31506a533caada |
+
+
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>type_scrutin</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>code_departement</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>tour</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>inscrits</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>abstentions</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>votants</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>blancs</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuls</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>numero_depot</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuance</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>sexe</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>voix</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>libelle_liste</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx">Résultats des sénatoriales 2020 par département</a>
         </li>
     </ul>
 

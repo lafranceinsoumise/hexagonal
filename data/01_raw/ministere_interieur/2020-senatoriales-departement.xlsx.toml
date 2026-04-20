@@ -1,0 +1,6 @@
+nom = "Résultats des sénatoriales 2020 par département"
+description = """
+
+"""
+mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+editeur = "Ministère de l'Intérieur"

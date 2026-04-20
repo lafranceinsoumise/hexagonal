@@ -1,0 +1,66 @@
+nom = "Résultats des élections sénatoriales en 2020"
+description = """
+
+"""
+mimetype = "application/vnd.apache.parquet"
+section = "Résultats électoraux"
+
+[colonnes.type_scrutin]
+type = "str"
+nullable = false
+
+[colonnes.code_departement]
+type = "str"
+nullable = false
+
+[colonnes.tour]
+type = "entier"
+nullable = false
+
+[colonnes.inscrits]
+type = "entier"
+nullable = false
+
+[colonnes.abstentions]
+type = "entier"
+nullable = false
+
+[colonnes.votants]
+type = "entier"
+nullable = false
+
+[colonnes.blancs]
+type = "entier"
+nullable = false
+
+[colonnes.nuls]
+type = "entier"
+nullable = false
+
+[colonnes.numero_depot]
+type = "entier"
+nullable = false
+
+[colonnes.nuance]
+type = "str"
+nullable = false
+
+[colonnes.sexe]
+type = "str"
+nullable = false
+
+[colonnes.nom]
+type = "str"
+nullable = false
+
+[colonnes.prenom]
+type = "str"
+nullable = false
+
+[colonnes.voix]
+type = "entier"
+nullable = false
+
+[colonnes.libelle_liste]
+type = "str"
+nullable = false
