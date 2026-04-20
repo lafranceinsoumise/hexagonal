@@ -1,5 +1,7 @@
+from botocore.exceptions import ClientError
 import boto3
 
+from hexagonal.files import CONFIG
 from hexagonal.files.dvc_files import get_dvc_files
 from hexagonal.files.spec import load_all_specs
 
@@ -8,7 +10,11 @@ def rewrite_metadata():
     specs = load_all_specs()
     repo = get_dvc_files()
 
-    client = boto3.client("s3")
+    session = boto3.Session(profile_name=CONFIG["s3_profile"])
+
+    client = session.client(
+        "s3",
+    )
     for path, info in specs.items():
         if info.mimetype:
             url = repo[path].s3_url
@@ -17,7 +23,12 @@ def rewrite_metadata():
             content_type = info.mimetype
             content_disposition = f'attachment; filename="{path.name}"'
 
-            current_metadata = client.head_object(Bucket=bucket, Key=key)
+            try:
+                current_metadata = client.head_object(Bucket=bucket, Key=key)
+            except ClientError as e:
+                print(f"Erreur pour {path}: {e}")
+                continue
+
             current_headers = current_metadata["ResponseMetadata"]["HTTPHeaders"]
             current_content_type = current_headers.get("content-type")
             current_content_disposition = current_headers.get("content-disposition")

@@ -40,8 +40,9 @@ dev = [
 ]
 
 [tool.hexagonal]
-s3_root = "s3://hexagonal-data/"
-http_root = "https://hexagonal-data.s3.eu-west-3.amazonaws.com"
+s3_profile = "hexagonal"
+s3_root = "s3://hexagonal-106475418133-eu-west-3-an/"
+http_root = "https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com"
 
 [tool.pytest.ini_options]
 addopts = [
