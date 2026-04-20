@@ -35,6 +35,7 @@ stages:
   normaliser-format-senatoriales:
     deps:
       - ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
+      - ${src}/hexagonal/elections/resultats/senatoriales.py
     outs:
       - ${clean}/elections/2020-senatoriales-departement.parquet
     cmd: >-

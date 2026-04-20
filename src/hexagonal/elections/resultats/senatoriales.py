@@ -88,6 +88,7 @@ def main(fichier, resultats):
         pl.concat([maj_t1, maj_t2, prop], how="diagonal_relaxed")
         .sort(["code_departement", "tour", "numero_depot"])
         .filter(pl.col("numero_depot").is_not_null())
+        .with_columns(pl.col("code_departement").str.zfill(2))
     )
 
     res.write_parquet(resultats)

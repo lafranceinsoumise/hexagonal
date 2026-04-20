@@ -20,13 +20,11 @@ outremers = [
     Outremer("987", "ZP", "Polynésie française"),
     Outremer("975", "ZS", "Saint-Pierre-et-Miquelon"),
     Outremer("986", "ZW", "Wallis-et-Futuna"),
-    Outremer("977", "ZX", "Saint-Barthélemy"),
-    Outremer("978", "ZX", "Saint-Martin"),
+    Outremer("977", "ZY", "Saint-Barthélemy"),
+    Outremer("978", "ZT", "Saint-Martin"),
 ]
 
-CORRESPONDANCE_CODE_DEPARTEMENT = {
-    o.code_interieur: o.code_insee for o in outremers if o.code_interieur != "ZX"
-}
+CORRESPONDANCE_CODE_DEPARTEMENT = {o.code_interieur: o.code_insee for o in outremers}
 CORRESPONDANCE_CODE_DEPARTEMENT["99"] = "ZZ"
 
 
@@ -82,7 +80,7 @@ def normaliser_code_circonscription(circonscription: pd.Series) -> pd.Series:
     departement = normaliser_code_departement(circonscription.str.slice(0, -2))
     departement = departement.where(~departement.isin(["977", "978"]), "ZX")
     numero = circonscription.str.slice(-2)
-    return departement + "-" + numero
+    return departement.str.cat(numero, sep="-")
 
 
 def normaliser_code_commune(commune: pd.Series) -> pd.Series:

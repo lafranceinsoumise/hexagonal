@@ -29,8 +29,8 @@ stages:
       size: 58668586
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2014.py
       hash: md5
       md5: af4e3cae1f06560741d3e77ac8659eab
@@ -51,8 +51,8 @@ stages:
       size: 108205025
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2014.py
       hash: md5
       md5: af4e3cae1f06560741d3e77ac8659eab
@@ -75,8 +75,8 @@ stages:
       size: 42454602
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -99,8 +99,8 @@ stages:
       size: 14067818
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -123,8 +123,8 @@ stages:
       size: 34748748
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -147,8 +147,8 @@ stages:
       size: 13463989
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -169,8 +169,8 @@ stages:
       size: 217110330
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -192,8 +192,8 @@ stages:
       size: 66947997
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -216,8 +216,8 @@ stages:
       size: 6773003
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -240,8 +240,8 @@ stages:
       size: 24572024
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -265,8 +265,8 @@ stages:
       size: 15501944
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -289,8 +289,8 @@ stages:
       size: 65487496
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -312,8 +312,8 @@ stages:
       size: 33614226
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -336,8 +336,8 @@ stages:
       size: 36463842
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -360,8 +360,8 @@ stages:
       size: 317249
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -385,8 +385,8 @@ stages:
       size: 13530843
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -409,8 +409,8 @@ stages:
       size: 114954
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -434,8 +434,8 @@ stages:
       size: 36290423
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -458,8 +458,8 @@ stages:
       size: 325756
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -482,8 +482,8 @@ stages:
       size: 14215650
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -506,8 +506,8 @@ stages:
       size: 122973
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -528,8 +528,8 @@ stages:
       size: 254095448
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -550,8 +550,8 @@ stages:
       size: 2118726
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -574,8 +574,8 @@ stages:
       size: 37476376
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -598,8 +598,8 @@ stages:
       size: 337917
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -622,8 +622,8 @@ stages:
       size: 16652378
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -646,8 +646,8 @@ stages:
       size: 147285
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -684,8 +684,8 @@ stages:
       size: 500739
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/candidatures/qualifier_legislatives2024.py
       hash: md5
       md5: 33c66850fb5149af476cc42825452cd0
@@ -722,8 +722,8 @@ stages:
       size: 137936
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/candidatures/qualifier_legislatives2024.py
       hash: md5
       md5: 33c66850fb5149af476cc42825452cd0
@@ -749,8 +749,8 @@ stages:
       size: 500739
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/correspondances_circonscription.py
       hash: md5
       md5: 0938b092e64040b89fd62a1b4fe7cae9
@@ -791,8 +791,8 @@ stages:
       size: 44052
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/candidatures/qualifier_legislatives2022.py
       hash: md5
       md5: 21b6ff5e703741229e702ca864a34e04
@@ -832,8 +832,8 @@ stages:
       size: 44052
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/candidatures/qualifier_legislatives2022.py
       hash: md5
       md5: 21b6ff5e703741229e702ca864a34e04
@@ -2016,8 +2016,8 @@ stages:
       size: 37681608
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2038,8 +2038,8 @@ stages:
       size: 44768569
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2014.py
       hash: md5
       md5: af4e3cae1f06560741d3e77ac8659eab
@@ -2139,8 +2139,8 @@ stages:
       size: 10425980
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2303,8 +2303,8 @@ stages:
       size: 1548370
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2327,8 +2327,8 @@ stages:
       size: 951973
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2500,8 +2500,8 @@ stages:
       size: 14423228
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2522,8 +2522,8 @@ stages:
       size: 893849
     - path: src/hexagonal/codes.py
       hash: md5
-      md5: e27a9dabe689bc7989c28ebf2ba84ce6
-      size: 4800
+      md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
+      size: 4776
     - path: src/hexagonal/elections/resultats/format_2017.py
       hash: md5
       md5: 661e01cb308d63b76a32ba791c892166
@@ -2678,8 +2678,12 @@ stages:
       hash: md5
       md5: 2ec18ec56f6e9e443e6106df0fc99e4f
       size: 51531
+    - path: src/hexagonal/elections/resultats/senatoriales.py
+      hash: md5
+      md5: 4a308f2936b5dc58a00a475f2e3591be
+      size: 2859
     outs:
     - path: data/02_clean/elections/2020-senatoriales-departement.parquet
       hash: md5
-      md5: 83a12b565824738d7f31506a533caada
-      size: 18000
+      md5: 1a0a16dbb9eab760f0e471a9032c3246
+      size: 17982
