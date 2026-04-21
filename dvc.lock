@@ -2692,3 +2692,49 @@ stages:
       hash: md5
       md5: 7f85757ec9b3bf13f152a257313ceac6
       size: 19376
+  normaliser-format-senatoriales-2020:
+    cmd: PYTHONPATH=src python -m hexagonal.elections.senatoriales.nettoyer_2020
+      data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx 
+      data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv 
+      data/02_clean/elections/2020-senatoriales-departement.parquet
+    deps:
+    - path: data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv
+      hash: md5
+      md5: 8c895fe131736d7a64f979d157271977
+      size: 577
+    - path: data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx
+      hash: md5
+      md5: 2ec18ec56f6e9e443e6106df0fc99e4f
+      size: 51531
+    - path: src/hexagonal/elections/senatoriales/nettoyer_2020.py
+      hash: md5
+      md5: a1e6d26ad4d31180a67cb9eb3da4c09f
+      size: 5439
+    outs:
+    - path: data/02_clean/elections/2020-senatoriales-departement.parquet
+      hash: md5
+      md5: eb56b1386ed25c51d45d4f5101c9bd21
+      size: 19375
+  normaliser-format-senatoriales-2023:
+    cmd: PYTHONPATH=src python -m hexagonal.elections.senatoriales.nettoyer_2023
+      data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx 
+      data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx 
+      data/02_clean/elections/2023-senatoriales-departement.parquet
+    deps:
+    - path: data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx
+      hash: md5
+      md5: af904c82dfe101d803000238343c4024
+      size: 146629
+    - path: data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx
+      hash: md5
+      md5: 0caf47eec9a8c0329197e3a3c2e0fcd2
+      size: 64832
+    - path: src/hexagonal/elections/senatoriales/nettoyer_2023.py
+      hash: md5
+      md5: 57162cfcea2721d2b87bef0ea3c0283a
+      size: 5187
+    outs:
+    - path: data/02_clean/elections/2023-senatoriales-departement.parquet
+      hash: md5
+      md5: 2f3ccd149a44daa58ccd785d301a459c
+      size: 22208

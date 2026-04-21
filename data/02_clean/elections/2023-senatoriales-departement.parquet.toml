@@ -1,4 +1,4 @@
-nom = "Résultats des élections sénatoriales en 2020"
+nom = "Résultats des élections sénatoriales de 2023"
 description = """
 
 """
@@ -17,11 +17,15 @@ nullable = false
 type = "entier"
 nullable = false
 
+[colonnes.votants]
+type = "entier"
+nullable = false
+
 [colonnes.abstentions]
 type = "entier"
 nullable = false
 
-[colonnes.votants]
+[colonnes.exprimes]
 type = "entier"
 nullable = false
 
@@ -33,19 +37,15 @@ nullable = false
 type = "entier"
 nullable = false
 
-[colonnes.exprimes]
-type = "entier"
-nullable = false
-
-[colonnes.numero_depot]
-type = "entier"
-nullable = false
-
 [colonnes.nuance]
 type = "str"
 nullable = false
 
 [colonnes.libelle_liste]
+type = "str"
+nullable = false
+
+[colonnes.libelle_liste_court]
 type = "str"
 nullable = false
 

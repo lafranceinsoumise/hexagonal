@@ -1,3 +1,4 @@
+from hexagonal.elections.senatoriales.types import TypeElectionSenatoriale
 import click
 import polars as pl
 
@@ -17,10 +18,10 @@ TDL_RE = rf"^{CIVILITE_RE} {NOMS_RE} {PRENOMS_RE}$"
 
 
 COLONNES_FIXES = {
-    "type_scrutin": pl.String(),
+    "type_scrutin": None,
     "code_departement": pl.String(),
     "nom_departement": None,
-    "tour": pl.Int16(),
+    "tour": None,
     "inscrits": pl.Int32(),
     "abstentions": pl.Int32(),
     "part_abstentions": None,
@@ -58,6 +59,24 @@ COLONNES_VARIABLES_PROP = {
     "part_voix_exprimes": None,
 }
 
+ORDRE_FINAL = [
+    "code_departement",
+    "type_scrutin",
+    "inscrits",
+    "abstentions",
+    "votants",
+    "blancs",
+    "nuls",
+    "exprimes",
+    "numero_depot",
+    "nuance",
+    "libelle_liste",
+    "nom",
+    "prenom",
+    "sexe",
+    "voix",
+    "elus",
+]
 
 NORMALISER_CODE_DEPARTEMENT = (
     pl.col("code_departement")
@@ -91,6 +110,7 @@ def main(fichier, nombre_senateurs, resultats):
         polars_large_to_long(maj_t1, COLONNES_FIXES, COLONNES_VARIABLES_MAJ)
     )
     maj_t1 = maj_t1.with_columns(
+        type_scrutin=pl.lit("MAJORITAIRE_T1", dtype=TypeElectionSenatoriale),
         elus=(
             (pl.col("voix") / pl.col("exprimes") >= 0.5)
             & (pl.col("voix") / pl.col("inscrits") >= 0.25)
@@ -107,7 +127,10 @@ def main(fichier, nombre_senateurs, resultats):
         polars_large_to_long(maj_t2, COLONNES_FIXES, COLONNES_VARIABLES_MAJ)
     )
     maj_t2 = (
-        maj_t2.join(
+        maj_t2.with_columns(
+            type_scrutin=pl.lit("MAJORITAIRE_T2", dtype=TypeElectionSenatoriale),
+        )
+        .join(
             nombre_senateurs,
             on=["code_departement"],
             how="left",
@@ -130,7 +153,10 @@ def main(fichier, nombre_senateurs, resultats):
     prop = pretraiter(
         polars_large_to_long(prop, COLONNES_FIXES, COLONNES_VARIABLES_PROP)
     )
-    prop = prop.with_columns(pl.col("nom").str.extract_groups(TDL_RE)).with_columns(
+    prop = prop.with_columns(
+        pl.lit("PROPORTIONNELLE", dtype=TypeElectionSenatoriale).alias("type_scrutin"),
+        pl.col("nom").str.extract_groups(TDL_RE),
+    ).with_columns(
         prenom=pl.col("nom").struct.field("prenom"),
         nom=pl.col("nom").struct.field("nom"),
         sexe=pl.col("nom")
@@ -151,8 +177,10 @@ def main(fichier, nombre_senateurs, resultats):
         .select(pl.all().exclude("nombre_senateurs"))
     )
 
-    res = pl.concat([maj_t1, maj_t2, prop], how="diagonal_relaxed").sort(
-        ["code_departement", "tour", "numero_depot"]
+    res = (
+        pl.concat([maj_t1, maj_t2, prop], how="diagonal_relaxed")
+        .sort(["code_departement", "type_scrutin", "numero_depot"])
+        .select(ORDRE_FINAL)
     )
 
     res.write_parquet(resultats)

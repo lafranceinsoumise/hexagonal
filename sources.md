@@ -228,6 +228,7 @@
   - [Résultats de l&#39;élection européenne de 2019 par bureau de vote](#data/01_raw/ministere_interieur/2019-europeenne-bureau_de_vote.csv)
   - [Résultats du premier tour des municipales 2020 par bureau de vote](#data/01_raw/ministere_interieur/2020-municipales-1-bureau_de_vote_avant_correction.csv)
   - [Résultats du deuxième tour des municipales 2020 par bureau de vote](#data/01_raw/ministere_interieur/2020-municipales-2-bureau_de_vote.csv)
+  - [Candidats aux élections sénatoriales de 2020](#data/01_raw/ministere_interieur/2020-senatoriales-candidats.xlsx)
   - [Résultats des sénatoriales 2020 par département](#data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx)
   - [Résultats du premier tour des élections départementales de 2021 par bureau de vote](#data/01_raw/ministere_interieur/2021-departementales-1-bureau_de_vote.csv)
   - [Résultats du deuxième tour des élections départementales de 2021 par bureau de vote](#data/01_raw/ministere_interieur/2021-departementales-2-bureau_de_vote.csv)
@@ -244,6 +245,8 @@
   - [Résultats du premier tour de l&#39;élection présidentielle 2022 par circonscription législative](#data/01_raw/ministere_interieur/2022-presidentielle-1-circonscription.csv)
   - [Résultats du deuxième tour de l&#39;élection présidentielle 2022 par bureau de vote](#data/01_raw/ministere_interieur/2022-presidentielle-2-bureau_de_vote.csv)
   - [Résultats du deuxième tour de l&#39;élection présidentielle 2022 par circonscription législative](#data/01_raw/ministere_interieur/2022-presidentielle-2-circonscription.csv)
+  - [Candidats aux élections sénatoriales de 2023](#data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx)
+  - [Résultats des élections sénatoriales de 2023](#data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx)
   - [Résultats des élections européennes 2024 par bureau de vote](#data/01_raw/ministere_interieur/2024-europeenne-bureau_de_vote.csv)
   - [Composition des listes candidates à l&#39;élection européenne de 2024](#data/01_raw/ministere_interieur/2024-europeenne-candidats.csv)
   - [Résultats des élections européennes 2024 par circonscription législative](#data/01_raw/ministere_interieur/2024-europeenne-circonscription.csv)
@@ -3107,6 +3110,19 @@ et 16921.
 | URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/fa/88d768c4ce3098a7f883dd9e7b03e7 |
 
 
+### Candidats aux élections sénatoriales de 2020
+<a name="data/01_raw/ministere_interieur/2020-senatoriales-candidats.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/2020-senatoriales-candidats.xlsx |
+| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/1b6d6c03-8b36-4728-bb5d-fe2492127d22 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/48/8cfaf4ad15b6040e51826a5ffa1915 |
+
+
+
 ### Résultats des sénatoriales 2020 par département
 <a name="data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx"></a>
 
@@ -3303,6 +3319,32 @@ et 16921.
 | Éditeur | Ministère de l&#39;Intérieur |
 | URL d&#39;origine | https://www.data.gouv.fr/fr/datasets/r/eefff73d-1b17-4695-8ec6-6671916e3af8 |
 | URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/29/2bc96162d5cde4d3cc7c98eeed4e00 |
+
+
+### Candidats aux élections sénatoriales de 2023
+<a name="data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx |
+| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/d1e9ab13-f8b6-4ab1-896a-de893134d74d |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/af/904c82dfe101d803000238343c4024 |
+
+
+
+### Résultats des élections sénatoriales de 2023
+<a name="data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx |
+| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/26158ed7-7637-4707-bb37-2d3155fad10a |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/0c/af47eec9a8c0329197e3a3c2e0fcd2 |
+
 
 
 ### Résultats des élections européennes 2024 par bureau de vote

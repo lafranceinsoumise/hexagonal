@@ -88,6 +88,7 @@
   - [Résultats du deuxième tour de l&#39;élection présidentielle 2022 par bureau de vote](#data/02_clean/elections/2022-presidentielle-2-bureau_de_vote.parquet)
   - [Résultats du deuxième tour de l&#39;élection présidentielle 2022 par circonscription législative](#data/02_clean/elections/2022-presidentielle-2-circonscription.parquet)
   - [Parrainages validés pour la présidentielle de 2022](#data/02_clean/elections/2022-presidentielle-parrainages.csv)
+  - [Résultats des élections sénatoriales de 2023](#data/02_clean/elections/2023-senatoriales-departement.parquet)
   - [Résultats des élections européennes 2024 par bureau de vote](#data/02_clean/elections/2024-europeenne-bureau_de_vote.parquet)
   - [Composition des listes candidates à l&#39;élection européenne de 2024](#data/02_clean/elections/2024-europeenne-candidats.parquet)
   - [Résultats des élections européennes 2024 par circonscription législative](#data/02_clean/elections/2024-europeenne-circonscription.parquet)
@@ -4849,7 +4850,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2020-senatoriales-departement.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/83/a12b565824738d7f31506a533caada |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/eb/56b1386ed25c51d45d4f5101c9bd21 |
 
 
 
@@ -4866,18 +4867,13 @@ Cette production dépend des sources suivantes :
 </thead>
 <tbody>
 <tr>
-    <td><code>type_scrutin</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
     <td><code>code_departement</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
 <tr>
-    <td><code>tour</code></td>
-    <td><code>entier</code></td>
+    <td><code>type_scrutin</code></td>
+    <td><code>str</code></td>
     <td></td>
   </tr>
 <tr>
@@ -4906,6 +4902,11 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
+    <td><code>exprimes</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
     <td><code>numero_depot</code></td>
     <td><code>entier</code></td>
     <td></td>
@@ -4916,7 +4917,7 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
-    <td><code>sexe</code></td>
+    <td><code>libelle_liste</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
@@ -4931,13 +4932,18 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
+    <td><code>sexe</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
     <td><code>voix</code></td>
     <td><code>entier</code></td>
     <td></td>
   </tr>
 <tr>
-    <td><code>libelle_liste</code></td>
-    <td><code>str</code></td>
+    <td><code>elus</code></td>
+    <td><code>entier</code></td>
     <td></td>
   </tr>
 
@@ -4950,6 +4956,8 @@ Cette production dépend des sources suivantes :
 
 <ul>
     <li><a href="sources.md#data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx">Résultats des sénatoriales 2020 par département</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv">Nombre de sénateurs par département</a>
         </li>
     </ul>
 
@@ -6382,6 +6390,124 @@ Cette production dépend des sources suivantes :
 
 <ul>
     <li><a href="sources.md#data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv">Liste des parrainages validés par le Conseil constitutionnel pour l&#39;élection de 2022</a>
+        </li>
+    </ul>
+
+### Résultats des élections sénatoriales de 2023
+<a name="data/02_clean/elections/2023-senatoriales-departement.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/02_clean/elections/2023-senatoriales-departement.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/2f/3ccd149a44daa58ccd785d301a459c |
+
+
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_departement</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>type_scrutin</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>inscrits</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>votants</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>abstentions</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>exprimes</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>blancs</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuls</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuance</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>libelle_liste</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>libelle_liste_court</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>sexe</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>voix</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>elus</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2023-senatoriales-departement.xlsx">Résultats des élections sénatoriales de 2023</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2023-senatoriales-candidats.xlsx">Candidats aux élections sénatoriales de 2023</a>
         </li>
     </ul>
 

@@ -1,0 +1,13 @@
+md5: 2cb6b99b47d7a7c3f66a342ea74e2220
+frozen: true
+deps:
+- checksum: '"5f64e4c8-1d6df"'
+  size: 120543
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/1b6d6c03-8b36-4728-bb5d-fe2492127d22
+outs:
+- md5: 488cfaf4ad15b6040e51826a5ffa1915
+  size: 120543
+  hash: md5
+  path: 2020-senatoriales-candidats.xlsx

@@ -1,0 +1,6 @@
+nom = "Candidats aux élections sénatoriales de 2023"
+description = """
+
+"""
+mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+editeur = "Ministère de l'Intérieur"

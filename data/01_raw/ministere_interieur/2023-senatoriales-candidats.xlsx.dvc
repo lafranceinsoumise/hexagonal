@@ -1,0 +1,13 @@
+md5: b945f73ae6a7b75adb68e5387cd5d58a
+frozen: true
+deps:
+- checksum: '"650888ef-23cc5"'
+  size: 146629
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/d1e9ab13-f8b6-4ab1-896a-de893134d74d
+outs:
+- md5: af904c82dfe101d803000238343c4024
+  size: 146629
+  hash: md5
+  path: 2023-senatoriales-candidats.xlsx

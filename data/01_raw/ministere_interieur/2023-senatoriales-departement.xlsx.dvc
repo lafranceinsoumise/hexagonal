@@ -1,0 +1,13 @@
+md5: 3bfea3652d0bdc588e7e0d1f0cd4c9db
+frozen: true
+deps:
+- checksum: '"65155a24-fd40"'
+  size: 64832
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/26158ed7-7637-4707-bb37-2d3155fad10a
+outs:
+- md5: 0caf47eec9a8c0329197e3a3c2e0fcd2
+  size: 64832
+  hash: md5
+  path: 2023-senatoriales-departement.xlsx

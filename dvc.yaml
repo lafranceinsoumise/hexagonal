@@ -32,15 +32,28 @@ stages:
       outs:
         - ${clean}/elections/${key}.parquet
 
-  normaliser-format-senatoriales:
+  normaliser-format-senatoriales-2023:
+    deps:
+      - ${raw}/ministere_interieur/2023-senatoriales-departement.xlsx
+      - ${raw}/ministere_interieur/2023-senatoriales-candidats.xlsx
+      - ${src}/hexagonal/elections/senatoriales/nettoyer_2023.py
+    outs:
+      - ${clean}/elections/2023-senatoriales-departement.parquet
+    cmd: >-
+      ${python} hexagonal.elections.senatoriales.nettoyer_2023
+      ${raw}/ministere_interieur/2023-senatoriales-departement.xlsx
+      ${raw}/ministere_interieur/2023-senatoriales-candidats.xlsx
+      ${clean}/elections/2023-senatoriales-departement.parquet
+
+  normaliser-format-senatoriales-2020:
     deps:
       - ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
       - ${raw}/lafranceinsoumise/2003-senateurs-par-departements.csv
-      - ${src}/hexagonal/elections/resultats/senatoriales.py
+      - ${src}/hexagonal/elections/senatoriales/nettoyer_2020.py
     outs:
       - ${clean}/elections/2020-senatoriales-departement.parquet
     cmd: >-
-      ${python} hexagonal.elections.resultats.senatoriales
+      ${python} hexagonal.elections.senatoriales.nettoyer_2020
       ${raw}/ministere_interieur/2020-senatoriales-departement.xlsx
       ${raw}/lafranceinsoumise/2003-senateurs-par-departements.csv
       ${clean}/elections/2020-senatoriales-departement.parquet
