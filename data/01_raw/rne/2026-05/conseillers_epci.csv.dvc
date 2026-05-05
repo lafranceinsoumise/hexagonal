@@ -1,0 +1,13 @@
+md5: e6fcf8f9a66614a6ab277454d6fac479
+frozen: true
+deps:
+- checksum: '"69fa0a7c-8cf599"'
+  size: 9237913
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/41d95d7d-b172-4636-ac44-32656367cdc7
+outs:
+- md5: 1e0618cbccf1f6ad302129823ee4664e
+  size: 9237913
+  hash: md5
+  path: conseillers_epci.csv

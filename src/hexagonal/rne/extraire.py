@@ -123,10 +123,7 @@ SPECS = {
 
 def extraire(in_path, out_path, spec):
     # un des fichiers du millésime de décembre 2025 a été exporté avec le séparateur virgule…
-    if in_path.name == "conseillers_csp.csv":
-        data_in = pd.read_csv(in_path, delimiter=",", dtype=str)
-    else:
-        data_in = pd.read_csv(in_path, delimiter=";", dtype=str)
+    data_in = pd.read_csv(in_path, delimiter=";", dtype=str)
 
     data_out = pd.DataFrame(glom(data_in, spec))
 

@@ -1,0 +1,13 @@
+md5: b3e0d6df4e4246b4cb4007deb11d1e00
+frozen: true
+deps:
+- checksum: '"69fa0adb-139e5"'
+  size: 80357
+  hash: md5
+  path: 
+    https://www.data.gouv.fr/api/1/datasets/r/1ac42ff4-1336-44f8-a221-832039dbc142
+outs:
+- md5: acba106cf7edca3d9b9fb4a1a53c458b
+  size: 80357
+  hash: md5
+  path: deputes.csv

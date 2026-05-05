@@ -1,7 +1,7 @@
 vars:
   - scrutins.yaml
   - zones.yaml
-  - rne: "2025-12"
+  - rne: "2026-05"
   - src: "src"
   - raw: "data/01_raw"
   - clean: "data/02_clean"

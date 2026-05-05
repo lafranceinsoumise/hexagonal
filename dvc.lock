@@ -1091,90 +1091,90 @@ stages:
       md5: 3da5da55e31acfdee79c65cad5e427cc
       size: 1034090
   rne_nettoyer@conseillers_arrondissement:
-    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2025-12
+    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_arrondissement
     deps:
-    - path: data/01_raw/rne/2025-12/conseillers_arrondissement.csv
+    - path: data/01_raw/rne/2026-05/conseillers_arrondissement.csv
       hash: md5
-      md5: 9dc420f9b7eca1433ca50c7a95509691
-      size: 172918
+      md5: 3fb4fb1a4f61a372509ca658ce4ae34e
+      size: 168688
     - path: src/hexagonal/rne/extraire.py
       hash: md5
-      md5: 0f884e401f1bd1efbb36a4e2fe833696
-      size: 5223
+      md5: d956e902173de21ab4998b6c9f6123de
+      size: 5098
     outs:
     - path: data/02_clean/rne/conseillers_arrondissement.csv
       hash: md5
-      md5: 550c207dd03fbb182fadb686d97662ed
-      size: 82276
+      md5: da0299dbe3c29263186e8337b02b8b93
+      size: 68673
   rne_nettoyer@conseillers_municipaux:
-    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2025-12
+    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_municipaux
     deps:
-    - path: data/01_raw/rne/2025-12/conseillers_municipaux.csv
+    - path: data/01_raw/rne/2026-05/conseillers_municipaux.csv
       hash: md5
-      md5: fdbbd29b9591dbf673f074d4b360ec09
-      size: 61480967
+      md5: 510d09fa108bd614538fc85b44387a97
+      size: 72679859
     - path: src/hexagonal/rne/extraire.py
       hash: md5
-      md5: 0f884e401f1bd1efbb36a4e2fe833696
-      size: 5223
+      md5: d956e902173de21ab4998b6c9f6123de
+      size: 5098
     outs:
     - path: data/02_clean/rne/conseillers_municipaux.csv
       hash: md5
-      md5: 9dc9e123ef3874bba9e8675e486edb4f
-      size: 32665691
+      md5: c92c6a639c42b78e4538cce52cdbce35
+      size: 22451069
   rne_nettoyer@conseillers_departementaux:
-    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2025-12
+    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_departementaux
     deps:
-    - path: data/01_raw/rne/2025-12/conseillers_departementaux.csv
+    - path: data/01_raw/rne/2026-05/conseillers_departementaux.csv
       hash: md5
-      md5: 68ce852484b14dd8ca9e02c6966ebb29
-      size: 533931
+      md5: 895a82f658c447a4edb975fd13c98db4
+      size: 584228
     - path: src/hexagonal/rne/extraire.py
       hash: md5
-      md5: 0f884e401f1bd1efbb36a4e2fe833696
-      size: 5223
+      md5: d956e902173de21ab4998b6c9f6123de
+      size: 5098
     outs:
     - path: data/02_clean/rne/conseillers_departementaux.csv
       hash: md5
-      md5: 5bdc363d3f73f48570f47fd3f8631fa4
-      size: 283361
+      md5: 1a4f72191e343a8609693df9b9a74e10
+      size: 190546
   rne_nettoyer@conseillers_regionaux:
-    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2025-12
+    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_regionaux
     deps:
-    - path: data/01_raw/rne/2025-12/conseillers_regionaux.csv
+    - path: data/01_raw/rne/2026-05/conseillers_regionaux.csv
       hash: md5
-      md5: c2e3b259ae78913b663327f8141e6b26
-      size: 218912
+      md5: 7bad40e8e3e9e2720a8cb47d317ad00f
+      size: 240848
     - path: src/hexagonal/rne/extraire.py
       hash: md5
-      md5: 0f884e401f1bd1efbb36a4e2fe833696
-      size: 5223
+      md5: d956e902173de21ab4998b6c9f6123de
+      size: 5098
     outs:
     - path: data/02_clean/rne/conseillers_regionaux.csv
       hash: md5
-      md5: f3a0dd419e55b29081571b70e3fdfe0a
-      size: 101298
+      md5: 16602ef7414ad1a604b798eedd1f1889
+      size: 64278
   rne_nettoyer@conseillers_csp:
-    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2025-12
+    cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_csp
     deps:
-    - path: data/01_raw/rne/2025-12/conseillers_csp.csv
+    - path: data/01_raw/rne/2026-05/conseillers_csp.csv
       hash: md5
-      md5: fad32784538db1d4b7c4779b8fee549e
-      size: 85747
+      md5: 979bed85728e4de2c7fd758de15b8050
+      size: 97681
     - path: src/hexagonal/rne/extraire.py
       hash: md5
-      md5: 0f884e401f1bd1efbb36a4e2fe833696
-      size: 5223
+      md5: d956e902173de21ab4998b6c9f6123de
+      size: 5098
     outs:
     - path: data/02_clean/rne/conseillers_csp.csv
       hash: md5
-      md5: 5e782919d729e97417b7836c6d942163
-      size: 41015
+      md5: 14d0b7ed8f1186f06f19f424509b1234
+      size: 29088
   candidats-nettoyer@2022-legislatives-1-candidats:
     cmd: "PYTHONPATH=src python -m hexagonal.candidatures.nettoyer --delimiter '\t\
       ' --encoding latin1 \"data/01_raw/ministere_interieur/2022-legislatives-1-candidats.csv\"\
