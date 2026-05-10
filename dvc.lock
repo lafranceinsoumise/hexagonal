@@ -843,43 +843,6 @@ stages:
       hash: md5
       md5: 61da5f8f3a6ef33c57111edc2cd601df
       size: 203306
-  assemblee_nationale_deputees:
-    cmd: PYTHONPATH=src python -m hexagonal.assemblee_nationale.liste 
-      data/01_raw/assemblee-nationale.zip 
-      data/02_clean/assemblee_nationale/fiches.csv 
-      data/02_clean/assemblee_nationale/deputes.csv 
-      data/02_clean/assemblee_nationale/adresses_postales.csv 
-      data/02_clean/assemblee_nationale/adresses_electroniques.csv
-    deps:
-    - path: data/01_raw/assemblee-nationale.zip
-      hash: md5
-      md5: 0b1e0746581366d7d9c87852b0b2fce8
-      size: 13247738
-    - path: src/hexagonal/assemblee_nationale/liste.py
-      hash: md5
-      md5: 4341fbc2a5df4878b5d48f2da2ec2f07
-      size: 6443
-    - path: src/hexagonal/assemblee_nationale/utils.py
-      hash: md5
-      md5: e0374b700ee9abb35f4f88145645bd6b
-      size: 895
-    outs:
-    - path: data/02_clean/assemblee_nationale/adresses_electroniques.csv
-      hash: md5
-      md5: bfb1bb9e44a12c459131c47725772e83
-      size: 422936
-    - path: data/02_clean/assemblee_nationale/adresses_postales.csv
-      hash: md5
-      md5: 6e18b24385b2852a3dd3264e9ab58a8f
-      size: 302467
-    - path: data/02_clean/assemblee_nationale/deputes.csv
-      hash: md5
-      md5: 5ccb1eb6505e6526c2e6cda3c9fd84bf
-      size: 202621
-    - path: data/02_clean/assemblee_nationale/fiches.csv
-      hash: md5
-      md5: 0945caaaaa27a68fad93799b1d3a3620
-      size: 252887
   assemblee_nationale_mandats:
     cmd: PYTHONPATH=src python -m hexagonal.assemblee_nationale.mandats 
       data/01_raw/assemblee-nationale.zip 
@@ -1175,78 +1138,6 @@ stages:
       hash: md5
       md5: 14d0b7ed8f1186f06f19f424509b1234
       size: 29088
-  candidats-nettoyer@2022-legislatives-1-candidats:
-    cmd: "PYTHONPATH=src python -m hexagonal.candidatures.nettoyer --delimiter '\t\
-      ' --encoding latin1 \"data/01_raw/ministere_interieur/2022-legislatives-1-candidats.csv\"\
-      \ \"data/02_clean/elections/2022-legislatives-1-candidats.csv\""
-    deps:
-    - path: data/01_raw/ministere_interieur/2022-legislatives-1-candidats.csv
-      hash: md5
-      md5: f3376d549226719ce0d499493996b753
-      size: 953606
-    - path: src/hexagonal/candidatures/nettoyer.py
-      hash: md5
-      md5: 588da6592a9209f1f5e802763b993dbb
-      size: 3353
-    outs:
-    - path: data/02_clean/elections/2022-legislatives-1-candidats.csv
-      hash: md5
-      md5: 1bffe89e8a5830f4e17c757fa8135c54
-      size: 756262
-  candidats-nettoyer@2022-legislatives-2-candidats:
-    cmd: "PYTHONPATH=src python -m hexagonal.candidatures.nettoyer --delimiter '\t\
-      ' --encoding latin1 \"data/01_raw/ministere_interieur/2022-legislatives-2-candidats.csv\"\
-      \ \"data/02_clean/elections/2022-legislatives-2-candidats.csv\""
-    deps:
-    - path: data/01_raw/ministere_interieur/2022-legislatives-2-candidats.csv
-      hash: md5
-      md5: 6abd2abe7e78e547b7401d0f8938cd47
-      size: 176287
-    - path: src/hexagonal/candidatures/nettoyer.py
-      hash: md5
-      md5: 588da6592a9209f1f5e802763b993dbb
-      size: 3353
-    outs:
-    - path: data/02_clean/elections/2022-legislatives-2-candidats.csv
-      hash: md5
-      md5: 2f142b8fe02a85c63f54a962c147036c
-      size: 140177
-  candidats-nettoyer@2024-legislatives-1-candidats:
-    cmd: PYTHONPATH=src python -m hexagonal.candidatures.nettoyer --delimiter 
-      ';' "data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv" 
-      "data/02_clean/elections/2024-legislatives-1-candidats.csv"
-    deps:
-    - path: data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv
-      hash: md5
-      md5: c840bd309348cbe6cd728cc96bf550d0
-      size: 622985
-    - path: src/hexagonal/candidatures/nettoyer.py
-      hash: md5
-      md5: 588da6592a9209f1f5e802763b993dbb
-      size: 3353
-    outs:
-    - path: data/02_clean/elections/2024-legislatives-1-candidats.csv
-      hash: md5
-      md5: c19c73368deb0156f8ba71e695dced78
-      size: 500739
-  candidats-nettoyer@2024-legislatives-2-candidats:
-    cmd: PYTHONPATH=src python -m hexagonal.candidatures.nettoyer --delimiter 
-      ';' "data/01_raw/ministere_interieur/2024-legislatives-2-candidats.csv" 
-      "data/02_clean/elections/2024-legislatives-2-candidats.csv"
-    deps:
-    - path: data/01_raw/ministere_interieur/2024-legislatives-2-candidats.csv
-      hash: md5
-      md5: c6e6f33721554d0a1260d81775c0fd22
-      size: 172050
-    - path: src/hexagonal/candidatures/nettoyer.py
-      hash: md5
-      md5: 588da6592a9209f1f5e802763b993dbb
-      size: 3353
-    outs:
-    - path: data/02_clean/elections/2024-legislatives-2-candidats.csv
-      hash: md5
-      md5: b14d19789e35e4f9fbf9a0d236867e48
-      size: 137936
   population_nettoyer:
     cmd: PYTHONPATH=src python -m hexagonal.population.nettoyer 
       data/01_raw/insee/population_municipale.xlsx 
@@ -1460,55 +1351,6 @@ stages:
       hash: md5
       md5: 5af52f1a5550861a7b1aa86dd0823c00
       size: 143050286
-  departements_carto:
-    cmd: 'node_modules/.bin/mapshaper data/03_main/cartographie/communes.json -dissolve
-      fields=code_departement copy-fields=code_region sum-fields=population -rename-layers
-      names=departements -o format=topojson data/03_main/cartographie/departements.json  '
-    deps:
-    - path: data/03_main/cartographie/communes.json
-      hash: md5
-      md5: e093085aec11276e7c3b61787ea6b4f7
-      size: 17802788
-    outs:
-    - path: data/03_main/cartographie/departements.json
-      hash: md5
-      md5: 24513e0165badb312043e17632d03a57
-      size: 685394
-  epci_carto:
-    cmd: 'node_modules/.bin/mapshaper -i files=data/02_clean/epci.csv name=epci-data
-      string-fields=siren_epci -i files=data/03_main/cartographie/communes.json -dissolve
-      fields=siren_epci copy-fields=code_departement,code_region sum-fields=population       -join
-      source=epci-data keys=siren_epci,siren_epci fields=nom_epci,type_epci -rename-layers
-      names=epci -o format=topojson data/03_main/cartographie/epci.json  '
-    deps:
-    - path: data/02_clean/epci.csv
-      hash: md5
-      md5: d355ed2662d0db2fa65059b202a1bcf8
-      size: 69796
-    - path: data/03_main/cartographie/communes.json
-      hash: md5
-      md5: e093085aec11276e7c3b61787ea6b4f7
-      size: 17802788
-    outs:
-    - path: data/03_main/cartographie/epci.json
-      hash: md5
-      md5: 35d5c44c586cef2eb3ddcba714f8ed33
-      size: 2223636
-  tableau_correspondance_anciens_codes_communes:
-    cmd: mkdir -p data/03_main/cog/ && PYTHONPATH=src python -m 
-      hexagonal.cog.qualifier_mouvements 
-      data/02_clean/cog/mouvements_communes.csv 2010-01-01 
-      data/03_main/cog/correspondances_anciens_codes_communes.csv
-    deps:
-    - path: data/02_clean/cog/mouvements_communes.csv
-      hash: md5
-      md5: be628cc04bf3b739fa5f0f3dbc5433b6
-      size: 1162445
-    outs:
-    - path: data/03_main/cog/correspondances_anciens_codes_communes.csv
-      hash: md5
-      md5: bdbc7c7a4fe8fe668ea1a42def9edef8
-      size: 21350
   pays_carto:
     cmd: src/scripts/cartographie/pays.sh 
       data/01_raw/natural_earth/ne_10m_admin_0_countries.zip 
@@ -2150,36 +1992,6 @@ stages:
       hash: md5
       md5: 54ac7fc177a92ff257e08b90e0ae32db
       size: 639391
-  2026-municipales-correspondances-candidats:
-    cmd: PYTHONPATH=src python -m 
-      hexagonal.candidatures.municipales2026.correspondances_t2_t1 
-      data/02_clean/elections/2026-municipales-1-candidats.parquet 
-      data/02_clean/elections/2026-municipales-2-candidats.parquet 
-      data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet 
-      data/03_main/elections/2026-municipales-correspondances-candidats.parquet
-    deps:
-    - path: data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet
-      hash: md5
-      md5: 172bba57515b46d2efdda6dc18372042
-      size: 3040262
-    - path: data/02_clean/elections/2026-municipales-1-candidats.parquet
-      hash: md5
-      md5: 286bb10474b888719f75b514d949753c
-      size: 7487557
-    - path: data/02_clean/elections/2026-municipales-2-candidats.parquet
-      hash: md5
-      md5: 2cb737307e4559ff6381d181255bb20c
-      size: 1041327
-    - path: src/hexagonal/candidatures/municipales2026/correspondances_t2_t1.py
-      hash: md5
-      md5: 951bd93304af89d3c968293aa740eae2
-      size: 5051
-    outs:
-    - path: 
-        data/03_main/elections/2026-municipales-correspondances-candidats.parquet
-      hash: md5
-      md5: da25a78a4cecfdbd5de82bece6f2405c
-      size: 47387
   2026-municipales-composition_listes_t2:
     cmd: PYTHONPATH=src python -m 
       hexagonal.elections.municipales2026.composition_listes_t2 --code 
@@ -2669,29 +2481,6 @@ stages:
       hash: md5
       md5: cd8e3894a4271977f52debd63b79a3ed
       size: 350075
-  normaliser-format-senatoriales:
-    cmd: PYTHONPATH=src python -m hexagonal.elections.resultats.senatoriales 
-      data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx 
-      data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv 
-      data/02_clean/elections/2020-senatoriales-departement.parquet
-    deps:
-    - path: data/01_raw/lafranceinsoumise/2003-senateurs-par-departements.csv
-      hash: md5
-      md5: 8c895fe131736d7a64f979d157271977
-      size: 577
-    - path: data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx
-      hash: md5
-      md5: 2ec18ec56f6e9e443e6106df0fc99e4f
-      size: 51531
-    - path: src/hexagonal/elections/resultats/senatoriales.py
-      hash: md5
-      md5: e3567f9b779c0cb52dd5f7d55a57ef7e
-      size: 4763
-    outs:
-    - path: data/02_clean/elections/2020-senatoriales-departement.parquet
-      hash: md5
-      md5: 7f85757ec9b3bf13f152a257313ceac6
-      size: 19376
   normaliser-format-senatoriales-2020:
     cmd: PYTHONPATH=src python -m hexagonal.elections.senatoriales.nettoyer_2020
       data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx 
