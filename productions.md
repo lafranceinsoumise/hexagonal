@@ -3486,7 +3486,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/elections/2022-presidentielle-parrains-en-poste.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/e03bbf2110557ffe195393cb313321 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/60/cbbc4f88b6738e54bce7fdd13743b8 |
 
 
 
@@ -3508,17 +3508,12 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
-    <td><code>nom_normalise</code></td>
+    <td><code>nom_commune</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
 <tr>
-    <td><code>prenom_normalise</code></td>
-    <td><code>str</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>candidat</code></td>
+    <td><code>fonction</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
@@ -3533,7 +3528,7 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
-    <td><code>fonction</code></td>
+    <td><code>candidat</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
@@ -3577,6 +3572,40 @@ Cette production dépend des sources suivantes :
     <li><a href="productions.md#data/02_clean/rne/conseillers_municipaux.csv">conseillers_municipaux</a>
         <ul>
     <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux — mai 2026</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/03_main/cog/communes.csv">Liste des communes</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/cog/communes.csv">Liste des communes, arrondissements municipaux, communes déléguées et communes associées</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/population_municipale.csv">Population par commune de 1876 à 2023</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/population_municipale.xlsx">Séries historiques de population par commune (1876 à 2023)</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/cog/communes_com.csv">Liste des communes des collectivités d&#39;outremer</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
         </li>
     </ul>
         </li>

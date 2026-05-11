@@ -9,15 +9,11 @@ section = "Parrainages"
 type = "str"
 nullable = false
 
-[colonnes.nom_normalise]
+[colonnes.nom_commune]
 type = "str"
 nullable = false
 
-[colonnes.prenom_normalise]
-type = "str"
-nullable = false
-
-[colonnes.candidat]
+[colonnes.fonction]
 type = "str"
 nullable = false
 
@@ -29,6 +25,6 @@ nullable = false
 type = "str"
 nullable = false
 
-[colonnes.fonction]
+[colonnes.candidat]
 type = "str"
 nullable = false

@@ -2530,23 +2530,32 @@ stages:
   parrainages_identifier:
     cmd: PYTHONPATH=src python -m hexagonal.parrainages.identifier 
       data/03_main/elections/2022-presidentielle-parrainages.csv 
-      data/02_clean/rne/conseillers_municipaux.csv 
+      data/02_clean/rne/conseillers_municipaux.csv data/03_main/cog/communes.csv
+      data/02_clean/cog/communes_com.csv 
       data/03_main/elections/2022-presidentielle-parrains-en-poste.csv
     deps:
+    - path: data/02_clean/cog/communes_com.csv
+      hash: md5
+      md5: e37c61c15277522f321eade6ba714d64
+      size: 2572
     - path: data/02_clean/rne/conseillers_municipaux.csv
       hash: md5
       md5: c92c6a639c42b78e4538cce52cdbce35
       size: 22451069
+    - path: data/03_main/cog/communes.csv
+      hash: md5
+      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
+      size: 3726040
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
       md5: 3da5da55e31acfdee79c65cad5e427cc
       size: 1034090
     - path: src/hexagonal/parrainages/identifier.py
       hash: md5
-      md5: 4bc85a85dae19bcf073b2a75d5af7bcb
-      size: 1423
+      md5: 71526f46382ee8fb4f015b1cb1b326be
+      size: 2227
     outs:
     - path: data/03_main/elections/2022-presidentielle-parrains-en-poste.csv
       hash: md5
-      md5: e2e03bbf2110557ffe195393cb313321
-      size: 296500
+      md5: 60cbbc4f88b6738e54bce7fdd13743b8
+      size: 280883
