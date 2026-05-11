@@ -302,6 +302,19 @@ stages:
       ${raw}/ministere_interieur/2021-regionales-1-candidats.csv
       ${clean}/elections/2021-regionales-1-candidats.parquet
 
+  parrainages_identifier:
+    deps:
+      - ${main}/elections/2022-presidentielle-parrainages.csv
+      - ${clean}/rne/conseillers_municipaux.csv
+      - ${src}/hexagonal/parrainages/identifier.py
+    outs:
+      - ${main}/elections/2022-presidentielle-parrains-en-poste.csv
+    cmd: >-
+      ${python} hexagonal.parrainages.identifier
+      ${main}/elections/2022-presidentielle-parrainages.csv
+      ${clean}/rne/conseillers_municipaux.csv
+      ${main}/elections/2022-presidentielle-parrains-en-poste.csv
+
   parrainages_nettoyer:
     foreach:
       - 2022

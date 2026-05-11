@@ -1,6 +1,19 @@
 import polars as pl
 
 
+def normaliser(colonne):
+    if isinstance(colonne, str):
+        colonne = pl.col(colonne)
+    return (
+        colonne.str.normalize("NFKD")  # splitter les diacritiques
+        .str.to_lowercase()
+        .str.replace_all(r"\p{Nonspacing Mark}", "")  # retirer les diacritiques
+        .str.replace_all(r"\pP", " ")  # ponctuation
+        .str.replace_all(r"\s\s+", " ")
+        .str.strip_chars()
+    )
+
+
 def polars_large_to_long(
     df: pl.DataFrame,
     fixed_columns: dict[str, pl.DataType | None],

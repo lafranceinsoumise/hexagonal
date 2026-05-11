@@ -289,6 +289,15 @@
   - [Répertoire national des élus — député·es — décembre 2025](#data/01_raw/rne/2025-12/deputes.csv)
   - [Répertoire national des élus — député·es européen·nes — décembre 2025](#data/01_raw/rne/2025-12/deputes_europeens.csv)
   - [Répertoire national des élus — sénateur·rices — décembre 2025](#data/01_raw/rne/2025-12/senateurs.csv)
+  - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — mai 2026](#data/01_raw/rne/2026-05/conseillers_arrondissement.csv)
+  - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — mai 2026](#data/01_raw/rne/2026-05/conseillers_csp.csv)
+  - [Répertoire national des élus — conseillers départementaux — mai 2026](#data/01_raw/rne/2026-05/conseillers_departementaux.csv)
+  - [Répertoire national des élus — conseillers des EPCI à fiscalité propre — mai 2026](#data/01_raw/rne/2026-05/conseillers_epci.csv)
+  - [Répertoire national des élus — conseillers municipaux — mai 2026](#data/01_raw/rne/2026-05/conseillers_municipaux.csv)
+  - [Répertoire national des élus — conseillers régionaux — mai 2026](#data/01_raw/rne/2026-05/conseillers_regionaux.csv)
+  - [Répertoire national des élus — député·es — mai 2026](#data/01_raw/rne/2026-05/deputes.csv)
+  - [Répertoire national des élus — député·es européen·nes — mai 2026](#data/01_raw/rne/2026-05/deputes_europeens.csv)
+  - [Répertoire national des élus — sénateur·rices — mai 2026](#data/01_raw/rne/2026-05/senateurs.csv)
 - [Natural Earth](#natural-earth)
   - [Admin 0 — Pays](#data/01_raw/natural_earth/ne_10m_admin_0_countries.zip)
   - [Populated Places](#data/01_raw/natural_earth/ne_10m_populated_places.zip)
@@ -3903,6 +3912,130 @@ Ce fichier comporte la liste des conseillers municipaux.
 | Éditeur | Ministère de l&#39;Intérieur |
 | URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/b78f8945-509f-4609-a4a7-3048b8370479 |
 | URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/44/691aa2534fde97d9b58ae6f5fc5874 |
+
+
+### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_arrondissement.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_arrondissement.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/3b6b2281-b9d9-4959-ae9d-c2c166dff118 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/3f/b4fb1a4f61a372509ca658ce4ae34e |
+
+
+### Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_csp.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_csp.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/a595be27-cfab-4810-b9d4-22e193bffe35 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/97/9bed85728e4de2c7fd758de15b8050 |
+
+
+### Répertoire national des élus — conseillers départementaux — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_departementaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_departementaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/601ef073-d986-4582-8e1a-ed14dc857fba |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/89/5a82f658c447a4edb975fd13c98db4 |
+
+
+### Répertoire national des élus — conseillers des EPCI à fiscalité propre — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_epci.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_epci.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/41d95d7d-b172-4636-ac44-32656367cdc7 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/1e/0618cbccf1f6ad302129823ee4664e |
+
+
+### Répertoire national des élus — conseillers municipaux — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_municipaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_municipaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/d5f400de-ae3f-4966-8cb6-a85c70c6c24a |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/51/0d09fa108bd614538fc85b44387a97 |
+
+Le Répertoire National des Élus (RNE) a pour finalité le suivi des titulaires
+d’un mandat électoral. Il est renseigné et tenu à jour par les préfectures et
+hauts commissariats et par les services du ministère de l&#39;intérieur, notamment
+sur la base des éléments fournis par les élus lors de la phase d’enregistrement
+des candidatures.
+
+Ce fichier comporte la liste des conseillers municipaux.
+
+### Répertoire national des élus — conseillers régionaux — mai 2026
+<a name="data/01_raw/rne/2026-05/conseillers_regionaux.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/conseillers_regionaux.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/430e13f9-834b-4411-a1a8-da0b4b6e715c |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/7b/ad40e8e3e9e2720a8cb47d317ad00f |
+
+
+### Répertoire national des élus — député·es — mai 2026
+<a name="data/01_raw/rne/2026-05/deputes.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/deputes.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/1ac42ff4-1336-44f8-a221-832039dbc142 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/ac/ba106cf7edca3d9b9fb4a1a53c458b |
+
+
+### Répertoire national des élus — député·es européen·nes — mai 2026
+<a name="data/01_raw/rne/2026-05/deputes_europeens.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/deputes_europeens.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/70957bb0-f19f-40c5-b97b-90b3d4d71f9e |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/6e/0b90042a06d259912f71f7455d019f |
+
+
+### Répertoire national des élus — sénateur·rices — mai 2026
+<a name="data/01_raw/rne/2026-05/senateurs.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/rne/2026-05/senateurs.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.data.gouv.fr/api/1/datasets/r/b78f8945-509f-4609-a4a7-3048b8370479 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/84/385bc30ca1d17d8eb47140fdd2a7e3 |
 
 
 

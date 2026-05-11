@@ -2527,3 +2527,26 @@ stages:
       hash: md5
       md5: 2f3ccd149a44daa58ccd785d301a459c
       size: 22208
+  parrainages_identifier:
+    cmd: PYTHONPATH=src python -m hexagonal.parrainages.identifier 
+      data/03_main/elections/2022-presidentielle-parrainages.csv 
+      data/02_clean/rne/conseillers_municipaux.csv 
+      data/03_main/elections/2022-presidentielle-parrains-en-poste.csv
+    deps:
+    - path: data/02_clean/rne/conseillers_municipaux.csv
+      hash: md5
+      md5: c92c6a639c42b78e4538cce52cdbce35
+      size: 22451069
+    - path: data/03_main/elections/2022-presidentielle-parrainages.csv
+      hash: md5
+      md5: 3da5da55e31acfdee79c65cad5e427cc
+      size: 1034090
+    - path: src/hexagonal/parrainages/identifier.py
+      hash: md5
+      md5: 4bc85a85dae19bcf073b2a75d5af7bcb
+      size: 1423
+    outs:
+    - path: data/03_main/elections/2022-presidentielle-parrains-en-poste.csv
+      hash: md5
+      md5: e2e03bbf2110557ffe195393cb313321
+      size: 296500

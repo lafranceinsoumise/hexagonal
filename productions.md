@@ -54,6 +54,8 @@
   - [Liste des communes](#data/03_main/cog/communes.csv)
 - [Démographie](#demographie)
   - [Population par commune de 1876 à 2023](#data/02_clean/population_municipale.csv)
+- [Parrainages](#parrainages)
+  - [Maires ayant parrainé un candidat à la présidentielle de 2022 encore en poste en 2026](#data/03_main/elections/2022-presidentielle-parrains-en-poste.csv)
 - [Répertoire national des élus](#repertoire-national-des-elus)
   - [conseillers_arrondissement](#data/02_clean/rne/conseillers_arrondissement.csv)
   - [conseillers_csp](#data/02_clean/rne/conseillers_csp.csv)
@@ -3474,6 +3476,114 @@ Cette production dépend des sources suivantes :
 
 
 
+## Parrainages
+<a name="parrainages"></a>
+
+### Maires ayant parrainé un candidat à la présidentielle de 2022 encore en poste en 2026
+<a name="data/03_main/elections/2022-presidentielle-parrains-en-poste.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/elections/2022-presidentielle-parrains-en-poste.csv |
+| Format de fichier | text/csv |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/e03bbf2110557ffe195393cb313321 |
+
+
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_commune</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom_normalise</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom_normalise</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>candidat</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>fonction</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/03_main/elections/2022-presidentielle-parrainages.csv">Parrainages enregistrées par le Conseil constitutionnel</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2022-presidentielle-parrainages.csv">Parrainages validés pour la présidentielle de 2022</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv">Liste des parrainages validés par le Conseil constitutionnel pour l&#39;élection de 2022</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/cog/departements.csv">Liste des départements</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/cog/communes.csv">Liste des communes, arrondissements municipaux, communes déléguées et communes associées</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/cog/communes_com.csv">Liste des communes des collectivités d&#39;outremer</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/insee/cog.zip">Code Officiel Géographique 2024</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/rne/conseillers_municipaux.csv">conseillers_municipaux</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux — mai 2026</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
+
+
 ## Répertoire national des élus
 <a name="repertoire-national-des-elus"></a>
 
@@ -3484,7 +3594,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_arrondissement.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/55/0c207dd03fbb182fadb686d97662ed |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/da/0299dbe3c29263186e8337b02b8b93 |
 
 
 
@@ -3558,7 +3668,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_arrondissement.csv">Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — décembre 2025</a>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_arrondissement.csv">Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — mai 2026</a>
         </li>
     </ul>
 
@@ -3569,7 +3679,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_csp.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/782919d729e97417b7836c6d942163 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/14/d0b7ed8f1186f06f19f424509b1234 |
 
 
 
@@ -3648,7 +3758,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_csp.csv">Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — décembre 2025</a>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_csp.csv">Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — mai 2026</a>
         </li>
     </ul>
 
@@ -3659,7 +3769,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_departementaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/5b/dc363d3f73f48570f47fd3f8631fa4 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/4f72191e343a8609693df9b9a74e10 |
 
 
 
@@ -3733,7 +3843,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_departementaux.csv">Répertoire national des élus — conseillers départementaux — décembre 2025</a>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_departementaux.csv">Répertoire national des élus — conseillers départementaux — mai 2026</a>
         </li>
     </ul>
 
@@ -3744,7 +3854,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_municipaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/9d/c9e123ef3874bba9e8675e486edb4f |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/c9/2c6a639c42b78e4538cce52cdbce35 |
 
 
 
@@ -3828,7 +3938,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux — décembre 2025</a>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_municipaux.csv">Répertoire national des élus — conseillers municipaux — mai 2026</a>
         </li>
     </ul>
 
@@ -3839,7 +3949,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/rne/conseillers_regionaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/f3/a0dd419e55b29081571b70e3fdfe0a |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/16/602ef7414ad1a604b798eedd1f1889 |
 
 
 
@@ -3913,7 +4023,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/rne/2025-12/conseillers_regionaux.csv">Répertoire national des élus — conseillers régionaux — décembre 2025</a>
+    <li><a href="sources.md#data/01_raw/rne/2026-05/conseillers_regionaux.csv">Répertoire national des élus — conseillers régionaux — mai 2026</a>
         </li>
     </ul>
 

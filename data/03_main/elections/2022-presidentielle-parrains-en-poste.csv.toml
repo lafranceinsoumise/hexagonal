@@ -1,0 +1,34 @@
+nom = "Maires ayant parrainé un candidat à la présidentielle de 2022 encore en poste en 2026"
+description = """
+
+"""
+mimetype = "text/csv"
+section = "Parrainages"
+
+[colonnes.code_commune]
+type = "str"
+nullable = false
+
+[colonnes.nom_normalise]
+type = "str"
+nullable = false
+
+[colonnes.prenom_normalise]
+type = "str"
+nullable = false
+
+[colonnes.candidat]
+type = "str"
+nullable = false
+
+[colonnes.nom]
+type = "str"
+nullable = false
+
+[colonnes.prenom]
+type = "str"
+nullable = false
+
+[colonnes.fonction]
+type = "str"
+nullable = false
