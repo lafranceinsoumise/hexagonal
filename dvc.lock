@@ -2466,8 +2466,8 @@ stages:
     - path: 
         data/01_raw/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv
       hash: md5
-      md5: be4944d188cd2fb1aadbb1959e5dcbd2
-      size: 1330
+      md5: f3b5e042f2ffb2685719cabab7516c47
+      size: 1323
     - path: data/02_clean/population_municipale.csv
       hash: md5
       md5: 6d4683916de6c5b5356810666bc91887
@@ -2479,8 +2479,8 @@ stages:
     outs:
     - path: data/03_main/elections/nombre_conseillers_municipaux.parquet
       hash: md5
-      md5: cd8e3894a4271977f52debd63b79a3ed
-      size: 350075
+      md5: 84bb838c46d773ebcdf86d706acbbf6f
+      size: 350070
   normaliser-format-senatoriales-2020:
     cmd: PYTHONPATH=src python -m hexagonal.elections.senatoriales.nettoyer_2020
       data/01_raw/ministere_interieur/2020-senatoriales-departement.xlsx 
