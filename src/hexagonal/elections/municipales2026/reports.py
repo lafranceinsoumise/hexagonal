@@ -8,12 +8,18 @@ from tqdm import tqdm
 def calculer_reports(t1_values, t2_values, solver="CLARABEL"):
     """Calcule la matrice de report
 
-    :param t1_values: le vecteur des votes de premier tour
-    :param t2_values:  le vecteur des votes de premier tour
+    :param t1_values: la matrice des votes de premier tour
+    :param t2_values:  la matrice des votes de premier tour
     :return: la matrice de report
 
-    Les deux vecteurs t1_values et t2_values doivent contenir en dernière position le nombre de personnes
-    s'étant abstenu.
+    t1_values et t2_values ont :
+    - autant de lignes que de bureaux de vote dans la commune
+    - autant de colonnes que de choix possibles au tour correspondant
+
+    La dernière colonne correspond au nombre de personnes s'étant abstenu
+
+    La matrice de report a autant de lignes que de choix de premier tour et autant de
+    colonnes que de choix de second tour.
     """
 
     # pour prendre en compte les situations de radiation / ajout d'électeurs
