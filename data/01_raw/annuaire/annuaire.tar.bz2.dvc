@@ -1,12 +1,13 @@
-md5: d9b9f07f17e00f607d3343a62fe6d7a2
+md5: 827df810f6baef20a3da3203441ec962
 frozen: true
 deps:
-- checksum: '"6752a243-a4b823b"'
-  size: 172720699
+- checksum: '"6a1d2150-15b5ded6"'
+  size: 364240598
   hash: md5
-  path: https://lecomarquage.service-public.fr/donnees_locales_v4/all_latest.tar.bz2
+  path: 
+    https://lecomarquage.service-public.fr/donnees_locales_v4/all_latest.tar.bz2
 outs:
-- md5: dff4276a47b217d1ab1897817523e9c9
-  size: 172720699
+- md5: 0885b749a138076770bfc3e2da3d678a
+  size: 364240598
   hash: md5
   path: annuaire.tar.bz2

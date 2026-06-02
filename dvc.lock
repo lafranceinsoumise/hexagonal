@@ -898,8 +898,8 @@ stages:
     deps:
     - path: data/01_raw/annuaire/annuaire.tar.bz2
       hash: md5
-      md5: dff4276a47b217d1ab1897817523e9c9
-      size: 172720699
+      md5: 0885b749a138076770bfc3e2da3d678a
+      size: 364240598
     - path: src/hexagonal/annuaire/extraire_organismes.py
       hash: md5
       md5: 9bf0e2f3ed91bc34411146f893f6dfec
@@ -907,36 +907,36 @@ stages:
     outs:
     - path: data/01_raw/annuaire/conseils_departementaux.json
       hash: md5
-      md5: d079eaee7e513be6acde1d9bdfaf0002
-      size: 476832
+      md5: 7dfde33f977b040d64f20732a7632ac7
+      size: 510263
     - path: data/01_raw/annuaire/conseils_regionaux.json
       hash: md5
-      md5: a2a1f4d0a7a1fab329844ba4e3eaef84
-      size: 75151
+      md5: e4f43a5561407d998a2f6614cd97f220
+      size: 82358
     - path: data/01_raw/annuaire/epcis.json
       hash: md5
-      md5: 5ffdaca257899a799b34169664804658
-      size: 3004291
+      md5: 90b64522dc5c03b674c0f39d063ff38e
+      size: 2929717
     - path: data/01_raw/annuaire/mairies.json
       hash: md5
-      md5: b95de50790673feae76c1f7d5f7765d8
-      size: 80815137
+      md5: 8c696af99075b5b26d36d799df62cc8e
+      size: 80251521
     - path: data/01_raw/annuaire/prefectures.json
       hash: md5
-      md5: f7e71bfc0c1beff22dbb905e1cf76401
-      size: 1547039
+      md5: 93ae38f67bd6a20790d2fe06f300e804
+      size: 1524935
   annuaires_nettoyer:
     cmd: PYTHONPATH=src python -m hexagonal.annuaire.nettoyer 
       data/01_raw/annuaire data/02_clean/annuaire
     deps:
     - path: data/01_raw/annuaire/conseils_departementaux.json
       hash: md5
-      md5: d079eaee7e513be6acde1d9bdfaf0002
-      size: 476832
+      md5: 7dfde33f977b040d64f20732a7632ac7
+      size: 510263
     - path: data/01_raw/annuaire/mairies.json
       hash: md5
-      md5: b95de50790673feae76c1f7d5f7765d8
-      size: 80815137
+      md5: 8c696af99075b5b26d36d799df62cc8e
+      size: 80251521
     - path: src/hexagonal/annuaire/nettoyer.py
       hash: md5
       md5: acad32db952a103c4cb7b891a139354e
@@ -944,12 +944,12 @@ stages:
     outs:
     - path: data/02_clean/annuaire/conseils_departementaux.csv
       hash: md5
-      md5: ce04c5543d4ca04895b1b047d4062e84
-      size: 22282
+      md5: 4721b4119b772840052a9299581efaaf
+      size: 29073
     - path: data/02_clean/annuaire/mairies.csv
       hash: md5
-      md5: 9abd683ca93ab600aef3bfc20151757f
-      size: 12409020
+      md5: 6e33e04864b623f6f38b77717e36e01e
+      size: 12271909
   parrainages_nettoyer@2022:
     cmd: PYTHONPATH=src python -m hexagonal.parrainages.nettoyer 
       data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv 
