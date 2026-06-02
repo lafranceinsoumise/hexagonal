@@ -58,70 +58,82 @@ def calculer_r_square(t1_values, t2_values, report):
     predicted_t2 = t1_values @ report
     var_totale = t2_values.var(axis=0)
     var_residuels = (t2_values - predicted_t2).var(axis=0)
+    var_totale = np.maximum(var_totale, 1e-10)
     return 1 - var_residuels / var_totale
 
 
-@click.group()
-def main(): ...
+@click.command()
+@click.option("--t1", type=click.Path(exists=True, dir_okay=False), required=True)
+@click.option("--t2", type=click.Path(exists=True, dir_okay=False), required=True)
+@click.option("--key", required=True)
+@click.option(
+    "-o", "--output", type=click.Path(writable=True, dir_okay=False), required=True
+)
+def main(t1, t2, key, output):
+    resultats_t1 = pl.read_parquet(t1)
+    resultats_t2 = pl.read_parquet(t2)
 
+    resultats_t1 = resultats_t1.with_columns(
+        bureau_de_vote=pl.format("{code_commune}-{bureau_de_vote}")
+    )
+    resultats_t2 = resultats_t2.with_columns(
+        bureau_de_vote=pl.format("{code_commune}-{bureau_de_vote}")
+    )
 
-@main.command()
-@click.argument("resultats_t1", type=click.Path(exists=True, dir_okay=False))
-@click.argument("resultats_t2", type=click.Path(exists=True, dir_okay=False))
-@click.argument("reports", type=click.Path(writable=True, dir_okay=False))
-def municipales(resultats_t1, resultats_t2, reports):
-    resultats_t1 = pl.read_parquet(resultats_t1)
-    resultats_t2 = pl.read_parquet(resultats_t2)
-
-    communes = (
-        resultats_t2.group_by("code_commune")
+    unites = (
+        resultats_t2.group_by(key)
         .agg(
             pl.col("numero_panneau").n_unique().alias("nb_listes_t2"),
             pl.col("bureau_de_vote").n_unique().alias("nb_bureaux"),
         )
         .join(
-            resultats_t1.group_by("code_commune").agg(
+            resultats_t1.group_by(key).agg(
                 pl.col("numero_panneau").n_unique().alias("nb_listes_t1"),
             ),
-            on="code_commune",
+            on=key,
             validate="1:1",
         )
     )
 
     abstention_t1 = (
-        resultats_t1.group_by(["code_commune", "bureau_de_vote"])
+        resultats_t1.group_by("bureau_de_vote")
         .agg(
+            pl.col(key).first(),
             pl.col("inscrits").first(),
             pl.col("voix").sum().alias("exprimés"),
         )
         .select(
-            "code_commune",
+            key,
             "bureau_de_vote",
             (pl.col("inscrits") - pl.col("exprimés")).alias("abstention"),
         )
     )
 
     abstention_t2 = (
-        resultats_t2.group_by(["code_commune", "bureau_de_vote"])
-        .agg(pl.col("inscrits").first(), pl.col("voix").sum().alias("exprimés"))
+        resultats_t2.group_by("bureau_de_vote")
+        .agg(
+            pl.col(key).first(),
+            pl.col("inscrits").first(),
+            pl.col("voix").sum().alias("exprimés"),
+        )
         .select(
-            "code_commune",
+            key,
             "bureau_de_vote",
             (pl.col("inscrits") - pl.col("exprimés")).alias("abstention"),
         )
     )
 
     # on veut au moins autant de bureaux que de variables
-    communes = communes.filter(
+    unites = unites.filter(
         pl.col("nb_listes_t1") * pl.col("nb_listes_t1") <= pl.col("nb_bureaux")
-    )["code_commune"]
+    )[key]
 
-    report_par_commune = {}
+    report_par_unite = {}
 
-    for code_commune in tqdm(communes):
-        t2 = (
+    for unite in tqdm(unites):
+        t2_unite = (
             resultats_t2.sort(["bureau_de_vote", "numero_panneau"])
-            .filter(pl.col("code_commune") == code_commune)
+            .filter(pl.col(key) == unite)
             .pivot(
                 on=["numero_panneau"],
                 index=["bureau_de_vote"],
@@ -129,7 +141,7 @@ def municipales(resultats_t1, resultats_t2, reports):
                 maintain_order=True,
             )
             .join(
-                abstention_t2.filter(pl.col("code_commune") == code_commune).select(
+                abstention_t2.filter(pl.col(key) == unite).select(
                     "bureau_de_vote", "abstention"
                 ),
                 on=["bureau_de_vote"],
@@ -138,9 +150,9 @@ def municipales(resultats_t1, resultats_t2, reports):
             )
         )
 
-        t1 = (
+        t1_unite = (
             resultats_t1.sort(["bureau_de_vote", "numero_panneau"])
-            .filter(pl.col("code_commune") == code_commune)
+            .filter(pl.col(key) == unite)
             .pivot(
                 on=["numero_panneau"],
                 index=["bureau_de_vote"],
@@ -148,7 +160,7 @@ def municipales(resultats_t1, resultats_t2, reports):
                 maintain_order=True,
             )
             .join(
-                abstention_t1.filter(pl.col("code_commune") == code_commune).select(
+                abstention_t1.filter(pl.col(key) == unite).select(
                     "bureau_de_vote", "abstention"
                 ),
                 on=["bureau_de_vote"],
@@ -157,25 +169,25 @@ def municipales(resultats_t1, resultats_t2, reports):
             )
         )
 
-        t2_values = t2.select(pl.all().exclude(["bureau_de_vote"])).to_numpy()
-        t1_values = t1.select(pl.all().exclude(["bureau_de_vote"])).to_numpy()
+        t2_values = t2_unite.select(pl.all().exclude(["bureau_de_vote"])).to_numpy()
+        t1_values = t1_unite.select(pl.all().exclude(["bureau_de_vote"])).to_numpy()
 
         matrice_report = calculer_reports(t1_values, t2_values)
 
         if matrice_report is not None:
             r_square = calculer_r_square(t1_values, t2_values, matrice_report)
 
-            report_par_commune[code_commune] = (matrice_report.flatten("C"), r_square)
+            report_par_unite[unite] = (matrice_report.flatten("C"), r_square)
 
     df_reports = pl.DataFrame(
         {
-            "code_commune": report_par_commune.keys(),
-            "coefficients": [c for c, _ in report_par_commune.values()],
-            "r_square": [r for _, r in report_par_commune.values()],
+            key: report_par_unite.keys(),
+            "coefficients": [c for c, _ in report_par_unite.values()],
+            "r_square": [r for _, r in report_par_unite.values()],
         }
     )
 
-    df_reports.write_parquet(reports)
+    df_reports.write_parquet(output)
 
 
 if __name__ == "__main__":
