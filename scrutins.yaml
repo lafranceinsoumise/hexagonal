@@ -1,137 +1,171 @@
 scrutins:
   2012-presidentielle-bureau_de_vote:
-    encoding: latin1
     format: 2014
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2014-municipales-bureau_de_vote:
-    encoding: latin1
     format: 2014
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2014-europeenne-bureau_de_vote:
-    encoding: latin1
     format: 2014
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2017-legislatives-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2017-legislatives-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2017-presidentielle-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2017-presidentielle-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2019-europeenne-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2020-municipales-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: "	"
+    options:
+      encoding: latin1
+      delimiter: "	"
   2020-municipales-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2021-departementales-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2021-departementales-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2021-regionales-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2021-regionales-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-presidentielle-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-presidentielle-1-circonscription:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-presidentielle-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-presidentielle-2-circonscription:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-legislatives-1-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-legislatives-1-circonscription:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-legislatives-2-bureau_de_vote:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2022-legislatives-2-circonscription:
-    encoding: latin1
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: latin1
+      delimiter: ";"
   2024-europeenne-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2024-europeenne-circonscription:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2024-legislatives-1-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2024-legislatives-1-circonscription:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2024-legislatives-2-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2024-legislatives-2-circonscription:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-municipales-1-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-municipales-2-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-municipales-1-commune:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-municipales-2-commune:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-conseils-PLM-1-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"
   2026-conseils-PLM-2-bureau_de_vote:
-    encoding: utf8
     format: 2017
-    delimiter: ";"
+    options:
+      encoding: utf8
+      delimiter: ";"

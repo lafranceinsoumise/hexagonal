@@ -24,7 +24,9 @@ stages:
     do:
       cmd: >-
         ${python} hexagonal.elections.resultats.format_${item.format}
-        ${raw}/ministere_interieur/${key}.csv ${clean}/elections/${key}.parquet ${item.encoding} "${item.delimiter}"
+        --source ${raw}/ministere_interieur/${key}.csv
+        --output ${clean}/elections/${key}.parquet
+        ${item.options}
       deps:
         - ${raw}/ministere_interieur/${key}.csv
         - ${src}/hexagonal/elections/resultats/format_${item.format}.py

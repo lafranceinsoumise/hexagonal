@@ -1,6 +1,7 @@
 import sys
 from itertools import chain
 
+import click
 import pandas as pd
 
 partie_commune = [
@@ -52,14 +53,19 @@ types_par_colonne = {
 }
 
 
+@click.command()
+@click.option("--source", type=click.Path(exists=True, readable=True))
+@click.option("--output", type=click.Path(writable=True))
+@click.option("--delimiter")
+@click.option("--encoding")
 def clean_results(
-    src,
-    dest,
+    source,
+    output,
     delimiter=";",
     encoding="latin1",
 ):
     # trouver la première ligne
-    with open(src, "r", encoding=encoding) as f:
+    with open(source, "r", encoding=encoding) as f:
         for numero_ligne, ligne in enumerate(f):  # noqa: B007
             if delimiter in ligne:
                 nb_champs = len(ligne.split(delimiter))
@@ -71,7 +77,7 @@ def clean_results(
     names = partie_commune[:nb_communs] + partie_bureau
 
     resultats: pd.DataFrame = pd.read_csv(
-        src,
+        source,
         sep=delimiter,
         skiprows=numero_ligne,
         names=names,
@@ -91,6 +97,9 @@ def clean_results(
         resultats["departement"] + resultats["commune"]
     ).astype("category")
 
+    if "bureau_de_vote" in resultats.columns:
+        resultats["bureau_de_vote"] = resultats["bureau_de_vote"].str.zfill(4)
+
     if "circonscription" in resultats.columns:
         resultats["circonscription"] = (
             resultats["departement"] + "-" + resultats["circonscription"]
@@ -107,13 +116,8 @@ def clean_results(
         *(c for c in (population + par_candidat) if c in resultats.columns),
     ]
     df_clean = resultats.loc[:, clean_columns].reset_index(drop=True)
-    df_clean.to_parquet(dest, index=False)
-
-
-def run():
-    src, dest, encoding, delimiter = sys.argv[1:]
-    clean_results(src, dest, delimiter=delimiter, encoding=encoding)
+    df_clean.to_parquet(output, index=False)
 
 
 if __name__ == "__main__":
-    run()
+    clean_results()

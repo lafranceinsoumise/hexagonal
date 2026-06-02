@@ -16,6 +16,7 @@ champs."""
 import csv
 import sys
 
+import click
 import pandas as pd
 
 from hexagonal.codes import (
@@ -237,8 +238,16 @@ def read_file(src, delimiter=";", encoding="utf-8"):
     return resultats
 
 
-def clean_results(src, dest, delimiter=";", encoding="utf-8"):
-    resultats = read_file(src, delimiter, encoding=encoding)
+@click.command()
+@click.option("--source", type=click.Path(exists=True, readable=True), required=True)
+@click.option("--output", type=click.Path(writable=True), required=True)
+@click.option("--delimiter")
+@click.option("--encoding")
+def clean_results(source, output, delimiter=";", encoding="utf-8"):
+    resultats = read_file(source, delimiter, encoding=encoding)
+
+    if "bureau_de_vote" in resultats.columns:
+        resultats["bureau_de_vote"] = resultats["bureau_de_vote"].str.zfill(4)
 
     if "sexe" in resultats.columns:
         resultats["sexe"] = resultats["sexe"].map(MAPPING_SEXE)
@@ -267,13 +276,8 @@ def clean_results(src, dest, delimiter=";", encoding="utf-8"):
         c for c in (ids + population + par_candidat) if c in resultats.columns
     ]
     resultats = resultats.loc[:, clean_columns]
-    resultats.to_parquet(dest, index=False)
-
-
-def run():
-    src, dest, encoding, delimiter = sys.argv[1:]
-    clean_results(src, dest, delimiter=delimiter, encoding=encoding)
+    resultats.to_parquet(output, index=False)
 
 
 if __name__ == "__main__":
-    run()
+    clean_results()
