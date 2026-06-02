@@ -368,6 +368,23 @@ stages:
         ${clean}/cog/
         ${main}/elections/${item}-presidentielle-parrainages.csv
 
+  ajouter_circonscription:
+    foreach:
+      - 2024-legislatives-1-bureau_de_vote
+      - 2024-legislatives-2-bureau_de_vote
+    do:
+      deps:
+        - ${clean}/elections/${item}.parquet
+        - ${clean}/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+        - ${src}/hexagonal/elections/legislatives/ajouter_circonscription.py
+      outs:
+        - ${main}/elections/${item}.parquet
+      cmd: >-
+        ${python} hexagonal.elections.legislatives.ajouter_circonscription
+        --resultats ${clean}/elections/${item}.parquet
+        --correspondance ${clean}/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+        --output ${main}/elections/${item}.parquet
+
   correspondances_bureau_de_vote_circonscription:
     foreach:
       - 2024

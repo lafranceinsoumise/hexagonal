@@ -2626,3 +2626,55 @@ stages:
       hash: md5
       md5: 60cbbc4f88b6738e54bce7fdd13743b8
       size: 280883
+  ajouter_circonscription@2024-legislatives-1-bureau_de_vote:
+    cmd: PYTHONPATH=src python -m 
+      hexagonal.elections.legislatives.ajouter_circonscription --resultats 
+      data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet 
+      --correspondance 
+      data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+      --output data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet
+    deps:
+    - path: data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet
+      hash: md5
+      md5: 9ecbfa87ea73d6e340238f2ddaca4660
+      size: 2819826
+    - path: 
+        data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+      hash: md5
+      md5: 2171edfd079bf44195dfeb1fd4a02b21
+      size: 1194313
+    - path: src/hexagonal/elections/legislatives/ajouter_circonscription.py
+      hash: md5
+      md5: af2a5d785f5c125be74eaeb473710e1c
+      size: 929
+    outs:
+    - path: data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet
+      hash: md5
+      md5: 4acf3f89fb4afab591ab5ff1d2949211
+      size: 1924018
+  ajouter_circonscription@2024-legislatives-2-bureau_de_vote:
+    cmd: PYTHONPATH=src python -m 
+      hexagonal.elections.legislatives.ajouter_circonscription --resultats 
+      data/02_clean/elections/2024-legislatives-2-bureau_de_vote.parquet 
+      --correspondance 
+      data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+      --output data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet
+    deps:
+    - path: data/02_clean/elections/2024-legislatives-2-bureau_de_vote.parquet
+      hash: md5
+      md5: bbecd909b39bbde21e0a59b89ee54910
+      size: 1284013
+    - path: 
+        data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
+      hash: md5
+      md5: 2171edfd079bf44195dfeb1fd4a02b21
+      size: 1194313
+    - path: src/hexagonal/elections/legislatives/ajouter_circonscription.py
+      hash: md5
+      md5: af2a5d785f5c125be74eaeb473710e1c
+      size: 929
+    outs:
+    - path: data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet
+      hash: md5
+      md5: 8c536658e82faa16e25635ef5c653c2a
+      size: 1095062
