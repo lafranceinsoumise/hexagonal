@@ -784,7 +784,8 @@ stages:
       md5: 521021b4f255c5bb6d76b07ebe8ae7b0
       size: 116243
   correspondances_bureau_de_vote_circonscription@2024:
-    cmd: PYTHONPATH=src python -m hexagonal.correspondances_circonscription 
+    cmd: PYTHONPATH=src python -m 
+      hexagonal.elections.legislatives.correspondances_circonscription 
       data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet 
       data/02_clean/elections/2024-legislatives-1-candidats.csv 
       data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
@@ -801,15 +802,16 @@ stages:
       hash: md5
       md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
       size: 4776
-    - path: src/hexagonal/correspondances_circonscription.py
+    - path: 
+        src/hexagonal/elections/legislatives/correspondances_circonscription.py
       hash: md5
-      md5: 0938b092e64040b89fd62a1b4fe7cae9
-      size: 663
+      md5: 6dbd67b37ea58d21b71ded521de0bb30
+      size: 882
     outs:
     - path: 
         data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
       hash: md5
-      md5: 9d41023608b900e0427f46df4944be09
+      md5: 2171edfd079bf44195dfeb1fd4a02b21
       size: 1194313
   2022-legislatives-candidats@1:
     cmd: PYTHONPATH=src python -m 
