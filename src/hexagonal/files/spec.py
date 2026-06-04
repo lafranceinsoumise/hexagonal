@@ -7,7 +7,7 @@ from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from hexagonal.files import ROOT_DIR, get_main_dir
+from hexagonal.files import ROOT_DIR, get_main_dir, DATA_DIR
 from hexagonal.files.dvc_files import DVCFile
 from hexagonal.utils.clean import VRAI
 
@@ -153,7 +153,9 @@ class ProductionSpec(DatasetSpec):
             if self.colonnes:
                 for col_id, col_desc in self.colonnes.items():
                     if col_desc.type == ColonneType.BOOL:
-                        dataset = dataset.with_columns(col_id=pl.col(col_id) == VRAI)
+                        dataset = dataset.with_columns(
+                            (pl.col(col_id).str.to_uppercase().is_in([VRAI, "TRUE"]))
+                        )
                     elif col_desc.type == ColonneType.DATE:
                         dataset = dataset.with_columns(
                             col_id=pl.col(col_id).str.to_date(
@@ -171,6 +173,9 @@ class ProductionSpec(DatasetSpec):
 def load_spec(path: str | Path) -> DatasetSpec:
     if isinstance(path, str):
         path = Path(path)
+
+    if not path.is_absolute():
+        path = ROOT_DIR / path
 
     toml_path = path.with_suffix(f"{path.suffix}.toml")
     if not toml_path.is_file():
