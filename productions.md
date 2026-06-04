@@ -116,6 +116,9 @@
   - [Résultats du deuxième tour des élections municipales 2026](#data/02_clean/elections/2026-municipales-2-commune.parquet)
   - [Nombre de sièges gagnées par liste candidate au deuxième tour des élections municipales 2026](#data/02_clean/elections/2026-municipales-2-sieges.parquet)
   - [Liste des candidats aux élections législatives de 2024](#data/03_main/elections/2022-legislatives-1-candidats.csv)
+  - [Résultats du premier tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription](#data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet)
+  - [Résultats du deuxième tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription](#data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet)
+  - [Matrices de reports entre premier et deuxième tour des élections législatives 2024](#data/03_main/elections/2024-legislatives-reports.parquet)
   - [Composition nominative des listes de second tour des élections des conseils de secteurs de Paris, Lyon et Marseille en 2026 après fusion](#data/03_main/elections/2026-conseils-PLM-2-composition-listes-nominative.parquet)
   - [Composition des listes de second tour des élections des conseils de secteurs de Paris, Lyon et Marseille en 2026 après fusion](#data/03_main/elections/2026-conseils-PLM-2-composition-listes.parquet)
   - [Liste des personnes élues lors des élections des conseils de secteurs de Paris, Lyon et Marseille en 2026](#data/03_main/elections/2026-conseils-PLM-elus.parquet)
@@ -142,7 +145,7 @@
 | --------- | ------ |
 | Chemin interne | data/02_clean/annuaire/conseils_departementaux.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/ce/04c5543d4ca04895b1b047d4062e84 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/47/21b4119b772840052a9299581efaaf |
 
 
 
@@ -291,7 +294,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/annuaire/mairies.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/9a/bd683ca93ab600aef3bfc20151757f |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/6e/33e04864b623f6f38b77717e36e01e |
 
 Extraction au format CSV des mairies depuis l&#39;annuaire administratif.
 
@@ -4799,7 +4802,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2020-municipales-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/e8/0c2a4b4a9b2fd4937648207286148e |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/453fa3c908b4bdce9e2097fe7066bb |
 
 
 
@@ -6908,7 +6911,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/e3/d64bf303dc6e330606aa3e0410a49f |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/22/6c788f8466ad6a6286d2117019da53 |
 
 
 
@@ -6987,7 +6990,7 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
         </li>
     </ul>
 
@@ -7488,7 +7491,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/6e/54cb1756529a7e80a1ae9e7bacd433 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/35/472cae5f437a67c9d770894e60edbc |
 
 
 
@@ -7530,7 +7533,7 @@ Cette production dépend des sources suivantes :
 <ul>
     <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
         </li>
     </ul>
         </li>
@@ -8957,6 +8960,338 @@ Cette production dépend des sources suivantes :
         </li>
     </ul>
 
+### Résultats du premier tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription
+<a name="data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/47/77982dec9f0f3e377ab8b4c8aabed0 |
+
+Cette version du fichier ajoute la colonne `circonscription`, absente des résultats publiée par le Ministère de
+l&#39;Intérieur au niveau du bureau de vote.
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_commune</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>bureau_de_vote</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>circonscription</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>inscrits</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>votants</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>exprimes</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>numero_panneau</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuance</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>sexe</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>voix</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv">Correspondance entre bureaux de vote et circonscription pendant les élections législatives 2024</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
+### Résultats du deuxième tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription
+<a name="data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/8c/536658e82faa16e25635ef5c653c2a |
+
+Cette version du fichier ajoute la colonne `circonscription`, absente des résultats publiée par le Ministère de
+l&#39;Intérieur au niveau du bureau de vote.
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>code_commune</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>bureau_de_vote</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>circonscription</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>inscrits</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>votants</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>exprimes</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>numero_panneau</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nuance</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>nom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>prenom</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>sexe</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>voix</code></td>
+    <td><code>entier</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-2-bureau_de_vote.parquet">Résultats du deuxième tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-2-bureau_de_vote.csv">Résultats du deuxième tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv">Correspondance entre bureaux de vote et circonscription pendant les élections législatives 2024</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
+### Matrices de reports entre premier et deuxième tour des élections législatives 2024
+<a name="data/03_main/elections/2024-legislatives-reports.parquet"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/03_main/elections/2024-legislatives-reports.parquet |
+| Format de fichier | application/vnd.apache.parquet |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/ac/250399d768e3e5fd01eb608c6ea9a5 |
+
+Ce fichier propose une estimation des matrices de report entre les deux tours des élections législatives.
+
+Les matrices de report sont fournies au niveau de la circonscription.
+
+
+### Colonnes
+
+<table>
+<thead>
+  <tr>
+    <th>id</th>
+    <th>type</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+    <td><code>circonscription</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
+    <td><code>element</code></td>
+    <td><code>flottant</code></td>
+    <td></td>
+  </tr>
+
+</tbody>
+</table>
+
+### Sources
+
+Cette production dépend des sources suivantes :
+
+<ul>
+    <li><a href="productions.md#data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv">Correspondance entre bureaux de vote et circonscription pendant les élections législatives 2024</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet">Résultats du deuxième tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-2-bureau_de_vote.parquet">Résultats du deuxième tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-2-bureau_de_vote.csv">Résultats du deuxième tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv">Correspondance entre bureaux de vote et circonscription pendant les élections législatives 2024</a>
+        <ul>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv">Résultats du premier tour des élections législatives 2024 par bureau de vote</a>
+        </li>
+    </ul>
+        </li>
+    <li><a href="productions.md#data/02_clean/elections/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        <ul>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv">Liste des candidats au premier tour des élections législatives 2024</a>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+        </li>
+    </ul>
+
 ### Composition nominative des listes de second tour des élections des conseils de secteurs de Paris, Lyon et Marseille en 2026 après fusion
 <a name="data/03_main/elections/2026-conseils-PLM-2-composition-listes-nominative.parquet"></a>
 
@@ -9603,7 +9938,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/elections/2026-municipales-reports.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/1e/3400211a1adf81396e5ce992834f34 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/c9/e6ef8f9b3a01dabcf69c06880185fe |
 
 
 

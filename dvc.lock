@@ -614,8 +614,8 @@ stages:
     - path: 
         data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv
       hash: md5
-      md5: 92547431feb455ad1065815e72c40d8e
-      size: 37476376
+      md5: 7b26fcfc26f8e4544ae5de3b409d24d0
+      size: 37476392
     - path: src/hexagonal/codes.py
       hash: md5
       md5: 685eb26ffb0b3e29e0f76dfc5c6c4e15
@@ -627,8 +627,8 @@ stages:
     outs:
     - path: data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet
       hash: md5
-      md5: 9ecbfa87ea73d6e340238f2ddaca4660
-      size: 2819826
+      md5: 226c788f8466ad6a6286d2117019da53
+      size: 2821058
   normaliser-format-elections@2024-legislatives-1-circonscription:
     cmd: PYTHONPATH=src python -m hexagonal.elections.resultats.format_2017 
       --source 
@@ -792,8 +792,8 @@ stages:
     deps:
     - path: data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet
       hash: md5
-      md5: 9ecbfa87ea73d6e340238f2ddaca4660
-      size: 2819826
+      md5: 226c788f8466ad6a6286d2117019da53
+      size: 2821058
     - path: data/02_clean/elections/2024-legislatives-1-candidats.csv
       hash: md5
       md5: c19c73368deb0156f8ba71e695dced78
@@ -811,8 +811,8 @@ stages:
     - path: 
         data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
       hash: md5
-      md5: 2171edfd079bf44195dfeb1fd4a02b21
-      size: 1194313
+      md5: 35472cae5f437a67c9d770894e60edbc
+      size: 1194296
   2022-legislatives-candidats@1:
     cmd: PYTHONPATH=src python -m 
       hexagonal.elections.candidatures.qualifier_legislatives2022 
@@ -2636,13 +2636,13 @@ stages:
     deps:
     - path: data/02_clean/elections/2024-legislatives-1-bureau_de_vote.parquet
       hash: md5
-      md5: 9ecbfa87ea73d6e340238f2ddaca4660
-      size: 2819826
+      md5: 226c788f8466ad6a6286d2117019da53
+      size: 2821058
     - path: 
         data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
       hash: md5
-      md5: 2171edfd079bf44195dfeb1fd4a02b21
-      size: 1194313
+      md5: 35472cae5f437a67c9d770894e60edbc
+      size: 1194296
     - path: src/hexagonal/elections/legislatives/ajouter_circonscription.py
       hash: md5
       md5: af2a5d785f5c125be74eaeb473710e1c
@@ -2650,8 +2650,8 @@ stages:
     outs:
     - path: data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet
       hash: md5
-      md5: 4acf3f89fb4afab591ab5ff1d2949211
-      size: 1924018
+      md5: 4777982dec9f0f3e377ab8b4c8aabed0
+      size: 1923409
   ajouter_circonscription@2024-legislatives-2-bureau_de_vote:
     cmd: PYTHONPATH=src python -m 
       hexagonal.elections.legislatives.ajouter_circonscription --resultats 
@@ -2667,8 +2667,8 @@ stages:
     - path: 
         data/02_clean/elections/2024-legislatives-correspondances-bureau_de_vote-circonscription.csv
       hash: md5
-      md5: 2171edfd079bf44195dfeb1fd4a02b21
-      size: 1194313
+      md5: 35472cae5f437a67c9d770894e60edbc
+      size: 1194296
     - path: src/hexagonal/elections/legislatives/ajouter_circonscription.py
       hash: md5
       md5: af2a5d785f5c125be74eaeb473710e1c
@@ -2678,3 +2678,46 @@ stages:
       hash: md5
       md5: 8c536658e82faa16e25635ef5c653c2a
       size: 1095062
+  nettoyer-2024-legislatives-1:
+    cmd: sed ' 14169s/Montbéliard\;0/\;Montbéliard\;0E11/ ; 
+      14170s/Montbéliard\;0/\;Montbéliard\;0E21/ ; 
+      14171s/Montbéliard\;0/\;Montbéliard\;0E31/ ; 
+      14172s/Montbéliard\;0/\;Montbéliard\;0E41/ ; ' < 
+      data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv
+      > data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv
+    deps:
+    - path: 
+        data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv
+      hash: md5
+      md5: 92547431feb455ad1065815e72c40d8e
+      size: 37476376
+    outs:
+    - path: 
+        data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv
+      hash: md5
+      md5: 7b26fcfc26f8e4544ae5de3b409d24d0
+      size: 37476392
+  2024-legislatives-reports:
+    cmd: PYTHONPATH=src python -m hexagonal.elections.reports --key 
+      circonscription --t1 
+      data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet --t2 
+      data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet --output
+      data/03_main/elections/2024-legislatives-reports.parquet
+    deps:
+    - path: data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet
+      hash: md5
+      md5: 4777982dec9f0f3e377ab8b4c8aabed0
+      size: 1923409
+    - path: data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet
+      hash: md5
+      md5: 8c536658e82faa16e25635ef5c653c2a
+      size: 1095062
+    - path: src/hexagonal/elections/reports.py
+      hash: md5
+      md5: 90980c4b5364e7db6845cdac7ab72198
+      size: 6136
+    outs:
+    - path: data/03_main/elections/2024-legislatives-reports.parquet
+      hash: md5
+      md5: ac250399d768e3e5fd01eb608c6ea9a5
+      size: 93124

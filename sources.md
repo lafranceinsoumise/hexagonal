@@ -250,7 +250,7 @@
   - [Résultats des élections européennes 2024 par bureau de vote](#data/01_raw/ministere_interieur/2024-europeenne-bureau_de_vote.csv)
   - [Composition des listes candidates à l&#39;élection européenne de 2024](#data/01_raw/ministere_interieur/2024-europeenne-candidats.csv)
   - [Résultats des élections européennes 2024 par circonscription législative](#data/01_raw/ministere_interieur/2024-europeenne-circonscription.csv)
-  - [Résultats du premier tour des élections législatives 2024 par bureau de vote](#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv)
+  - [Résultats du premier tour des élections législatives 2024 par bureau de vote](#data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv)
   - [Liste des candidats au premier tour des élections législatives 2024](#data/01_raw/ministere_interieur/2024-legislatives-1-candidats.csv)
   - [Résultats du premier tour des élections législatives 2024 par circonscription législative](#data/01_raw/ministere_interieur/2024-legislatives-1-circonscription.csv)
   - [Résultats du deuxième tour des élections législatives 2024 par bureau de vote](#data/01_raw/ministere_interieur/2024-legislatives-2-bureau_de_vote.csv)
@@ -3394,11 +3394,11 @@ et 16921.
 
 
 ### Résultats du premier tour des élections législatives 2024 par bureau de vote
-<a name="data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv"></a>
+<a name="data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv"></a>
 
 | Propriété | Valeur |
 | --------- | ------ |
-| Chemin interne | data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv |
+| Chemin interne | data/01_raw/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv |
 | Format de fichier | text/csv |
 | Éditeur | Ministère de l&#39;Intérieur |
 | URL d&#39;origine | https://www.data.gouv.fr/fr/datasets/r/6813fb28-7ec0-42ff-a528-2bc3d82d7dcd |
@@ -4089,7 +4089,7 @@ Point symbols with name attributes. Includes all admin-0 and many admin-1 capita
 | Format de fichier | application/x-tar+bzip2 |
 | Éditeur | Premier ministre |
 | URL d&#39;origine | https://lecomarquage.service-public.fr/donnees_locales_v4/all_latest.tar.bz2 |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/df/f4276a47b217d1ab1897817523e9c9 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/08/85b749a138076770bfc3e2da3d678a |
 
 La Base de données locales référence plus de 63 000 guichets publics locaux
 (mairies, organismes sociaux, services de l&#39;état, etc.). Elle fournit leurs

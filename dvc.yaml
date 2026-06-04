@@ -19,6 +19,21 @@ stages:
     outs:
       - ${raw}/ministere_interieur/2020-municipales-1-bureau_de_vote.csv
 
+  nettoyer-2024-legislatives-1:
+    cmd: >-
+      sed '
+      14169s/Montbéliard\;0/\;Montbéliard\;0E11/ ;
+      14170s/Montbéliard\;0/\;Montbéliard\;0E21/ ;
+      14171s/Montbéliard\;0/\;Montbéliard\;0E31/ ;
+      14172s/Montbéliard\;0/\;Montbéliard\;0E41/ ; '
+      < ${raw}/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv
+      > ${raw}/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv
+    deps:
+      - ${raw}/ministere_interieur/2024-legislatives-1-bureau_de_vote_avant_correction.csv
+    outs:
+      - ${raw}/ministere_interieur/2024-legislatives-1-bureau_de_vote.csv
+
+
   normaliser-format-elections:
     foreach: ${scrutins}
     do:
@@ -239,19 +254,19 @@ stages:
         ${raw}/ministere_interieur/2026-conseils-PLM-${item}-candidats.csv
         ${clean}/elections/2026-conseils-PLM-${item}-candidats.parquet
 
-  #  2024-legislatives-reports:
-  #    deps:
-  #      - ${clean}/elections/2024-legislatives-1-bureau_de_vote.parquet
-  #      - ${clean}/elections/2024-legislatives-2-bureau_de_vote.parquet
-  #      - ${src}/hexagonal/elections/reports.py
-  #    outs:
-  #      - ${main}/elections/2024-legislatives-reports.parquet
-  #    cmd: >-
-  #      ${python} hexagonal.elections.reports
-  #      --key code_circonscription
-  #      --t1 ${clean}/elections/2024-legislatives-1-bureau_de_vote.parquet
-  #      --t2 ${clean}/elections/2024-legislatives-2-bureau_de_vote.parquet
-  #      --output ${main}/elections/2024-legislatives-reports.parquet
+  2024-legislatives-reports:
+    deps:
+      - ${main}/elections/2024-legislatives-1-bureau_de_vote.parquet
+      - ${main}/elections/2024-legislatives-2-bureau_de_vote.parquet
+      - ${src}/hexagonal/elections/reports.py
+    outs:
+      - ${main}/elections/2024-legislatives-reports.parquet
+    cmd: >-
+      ${python} hexagonal.elections.reports
+      --key circonscription
+      --t1 ${main}/elections/2024-legislatives-1-bureau_de_vote.parquet
+      --t2 ${main}/elections/2024-legislatives-2-bureau_de_vote.parquet
+      --output ${main}/elections/2024-legislatives-reports.parquet
 
   2024-legislatives-candidats:
     foreach:

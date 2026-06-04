@@ -1,0 +1,55 @@
+nom = "Résultats du deuxième tour des élections législatives 2024 par bureau de vote, avec numéro de circonscription"
+description = """
+Cette version du fichier ajoute la colonne `circonscription`, absente des résultats publiée par le Ministère de
+l'Intérieur au niveau du bureau de vote.
+"""
+mimetype = "application/vnd.apache.parquet"
+section = "Résultats électoraux"
+
+[colonnes.code_commune]
+type = "str"
+nullable = false
+
+[colonnes.bureau_de_vote]
+type = "str"
+nullable = false
+
+[colonnes.circonscription]
+type = "str"
+nullable = false
+
+[colonnes.inscrits]
+type = "entier"
+nullable = false
+
+[colonnes.votants]
+type = "entier"
+nullable = false
+
+[colonnes.exprimes]
+type = "entier"
+nullable = false
+
+[colonnes.numero_panneau]
+type = "entier"
+nullable = false
+
+[colonnes.nuance]
+type = "str"
+nullable = false
+
+[colonnes.nom]
+type = "str"
+nullable = false
+
+[colonnes.prenom]
+type = "str"
+nullable = false
+
+[colonnes.sexe]
+type = "str"
+nullable = false
+
+[colonnes.voix]
+type = "entier"
+nullable = false
