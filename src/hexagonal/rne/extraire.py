@@ -61,11 +61,11 @@ spec_conseiller_municipal = {
     "nom": "Nom de l'élu",
     "prenom": "Prénom de l'élu",
     "sexe": "Code sexe",
-    "date_naissance": ("Date de naissance", serie_dates_usuel_vers_iso),
+    "date_naissance": "Date de naissance",
     "csp": "Code de la catégorie socio-professionnelle",
-    "date_debut_mandat": ("Date de début du mandat", serie_dates_usuel_vers_iso),
+    "date_debut_mandat": "Date de début du mandat",
     "fonction": "Libellé de la fonction",
-    "date_debut_fonction": ("Date de début de la fonction", serie_dates_usuel_vers_iso),
+    "date_debut_fonction": "Date de début de la fonction",
     "nationalite": "Code nationalité",
 }
 
@@ -76,11 +76,11 @@ spec_conseiller_departemental = {
     "nom": "Nom de l'élu",
     "prenom": "Prénom de l'élu",
     "sexe": "Code sexe",
-    "date_naissance": ("Date de naissance", serie_dates_usuel_vers_iso),
+    "date_naissance": "Date de naissance",
     "csp": "Code de la catégorie socio-professionnelle",
-    "date_debut_mandat": ("Date de début du mandat", serie_dates_usuel_vers_iso),
+    "date_debut_mandat": "Date de début du mandat",
     "fonction": "Libellé de la fonction",
-    "date_debut_fonction": ("Date de début de la fonction", serie_dates_usuel_vers_iso),
+    "date_debut_fonction": "Date de début de la fonction",
 }
 
 spec_conseiller_regional = {
@@ -89,11 +89,11 @@ spec_conseiller_regional = {
     "nom": "Nom de l'élu",
     "prenom": "Prénom de l'élu",
     "sexe": "Code sexe",
-    "date_naissance": ("Date de naissance", serie_dates_usuel_vers_iso),
+    "date_naissance": "Date de naissance",
     "csp": "Code de la catégorie socio-professionnelle",
-    "date_debut_mandat": ("Date de début du mandat", serie_dates_usuel_vers_iso),
+    "date_debut_mandat": "Date de début du mandat",
     "fonction": "Libellé de la fonction",
-    "date_debut_fonction": ("Date de début de la fonction", serie_dates_usuel_vers_iso),
+    "date_debut_fonction": "Date de début de la fonction",
 }
 
 spec_conseiller_csp = {
@@ -105,11 +105,11 @@ spec_conseiller_csp = {
     "nom": "Nom de l'élu",
     "prenom": "Prénom de l'élu",
     "sexe": "Code sexe",
-    "date_naissance": ("Date de naissance", serie_dates_usuel_vers_iso),
+    "date_naissance": "Date de naissance",
     "csp": "Code de la catégorie socio-professionnelle",
-    "date_debut_mandat": ("Date de début du mandat", serie_dates_usuel_vers_iso),
+    "date_debut_mandat": "Date de début du mandat",
     "fonction": "Libellé de la fonction",
-    "date_debut_fonction": ("Date de début de la fonction", serie_dates_usuel_vers_iso),
+    "date_debut_fonction": "Date de début de la fonction",
 }
 
 SPECS = {
