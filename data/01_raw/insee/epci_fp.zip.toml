@@ -1,0 +1,7 @@
+nom = "Liste des EPCI à fiscalité propre"
+description = """
+
+"""
+mimetype = "application/zip"
+info_url = "https://www.insee.fr/fr/information/2510634"
+editeur = "INSEE"

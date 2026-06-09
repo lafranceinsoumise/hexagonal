@@ -1,9 +1,0 @@
-nom = "Liste et composition des EPCI à fiscalité propre 2025"
-description = """
-Comporte la liste de toutes les communes de France et l'EPCI à fiscalité propre à
-laquelle elles appartiennent au 1er janvier 2025
-"""
-mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-info_url = "https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre"
-editeur = "Direction générale des finances et direction générale des collectivités locales"
-date = 2025-01-01

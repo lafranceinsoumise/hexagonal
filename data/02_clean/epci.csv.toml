@@ -10,23 +10,13 @@ type = "str"
 description = ""
 nullable = false
 
-[colonnes.code_departement]
-type = "code_departement"
-description = ""
-nullable = false
-
 [colonnes.nom_epci]
 type = "str"
 description = ""
 nullable = false
 
-[colonnes.type_epci]
+[colonnes.nature_epci]
 type = "str"
-description = """
-Indique s'il s'agit de d'une communauté de commune (CC), communauté urbaines (CU),
-communauté d'agglomération (CA), d'une métropole (METRO), ou de la métropole sui
-generis de Lyon (MET69).
-"""
 nullable = false
 
 [colonnes.mode_financement]
@@ -34,17 +24,10 @@ type = "str"
 description = ""
 nullable = false
 
-[colonnes.nombre_membres]
-type = "entier"
-description = ""
+[colonnes.date_creation]
+type = "str"
 nullable = false
 
-[colonnes.population_municipale]
-type = "entier"
-description = ""
-nullable = false
-
-[colonnes.population_totale]
-type = "entier"
-description = ""
+[colonnes.date_effet]
+type = "str"
 nullable = false

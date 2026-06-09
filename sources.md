@@ -5,8 +5,6 @@
   - [Historique des députés](#data/01_raw/assemblee-nationale.zip)
 - [Conseil constitutionnel](#conseil-constitutionnel)
   - [Liste des parrainages validés par le Conseil constitutionnel pour l&#39;élection de 2022](#data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv)
-- [Direction générale des finances et direction générale des collectivités locales](#direction-generale-des-finances-et-direction-generale-des-collectivites-locales)
-  - [Liste et composition des EPCI à fiscalité propre 2025](#data/01_raw/epci.xlsx)
 - [GeoNames](#geonames)
   - [cities1000](#data/01_raw/geonames/cities1000.zip)
 - [IGN](#ign)
@@ -186,6 +184,7 @@
   - [Documentation recensement 2022 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2022/meta_base-ic-evol-struct-pop-2022.csv)
   - [Documentation recensement 2022 — logement — par iris](#data/01_raw/insee/census/2022/meta_base-ic-logement-2022.csv)
   - [Code Officiel Géographique 2024](#data/01_raw/insee/cog.zip)
+  - [Liste des EPCI à fiscalité propre](#data/01_raw/insee/epci_fp.zip)
   - [FILOSOFI 2021 — Revenu disponible par IRIS](#data/01_raw/insee/filosofi-disponible.zip)
   - [Circonscriptions législatives - Fond cartographique](#data/01_raw/insee/insee_circonscriptions_legislatives.zip)
   - [Séries historiques de population par commune (1876 à 2023)](#data/01_raw/insee/population_municipale.xlsx)
@@ -274,6 +273,7 @@
   - [Candidats au 2e tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-candidats.csv)
   - [Résultats du deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-commune.csv)
   - [Liste des personnes élues au deuxième tour des élections municipales 2026](#data/01_raw/ministere_interieur/2026-municipales-2-elus.csv)
+  - [Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)](#data/01_raw/ministere_interieur/banatic.xlsx)
   - [Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025](#data/01_raw/rne/2025-08/conseillers_arrondissement.csv)
   - [Répertoire national des élus — membres des assemblées délibérantes des collectivites à statut particulier — août 2025](#data/01_raw/rne/2025-08/conseillers_csp.csv)
   - [Répertoire national des élus — conseillers départementaux — août 2025](#data/01_raw/rne/2025-08/conseillers_departementaux.csv)
@@ -349,28 +349,6 @@ ou entités internes à l&#39;assemblée nationale).
 Le tableau ci-dessous récapitule l’ensemble des parrainages signés par des élus habilités à soutenir un candidat et validés par le Conseil constitutionnel.
 
 ATTENTION : l&#39;ensemble des parrainages affichés pour un candidat ne préjuge pas de la validité de sa candidature. Seule la décision finale du Conseil constitutionnel fait foi.
-
-
-
-
-## Direction générale des finances et direction générale des collectivités locales
-<a name="direction-generale-des-finances-et-direction-generale-des-collectivites-locales"></a>
-
-### Liste et composition des EPCI à fiscalité propre 2025
-<a name="data/01_raw/epci.xlsx"></a>
-
-| Propriété | Valeur |
-| --------- | ------ |
-| Chemin interne | data/01_raw/epci.xlsx |
-| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
-| URL d&#39;information | https://www.collectivites-locales.gouv.fr/institutions/liste-et-composition-des-epci-fiscalite-propre |
-| Éditeur | Direction générale des finances et direction générale des collectivités locales |
-| Date | 01/01/2025 |
-| URL d&#39;origine | https://www.collectivites-locales.gouv.fr/files/Accueil/DESL/2025/epcicom2025-2.xlsx |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/44/1fe3c5fc561d00cfc64a34ef304a4a |
-
-Comporte la liste de toutes les communes de France et l&#39;EPCI à fiscalité propre à
-laquelle elles appartiennent au 1er janvier 2025
 
 
 
@@ -2600,6 +2578,20 @@ territoires étrangers sont présentés sur cette page. Un troisième nouveau
 fichier met à disposition la liste des couples code extension - territoire de
 rattachement (commune ou pays).
 
+### Liste des EPCI à fiscalité propre
+<a name="data/01_raw/insee/epci_fp.zip"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/epci_fp.zip |
+| Format de fichier | application/zip |
+| URL d&#39;information | https://www.insee.fr/fr/information/2510634 |
+| Éditeur | INSEE |
+| URL d&#39;origine | https://www.insee.fr/fr/statistiques/fichier/2510634/epci_au_01-01-2026.zip |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/70/39ef6640a93f60cd3ef75041445b14 |
+
+
+
 ### FILOSOFI 2021 — Revenu disponible par IRIS
 <a name="data/01_raw/insee/filosofi-disponible.zip"></a>
 
@@ -3704,6 +3696,20 @@ La composition des listes candidates aux élections municipales 2026.
 | URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/d9/e9ea0a05a9f48cb5046ee359ad3627 |
 
 
+
+### Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)
+<a name="data/01_raw/ministere_interieur/banatic.xlsx"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/ministere_interieur/banatic.xlsx |
+| Format de fichier | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| URL d&#39;information | https://www.banatic.interieur.gouv.fr/ |
+| Éditeur | Ministère de l&#39;Intérieur |
+| URL d&#39;origine | https://www.banatic.interieur.gouv.fr/consultation/api/export/pregenere/telecharger/France |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/98/4c2a42366daa4f29a72f610bb4b5f3 |
+
+Il s&#39;agit d&#39;un export sur le périmètre intercommunal à l&#39;échelle national depuis le site BANATIC.
 
 ### Répertoire national des élus — conseillers d&#39;arrondissement de Paris, Marseille et Lyon — août 2025
 <a name="data/01_raw/rne/2025-08/conseillers_arrondissement.csv"></a>

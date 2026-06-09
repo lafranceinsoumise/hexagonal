@@ -2889,7 +2889,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/communes_epci.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/15/5551ffcbed0b727e24f6ef0707e80c |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/73/0a8656c5230c08bd69c3a6a788ad90 |
 
 
 
@@ -2920,6 +2920,11 @@ Cette production dépend des sources suivantes :
     <td><code>str</code></td>
     <td></td>
   </tr>
+<tr>
+    <td><code>nature_epci</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
 
 </tbody>
 </table>
@@ -2929,7 +2934,9 @@ Cette production dépend des sources suivantes :
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
 
@@ -2940,7 +2947,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/02_clean/epci.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/91/5b0225e1c25acb4b4f4d8cc8fcdc72 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/93/8e91264654279008c17238ba9d4c64 |
 
 
 
@@ -2962,22 +2969,14 @@ Cette production dépend des sources suivantes :
     <td></td>
   </tr>
 <tr>
-    <td><code>code_departement</code></td>
-    <td><code>code_departement</code></td>
-    <td></td>
-  </tr>
-<tr>
     <td><code>nom_epci</code></td>
     <td><code>str</code></td>
     <td></td>
   </tr>
 <tr>
-    <td><code>type_epci</code></td>
+    <td><code>nature_epci</code></td>
     <td><code>str</code></td>
-    <td>Indique s&#39;il s&#39;agit de d&#39;une communauté de commune (CC), communauté urbaines (CU),
-communauté d&#39;agglomération (CA), d&#39;une métropole (METRO), ou de la métropole sui
-generis de Lyon (MET69).
-</td>
+    <td></td>
   </tr>
 <tr>
     <td><code>mode_financement</code></td>
@@ -2985,18 +2984,13 @@ generis de Lyon (MET69).
     <td></td>
   </tr>
 <tr>
-    <td><code>nombre_membres</code></td>
-    <td><code>entier</code></td>
+    <td><code>date_creation</code></td>
+    <td><code>str</code></td>
     <td></td>
   </tr>
 <tr>
-    <td><code>population_municipale</code></td>
-    <td><code>entier</code></td>
-    <td></td>
-  </tr>
-<tr>
-    <td><code>population_totale</code></td>
-    <td><code>entier</code></td>
+    <td><code>date_effet</code></td>
+    <td><code>str</code></td>
     <td></td>
   </tr>
 
@@ -3008,7 +3002,9 @@ generis de Lyon (MET69).
 Cette production dépend des sources suivantes :
 
 <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
 
@@ -3098,13 +3094,17 @@ Cette production dépend des sources suivantes :
         </li>
     <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
     <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
@@ -3119,7 +3119,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/cog/communes.csv |
 | Format de fichier | text/csv |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/02/ce83fe9d01a87d167ab8ecc251ae5b |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/27/53b1614ed9bf123feccc3c21e4b1ce |
 
 Ce fichier liste les communes de plein droit (`type_commune == &#39;COM&#39;` dans le COG).
 
@@ -3191,14 +3191,14 @@ Ce fichier liste les communes de plein droit (`type_commune == &#39;COM&#39;` da
     <td>Code SIREN de l&#39;EPCI à fiscalité propre auquel appartient la commune</td>
   </tr>
 <tr>
+    <td><code>nature_epci</code></td>
+    <td><code>str</code></td>
+    <td></td>
+  </tr>
+<tr>
     <td><code>nom_epci</code></td>
     <td><code>str</code></td>
     <td>Nom de l&#39;EPCI à fiscalité propre auquel appartient la commune</td>
-  </tr>
-<tr>
-    <td><code>type_epci</code></td>
-    <td><code>str</code></td>
-    <td>Type d&#39;EPCI à fiscalité propre auquel appartient la commune</td>
   </tr>
 
 </tbody>
@@ -3223,13 +3223,17 @@ Cette production dépend des sources suivantes :
         </li>
     <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
     <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
@@ -3594,13 +3598,17 @@ Cette production dépend des sources suivantes :
         </li>
     <li><a href="productions.md#data/02_clean/epci.csv">Liste des EPCI à fiscalité propres</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
     <li><a href="productions.md#data/02_clean/communes_epci.csv">communes_epci</a>
         <ul>
-    <li><a href="sources.md#data/01_raw/epci.xlsx">Liste et composition des EPCI à fiscalité propre 2025</a>
+    <li><a href="sources.md#data/01_raw/ministere_interieur/banatic.xlsx">Export de la base nationale sur l&#39;intercommunalité et autres collectivités (BANATIC)</a>
+        </li>
+    <li><a href="sources.md#data/01_raw/insee/epci_fp.zip">Liste des EPCI à fiscalité propre</a>
         </li>
     </ul>
         </li>
@@ -9201,7 +9209,7 @@ Cette production dépend des sources suivantes :
 | --------- | ------ |
 | Chemin interne | data/03_main/elections/2024-legislatives-reports.parquet |
 | Format de fichier | application/vnd.apache.parquet |
-| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/ac/250399d768e3e5fd01eb608c6ea9a5 |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/86/405b06bbe5545b4ad18621a2202b53 |
 
 Ce fichier propose une estimation des matrices de report entre les deux tours des élections législatives.
 

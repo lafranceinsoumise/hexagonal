@@ -556,16 +556,18 @@ stages:
 
   epci_nettoyer:
     deps:
-      - ${raw}/epci.xlsx
+      - ${raw}/ministere_interieur/banatic.xlsx
+      - ${raw}/insee/epci_fp.zip
       - ${src}/hexagonal/intercommunalite/nettoyer.py
     outs:
       - ${clean}/epci.csv
       - ${clean}/communes_epci.csv
     cmd: >-
       ${python} hexagonal.intercommunalite.nettoyer
-      ${raw}/epci.xlsx
-      ${clean}/epci.csv
-      ${clean}/communes_epci.csv
+      --banatic ${raw}/ministere_interieur/banatic.xlsx
+      --insee ${raw}/insee/epci_fp.zip
+      --epci ${clean}/epci.csv
+      --composition ${clean}/communes_epci.csv
 
   admin_express_extraire:
     deps:

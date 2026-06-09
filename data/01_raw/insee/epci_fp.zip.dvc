@@ -1,0 +1,12 @@
+frozen: true
+deps:
+- checksum: '25040395072716796984321270864895574395'
+  hash: md5
+  path: 
+    https://www.insee.fr/fr/statistiques/fichier/2510634/epci_au_01-01-2026.zip
+outs:
+- md5: 7039ef6640a93f60cd3ef75041445b14
+  size: 1106611
+  hash: md5
+  path: epci_fp.zip
+md5: 64ab9271717b45503bfa1da917eaab3b

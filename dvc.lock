@@ -1328,27 +1328,32 @@ stages:
       md5: 1b98427ce41054e41c880e265e62b15f
       size: 533117
   epci_nettoyer:
-    cmd: PYTHONPATH=src python -m hexagonal.intercommunalite.nettoyer 
-      data/01_raw/epci.xlsx data/02_clean/epci.csv 
+    cmd: PYTHONPATH=src python -m hexagonal.intercommunalite.nettoyer --banatic 
+      data/01_raw/ministere_interieur/banatic.xlsx --insee 
+      data/01_raw/insee/epci_fp.zip --epci data/02_clean/epci.csv --composition 
       data/02_clean/communes_epci.csv
     deps:
-    - path: data/01_raw/epci.xlsx
+    - path: data/01_raw/insee/epci_fp.zip
       hash: md5
-      md5: 441fe3c5fc561d00cfc64a34ef304a4a
-      size: 2888554
+      md5: 7039ef6640a93f60cd3ef75041445b14
+      size: 1106611
+    - path: data/01_raw/ministere_interieur/banatic.xlsx
+      hash: md5
+      md5: 984c2a42366daa4f29a72f610bb4b5f3
+      size: 75853403
     - path: src/hexagonal/intercommunalite/nettoyer.py
       hash: md5
-      md5: 8b4a593f05964070dae3b2f73dba7f9b
-      size: 1418
+      md5: 37d0a9f5331bd8cc7b5dbfff1267ca9e
+      size: 3748
     outs:
     - path: data/02_clean/communes_epci.csv
       hash: md5
-      md5: 155551ffcbed0b727e24f6ef0707e80c
-      size: 906684
+      md5: 730a8656c5230c08bd69c3a6a788ad90
+      size: 1014216
     - path: data/02_clean/epci.csv
       hash: md5
-      md5: 915b0225e1c25acb4b4f4d8cc8fcdc72
-      size: 69758
+      md5: 938e91264654279008c17238ba9d4c64
+      size: 82523
   circonscriptions_details:
     cmd: src/scripts/geodata/circonscriptions.sh 
       data/01_raw/insee/insee_circonscriptions_legislatives.zip 
@@ -1825,8 +1830,8 @@ stages:
       size: 1099107
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
-      size: 3726040
+      md5: 2753b1614ed9bf123feccc3c21e4b1ce
+      size: 3724507
     - path: src/hexagonal/codes_postaux/qualifier.py
       hash: md5
       md5: 8d887aeaa41023c511376aae80719331
@@ -1879,25 +1884,25 @@ stages:
       size: 1702444
     - path: data/02_clean/communes_epci.csv
       hash: md5
-      md5: 155551ffcbed0b727e24f6ef0707e80c
-      size: 906684
+      md5: 730a8656c5230c08bd69c3a6a788ad90
+      size: 1014216
     - path: data/02_clean/epci.csv
       hash: md5
-      md5: 915b0225e1c25acb4b4f4d8cc8fcdc72
-      size: 69758
+      md5: 938e91264654279008c17238ba9d4c64
+      size: 82523
     - path: data/02_clean/population_municipale.csv
       hash: md5
       md5: 6d4683916de6c5b5356810666bc91887
       size: 5648044
     - path: src/hexagonal/cog/qualifier_communes.py
       hash: md5
-      md5: e431ffbb0e3b60f614261e9bf7e2020c
-      size: 2701
+      md5: 1f5e83b92ab1db2995ea555d241bea37
+      size: 2688
     outs:
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
-      size: 3726040
+      md5: 2753b1614ed9bf123feccc3c21e4b1ce
+      size: 3724507
   normaliser-format-elections@2026-municipales-1-bureau_de_vote:
     cmd: PYTHONPATH=src python -m hexagonal.elections.resultats.format_2017 
       --source 
@@ -2611,8 +2616,8 @@ stages:
       size: 22451069
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 02ce83fe9d01a87d167ab8ecc251ae5b
-      size: 3726040
+      md5: 2753b1614ed9bf123feccc3c21e4b1ce
+      size: 3724507
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
       md5: 3da5da55e31acfdee79c65cad5e427cc
@@ -2719,5 +2724,5 @@ stages:
     outs:
     - path: data/03_main/elections/2024-legislatives-reports.parquet
       hash: md5
-      md5: ac250399d768e3e5fd01eb608c6ea9a5
-      size: 93124
+      md5: 86405b06bbe5545b4ad18621a2202b53
+      size: 93101

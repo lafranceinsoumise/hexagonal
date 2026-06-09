@@ -59,12 +59,11 @@ type = "str"
 description = "Code SIREN de l'EPCI à fiscalité propre auquel appartient la commune"
 nullable = false
 
+[colonnes.nature_epci]
+type = "str"
+nullable = false
+
 [colonnes.nom_epci]
 type = "str"
 description = "Nom de l'EPCI à fiscalité propre auquel appartient la commune"
-nullable = false
-
-[colonnes.type_epci]
-type = "str"
-description = "Type d'EPCI à fiscalité propre auquel appartient la commune"
 nullable = false

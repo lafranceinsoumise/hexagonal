@@ -1,0 +1,12 @@
+md5: 3ef74bc1cff9ed70b52906fca87a3e80
+frozen: true
+deps:
+- checksum: '299247065652715777025933401087909741303'
+  hash: md5
+  path: 
+    https://www.banatic.interieur.gouv.fr/consultation/api/export/pregenere/telecharger/France
+outs:
+- md5: 984c2a42366daa4f29a72f610bb4b5f3
+  size: 75853403
+  hash: md5
+  path: banatic.xlsx

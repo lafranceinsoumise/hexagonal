@@ -76,7 +76,7 @@ def run(chemin_communes, chemin_population, chemin_epci, chemin_communes_epci, d
         how="left",
     )
     communes = communes.join(
-        epci.select("siren_epci", "nom_epci", "type_epci"),
+        epci.select("siren_epci", "nom_epci"),
         on=["siren_epci"],
         how="left",
     )

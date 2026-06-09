@@ -19,3 +19,7 @@ nullable = false
 type = "str"
 description = ""
 nullable = false
+
+[colonnes.nature_epci]
+type = "str"
+nullable = false

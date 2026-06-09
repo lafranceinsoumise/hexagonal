@@ -1,0 +1,7 @@
+nom = "Export de la base nationale sur l'intercommunalité et autres collectivités (BANATIC)"
+description = """
+Il s'agit d'un export sur le périmètre intercommunal à l'échelle national depuis le site BANATIC.
+"""
+mimetype = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+info_url = "https://www.banatic.interieur.gouv.fr/"
+editeur = "Ministère de l'Intérieur"
