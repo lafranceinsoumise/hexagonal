@@ -158,7 +158,7 @@ class ProductionSpec(DatasetSpec):
                         )
                     elif col_desc.type == ColonneType.DATE:
                         dataset = dataset.with_columns(
-                            col_id=pl.col(col_id).str.to_date(
+                            pl.col(col_id).str.to_date(
                                 "%Y-%m-%d", strict=not col_desc.nullable
                             )
                         )
@@ -175,7 +175,10 @@ def load_spec(path: str | Path) -> DatasetSpec:
         path = Path(path)
 
     if not path.is_absolute():
-        path = ROOT_DIR / path
+        if path.parts[0] in (".", ".."):
+            path = path.resolve()
+        else:
+            path = ROOT_DIR / path
 
     toml_path = path.with_suffix(f"{path.suffix}.toml")
     if not toml_path.is_file():
