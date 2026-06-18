@@ -501,6 +501,8 @@ stages:
     outs:
       - ${clean}/annuaire/mairies.csv
       - ${clean}/annuaire/conseils_departementaux.csv
+      - ${clean}/annuaire/conseils_regionaux.csv
+      - ${clean}/annuaire/prefectures.csv
     cmd: >-
       ${python} hexagonal.annuaire.nettoyer
       ${raw}/annuaire

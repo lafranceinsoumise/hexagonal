@@ -991,17 +991,25 @@ stages:
       size: 80251521
     - path: src/hexagonal/annuaire/nettoyer.py
       hash: md5
-      md5: acad32db952a103c4cb7b891a139354e
-      size: 4319
+      md5: d6e7f5c76a8962692d407bd07bbeda21
+      size: 4421
     outs:
     - path: data/02_clean/annuaire/conseils_departementaux.csv
       hash: md5
       md5: 4721b4119b772840052a9299581efaaf
       size: 29073
+    - path: data/02_clean/annuaire/conseils_regionaux.csv
+      hash: md5
+      md5: d7f3aba604f72ca7c991457aedda9fea
+      size: 4863
     - path: data/02_clean/annuaire/mairies.csv
       hash: md5
       md5: 6e33e04864b623f6f38b77717e36e01e
       size: 12271909
+    - path: data/02_clean/annuaire/prefectures.csv
+      hash: md5
+      md5: 5aa94832905002a4b8d20c0f32550f1b
+      size: 115712
   parrainages_nettoyer@2022:
     cmd: PYTHONPATH=src python -m hexagonal.parrainages.nettoyer 
       data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv 
@@ -1014,13 +1022,13 @@ stages:
       size: 1171235
     - path: src/hexagonal/parrainages/nettoyer.py
       hash: md5
-      md5: 646ddc077349cf36dd418873e6886c3c
-      size: 2446
+      md5: 122785fbbe2166cc9bfebfa4038f4966
+      size: 2464
     outs:
     - path: data/02_clean/elections/2022-presidentielle-parrainages.csv
       hash: md5
-      md5: c4b7e16894b409e0c810750c4967afec
-      size: 1079529
+      md5: 77c544c4bf91940511917024b19ac43f
+      size: 1079547
   cog_nettoyer:
     cmd: PYTHONPATH=src python -m hexagonal.cog.extraire 
       data/01_raw/insee/cog.zip data/02_clean/cog
@@ -1094,17 +1102,17 @@ stages:
       size: 2615
     - path: data/02_clean/elections/2022-presidentielle-parrainages.csv
       hash: md5
-      md5: c4b7e16894b409e0c810750c4967afec
-      size: 1079529
+      md5: 77c544c4bf91940511917024b19ac43f
+      size: 1079547
     - path: src/hexagonal/parrainages/qualifier.py
       hash: md5
-      md5: 3c9c4bdf87170dbc477fbb62c15911ef
-      size: 6867
+      md5: dd20b3e477f5846019c7ce688fbac62f
+      size: 6885
     outs:
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
-      md5: 3da5da55e31acfdee79c65cad5e427cc
-      size: 1034090
+      md5: f8754d354e377cb47d3f01aa43f81c14
+      size: 1034108
   rne_nettoyer@conseillers_arrondissement:
     cmd: PYTHONPATH=src python -m hexagonal.rne.extraire data/01_raw/rne/2026-05
       data/02_clean/rne conseillers_arrondissement
@@ -2597,8 +2605,8 @@ stages:
       size: 3724507
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
-      md5: 3da5da55e31acfdee79c65cad5e427cc
-      size: 1034090
+      md5: f8754d354e377cb47d3f01aa43f81c14
+      size: 1034108
     - path: src/hexagonal/parrainages/identifier.py
       hash: md5
       md5: 71526f46382ee8fb4f015b1cb1b326be
