@@ -99,20 +99,6 @@ stages:
       outs:
         - ${clean}/elections/${key}.csv
 
-  2026-municipales-reports:
-    deps:
-      - ${clean}/elections/2026-municipales-1-bureau_de_vote.parquet
-      - ${clean}/elections/2026-municipales-2-bureau_de_vote.parquet
-      - ${src}/hexagonal/elections/reports.py
-    outs:
-      - ${main}/elections/2026-municipales-reports.parquet
-    cmd: >-
-      ${python} hexagonal.elections.reports
-      --key code_commune
-      --t1 ${clean}/elections/2026-municipales-1-bureau_de_vote.parquet
-      --t2 ${clean}/elections/2026-municipales-2-bureau_de_vote.parquet
-      --output ${main}/elections/2026-municipales-reports.parquet
-
   2026-municipales-composition_listes_t2:
     deps:
       - ${clean}/elections/2026-municipales-1-candidats.parquet
@@ -253,20 +239,6 @@ stages:
         --code code_secteur
         ${raw}/ministere_interieur/2026-conseils-PLM-${item}-candidats.csv
         ${clean}/elections/2026-conseils-PLM-${item}-candidats.parquet
-
-  2024-legislatives-reports:
-    deps:
-      - ${main}/elections/2024-legislatives-1-bureau_de_vote.parquet
-      - ${main}/elections/2024-legislatives-2-bureau_de_vote.parquet
-      - ${src}/hexagonal/elections/reports.py
-    outs:
-      - ${main}/elections/2024-legislatives-reports.parquet
-    cmd: >-
-      ${python} hexagonal.elections.reports
-      --key circonscription
-      --t1 ${main}/elections/2024-legislatives-1-bureau_de_vote.parquet
-      --t2 ${main}/elections/2024-legislatives-2-bureau_de_vote.parquet
-      --output ${main}/elections/2024-legislatives-reports.parquet
 
   2024-legislatives-candidats:
     foreach:

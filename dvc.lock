@@ -2414,29 +2414,6 @@ stages:
       hash: md5
       md5: 5e198f5ffef98b7de0b00368103999c5
       size: 281704
-  2026-municipales-reports:
-    cmd: PYTHONPATH=src python -m hexagonal.elections.reports --key code_commune
-      --t1 data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet 
-      --t2 data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet 
-      --output data/03_main/elections/2026-municipales-reports.parquet
-    deps:
-    - path: data/02_clean/elections/2026-municipales-1-bureau_de_vote.parquet
-      hash: md5
-      md5: c6ee346813d0cd37b9aca9a33e4951d2
-      size: 3571748
-    - path: data/02_clean/elections/2026-municipales-2-bureau_de_vote.parquet
-      hash: md5
-      md5: 54ac7fc177a92ff257e08b90e0ae32db
-      size: 639391
-    - path: src/hexagonal/elections/reports.py
-      hash: md5
-      md5: 90980c4b5364e7db6845cdac7ab72198
-      size: 6136
-    outs:
-    - path: data/03_main/elections/2026-municipales-reports.parquet
-      hash: md5
-      md5: c9e6ef8f9b3a01dabcf69c06880185fe
-      size: 41559
   candidats-nettoyer-legislatives-2022-2024@2022-legislatives-1-candidats:
     cmd: "PYTHONPATH=src python -m hexagonal.elections.candidatures.nettoyer_legislatives_2022_2024
       --delimiter '\t' --encoding latin1 \"data/01_raw/ministere_interieur/2022-legislatives-1-candidats.csv\"\
@@ -2702,27 +2679,3 @@ stages:
       hash: md5
       md5: 7b26fcfc26f8e4544ae5de3b409d24d0
       size: 37476392
-  2024-legislatives-reports:
-    cmd: PYTHONPATH=src python -m hexagonal.elections.reports --key 
-      circonscription --t1 
-      data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet --t2 
-      data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet --output
-      data/03_main/elections/2024-legislatives-reports.parquet
-    deps:
-    - path: data/03_main/elections/2024-legislatives-1-bureau_de_vote.parquet
-      hash: md5
-      md5: 4777982dec9f0f3e377ab8b4c8aabed0
-      size: 1923409
-    - path: data/03_main/elections/2024-legislatives-2-bureau_de_vote.parquet
-      hash: md5
-      md5: 8c536658e82faa16e25635ef5c653c2a
-      size: 1095062
-    - path: src/hexagonal/elections/reports.py
-      hash: md5
-      md5: 90980c4b5364e7db6845cdac7ab72198
-      size: 6136
-    outs:
-    - path: data/03_main/elections/2024-legislatives-reports.parquet
-      hash: md5
-      md5: 86405b06bbe5545b4ad18621a2202b53
-      size: 93101
