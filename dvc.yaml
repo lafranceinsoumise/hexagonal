@@ -568,21 +568,37 @@ stages:
       ${raw}/ign/admin_express/admin_express_cog.7z
       ${raw}/ign/admin_express/
 
-  population_nettoyer:
+  nettoyer_population_reference:
+    foreach:
+      - 2023
+    do:
+      deps:
+        - ${raw}/insee/census/${item}/population-reference.zip
+        - ${clean}/cog/communes.csv
+        - ${src}/hexagonal/population/nettoyer_population_reference.py
+      outs:
+        - ${clean}/population/${item}-population-reference.csv
+      cmd:
+        ${python} hexagonal.population.nettoyer_population_reference
+        --archive ${raw}/insee/census/${item}/population-reference.zip
+        --cog-communes ${clean}/cog/communes.csv
+        --output ${clean}/population/${item}-population-reference.csv
+
+  nettoyer_historique_population:
     deps:
       - ${raw}/insee/population_municipale.xlsx
-      - ${src}/hexagonal/population/nettoyer.py
+      - ${src}/hexagonal/population/nettoyer_historique.py
     outs:
-      - ${clean}/population_municipale.csv
+      - ${clean}/population/historique.csv
     cmd: >-
-      ${python} hexagonal.population.nettoyer
+      ${python} hexagonal.population.nettoyer_historique
       ${raw}/insee/population_municipale.xlsx
-      ${clean}/population_municipale.csv
+      ${clean}/population/historique.csv
 
   qualifier_communes:
     deps:
       - ${clean}/cog/communes.csv
-      - ${clean}/population_municipale.csv
+      - ${clean}/population/2023-population-reference.csv
       - ${clean}/epci.csv
       - ${clean}/communes_epci.csv
       - ${src}/hexagonal/cog/qualifier_communes.py
@@ -591,7 +607,7 @@ stages:
     cmd: >-
       ${python} hexagonal.cog.qualifier_communes
       ${clean}/cog/communes.csv
-      ${clean}/population_municipale.csv
+      ${clean}/population/2023-population-reference.csv
       ${clean}/epci.csv
       ${clean}/communes_epci.csv
       ${main}/cog/communes.csv
@@ -734,7 +750,7 @@ stages:
 
   nb-conseillers-municipaux:
     deps:
-      - ${clean}/population_municipale.csv
+      - ${clean}/population/historique.csv
       - ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
       - ${raw}/lafranceinsoumise/2026-conseillers-plm.csv
       - ${raw}/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv
@@ -743,7 +759,7 @@ stages:
       - ${main}/elections/nombre_conseillers_municipaux.parquet
     cmd: >-
       ${python} hexagonal.elections.nombre_conseillers_municipaux
-      --population ${clean}/population_municipale.csv
+      --population ${clean}/population/historique.csv
       --nb-conseillers ${raw}/lafranceinsoumise/2014-nb-conseillers-municipaux.csv
       --plm-2026 ${raw}/lafranceinsoumise/2026-conseillers-plm.csv
       --plm-pre-2026 ${raw}/lafranceinsoumise/pre-2026-conseillers-municipaux-plm.csv

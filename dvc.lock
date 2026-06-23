@@ -991,25 +991,25 @@ stages:
       size: 80251521
     - path: src/hexagonal/annuaire/nettoyer.py
       hash: md5
-      md5: d6e7f5c76a8962692d407bd07bbeda21
-      size: 4421
+      md5: 02f7de18744dd0796960a8205bd3052e
+      size: 4422
     outs:
     - path: data/02_clean/annuaire/conseils_departementaux.csv
       hash: md5
-      md5: 4721b4119b772840052a9299581efaaf
-      size: 29073
+      md5: 9f02b6caa0fa648c29d2fd44fd668a2f
+      size: 29074
     - path: data/02_clean/annuaire/conseils_regionaux.csv
       hash: md5
-      md5: d7f3aba604f72ca7c991457aedda9fea
-      size: 4863
+      md5: 85edc7096bb27e14e3fe9278ab7eaf76
+      size: 4865
     - path: data/02_clean/annuaire/mairies.csv
       hash: md5
-      md5: 6e33e04864b623f6f38b77717e36e01e
-      size: 12271909
+      md5: 300fc3652c69858ddd41f6b87746df0e
+      size: 12272641
     - path: data/02_clean/annuaire/prefectures.csv
       hash: md5
-      md5: 5aa94832905002a4b8d20c0f32550f1b
-      size: 115712
+      md5: 45da636e2df14486cda60d4be639e129
+      size: 115735
   parrainages_nettoyer@2022:
     cmd: PYTHONPATH=src python -m hexagonal.parrainages.nettoyer 
       data/01_raw/conseil_constitutionnel/2022-presidentielle-parrainages.csv 
@@ -1838,8 +1838,8 @@ stages:
       size: 1099107
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 2753b1614ed9bf123feccc3c21e4b1ce
-      size: 3724507
+      md5: 37851737f34a8727a18e4a9b678c6940
+      size: 3612266
     - path: src/hexagonal/codes_postaux/qualifier.py
       hash: md5
       md5: 8d887aeaa41023c511376aae80719331
@@ -1847,8 +1847,8 @@ stages:
     outs:
     - path: data/03_main/codes_postaux.csv
       hash: md5
-      md5: 11242c4953260e83086e206c090d27bd
-      size: 716046
+      md5: 67bac9adc0350b81198658e0debc4ac6
+      size: 587613
   extraire_contours_iris:
     cmd: 7z e data/01_raw/ign/iris-metropole.7z -so -r "iris.gpkg" > 
       "data/01_raw/ign/iris-metropole.gpkg"
@@ -1882,7 +1882,8 @@ stages:
       size: 2244049
   qualifier_communes:
     cmd: PYTHONPATH=src python -m hexagonal.cog.qualifier_communes 
-      data/02_clean/cog/communes.csv data/02_clean/population_municipale.csv 
+      data/02_clean/cog/communes.csv 
+      data/02_clean/population/2023-population-reference.csv 
       data/02_clean/epci.csv data/02_clean/communes_epci.csv 
       data/03_main/cog/communes.csv
     deps:
@@ -1898,19 +1899,19 @@ stages:
       hash: md5
       md5: 938e91264654279008c17238ba9d4c64
       size: 82523
-    - path: data/02_clean/population_municipale.csv
+    - path: data/02_clean/population/2023-population-reference.csv
       hash: md5
-      md5: 6d4683916de6c5b5356810666bc91887
-      size: 5648044
+      md5: cf8c15c7c1a1ebd5a6ab85edbcbd4e1d
+      size: 1227661
     - path: src/hexagonal/cog/qualifier_communes.py
       hash: md5
-      md5: 1f5e83b92ab1db2995ea555d241bea37
-      size: 2688
+      md5: a4e816368ffdf07fa1e0c9706ce922b8
+      size: 2261
     outs:
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 2753b1614ed9bf123feccc3c21e4b1ce
-      size: 3724507
+      md5: 37851737f34a8727a18e4a9b678c6940
+      size: 3612266
   normaliser-format-elections@2026-municipales-1-bureau_de_vote:
     cmd: PYTHONPATH=src python -m hexagonal.elections.resultats.format_2017 
       --source 
@@ -2505,7 +2506,7 @@ stages:
   nb-conseillers-municipaux:
     cmd: PYTHONPATH=src python -m 
       hexagonal.elections.nombre_conseillers_municipaux --population 
-      data/02_clean/population_municipale.csv --nb-conseillers 
+      data/02_clean/population/historique.csv --nb-conseillers 
       data/01_raw/lafranceinsoumise/2014-nb-conseillers-municipaux.csv 
       --plm-2026 data/01_raw/lafranceinsoumise/2026-conseillers-plm.csv 
       --plm-pre-2026 
@@ -2525,7 +2526,7 @@ stages:
       hash: md5
       md5: f3b5e042f2ffb2685719cabab7516c47
       size: 1323
-    - path: data/02_clean/population_municipale.csv
+    - path: data/02_clean/population/historique.csv
       hash: md5
       md5: 6d4683916de6c5b5356810666bc91887
       size: 5648044
@@ -2601,8 +2602,8 @@ stages:
       size: 34201759
     - path: data/03_main/cog/communes.csv
       hash: md5
-      md5: 2753b1614ed9bf123feccc3c21e4b1ce
-      size: 3724507
+      md5: 37851737f34a8727a18e4a9b678c6940
+      size: 3612266
     - path: data/03_main/elections/2022-presidentielle-parrainages.csv
       hash: md5
       md5: f8754d354e377cb47d3f01aa43f81c14
@@ -2687,3 +2688,45 @@ stages:
       hash: md5
       md5: 7b26fcfc26f8e4544ae5de3b409d24d0
       size: 37476392
+  nettoyer_historique_population:
+    cmd: PYTHONPATH=src python -m hexagonal.population.nettoyer_historique 
+      data/01_raw/insee/population_municipale.xlsx 
+      data/02_clean/population/historique.csv
+    deps:
+    - path: data/01_raw/insee/population_municipale.xlsx
+      hash: md5
+      md5: 7782fadc89c8d1b15780da0ab8b43e84
+      size: 7013152
+    - path: src/hexagonal/population/nettoyer_historique.py
+      hash: md5
+      md5: de8fdb5046ee4b7c748695fe5534b9bc
+      size: 1649
+    outs:
+    - path: data/02_clean/population/historique.csv
+      hash: md5
+      md5: 6d4683916de6c5b5356810666bc91887
+      size: 5648044
+  nettoyer_population_reference@2023:
+    cmd: PYTHONPATH=src python -m 
+      hexagonal.population.nettoyer_population_reference --archive 
+      data/01_raw/insee/census/2023/population-reference.zip --cog-communes 
+      data/02_clean/cog/communes.csv --output 
+      data/02_clean/population/2023-population-reference.csv
+    deps:
+    - path: data/01_raw/insee/census/2023/population-reference.zip
+      hash: md5
+      md5: 7eb81f00338234d34de9bed2ec594e6c
+      size: 1032385
+    - path: data/02_clean/cog/communes.csv
+      hash: md5
+      md5: 5da5f7dacec0b0723fef714ddbd166b3
+      size: 1702444
+    - path: src/hexagonal/population/nettoyer_population_reference.py
+      hash: md5
+      md5: 8d2cd3e88057781a9ea041585f98ae28
+      size: 2400
+    outs:
+    - path: data/02_clean/population/2023-population-reference.csv
+      hash: md5
+      md5: cf8c15c7c1a1ebd5a6ab85edbcbd4e1d
+      size: 1227661
