@@ -3,6 +3,8 @@ description = """
 Liste extraite de l'annuaire administratif.
 """
 mimetype = "text/csv"
+section = "Annuaire administratif"
+
 
 [colonnes.id]
 type = "str"

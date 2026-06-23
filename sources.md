@@ -183,6 +183,7 @@
   - [Documentation recensement 2022 — diplômes et formation — par iris](#data/01_raw/insee/census/2022/meta_base-ic-diplomes-formation-2022.csv)
   - [Documentation recensement 2022 — évolution et structure de la population — par iris](#data/01_raw/insee/census/2022/meta_base-ic-evol-struct-pop-2022.csv)
   - [Documentation recensement 2022 — logement — par iris](#data/01_raw/insee/census/2022/meta_base-ic-logement-2022.csv)
+  - [Population de référence issue du recensement 2023](#data/01_raw/insee/census/2023/population-reference.zip)
   - [Code Officiel Géographique 2024](#data/01_raw/insee/cog.zip)
   - [Liste des EPCI à fiscalité propre](#data/01_raw/insee/epci_fp.zip)
   - [FILOSOFI 2021 — Revenu disponible par IRIS](#data/01_raw/insee/filosofi-disponible.zip)
@@ -2549,6 +2550,19 @@ Données sur le logement issues du recensement de la population au niveau infrac
 | Format de fichier | text/csv |
 | Éditeur | INSEE |
 | URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/3a/feb682778bb69bfdbb6bd5d000cd5e |
+
+
+### Population de référence issue du recensement 2023
+<a name="data/01_raw/insee/census/2023/population-reference.zip"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/insee/census/2023/population-reference.zip |
+| Format de fichier | application/zip |
+| Éditeur | INSEE |
+| URL d&#39;origine | https://www.insee.fr/fr/statistiques/fichier/8680726/ensemble.zip |
+| URL de téléchargement | https://hexagonal-106475418133-eu-west-3-an.s3.eu-west-3.amazonaws.com/cache/files/md5/7e/b81f00338234d34de9bed2ec594e6c |
+
 
 
 ### Code Officiel Géographique 2024
