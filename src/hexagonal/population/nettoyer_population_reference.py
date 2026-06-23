@@ -37,6 +37,14 @@ def main(archive, cog_communes, output):
                 schema_overrides={"COM": pl.Utf8(), "COMP": pl.Utf8()},
             )
 
+        with archive.open("donnees_collectivites.csv") as fd:
+            pop_collectivites = pl.read_csv(
+                fd,
+                separator=";",
+                columns=["COM", "Commune", "PMUN", "PCAP", "PTOT"],
+                schema_overrides={"COM": pl.Utf8()},
+            )
+
     pop_plm = (
         pop_communes.filter(pl.col("COMP").is_not_null())
         .group_by("COMP")
@@ -51,7 +59,10 @@ def main(archive, cog_communes, output):
     )
 
     pop = (
-        pl.concat([pop_communes, pop_plm, pop_communes_deleguees], how="diagonal")
+        pl.concat(
+            [pop_communes, pop_plm, pop_communes_deleguees, pop_collectivites],
+            how="diagonal",
+        )
         .select(
             code_commune="COM",
             nom_commune="Commune",
