@@ -14,7 +14,7 @@ def code_departement(code_commune):
 
 def extraire_telephone(telephones):
     return "\n".join(
-        f"{t['valeur']} ({t['description']}" if t["description"] else t["valeur"]
+        f"{t['valeur']} ({t['description']})" if t["description"] else t["valeur"]
         for t in telephones
     )
 
