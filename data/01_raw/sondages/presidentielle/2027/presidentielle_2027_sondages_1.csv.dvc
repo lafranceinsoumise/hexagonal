@@ -1,0 +1,5 @@
+outs:
+- md5: b7b0713d469f9c23a80f608c027c8398
+  size: 7528
+  hash: md5
+  path: presidentielle_2027_sondages_1.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: 03b61e13b4ad15cbccb1f81fab6237ab
+  size: 728
+  hash: md5
+  path: municipales_2026_grenoble_sondages_4.csv

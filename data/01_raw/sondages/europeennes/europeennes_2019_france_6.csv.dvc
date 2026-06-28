@@ -1,0 +1,5 @@
+outs:
+- md5: 0ed8fa5726f91a925ddf9cb87ef0a24f
+  size: 205
+  hash: md5
+  path: europeennes_2019_france_6.csv

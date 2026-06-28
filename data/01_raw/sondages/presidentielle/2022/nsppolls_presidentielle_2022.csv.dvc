@@ -1,0 +1,5 @@
+outs:
+- md5: 06dcc373565c3eaaf0b0ca6fd1f1773e
+  size: 1804732
+  hash: md5
+  path: nsppolls_presidentielle_2022.csv

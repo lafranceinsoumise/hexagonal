@@ -1,0 +1,5 @@
+outs:
+- md5: b5abb25b88ae6fd4a36741d52b29edb9
+  size: 6052
+  hash: md5
+  path: premier-tour-officiel.csv

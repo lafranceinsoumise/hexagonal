@@ -1,0 +1,5 @@
+outs:
+- md5: 66bfa828ff9606aca4072fc83124ba17
+  size: 742
+  hash: md5
+  path: legislatives_2022_sondages_25.csv

@@ -1,0 +1,5 @@
+outs:
+- md5: 71b48cbddc2f42da923191e88dce0bc0
+  size: 797
+  hash: md5
+  path: regionales_2015_sondages_14.csv

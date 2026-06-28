@@ -1,0 +1,5 @@
+outs:
+- md5: b3f59e109eb0c1b63c96a7ed217b200f
+  size: 411
+  hash: md5
+  path: municipales_2026_montpellier_sondages_5.csv

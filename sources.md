@@ -304,6 +304,289 @@
   - [Populated Places](#data/01_raw/natural_earth/ne_10m_populated_places.zip)
 - [Premier ministre](#premier-ministre)
   - [Base de données locales de l&#39;annuaire de l&#39;administration](#data/01_raw/annuaire/annuaire.tar.bz2)
+- [Wikipedia](#wikipedia)
+  - [Sondages départementales 2015 — departementales_2015_sondages_0](#data/01_raw/sondages/departementales/departementales_2015_sondages_0.csv)
+  - [Sondages départementales 2015 — departementales_2015_sondages_2](#data/01_raw/sondages/departementales/departementales_2015_sondages_2.csv)
+  - [Sondages départementales 2015 — departementales_2015_sondages_3](#data/01_raw/sondages/departementales/departementales_2015_sondages_3.csv)
+  - [Sondages départementales 2015 — departementales_2015_sondages_4](#data/01_raw/sondages/departementales/departementales_2015_sondages_4.csv)
+  - [Sondages départementales 2015 — departementales_2015_sondages_5](#data/01_raw/sondages/departementales/departementales_2015_sondages_5.csv)
+  - [Sondages départementales 2015 — departementales_2015_sondages_6](#data/01_raw/sondages/departementales/departementales_2015_sondages_6.csv)
+  - [Sondages départementales 2021 — departementales_2021_sondages_0](#data/01_raw/sondages/departementales/departementales_2021_sondages_0.csv)
+  - [Sondages départementales 2021 — departementales_2021_sondages_2](#data/01_raw/sondages/departementales/departementales_2021_sondages_2.csv)
+  - [Sondages départementales 2021 — departementales_2021_sondages_3](#data/01_raw/sondages/departementales/departementales_2021_sondages_3.csv)
+  - [Sondages départementales 2021 — departementales_2021_sondages_4](#data/01_raw/sondages/departementales/departementales_2021_sondages_4.csv)
+  - [Sondages européennes 2009 — europeennes_2009_france_1](#data/01_raw/sondages/europeennes/europeennes_2009_france_1.csv)
+  - [Sondages européennes 2009 — europeennes_2009_france_5](#data/01_raw/sondages/europeennes/europeennes_2009_france_5.csv)
+  - [Sondages européennes 2009 — europeennes_2009_france_8](#data/01_raw/sondages/europeennes/europeennes_2009_france_8.csv)
+  - [Sondages européennes 2014 — europeennes_2014_france_0](#data/01_raw/sondages/europeennes/europeennes_2014_france_0.csv)
+  - [Sondages européennes 2014 — europeennes_2014_france_3](#data/01_raw/sondages/europeennes/europeennes_2014_france_3.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_0](#data/01_raw/sondages/europeennes/europeennes_2019_france_0.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_1](#data/01_raw/sondages/europeennes/europeennes_2019_france_1.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_2](#data/01_raw/sondages/europeennes/europeennes_2019_france_2.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_3](#data/01_raw/sondages/europeennes/europeennes_2019_france_3.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_4](#data/01_raw/sondages/europeennes/europeennes_2019_france_4.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_5](#data/01_raw/sondages/europeennes/europeennes_2019_france_5.csv)
+  - [Sondages européennes 2019 — europeennes_2019_france_6](#data/01_raw/sondages/europeennes/europeennes_2019_france_6.csv)
+  - [Sondages européennes 2024 — europeennes_2024_france_0](#data/01_raw/sondages/europeennes/europeennes_2024_france_0.csv)
+  - [Sondages législatives 2002 — legislatives_2002_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2002_sondages_0.csv)
+  - [Sondages législatives 2002 — legislatives_2002_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2002_sondages_1.csv)
+  - [Sondages législatives 2002 — legislatives_2002_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2002_sondages_2.csv)
+  - [Sondages législatives 2002 — legislatives_2002_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2002_sondages_3.csv)
+  - [Sondages législatives 2002 — legislatives_2002_sondages_4](#data/01_raw/sondages/legislatives/legislatives_2002_sondages_4.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_0.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_1.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_15](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_15.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_16](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_16.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_19](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_19.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_2.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_23](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_23.csv)
+  - [Sondages législatives 2007 — legislatives_2007_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2007_sondages_3.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_0.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_1.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_2.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_3.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_4](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_4.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_5](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_5.csv)
+  - [Sondages législatives 2012 — legislatives_2012_sondages_6](#data/01_raw/sondages/legislatives/legislatives_2012_sondages_6.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_0.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_1.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_11](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_11.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_2.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_3.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_4](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_4.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_5](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_5.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_6](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_6.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_7](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_7.csv)
+  - [Sondages législatives 2017 — legislatives_2017_sondages_8](#data/01_raw/sondages/legislatives/legislatives_2017_sondages_8.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_0.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_1.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_10](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_10.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_11](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_11.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_12](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_12.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_13](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_13.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_14](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_14.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_15](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_15.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_16](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_16.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_17](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_17.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_18](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_18.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_19](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_19.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_2.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_20](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_20.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_21](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_21.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_22](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_22.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_23](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_23.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_24](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_24.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_25](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_25.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_26](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_26.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_27](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_27.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_28](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_28.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_29](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_29.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_3.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_30](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_30.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_31](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_31.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_32](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_32.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_33](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_33.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_34](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_34.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_35](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_35.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_36](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_36.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_39](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_39.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_4](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_4.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_5](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_5.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_6](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_6.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_7](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_7.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_8](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_8.csv)
+  - [Sondages législatives 2022 — legislatives_2022_sondages_9](#data/01_raw/sondages/legislatives/legislatives_2022_sondages_9.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_0](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_0.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_1](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_1.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_10](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_10.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_11](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_11.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_2](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_2.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_3](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_3.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_4](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_4.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_5](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_5.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_6](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_6.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_7](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_7.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_8](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_8.csv)
+  - [Sondages législatives 2024 — legislatives_2024_sondages_9](#data/01_raw/sondages/legislatives/legislatives_2024_sondages_9.csv)
+  - [Sondages municipales 2026 — municipales_2026_amiens_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_amiens_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_besancon_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_besancon_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_bordeaux_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_bordeaux_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_brest_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_brest_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_clermont_ferrand_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_clermont_ferrand_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_dijon_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_dijon_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_grenoble_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_grenoble_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_lille_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_lille_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_lille_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_lille_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_limoges_sondages_7](#data/01_raw/sondages/municipales/municipales_2026_limoges_sondages_7.csv)
+  - [Sondages municipales 2026 — municipales_2026_lyon_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_lyon_sondages_6](#data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_6.csv)
+  - [Sondages municipales 2026 — municipales_2026_marseille_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_marseille_sondages_6](#data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_6.csv)
+  - [Sondages municipales 2026 — municipales_2026_montpellier_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_montpellier_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_mulhouse_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_mulhouse_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_nantes_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_nantes_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_nice_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_nice_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_nice_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_nice_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_paris_sondages_8](#data/01_raw/sondages/municipales/municipales_2026_paris_sondages_8.csv)
+  - [Sondages municipales 2026 — municipales_2026_paris_sondages_9](#data/01_raw/sondages/municipales/municipales_2026_paris_sondages_9.csv)
+  - [Sondages municipales 2026 — municipales_2026_perpignan_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_perpignan_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_rouen_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_rouen_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_saint_etienne_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_saint_etienne_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_strasbourg_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_strasbourg_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_toulon_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_toulon_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_toulouse_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_toulouse_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_5.csv)
+  - [Sondages municipales 2026 — municipales_2026_tours_sondages_4](#data/01_raw/sondages/municipales/municipales_2026_tours_sondages_4.csv)
+  - [Sondages municipales 2026 — municipales_2026_tours_sondages_5](#data/01_raw/sondages/municipales/municipales_2026_tours_sondages_5.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_0](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_0.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_1](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_1.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_10](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_10.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_11](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_11.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_12](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_12.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_13](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_13.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_2](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_2.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_3](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_3.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_4](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_4.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_5](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_5.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_6](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_6.csv)
+  - [Sondages présidentielle 2027 — presidentielle_2027_sondages_7](#data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_7.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_0](#data/01_raw/sondages/regionales/regionales_2004_sondages_0.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_10](#data/01_raw/sondages/regionales/regionales_2004_sondages_10.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_11](#data/01_raw/sondages/regionales/regionales_2004_sondages_11.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_12](#data/01_raw/sondages/regionales/regionales_2004_sondages_12.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_13](#data/01_raw/sondages/regionales/regionales_2004_sondages_13.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_14](#data/01_raw/sondages/regionales/regionales_2004_sondages_14.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_15](#data/01_raw/sondages/regionales/regionales_2004_sondages_15.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_16](#data/01_raw/sondages/regionales/regionales_2004_sondages_16.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_17](#data/01_raw/sondages/regionales/regionales_2004_sondages_17.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_18](#data/01_raw/sondages/regionales/regionales_2004_sondages_18.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_19](#data/01_raw/sondages/regionales/regionales_2004_sondages_19.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_2](#data/01_raw/sondages/regionales/regionales_2004_sondages_2.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_20](#data/01_raw/sondages/regionales/regionales_2004_sondages_20.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_21](#data/01_raw/sondages/regionales/regionales_2004_sondages_21.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_22](#data/01_raw/sondages/regionales/regionales_2004_sondages_22.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_23](#data/01_raw/sondages/regionales/regionales_2004_sondages_23.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_24](#data/01_raw/sondages/regionales/regionales_2004_sondages_24.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_25](#data/01_raw/sondages/regionales/regionales_2004_sondages_25.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_26](#data/01_raw/sondages/regionales/regionales_2004_sondages_26.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_27](#data/01_raw/sondages/regionales/regionales_2004_sondages_27.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_28](#data/01_raw/sondages/regionales/regionales_2004_sondages_28.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_29](#data/01_raw/sondages/regionales/regionales_2004_sondages_29.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_3](#data/01_raw/sondages/regionales/regionales_2004_sondages_3.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_4](#data/01_raw/sondages/regionales/regionales_2004_sondages_4.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_5](#data/01_raw/sondages/regionales/regionales_2004_sondages_5.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_6](#data/01_raw/sondages/regionales/regionales_2004_sondages_6.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_7](#data/01_raw/sondages/regionales/regionales_2004_sondages_7.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_8](#data/01_raw/sondages/regionales/regionales_2004_sondages_8.csv)
+  - [Sondages régionales 2004 — regionales_2004_sondages_9](#data/01_raw/sondages/regionales/regionales_2004_sondages_9.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_0](#data/01_raw/sondages/regionales/regionales_2010_sondages_0.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_1](#data/01_raw/sondages/regionales/regionales_2010_sondages_1.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_10](#data/01_raw/sondages/regionales/regionales_2010_sondages_10.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_11](#data/01_raw/sondages/regionales/regionales_2010_sondages_11.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_12](#data/01_raw/sondages/regionales/regionales_2010_sondages_12.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_13](#data/01_raw/sondages/regionales/regionales_2010_sondages_13.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_14](#data/01_raw/sondages/regionales/regionales_2010_sondages_14.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_15](#data/01_raw/sondages/regionales/regionales_2010_sondages_15.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_16](#data/01_raw/sondages/regionales/regionales_2010_sondages_16.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_17](#data/01_raw/sondages/regionales/regionales_2010_sondages_17.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_18](#data/01_raw/sondages/regionales/regionales_2010_sondages_18.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_19](#data/01_raw/sondages/regionales/regionales_2010_sondages_19.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_2](#data/01_raw/sondages/regionales/regionales_2010_sondages_2.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_20](#data/01_raw/sondages/regionales/regionales_2010_sondages_20.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_21](#data/01_raw/sondages/regionales/regionales_2010_sondages_21.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_22](#data/01_raw/sondages/regionales/regionales_2010_sondages_22.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_23](#data/01_raw/sondages/regionales/regionales_2010_sondages_23.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_24](#data/01_raw/sondages/regionales/regionales_2010_sondages_24.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_25](#data/01_raw/sondages/regionales/regionales_2010_sondages_25.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_26](#data/01_raw/sondages/regionales/regionales_2010_sondages_26.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_27](#data/01_raw/sondages/regionales/regionales_2010_sondages_27.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_28](#data/01_raw/sondages/regionales/regionales_2010_sondages_28.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_29](#data/01_raw/sondages/regionales/regionales_2010_sondages_29.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_3](#data/01_raw/sondages/regionales/regionales_2010_sondages_3.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_30](#data/01_raw/sondages/regionales/regionales_2010_sondages_30.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_31](#data/01_raw/sondages/regionales/regionales_2010_sondages_31.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_4](#data/01_raw/sondages/regionales/regionales_2010_sondages_4.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_5](#data/01_raw/sondages/regionales/regionales_2010_sondages_5.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_6](#data/01_raw/sondages/regionales/regionales_2010_sondages_6.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_7](#data/01_raw/sondages/regionales/regionales_2010_sondages_7.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_8](#data/01_raw/sondages/regionales/regionales_2010_sondages_8.csv)
+  - [Sondages régionales 2010 — regionales_2010_sondages_9](#data/01_raw/sondages/regionales/regionales_2010_sondages_9.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_0](#data/01_raw/sondages/regionales/regionales_2015_sondages_0.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_10](#data/01_raw/sondages/regionales/regionales_2015_sondages_10.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_11](#data/01_raw/sondages/regionales/regionales_2015_sondages_11.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_12](#data/01_raw/sondages/regionales/regionales_2015_sondages_12.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_13](#data/01_raw/sondages/regionales/regionales_2015_sondages_13.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_14](#data/01_raw/sondages/regionales/regionales_2015_sondages_14.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_15](#data/01_raw/sondages/regionales/regionales_2015_sondages_15.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_16](#data/01_raw/sondages/regionales/regionales_2015_sondages_16.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_17](#data/01_raw/sondages/regionales/regionales_2015_sondages_17.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_18](#data/01_raw/sondages/regionales/regionales_2015_sondages_18.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_19](#data/01_raw/sondages/regionales/regionales_2015_sondages_19.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_2](#data/01_raw/sondages/regionales/regionales_2015_sondages_2.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_20](#data/01_raw/sondages/regionales/regionales_2015_sondages_20.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_21](#data/01_raw/sondages/regionales/regionales_2015_sondages_21.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_22](#data/01_raw/sondages/regionales/regionales_2015_sondages_22.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_23](#data/01_raw/sondages/regionales/regionales_2015_sondages_23.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_25](#data/01_raw/sondages/regionales/regionales_2015_sondages_25.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_3](#data/01_raw/sondages/regionales/regionales_2015_sondages_3.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_4](#data/01_raw/sondages/regionales/regionales_2015_sondages_4.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_5](#data/01_raw/sondages/regionales/regionales_2015_sondages_5.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_6](#data/01_raw/sondages/regionales/regionales_2015_sondages_6.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_7](#data/01_raw/sondages/regionales/regionales_2015_sondages_7.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_8](#data/01_raw/sondages/regionales/regionales_2015_sondages_8.csv)
+  - [Sondages régionales 2015 — regionales_2015_sondages_9](#data/01_raw/sondages/regionales/regionales_2015_sondages_9.csv)
+- [depuis1958](#depuis1958)
+  - [Sondages présidentielle 2002 — premier-tour-avril](#data/01_raw/sondages/presidentielle/2002/premier-tour-avril.csv)
+  - [Sondages présidentielle 2002 — premier-tour-mars](#data/01_raw/sondages/presidentielle/2002/premier-tour-mars.csv)
+  - [Sondages présidentielle 2002 — second-tour-chirac-jospin](#data/01_raw/sondages/presidentielle/2002/second-tour-chirac-jospin.csv)
+  - [Sondages présidentielle 2002 — second-tour-chirac-lepen](#data/01_raw/sondages/presidentielle/2002/second-tour-chirac-lepen.csv)
+  - [Sondages présidentielle 2007 — premier-tour](#data/01_raw/sondages/presidentielle/2007/premier-tour.csv)
+  - [Sondages présidentielle 2007 — second-tour-royal-sarkozy](#data/01_raw/sondages/presidentielle/2007/second-tour-royal-sarkozy.csv)
+  - [Sondages présidentielle 2012 — premier-tour-avril](#data/01_raw/sondages/presidentielle/2012/premier-tour-avril.csv)
+  - [Sondages présidentielle 2012 — premier-tour-fevrier](#data/01_raw/sondages/presidentielle/2012/premier-tour-fevrier.csv)
+  - [Sondages présidentielle 2012 — premier-tour-janvier](#data/01_raw/sondages/presidentielle/2012/premier-tour-janvier.csv)
+  - [Sondages présidentielle 2012 — premier-tour-mars](#data/01_raw/sondages/presidentielle/2012/premier-tour-mars.csv)
+  - [Sondages présidentielle 2012 — premier-tour](#data/01_raw/sondages/presidentielle/2012/premier-tour.csv)
+  - [Sondages présidentielle 2012 — second-tour-hollande-sarkozy](#data/01_raw/sondages/presidentielle/2012/second-tour-hollande-sarkozy.csv)
+  - [Sondages présidentielle 2017 — premier-tour-avec-bayrou](#data/01_raw/sondages/presidentielle/2017/premier-tour-avec-bayrou.csv)
+  - [Sondages présidentielle 2017 — premier-tour-officiel](#data/01_raw/sondages/presidentielle/2017/premier-tour-officiel.csv)
+  - [Sondages présidentielle 2017 — premier-tour-sans-bayrou](#data/01_raw/sondages/presidentielle/2017/premier-tour-sans-bayrou.csv)
+  - [Sondages présidentielle 2017 — premier-tour-sans-jadot](#data/01_raw/sondages/presidentielle/2017/premier-tour-sans-jadot.csv)
+  - [Sondages présidentielle 2017 — second-tour-fillon-hamon](#data/01_raw/sondages/presidentielle/2017/second-tour-fillon-hamon.csv)
+  - [Sondages présidentielle 2017 — second-tour-fillon-lepen](#data/01_raw/sondages/presidentielle/2017/second-tour-fillon-lepen.csv)
+  - [Sondages présidentielle 2017 — second-tour-fillon-macron](#data/01_raw/sondages/presidentielle/2017/second-tour-fillon-macron.csv)
+  - [Sondages présidentielle 2017 — second-tour-fillon-melenchon](#data/01_raw/sondages/presidentielle/2017/second-tour-fillon-melenchon.csv)
+  - [Sondages présidentielle 2017 — second-tour-hamon-lepen](#data/01_raw/sondages/presidentielle/2017/second-tour-hamon-lepen.csv)
+  - [Sondages présidentielle 2017 — second-tour-lepen-macron](#data/01_raw/sondages/presidentielle/2017/second-tour-lepen-macron.csv)
+  - [Sondages présidentielle 2017 — second-tour-lepen-melenchon](#data/01_raw/sondages/presidentielle/2017/second-tour-lepen-melenchon.csv)
+  - [Sondages présidentielle 2017 — second-tour-macron-melenchon](#data/01_raw/sondages/presidentielle/2017/second-tour-macron-melenchon.csv)
+  - [Sondages présidentielle 2022 — k3393](#data/01_raw/sondages/presidentielle/2022/k3393.csv)
+  - [Sondages présidentielle 2022 — k3478](#data/01_raw/sondages/presidentielle/2022/k3478.csv)
+  - [Sondages présidentielle 2022 — k4361](#data/01_raw/sondages/presidentielle/2022/k4361.csv)
+  - [Sondages présidentielle 2022 — k54ad](#data/01_raw/sondages/presidentielle/2022/k54ad.csv)
+  - [Sondages présidentielle 2022 — k63f1](#data/01_raw/sondages/presidentielle/2022/k63f1.csv)
+  - [Sondages présidentielle 2022 — k70c6](#data/01_raw/sondages/presidentielle/2022/k70c6.csv)
+  - [Sondages présidentielle 2022 — k7bbb](#data/01_raw/sondages/presidentielle/2022/k7bbb.csv)
+  - [Sondages présidentielle 2022 — k8735](#data/01_raw/sondages/presidentielle/2022/k8735.csv)
+  - [Sondages présidentielle 2022 — ka454](#data/01_raw/sondages/presidentielle/2022/ka454.csv)
+  - [Sondages présidentielle 2022 — kb180](#data/01_raw/sondages/presidentielle/2022/kb180.csv)
+  - [Sondages présidentielle 2022 — kb6f0](#data/01_raw/sondages/presidentielle/2022/kb6f0.csv)
+  - [Sondages présidentielle 2022 — second-tour-lepen-pecresse](#data/01_raw/sondages/presidentielle/2022/second-tour-lepen-pecresse.csv)
+  - [Sondages présidentielle 2022 — second-tour-macron-lepen](#data/01_raw/sondages/presidentielle/2022/second-tour-macron-lepen.csv)
+  - [Sondages présidentielle 2022 — second-tour-macron-pecresse](#data/01_raw/sondages/presidentielle/2022/second-tour-macron-pecresse.csv)
+  - [Sondages présidentielle 2022 — second-tour-macron-zemmour](#data/01_raw/sondages/presidentielle/2022/second-tour-macron-zemmour.csv)
+  - [Sondages présidentielle 2022 — second-tour-pecresse-zemmour](#data/01_raw/sondages/presidentielle/2022/second-tour-pecresse-zemmour.csv)
+- [nsppolls](#nsppolls)
+  - [Sondages présidentielle 2022 — nsppolls (détaillés)](#data/01_raw/sondages/presidentielle/2022/nsppolls_presidentielle_2022.csv)
+  - [Sondages régionales 2021 — nsppolls](#data/01_raw/sondages/regionales/nsppolls_regionales_2021.csv)
 
 
 
@@ -4118,4 +4401,3382 @@ coordonnées de géolocalisation). En complément, sont indexés plus de 36 000
 fichiers des communes (conformes au Code Officiel Géographique de l’INSEE),
 précisant la compétence géographique des guichets.
 
+
+
+
+## Wikipedia
+<a name="wikipedia"></a>
+
+### Sondages départementales 2015 — departementales_2015_sondages_0
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3a/af29d3b1cd2c4369a44bffb6b9b4d3 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2015 — departementales_2015_sondages_2
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/66/782d86543ed787b894272c0afdbf03 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2015 — departementales_2015_sondages_3
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/8dc01c2eee98c8f2d969fb5642f986 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2015 — departementales_2015_sondages_4
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d0/78a5c2c387cbb6943abf4fb0491254 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2015 — departementales_2015_sondages_5
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/93/72a67cdac86f246336d05552543636 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2015 — departementales_2015_sondages_6
+<a name="data/01_raw/sondages/departementales/departementales_2015_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2015_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/51/9cdde42c26eaaf6cf8479d66017ed2 |
+
+Sondages d&#39;intentions de vote pour les élections départementales 2015.
+### Sondages départementales 2021 — departementales_2021_sondages_0
+<a name="data/01_raw/sondages/departementales/departementales_2021_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2021_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2021 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9f/906aaa4a66ca54592cd5c09e3209cf |
+
+Données des élections départementales 2021.
+### Sondages départementales 2021 — departementales_2021_sondages_2
+<a name="data/01_raw/sondages/departementales/departementales_2021_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2021_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2021 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/9a89a12a35cfb7f5c9e9d285345e69 |
+
+Données des élections départementales 2021.
+### Sondages départementales 2021 — departementales_2021_sondages_3
+<a name="data/01_raw/sondages/departementales/departementales_2021_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2021_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2021 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/aa/63339b9002b94cef18b7248725ed24 |
+
+Données des élections départementales 2021.
+### Sondages départementales 2021 — departementales_2021_sondages_4
+<a name="data/01_raw/sondages/departementales/departementales_2021_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/departementales/departementales_2021_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2021 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/39/8bd1c95fb47cbaedb3ef139560179b |
+
+Données des élections départementales 2021.
+### Sondages européennes 2009 — europeennes_2009_france_1
+<a name="data/01_raw/sondages/europeennes/europeennes_2009_france_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2009_france_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2009_European_Parliament_election_in_France |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e8/95c2ff983cfacba877bd8e84b231c6 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2009.
+### Sondages européennes 2009 — europeennes_2009_france_5
+<a name="data/01_raw/sondages/europeennes/europeennes_2009_france_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2009_france_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2009_European_Parliament_election_in_France |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c1/183c2129289ec9fd6568786fa98ca2 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2009.
+### Sondages européennes 2009 — europeennes_2009_france_8
+<a name="data/01_raw/sondages/europeennes/europeennes_2009_france_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2009_france_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2009_European_Parliament_election_in_France |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6c/a954aa6202c76b25844caf53854f25 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2009.
+### Sondages européennes 2014 — europeennes_2014_france_0
+<a name="data/01_raw/sondages/europeennes/europeennes_2014_france_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2014_france_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2014_European_Parliament_election_in_France |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c4/5425aae996af736bfeea269e1c2e93 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2014.
+### Sondages européennes 2014 — europeennes_2014_france_3
+<a name="data/01_raw/sondages/europeennes/europeennes_2014_france_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2014_france_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2014_European_Parliament_election_in_France |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/35/77517fd22bd04784dd858b262a2d18 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2014.
+### Sondages européennes 2019 — europeennes_2019_france_0
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8f/131ac1ac26339f0aa58c61ff7877fc |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_1
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/dd/0dad804e0706d91d8335454b2086ce |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_2
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2a/7887f3999a3c6c87b632ee47fc8c2e |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_3
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c0/b13744e5cc1f3fed059a8e95411dfb |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_4
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/50/804c5dd5e30376fe75c796be581e0b |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_5
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9c/1ffec0cb67cbd29f2ff14b750d99a2 |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2019 — europeennes_2019_france_6
+<a name="data/01_raw/sondages/europeennes/europeennes_2019_france_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2019_france_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2019 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0e/d8fa5726f91a925ddf9cb87ef0a24f |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2019.
+### Sondages européennes 2024 — europeennes_2024_france_0
+<a name="data/01_raw/sondages/europeennes/europeennes_2024_france_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/europeennes/europeennes_2024_france_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Sondages_sur_les_%C3%A9lections_europ%C3%A9ennes_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/42/5d2843e89567cb4a91726758eeb29d |
+
+Sondages d&#39;intentions de vote pour les élections européennes 2024.
+### Sondages législatives 2002 — legislatives_2002_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2002_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2002_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2002 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c7/50db1a652e3580d3b87c27e122b635 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2002.
+### Sondages législatives 2002 — legislatives_2002_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2002_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2002_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2002 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/310c5b23703105f660796199f715dc |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2002.
+### Sondages législatives 2002 — legislatives_2002_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2002_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2002_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2002 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d0/e8389178e89a49fc1960dcf4b1e7e1 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2002.
+### Sondages législatives 2002 — legislatives_2002_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2002_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2002_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2002 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/19/8f304c98360d1be37836bcd270aef0 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2002.
+### Sondages législatives 2002 — legislatives_2002_sondages_4
+<a name="data/01_raw/sondages/legislatives/legislatives_2002_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2002_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2002 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9b/fec52d99e5c1f5f31c217c7253c70b |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2002.
+### Sondages législatives 2007 — legislatives_2007_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/29/efe6e72a8df05a4f94edc273243ac9 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/27/45958ffa6e2e2856ecfa61465d51d1 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_15
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_15.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_15.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/54/0fa89c61851403d683a941d765461a |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_16
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_16.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_16.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a9/810b201d06d6f573697849401ce4bc |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_19
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_19.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_19.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/05/fe9c8e476113b530bf8be5b24907ce |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ea/cc133c57a99c7b2de189f475214d05 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_23
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_23.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_23.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/61/13b178fbcafc8ed11c840881a46db7 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2007 — legislatives_2007_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2007_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2007_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/Opinion_polling_for_the_2007_French_legislative_election |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b5/74a0aa0c55f8eeb417d5fac661f013 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2007.
+### Sondages législatives 2012 — legislatives_2012_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/21/8e190ff2607e53af61a411fc93cab1 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/df/63b58b7de394684219476016414868 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/66/89e8dd1cadcc18870ea9df68b6f7ea |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/17/86e7d7a2bcc6b4261db45d6aff99da |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_4
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/01/f667baf520c76a044c7ae140c6aed5 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_5
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cd/5d5c4b4e5bba30e8a5693a7706f9e9 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2012 — legislatives_2012_sondages_6
+<a name="data/01_raw/sondages/legislatives/legislatives_2012_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2012_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2012 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7d/68a49334893b4aec691acebf9c9075 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2012.
+### Sondages législatives 2017 — legislatives_2017_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ca/28426ac7664b96f4ebe6170a83fd85 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/14/a38e0fedb625e13c954b46016289b3 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_11
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7b/164473701e460bf77764e0b691cc1e |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7f/79b06a6124e3db19c1eef79977a544 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3b/885d3c84a44c1fcb7e410730542644 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_4
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/69/cc7bcf88f5a7d2a569b3f38f6b1451 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_5
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/da/da21955b03b6405a145dda584d582e |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_6
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/154929cc2fd86ead73e06db3943e31 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_7
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/38/ef12ef7cc8517a9d31ad7f50243bf9 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2017 — legislatives_2017_sondages_8
+<a name="data/01_raw/sondages/legislatives/legislatives_2017_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2017_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2017 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/dc/e7051ab66590ee2e38a80fc6f5b849 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2017.
+### Sondages législatives 2022 — legislatives_2022_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fd/2b01ed11667ccfa5b4b5e63cea7733 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a0/aa67eb946d4bb75fc4930c4a5b66e7 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_10
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/ea70aa83c7a3772e339ce0b0c61966 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_11
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6e/8c8f3c5f5cd949e536daa984455964 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_12
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_12.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_12.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/97/ef17f3d320c38157c86f6f11f638ac |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_13
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_13.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_13.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/52/85c59d5f30a33d89c27d604eb87037 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_14
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_14.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_14.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6d/e05d5eaf262922dbaf60a41045eab4 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_15
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_15.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_15.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ae/453b557066dbb678116e01aae7f43e |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_16
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_16.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_16.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/88/8c8c93c77edbf8362c918dd497d21f |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_17
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_17.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_17.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e7/6e14ca90fd9d4712597ec4f8533c6f |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_18
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_18.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_18.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/8fe379003c8ee3787e8cfed743f170 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_19
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_19.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_19.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/63/ae5722a26785e0c9b21346d5002d7a |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/08/cf96c1c00c004afa4dfc37e609fd9f |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_20
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_20.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_20.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/49/fda33bb418c081eab974bf46808269 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_21
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_21.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_21.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e7/80add8132aded7fed9efb8fdb06629 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_22
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_22.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_22.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/47/ecb18e6fa7e30a01ec654d9113ae56 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_23
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_23.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_23.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4d/39b94f9bedbf8b5b011a485bc33f13 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_24
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_24.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_24.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/00/2cabf4fe9dc2dc71020e5311fecbee |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_25
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_25.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_25.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/66/bfa828ff9606aca4072fc83124ba17 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_26
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_26.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_26.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ff/cd905702fdb59c26eaa7a44185c476 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_27
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_27.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_27.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/93/267aa2274251a4698a1012c86bc483 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_28
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_28.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_28.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/79/1ff97efd86fce2b89cb80b55424a92 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_29
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_29.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_29.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a8/46a7e41c41e49ab4a47e7cf3d26029 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/44/cd111b5a892e1e078b74dc07d2b346 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_30
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_30.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_30.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/0bf56bf3e092d017c18bf64f4dcb48 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_31
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_31.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_31.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/99038c9ac9cc1715be168ffc5007a1 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_32
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_32.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_32.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0f/83aa89167e94b76080c9c49f15c573 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_33
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_33.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_33.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2d/cbe9a0e4265703449a4a9e90926547 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_34
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_34.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_34.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/06/dce87994c299080aadb10968f8412d |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_35
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_35.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_35.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f8/f03d87bc05f8b74c261b3cc575afc4 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_36
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_36.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_36.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7d/68a49334893b4aec691acebf9c9075 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_39
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_39.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_39.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2e/2efac74a69e0dceebabd39c4fcbda9 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_4
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/48/ac0d8d3c218a1accdcc9b7da33fecd |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_5
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/85/c5facaf8170b39cb325f6a4c31ca3a |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_6
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3e/04f2a3b271d9dfd1de4f4cdd20ea29 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_7
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/30/8c395496652fd5d918f8eebd8b6cb5 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_8
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/e4505f25566170401d5a0346aeb77b |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2022 — legislatives_2022_sondages_9
+<a name="data/01_raw/sondages/legislatives/legislatives_2022_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2022_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2022 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8d/ae8f3475f4c3be4a615bd941cf4f6e |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2022.
+### Sondages législatives 2024 — legislatives_2024_sondages_0
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a5/2ae14b2cc2b2395bdf63f4a210f9fd |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_1
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3b/a4f08608d5d5e0ed48cc3993e29e8f |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_10
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f6/d209c2e7d2c0250b87a99c25d9215c |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_11
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/19/61e131cd57c48cb5e0a97588c74841 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_2
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/84c0e96bc72887ab791e51629003d5 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_3
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a4/afa21cf22e6eb8c1f8e12a82d2fe22 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_4
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2c/0779aa044a9817031c5eff9ef23aaf |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_5
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e9/dcdc1765d38a55acdce516c5439d0b |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_6
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f4/94dc746508ead97f633459dbd17d0b |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_7
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/71/e8a4ee60007a97ae9419244cec224d |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_8
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4c/abd252eb850fcff68205130275a0f7 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages législatives 2024 — legislatives_2024_sondages_9
+<a name="data/01_raw/sondages/legislatives/legislatives_2024_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/legislatives/legislatives_2024_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b2/8857aaded73c7cba98543e7bb0b587 |
+
+Sondages d&#39;intentions de vote pour les élections législatives 2024.
+### Sondages municipales 2026 — municipales_2026_amiens_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/24/dad587ca85a62fdcad58194b213391 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_amiens_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_amiens_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/72/93320b09d3c2d0b4a4daf172b6d68a |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_besancon_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/29/553304b32ff864981ffb8b987f739f |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_besancon_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_besancon_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f9/50aec72cf1949f0adab2c564d7728c |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_bordeaux_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/01/3c85689d0303b0d2a5c05423ba298d |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_bordeaux_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_bordeaux_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/11/69b8312961debc7a9024ecbc0e7ad8 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_brest_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_brest_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_brest_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1b/d299c4c5e3149e777fdc1037aec02c |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_clermont_ferrand_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_clermont_ferrand_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_clermont_ferrand_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/56/6427e8b520c17568f5649fed049ef0 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_dijon_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_dijon_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_dijon_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fe/2e921c314a68ccedfb7882f657b635 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_grenoble_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_grenoble_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_grenoble_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/03/b61e13b4ad15cbccb1f81fab6237ab |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_lille_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_lille_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_lille_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/97/f2bf560d7a8bf2316c8a05739627cd |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_lille_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_lille_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_lille_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c8/660f30286934e2a2ae2a659f5fe69d |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_limoges_sondages_7
+<a name="data/01_raw/sondages/municipales/municipales_2026_limoges_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_limoges_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/65/1e57e734e9567b60a9532f77a97eba |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_lyon_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/28/67f13eb6b1a745cd7ba225a2c31b7d |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_lyon_sondages_6
+<a name="data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_lyon_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cf/efd3ac328be436e7489aa05f2f91db |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_marseille_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ef/ace5cf5d4f88f1442771c6f57fef83 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_marseille_sondages_6
+<a name="data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_marseille_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/35/39a1a406d472bee19f1abb6038b2b1 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_montpellier_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3d/ef43e117dab412175cfa5a4dec1f27 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_montpellier_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_montpellier_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/f59e109eb0c1b63c96a7ed217b200f |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_mulhouse_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c3/c202ae6654a32818ad6d7be7bac02d |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_mulhouse_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_mulhouse_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8a/6b325ff8325ac5db623d48268198b1 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_nantes_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/60/9d177a2344cacd4eaa87e86af44257 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_nantes_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_nantes_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b0/d51f831975ffb810272ea3b96474cc |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_nice_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_nice_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_nice_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ee/e24ba9ed8db60760b14070f61397f2 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_nice_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_nice_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_nice_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4f/ee247ad468d6f82260261b6322b455 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_paris_sondages_8
+<a name="data/01_raw/sondages/municipales/municipales_2026_paris_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_paris_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/17/6dd04dd0b1c4731117ab4a1b9e33e5 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_paris_sondages_9
+<a name="data/01_raw/sondages/municipales/municipales_2026_paris_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_paris_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/28/6ff826e366f6a4ca80b21a088aed96 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_perpignan_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_perpignan_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_perpignan_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d8/59c9382f6a2f3fe3821f78aa35dd09 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_rouen_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b7/a2758997cb7a8b24f53edff1e0b9ee |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_rouen_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_rouen_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c1/7d455b982c099ed13c552b162cefdb |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_saint_etienne_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_saint_etienne_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_saint_etienne_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c3/0ed6957f530367125970da8271553e |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_strasbourg_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_strasbourg_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_strasbourg_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2d/58e23fcab7b70fe97f9a698423702f |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_toulon_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/24/5fe6f395b38e34f9b231460959150d |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_toulon_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_toulon_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7b/51cded877a1954b6f6d3f375f31165 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_toulouse_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cf/6024302efaa5fd13291d912c8b88e2 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_toulouse_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_toulouse_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4a/2e9c0bc05b86a8cde2de3d648688b0 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_tours_sondages_4
+<a name="data/01_raw/sondages/municipales/municipales_2026_tours_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_tours_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a9/a36d2666f409cb33eb3f0800153e05 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages municipales 2026 — municipales_2026_tours_sondages_5
+<a name="data/01_raw/sondages/municipales/municipales_2026_tours_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/municipales/municipales_2026_tours_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_municipales_fran%C3%A7aises_de_2026 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b6/ab6ae13c427e5d8c1ca07eeaead3c7 |
+
+Sondages d&#39;intentions de vote pour les élections municipales 2026.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_0
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/54/0c339363441d149c374f0cb1990dbc |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_1
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b7/b0713d469f9c23a80f608c027c8398 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_10
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/88/9f272f3d42fb735b8dddc37850e942 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_11
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/79/ef3e2db9aab8209b4639ba77e6ae78 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_12
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_12.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_12.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/aa/8e586c41130c022f7e10b1ea0b5d74 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_13
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_13.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_13.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7d/68a49334893b4aec691acebf9c9075 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_2
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/79/3e06a738a15284e02fb790c253c6d2 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_3
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ad/328805d1de3d32072830d0d947905d |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_4
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1f/020f28d4cae0c3a0cd209cb89652aa |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_5
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8b/c945f94ab40b6452b73a9b30261104 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_6
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/00/7ec4f6ee627a2b51d6ac27b0fbb77f |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages présidentielle 2027 — presidentielle_2027_sondages_7
+<a name="data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2027/presidentielle_2027_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/af/4db6d7029958fa13915175ec65f81b |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2027.
+### Sondages régionales 2004 — regionales_2004_sondages_0
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/be/1dde7faf8ab7e970f8f7c780358448 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_10
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/dc/9c2500d753a43aca2111c3eb17ca66 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_11
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/77/d088e9906a757e1148df335c6ff39e |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_12
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_12.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_12.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/df/f8b35ca2068909f4ec8e4b96892bb8 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_13
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_13.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_13.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/84/32203dfbc11e5c0acc4e08c0d701e8 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_14
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_14.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_14.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1a/09840de6d895a322fc8452c1d7999d |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_15
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_15.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_15.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/63/ba1fe424876c2aaaea10beaf32f516 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_16
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_16.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_16.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e0/31ebdb6df010e6ba06c2cb7cad775b |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_17
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_17.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_17.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/40/411e977096be5ca397397f24e1dc27 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_18
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_18.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_18.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0e/c675c12def29d1ae845f50dbebfcf8 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_19
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_19.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_19.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cc/bd1e9014985c18426d948d919e9435 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_2
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e7/316af482385575f614c0179239c0cd |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_20
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_20.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_20.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/70/be9f42a8d8777315b8c80628d9f1b3 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_21
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_21.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_21.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fc/a6bb67c0c77d1a6113d788c8bb9e39 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_22
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_22.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_22.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3b/57d54b573c7ad901057150ffafed06 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_23
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_23.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_23.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4d/9ad70c4f165b7bff9c18a67c09d2a1 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_24
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_24.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_24.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4b/56baa629cefef0da4a10236bedca76 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_25
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_25.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_25.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/99/1f2a179048c5abc1f1b782778b992d |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_26
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_26.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_26.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3b/42bee6908324c6c1bc36b8488b01ae |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_27
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_27.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_27.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f1/8884ee8fb29adde4dbd20c34bbeeea |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_28
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_28.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_28.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/34/37b71d002913cc9b389850b7bf607d |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_29
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_29.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_29.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/68/f9ee93848f9db5af22136dc50a0bfd |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_3
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b7/72b43c3f391b817734f1313d97ca0f |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_4
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7e/2cffd58fff90db720fb4776277f9b4 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_5
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b1/002b3f286cbc77cef480a8a8992be4 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_6
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2b/45700071613b850bac1275ff86933b |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_7
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0f/75c4483ad0e6e6104691727c00a2e5 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_8
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ba/c503b8032dd8bbb6f9348b853887ec |
+
+Données des élections régionales 2004.
+### Sondages régionales 2004 — regionales_2004_sondages_9
+<a name="data/01_raw/sondages/regionales/regionales_2004_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2004_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2004 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/59/e167cc3da61bd1c32d39cd93c82ed9 |
+
+Données des élections régionales 2004.
+### Sondages régionales 2010 — regionales_2010_sondages_0
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fc/64546a9f1c79461708d4257a410daf |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_1
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/41/c568bd05b2b6128187333026ab3c9f |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_10
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/af/a335100a6b72317a42d19a84f5a637 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_11
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f3/8f51b75506ca968f9e56cec18257e2 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_12
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_12.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_12.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/50/90cd85b91fa5bb4d65474350461b31 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_13
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_13.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_13.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ac/58e45259a064df68944b5e75a316c2 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_14
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_14.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_14.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c2/68c4719bc63b74bc5ade6680e28df3 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_15
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_15.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_15.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/0d/1758584c55ccde945925714dcf5b6d |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_16
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_16.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_16.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/b87badc41328b18f7d984c40149c6e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_17
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_17.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_17.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/03/272557382bab5c009a7ebf14014fbd |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_18
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_18.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_18.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6f/0aa9492f0895c0a4f7473e790980c2 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_19
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_19.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_19.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/33/ccf0622e5ce148b1881e06678c6e29 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_2
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/23/c2eb34dc5d3b910f09d0365c0d3380 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_20
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_20.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_20.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/40/8f473d6630b9a75b1b2653153c52fd |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_21
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_21.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_21.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/01/97583afcec3dc31d270022ae9cfba3 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_22
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_22.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_22.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d1/c5a63aa6bbd9cfd51a1170e458a498 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_23
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_23.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_23.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/14/a274179dcfe4b989289c6e4a5320ca |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_24
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_24.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_24.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5a/81d56db8bd057e8f1d354cf9282677 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_25
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_25.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_25.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/09/87d759579e5eca6b16b730a593fa36 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_26
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_26.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_26.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/66/35a0cce555763bca47cf6be31ec6e4 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_27
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_27.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_27.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/06/fcaac844b5021345c50622f2afad0d |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_28
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_28.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_28.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9f/209acc39452cfb68970a85e7eee02e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_29
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_29.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_29.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/86/9c2933669da44bd807551dd8731af4 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_3
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/19c13b1244c96c7635f33c5e61c019 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_30
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_30.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_30.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/50/09152a1a098c6ab6b1c44c2ef4daec |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_31
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_31.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_31.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/82/88da67e49f4c7ee3100908cb2434c8 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_4
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/96/dd70c18beb57651eb60810172c8616 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_5
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2f/1b54c3e5a0a196173f388d5e2b1404 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_6
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5e/b7eba7392a56bd6643eeb71e91645c |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_7
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c8/d2528ed34f7ea1168aee192d71f8cb |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_8
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6c/4bc388ab55aea9790c34173fe50830 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2010 — regionales_2010_sondages_9
+<a name="data/01_raw/sondages/regionales/regionales_2010_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2010_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://en.wikipedia.org/wiki/2010_French_regional_elections |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d5/a2a66279ce55fe77d9f66d9d42ef0a |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2010.
+### Sondages régionales 2015 — regionales_2015_sondages_0
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e2/6ce44c124b6d7d43c5a0d483ceba7c |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_10
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_10.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_10.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d5/80d5820146835d1253e5a095724b65 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_11
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_11.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_11.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fc/e505c5a26094ee110dc042092a316b |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_12
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_12.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_12.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/4f/daa6e7789f54a321cc1a6633d673db |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_13
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_13.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_13.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/fd/a4c435dd4341b243094aecab3f51f9 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_14
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_14.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_14.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/71/b48cbddc2f42da923191e88dce0bc0 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_15
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_15.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_15.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/53/50c2919da6c4f3539bcb8fdaa4455e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_16
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_16.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_16.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a5/1187adbcf7cbf0fa70495b10efca75 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_17
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_17.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_17.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5a/86791e7e58c912f21dd51ca8c59fa4 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_18
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_18.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_18.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9e/9ce2531b6f32ec1f22f975a86d5a1e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_19
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_19.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_19.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cc/dcb9d7f0119b9d81cb45065d25439c |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_2
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_2.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_2.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/58/a4f9cb046b250bc618264009f28784 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_20
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_20.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_20.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/be/14f320b4cad181fcdbfd7f398eabd3 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_21
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_21.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_21.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/13/1474ba065443d3b3cc12ca7b68eae3 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_22
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_22.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_22.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/60/a5d4890796b3bbe5cfc46757216fff |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_23
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_23.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_23.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/25f6bf3147e17af7bbc66ab1a91ed1 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_25
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_25.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_25.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7c/d635cdbbb5f9cd38eb201e547e6f2b |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_3
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_3.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_3.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/c9/004ec4fc2d80b025c3bf2c80924877 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_4
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_4.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_4.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a0/b7efd1aeac5947b0a60fea0b908af9 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_5
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_5.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_5.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/79/5382aa224cc782e360aa53229b1aab |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_6
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a4/b83be45e75ee4778f958ec72cf882e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_7
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_7.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_7.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/1d/2a8cd14ae9c08b72f8b1cd6e4f166f |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_8
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_8.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_8.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b6/f10787e858b40ec2288869fbbf178e |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+### Sondages régionales 2015 — regionales_2015_sondages_9
+<a name="data/01_raw/sondages/regionales/regionales_2015_sondages_9.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/regionales_2015_sondages_9.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_fran%C3%A7aises_de_2015 |
+| Éditeur | Wikipedia |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9d/1b2f35f377e7f282ecb3fc19c8d44d |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2015.
+
+
+
+## depuis1958
+<a name="depuis1958"></a>
+
+### Sondages présidentielle 2002 — premier-tour-avril
+<a name="data/01_raw/sondages/presidentielle/2002/premier-tour-avril.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2002/premier-tour-avril.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/75/9fa0eff059b3ef797036b25462f1db |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2002.
+### Sondages présidentielle 2002 — premier-tour-mars
+<a name="data/01_raw/sondages/presidentielle/2002/premier-tour-mars.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2002/premier-tour-mars.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/83/78514a7f8fc79829a7c8a432993444 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2002.
+### Sondages présidentielle 2002 — second-tour-chirac-jospin
+<a name="data/01_raw/sondages/presidentielle/2002/second-tour-chirac-jospin.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2002/second-tour-chirac-jospin.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9b/4f476df269f652babfaeda8a0037b2 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2002.
+### Sondages présidentielle 2002 — second-tour-chirac-lepen
+<a name="data/01_raw/sondages/presidentielle/2002/second-tour-chirac-lepen.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2002/second-tour-chirac-lepen.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/95/df134a6a625b64937e43590d390619 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2002.
+### Sondages présidentielle 2007 — premier-tour
+<a name="data/01_raw/sondages/presidentielle/2007/premier-tour.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2007/premier-tour.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e6/f65a3ff94293e9c198e3fb9eebc1df |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2007.
+### Sondages présidentielle 2007 — second-tour-royal-sarkozy
+<a name="data/01_raw/sondages/presidentielle/2007/second-tour-royal-sarkozy.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2007/second-tour-royal-sarkozy.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/03/a90517f96524c2d74e4cf64e8faf94 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2007.
+### Sondages présidentielle 2012 — premier-tour-avril
+<a name="data/01_raw/sondages/presidentielle/2012/premier-tour-avril.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/premier-tour-avril.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/00/d7a38d02160422de83459cddf37454 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2012 — premier-tour-fevrier
+<a name="data/01_raw/sondages/presidentielle/2012/premier-tour-fevrier.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/premier-tour-fevrier.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/8c/f24927969cef3c60730714002f3f63 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2012 — premier-tour-janvier
+<a name="data/01_raw/sondages/presidentielle/2012/premier-tour-janvier.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/premier-tour-janvier.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5d/ec7b12ae30511e37ef8abd83c350b8 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2012 — premier-tour-mars
+<a name="data/01_raw/sondages/presidentielle/2012/premier-tour-mars.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/premier-tour-mars.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/df/0d21d7e21fa4b0a2a04a1d4b009bf6 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2012 — premier-tour
+<a name="data/01_raw/sondages/presidentielle/2012/premier-tour.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/premier-tour.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/78/27986502759be92e4a02a6f76ffaba |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2012 — second-tour-hollande-sarkozy
+<a name="data/01_raw/sondages/presidentielle/2012/second-tour-hollande-sarkozy.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2012/second-tour-hollande-sarkozy.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/df/cb10a417f398fd90bae6fd53695851 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2012.
+### Sondages présidentielle 2017 — premier-tour-avec-bayrou
+<a name="data/01_raw/sondages/presidentielle/2017/premier-tour-avec-bayrou.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/premier-tour-avec-bayrou.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/6d/7ad8cf803fd3fa9fc3fef72fa3dfb3 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — premier-tour-officiel
+<a name="data/01_raw/sondages/presidentielle/2017/premier-tour-officiel.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/premier-tour-officiel.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b5/abb25b88ae6fd4a36741d52b29edb9 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — premier-tour-sans-bayrou
+<a name="data/01_raw/sondages/presidentielle/2017/premier-tour-sans-bayrou.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/premier-tour-sans-bayrou.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/af/31c25c750935aabf0774aa45308bf7 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — premier-tour-sans-jadot
+<a name="data/01_raw/sondages/presidentielle/2017/premier-tour-sans-jadot.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/premier-tour-sans-jadot.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/e0/5a6157fb99695ff00ece5dc6c1644d |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-fillon-hamon
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-fillon-hamon.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-fillon-hamon.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/5d/5c18557c4c61fa1984b2624f1e43e8 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-fillon-lepen
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-fillon-lepen.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-fillon-lepen.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cf/d6b85189bb8bc189c092fb6b0a9927 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-fillon-macron
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-fillon-macron.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-fillon-macron.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/79/0add552111ea23dd147fa2ff61b92e |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-fillon-melenchon
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-fillon-melenchon.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-fillon-melenchon.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/16/22f856e9ea703fc6c7925ce47cc818 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-hamon-lepen
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-hamon-lepen.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-hamon-lepen.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/60/6996ab49b30be6ebf465655cacbc1e |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-lepen-macron
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-lepen-macron.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-lepen-macron.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/d5/732ddf664b8e06043274da6192362e |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-lepen-melenchon
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-lepen-melenchon.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-lepen-melenchon.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/9a/94e7204d15f6cf5b925ea1336caf7a |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2017 — second-tour-macron-melenchon
+<a name="data/01_raw/sondages/presidentielle/2017/second-tour-macron-melenchon.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2017/second-tour-macron-melenchon.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/3e/a357ea93a7c4f664d181985cc96d3b |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2017.
+### Sondages présidentielle 2022 — k3393
+<a name="data/01_raw/sondages/presidentielle/2022/k3393.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k3393.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f9/d33768976302b1e35c168b204c22c5 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k3478
+<a name="data/01_raw/sondages/presidentielle/2022/k3478.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k3478.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ac/47d114a045ce74095ad88a097478d3 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k4361
+<a name="data/01_raw/sondages/presidentielle/2022/k4361.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k4361.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/ea/f2db2172a4013e73cc22c4906846be |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k54ad
+<a name="data/01_raw/sondages/presidentielle/2022/k54ad.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k54ad.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/7e/22c94e40755cafe7851c4146900beb |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k63f1
+<a name="data/01_raw/sondages/presidentielle/2022/k63f1.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k63f1.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/28/67a65468a949dbb4889b557f989f47 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k70c6
+<a name="data/01_raw/sondages/presidentielle/2022/k70c6.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k70c6.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/cc/0f781d664cd7dbb8785cda2bb955b2 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k7bbb
+<a name="data/01_raw/sondages/presidentielle/2022/k7bbb.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k7bbb.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b2/ddc63f837b918743f4036ca171486e |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — k8735
+<a name="data/01_raw/sondages/presidentielle/2022/k8735.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/k8735.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/85/3175df3c3c259336fcc2deedee2b44 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — ka454
+<a name="data/01_raw/sondages/presidentielle/2022/ka454.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/ka454.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/bb/05d3fce05608723232415b8a9f769e |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — kb180
+<a name="data/01_raw/sondages/presidentielle/2022/kb180.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/kb180.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/71/951bf9c210d8e8404b6c487f8e29bb |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — kb6f0
+<a name="data/01_raw/sondages/presidentielle/2022/kb6f0.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/kb6f0.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/18/495bc119461bef67c863e9f396cc34 |
+
+Sondages d&#39;intentions de vote pour l&#39;élection présidentielle 2022 (hypothèse).
+### Sondages présidentielle 2022 — second-tour-lepen-pecresse
+<a name="data/01_raw/sondages/presidentielle/2022/second-tour-lepen-pecresse.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/second-tour-lepen-pecresse.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/b3/b44ce3efc3767316d61e7e0f65cd24 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2022.
+### Sondages présidentielle 2022 — second-tour-macron-lepen
+<a name="data/01_raw/sondages/presidentielle/2022/second-tour-macron-lepen.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/second-tour-macron-lepen.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/a5/5412a5f9fd4b1269e5e21cf3ba9aad |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2022.
+### Sondages présidentielle 2022 — second-tour-macron-pecresse
+<a name="data/01_raw/sondages/presidentielle/2022/second-tour-macron-pecresse.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/second-tour-macron-pecresse.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/f7/cf992ecd9dd88e291e7e71c7603fba |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2022.
+### Sondages présidentielle 2022 — second-tour-macron-zemmour
+<a name="data/01_raw/sondages/presidentielle/2022/second-tour-macron-zemmour.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/second-tour-macron-zemmour.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/98/3e76a85da27a03b77c827ccab44849 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2022.
+### Sondages présidentielle 2022 — second-tour-pecresse-zemmour
+<a name="data/01_raw/sondages/presidentielle/2022/second-tour-pecresse-zemmour.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/second-tour-pecresse-zemmour.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/depuis1958/sondages |
+| Éditeur | depuis1958 |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/2c/819778f1b8a4b4e6380dac5e1f6c95 |
+
+Sondages d&#39;intentions de vote pour le second tour de l&#39;élection présidentielle 2022.
+
+
+
+## nsppolls
+<a name="nsppolls"></a>
+
+### Sondages présidentielle 2022 — nsppolls (détaillés)
+<a name="data/01_raw/sondages/presidentielle/2022/nsppolls_presidentielle_2022.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/presidentielle/2022/nsppolls_presidentielle_2022.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/nsppolls/nsppolls |
+| Éditeur | nsppolls |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/06/dcc373565c3eaaf0b0ca6fd1f1773e |
+
+Sondages d&#39;intentions de vote détaillés pour l&#39;élection présidentielle 2022. Format long avec intervalles de confiance et métadonnées de sondage.
+### Sondages régionales 2021 — nsppolls
+<a name="data/01_raw/sondages/regionales/nsppolls_regionales_2021.csv"></a>
+
+| Propriété | Valeur |
+| --------- | ------ |
+| Chemin interne | data/01_raw/sondages/regionales/nsppolls_regionales_2021.csv |
+| Format de fichier | text/csv |
+| URL d&#39;information | https://github.com/nsppolls/nsppolls |
+| Éditeur | nsppolls |
+| URL de téléchargement | https://hexagonal-data.s3.eu-west-3.amazonaws.com/cache/files/md5/63/f0ea156eaa2a6b638e2bfd50afb639 |
+
+Sondages d&#39;intentions de vote pour les élections régionales 2021. Format long, 13 régions.
 

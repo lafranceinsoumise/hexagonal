@@ -1,0 +1,5 @@
+outs:
+- md5: 71951bf9c210d8e8404b6c487f8e29bb
+  size: 380
+  hash: md5
+  path: kb180.csv

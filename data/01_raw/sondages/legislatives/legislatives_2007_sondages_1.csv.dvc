@@ -1,0 +1,5 @@
+outs:
+- md5: 2745958ffa6e2e2856ecfa61465d51d1
+  size: 3376
+  hash: md5
+  path: legislatives_2007_sondages_1.csv

@@ -1,0 +1,5 @@
+nom = "Sondages départementales 2021 — departementales_2021_sondages_0"
+description = "Données des élections départementales 2021."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/%C3%89lections_d%C3%A9partementales_fran%C3%A7aises_de_2021"
+editeur = "Wikipedia"

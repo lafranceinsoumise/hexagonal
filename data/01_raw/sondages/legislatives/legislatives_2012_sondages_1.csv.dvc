@@ -1,0 +1,5 @@
+outs:
+- md5: df63b58b7de394684219476016414868
+  size: 4835
+  hash: md5
+  path: legislatives_2012_sondages_1.csv

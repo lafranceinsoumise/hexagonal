@@ -1,0 +1,5 @@
+nom = "Sondages présidentielle 2017 — second-tour-lepen-macron"
+description = "Sondages d'intentions de vote pour le second tour de l'élection présidentielle 2017."
+mimetype = "text/csv"
+info_url = "https://github.com/depuis1958/sondages"
+editeur = "depuis1958"

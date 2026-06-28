@@ -1,0 +1,5 @@
+nom = "Sondages présidentielle 2027 — presidentielle_2027_sondages_0"
+description = "Sondages d'intentions de vote pour l'élection présidentielle 2027."
+mimetype = "text/csv"
+info_url = "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027"
+editeur = "Wikipedia"

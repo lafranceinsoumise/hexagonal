@@ -1,0 +1,5 @@
+outs:
+- md5: c1183c2129289ec9fd6568786fa98ca2
+  size: 730
+  hash: md5
+  path: europeennes_2009_france_5.csv

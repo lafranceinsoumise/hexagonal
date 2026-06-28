@@ -1,0 +1,5 @@
+outs:
+- md5: 7f79b06a6124e3db19c1eef79977a544
+  size: 4108
+  hash: md5
+  path: legislatives_2017_sondages_2.csv

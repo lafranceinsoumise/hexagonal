@@ -1,0 +1,5 @@
+nom = "Sondages régionales 2010 — regionales_2010_sondages_3"
+description = "Sondages d'intentions de vote pour les élections régionales 2010."
+mimetype = "text/csv"
+info_url = "https://en.wikipedia.org/wiki/2010_French_regional_elections"
+editeur = "Wikipedia"

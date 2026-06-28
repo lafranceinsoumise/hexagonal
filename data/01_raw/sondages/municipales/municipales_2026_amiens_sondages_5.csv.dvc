@@ -1,0 +1,5 @@
+outs:
+- md5: 7293320b09d3c2d0b4a4daf172b6d68a
+  size: 512
+  hash: md5
+  path: municipales_2026_amiens_sondages_5.csv
